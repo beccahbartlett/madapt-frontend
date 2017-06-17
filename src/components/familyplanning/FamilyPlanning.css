@@ -1,8 +1,12 @@
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+  display: flex;
+  /*flex-wrap: wrap;*/
+  flex-flow: row wrap;
+  align-items: stretch;
+  width: 60%;
+  align: center;
+  margin: 0 auto;
   }
   .card {
     flex: 0 0 200px;

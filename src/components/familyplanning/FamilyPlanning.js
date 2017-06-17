@@ -7,54 +7,40 @@ class FamilyPlanning extends Component {
     return (
       <div>
       Clinic
-
-        <main className="cards">
-  <article className="card">
-    <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-    <div className="text">
-      <p>Seamlessly visualize quality</p>
-
-    </div>
-  </article>
-  <article className="card">
-    <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-    <div className="text">
-      <p>Completely Synergize</p>
-
-    </div>
-  </article>
-  <article className="card">
-  <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-    <div className="text">
-      <p>Dynamically Procrastinate</p>
-
-    </div>
-  </article>
-  <article className="card">
-  <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-    <div className="text">
-      <p>Best in className</p>
-
-    </div>
-  </article>
-  <article className="card">
-  <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-    <div className="text">
-      <p>Dynamically innovate supply chains</p>
-
-    </div>
-  </article>
-  <article className="card">
-  <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-    <div className="text">
-      <p>Sanity check</p>
-
-    </div>
-  </article>
-</main>
+      <main className="cards">
+        <article className="card">
+          <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
+          <div className="text">
+            <p>Birth Spacing and Planning Overview</p>
+          </div>
+        </article>
+        <article className="card">
+          <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
+          <div className="text">
+            <p>Fertility</p>
+          </div>
+        </article>
+        <article className="card">
+          <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
+          <div className="text">
+            <p>Disability</p>
+          </div>
+        </article>
+        <article className="card">
+          <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
+          <div className="text">
+            <p>Contraception</p>
+          </div>
+        </article>
+        <article className="card">
+          <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
+          <div className="text">
+            <p>Unplanned Pregnancy</p>
+          </div>
+        </article>
+      </main>
       </div>
     )
   }
 }
-
 export default FamilyPlanning

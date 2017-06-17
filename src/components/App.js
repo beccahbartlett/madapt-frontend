@@ -30,6 +30,7 @@ class App extends Component {
               return <p>Not Found</p>
             }} />
           </Switch>
+          </div>
          <Footer></Footer>
         </div>
       </Router>
