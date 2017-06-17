@@ -1,56 +1,60 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'flexbox-react';
-import './Clinic.css'
+import './WomensHealth.css'
 
-class Clinic extends Component {
-  componentDidMount() {
-    window.analytics.page();
-  }
+class WomensHealth extends Component {
   render() {
     return (
       <div>
-      Clinic
+      WomensHealth
 
         <main className="cards">
   <article className="card">
     <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
     <div className="text">
-      <p>Seamlessly visualize quality</p>
+      <p>Well women's test</p>
 
     </div>
   </article>
   <article className="card">
     <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
     <div className="text">
-      <p>Completely Synergize</p>
+      <p>Menopause</p>
 
     </div>
   </article>
   <article className="card">
   <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
     <div className="text">
-      <p>Dynamically Procrastinate</p>
+      <p>PCOS</p>
 
     </div>
   </article>
   <article className="card">
   <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
     <div className="text">
-      <p>Best in className</p>
+      <p>Gynae issues</p>
 
     </div>
   </article>
   <article className="card">
   <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
     <div className="text">
-      <p>Dynamically innovate supply chains</p>
+      <p>FGMC</p>
 
     </div>
   </article>
   <article className="card">
   <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
     <div className="text">
-      <p>Sanity check</p>
+      <p>Healthy and respectful relationships</p>
+
+    </div>
+  </article>
+   <article className="card">
+  <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
+    <div className="text">
+      <p>Disability</p>
 
     </div>
   </article>
@@ -60,4 +64,4 @@ class Clinic extends Component {
   }
 }
 
-export default Clinic
+export default WomensHealth
