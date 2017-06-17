@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Home from './home/Home'
+import Clinic from './clinic/Clinic'
 import About from './about/About'
 import Nav from './nav/Nav'
 import Footer from './footer/Footer'
@@ -14,20 +15,19 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className='container'>
+        <div>
           <Nav />
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About} />
-            <Route render={function() {
-              return <p>Not Found</p>
-            }} />
-          </Switch>
-         <Footer></Footer>
-
-
-
-
+          <div className="container-body">
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route exact path='/clinic' component={Clinic} />
+              <Route exact path='/about' component={About} />
+              <Route render={function() {
+                return <p>Not Found</p>
+              }} />
+            </Switch>
+          </div>
+          <Footer></Footer>
         </div>
       </Router>
     );
