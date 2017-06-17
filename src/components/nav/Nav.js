@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 import './Nav.css'
 import NavMenu from '../navmenu/NavMenu'
+import NavSearch from '../navsearch/NavSearch'
+import { NavLink } from 'react-router-dom'
 // import icons for Webpack
 import iconLocation from '../../images/icons/location.png'
 import iconPopular from '../../images/icons/popular-topics.png'
 import iconRelationships from '../../images/icons/relationships.png'
+import iconChild from '../../images/icons/child.png'
+import iconBrain from '../../images/icons/brain.png'
+import iconFemale from '../../images/icons/female.png'
+import iconViolence from '../../images/icons/violence.png'
 import iconFamily from '../../images/icons/family-planning.png'
+import iconLifecycle from '../../images/icons/lifecycle.png'
 import iconHealthcare from '../../images/icons/health-care-system.png'
 import iconReproductive from '../../images/icons/reproductive.png'
 
@@ -16,27 +23,43 @@ class Nav extends Component {
       menuItems: [
         {
           icon: iconLocation,
-          text: 'Clinics'
-        },
-        {
-          icon: iconPopular,
-          text: 'Popular Topics'
-        },
-        {
-          icon: iconRelationships,
-          text: 'Relationships'
+          text: 'Access',
+          url: '#'
         },
         {
           icon: iconFamily,
-          text: 'Family Planning'
+          text: 'Family Planning',
+          url: '#'
         },
         {
-          icon: iconHealthcare,
-          text: 'Health Care System'
+          icon: iconChild,
+          text: 'Maternal, Child and Newborn Health',
+          url: '#'
+        },
+        {
+          icon: iconBrain,
+          text: 'Mental Health',
+          url: '#'
         },
         {
           icon: iconReproductive,
-          text: 'Reproductive Health'
+          text: 'Sexual Health',
+          url: '#'
+        },
+        {
+          icon: iconLifecycle,
+          text: 'Teen Health',
+          url: '#'
+        },
+        {
+          icon: iconViolence,
+          text: 'Violence',
+          url: '#'
+        },
+        {
+          icon: iconFemale,
+          text: "Women's Health",
+          url: '#'
         }
       ]
     }
@@ -45,10 +68,14 @@ class Nav extends Component {
   render() {
     return (
       <div className="nav">
-        <div className="nav-header">
-          <h1 className="nav-header-title">mAdapt</h1>
+        <NavLink exact activeClassName='active' to='/'>
+          <div className="nav-header">
+            <h1 className="nav-header-title">mAdapt</h1>
+          </div>
+        </NavLink>
+        <div className="nav-search">
+          <NavSearch />
         </div>
-        <div className="nav-search"></div>
         <NavMenu menuButtons={this.state.menuItems}/>
       </div>
     )
