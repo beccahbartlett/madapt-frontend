@@ -1,0 +1,10 @@
+.nav-menu-button {
+  height: 100%;
+  width: 16.67%;
+  background-color: red;
+  border: 1px solid black;
+}
+
+.nav-menu-button-title {
+  text-align: center;
+}
