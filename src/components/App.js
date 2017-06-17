@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Home from './home/Home'
 import Clinic from './clinic/Clinic'
 import FamilyPlanning from './familyplanning/FamilyPlanning'
+import MentalHealth from './mentalhealth/MentalHealth'
 import Relationship from './relationship/Relationship'
 import WomensHealth from './womens-health/WomensHealth'
 import About from './about/About'
@@ -25,6 +26,7 @@ class App extends Component {
             <Route exact path='/clinic' component={Clinic} />
             <Route exact path='/relationship' component={Relationship} />
             <Route exact path='/familyplanning' component={FamilyPlanning} />
+            <Route exact path='/mentalhealth' component={MentalHealth} />
             <Route exact path='/womens-health' component={WomensHealth} />
             <Route exact path='/about' component={About} />
             <Route render={function() {
