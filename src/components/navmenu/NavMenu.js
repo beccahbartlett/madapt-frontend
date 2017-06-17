@@ -23,8 +23,9 @@ class NavMenu extends Component {
             {this.props.menuButtons.map(function(item, index) {
               return(
                 <IndexLinkContainer to={item.url} activeClassName="active">
-                  <NavItem eventKey={index} href="#">{item.text}
+                  <NavItem eventKey={index} href="#" className="navitem-text">
                     <img className="navbar-menu-icon" src={item.icon} />
+                    {item.text}
                   </NavItem>
                 </IndexLinkContainer>
               )
