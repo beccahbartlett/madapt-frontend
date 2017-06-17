@@ -83,9 +83,6 @@ class Nav extends Component {
           </div>
         </NavLink>
         <NavMenu menuButtons={this.state.menuItems}/>
-        <div className="nav-search">
-        <NavSearch />
-        </div>
       </div>
     )
   }
