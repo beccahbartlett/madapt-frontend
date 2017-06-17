@@ -16,18 +16,16 @@ class App extends Component {
       <Router>
         <div>
           <Nav />
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About} />
-            <Route render={function() {
-              return <p>Not Found</p>
-            }} />
-          </Switch>
+          <div className="container-body">
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route exact path='/about' component={About} />
+              <Route render={function() {
+                return <p>Not Found</p>
+              }} />
+            </Switch>
+          </div>
          <Footer></Footer>
-
-
-
-
         </div>
       </Router>
     );

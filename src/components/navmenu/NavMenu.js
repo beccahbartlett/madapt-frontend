@@ -18,22 +18,22 @@ class NavMenu extends Component {
         <Navbar.Collapse>
           <Nav>
             <NavItem eventKey={1} href="#">Clinics
-              <img src={iconLocation} />
+              <img className="navbar-menu-icon" src={iconLocation} />
             </NavItem>
             <NavItem eventKey={2} href="#">Popular Topics
-              <img src={iconPopular} />
+              <img className="navbar-menu-icon" src={iconPopular} />
             </NavItem>
             <NavItem eventKey={3} href="#">Relationships
-              <img src={iconRelationships} />
+              <img className="navbar-menu-icon" src={iconRelationships} />
             </NavItem>
             <NavItem eventKey={4} href="#">Family Planning
-              <img src={iconFamily} />
+              <img className="navbar-menu-icon" src={iconFamily} />
             </NavItem>
             <NavItem eventKey={5} href="#">Health Care System
-              <img src={iconHealthcare} />
+              <img className="navbar-menu-icon" src={iconHealthcare} />
             </NavItem>
             <NavItem eventKey={6} href="#">Reproductive Health
-              <img src={iconReproductive} />
+              <img className="navbar-menu-icon" src={iconReproductive} />
             </NavItem>
           </Nav>
         </Navbar.Collapse>
