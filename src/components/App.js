@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Home from './home/Home'
 import Clinic from './clinic/Clinic'
+import FamilyPlanning from './familyplanning/FamilyPlanning'
 import Relationship from './relationship/Relationship'
 import WomensHealth from './womens-health/WomensHealth'
 import TeenHealth from './teen-health/TeenHealth'
@@ -19,10 +20,12 @@ class App extends Component {
       <Router>
         <div>
           <Nav />
+          <div className="container-body">
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/clinic' component={Clinic} />
             <Route exact path='/relationship' component={Relationship} />
+            <Route exact path='/familyplanning' component={FamilyPlanning} />
             <Route exact path='/womens-health' component={WomensHealth} />
             <Route exact path='/teen-health' component={TeenHealth} />
             <Route exact path='/about' component={About} />
@@ -30,6 +33,7 @@ class App extends Component {
               return <p>Not Found</p>
             }} />
           </Switch>
+          </div>
          <Footer></Footer>
         </div>
       </Router>
