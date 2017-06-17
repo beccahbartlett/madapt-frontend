@@ -29,7 +29,7 @@ class Nav extends Component {
         {
           icon: iconFamily,
           text: 'Family Planning',
-          url: '#'
+          url: '/familyplanning'
         },
         {
           icon: iconChild,
@@ -44,12 +44,12 @@ class Nav extends Component {
         {
           icon: iconReproductive,
           text: 'Sexual Health',
-          url: '#'
+          url: 'sexual-health'
         },
         {
           icon: iconLifecycle,
           text: 'Teen Health',
-          url: '#'
+          url: '/teen-health'
         },
         {
           icon: iconViolence,
@@ -59,7 +59,7 @@ class Nav extends Component {
         {
           icon: iconFemale,
           text: "Women's Health",
-          url: '#'
+          url: '/womens-health'
         }
       ]
     }
