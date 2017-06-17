@@ -15,21 +15,19 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className='container'>
+        <div>
           <Nav />
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route exact path='/clinic' component={Clinic} />
-            <Route exact path='/about' component={About} />
-            <Route render={function() {
-              return <p>Not Found</p>
-            }} />
-          </Switch>
-         <Footer></Footer>
-
-
-
-
+          <div className="container-body">
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route exact path='/clinic' component={Clinic} />
+              <Route exact path='/about' component={About} />
+              <Route render={function() {
+                return <p>Not Found</p>
+              }} />
+            </Switch>
+          </div>
+          <Footer></Footer>
         </div>
       </Router>
     );
