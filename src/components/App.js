@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Home from './home/Home'
 import About from './about/About'
 import Nav from './nav/Nav'
+import Footer from './footer/Footer'
 import './App.css';
 var ReactRouter = require('react-router-dom');
 var Router = ReactRouter.BrowserRouter;
@@ -22,6 +23,11 @@ class App extends Component {
               return <p>Not Found</p>
             }} />
           </Switch>
+         <Footer></Footer>
+
+
+
+
         </div>
       </Router>
     );
