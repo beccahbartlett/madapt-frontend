@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import NavMenuButton from '../navmenubutton/NavMenuButton'
 import { Navbar, NavItem, Nav } from 'react-bootstrap'
 import './NavMenu.css'
 import iconLocation from '../../images/icons/location.png'
