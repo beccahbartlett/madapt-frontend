@@ -10,6 +10,7 @@ import iconRelationships from '../../images/icons/relationships.png'
 import iconChild from '../../images/icons/child.png'
 import iconBrain from '../../images/icons/brain.png'
 import iconFemale from '../../images/icons/female.png'
+import iconMale from '../../images/icons/male.png'
 import iconViolence from '../../images/icons/violence.png'
 import iconFamily from '../../images/icons/family-planning.png'
 import iconLifecycle from '../../images/icons/lifecycle.png'
@@ -60,6 +61,11 @@ class Nav extends Component {
           icon: iconFemale,
           text: "Women's Health",
           url: '/womens-health'
+        },
+        {
+          icon: iconMale,
+          text: "Men's Health",
+          url: '/mens-health'
         }
       ]
     }
