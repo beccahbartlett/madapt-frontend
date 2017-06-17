@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, Nav } from 'react-bootstrap'
+import { IndexLinkContainer } from 'react-router-bootstrap'
+import { NavLink } from 'react-router-dom'
 import './NavMenu.css'
 
 class NavMenu extends Component {
@@ -20,9 +22,11 @@ class NavMenu extends Component {
           <Nav>
             {this.props.menuButtons.map(function(item, index) {
               return(
-                <NavItem eventKey={index} href="#">{item.text}
-                  <img className="navbar-menu-icon" src={item.icon} />
-                </NavItem>
+                <IndexLinkContainer to={item.text} activeClassName="active">
+                  <NavItem eventKey={index} href="#">{item.text}
+                    <img className="navbar-menu-icon" src={item.icon} />
+                  </NavItem>
+                </IndexLinkContainer>
               )
             })}
           </Nav>
