@@ -6,7 +6,9 @@ class Nav extends Component {
   render() {
     return (
       <div className="nav">
-        <div className="nav-header"></div>
+        <div className="nav-header">
+          <h1 className="nav-header-title">mAdapt</h1>
+        </div>
         <div className="nav-search"></div>
         <NavMenu />
       </div>
