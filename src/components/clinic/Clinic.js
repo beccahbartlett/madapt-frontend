@@ -3,6 +3,9 @@ import { Grid, Row, Col } from 'flexbox-react';
 import './Clinic.css'
 
 class Clinic extends Component {
+  componentDidMount() {
+    window.analytics.page();
+  }
   render() {
     return (
       <div>

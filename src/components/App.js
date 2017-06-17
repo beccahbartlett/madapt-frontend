@@ -16,6 +16,11 @@ var Route = ReactRouter.Route;
 var Switch = ReactRouter.Switch;
 
 class App extends Component {
+  componentDidMount() {
+    window.analytics.identify('testUserId', {
+      username: 'testUsername'
+    })
+  }
   render() {
     return (
       <Router>
