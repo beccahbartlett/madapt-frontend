@@ -3,6 +3,7 @@ import Home from './home/Home'
 import Clinic from './clinic/Clinic'
 import Relationship from './relationship/Relationship'
 import WomensHealth from './womens-health/WomensHealth'
+import TeenHealth from './teen-health/TeenHealth'
 import About from './about/About'
 import Nav from './nav/Nav'
 import Footer from './footer/Footer'
@@ -23,6 +24,7 @@ class App extends Component {
             <Route exact path='/clinic' component={Clinic} />
             <Route exact path='/relationship' component={Relationship} />
             <Route exact path='/womens-health' component={WomensHealth} />
+            <Route exact path='/teen-health' component={TeenHealth} />
             <Route exact path='/about' component={About} />
             <Route render={function() {
               return <p>Not Found</p>
