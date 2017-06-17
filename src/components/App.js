@@ -5,6 +5,7 @@ import FamilyPlanning from './familyplanning/FamilyPlanning'
 import Relationship from './relationship/Relationship'
 import WomensHealth from './womens-health/WomensHealth'
 import TeenHealth from './teen-health/TeenHealth'
+import SexualHealth from './sexual-health/SexualHealth'
 import About from './about/About'
 import Nav from './nav/Nav'
 import Footer from './footer/Footer'
@@ -28,6 +29,7 @@ class App extends Component {
             <Route exact path='/familyplanning' component={FamilyPlanning} />
             <Route exact path='/womens-health' component={WomensHealth} />
             <Route exact path='/teen-health' component={TeenHealth} />
+            <Route exact path='/sexual-health' component={SexualHealth} />
             <Route exact path='/about' component={About} />
             <Route render={function() {
               return <p>Not Found</p>
