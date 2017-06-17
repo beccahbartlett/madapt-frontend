@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className='container'>
+        <div>
           <Nav />
           <Switch>
             <Route exact path='/' component={Home} />
@@ -28,10 +28,6 @@ class App extends Component {
             }} />
           </Switch>
          <Footer></Footer>
-
-
-
-
         </div>
       </Router>
     );
