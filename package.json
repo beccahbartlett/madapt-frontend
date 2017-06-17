@@ -6,6 +6,7 @@
     "react-scripts": "1.0.7"
   },
   "dependencies": {
+    "flexbox-react": "^4.4.0",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
