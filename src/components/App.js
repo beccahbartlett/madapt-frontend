@@ -1,17 +1,29 @@
 import React, { Component } from 'react';
+import Home from './home/Home'
+import About from './about/About'
+import Nav from './nav/Nav'
 import './App.css';
+var ReactRouter = require('react-router-dom');
+var Router = ReactRouter.BrowserRouter;
+var Route = ReactRouter.Route;
+var Switch = ReactRouter.Switch;
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <h2>Welcome to React</h2>
+      <Router>
+        <div className='container'>
+          <Nav />
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route render={function() {
+              return <p>Not Found</p>
+            }} />
+          </Switch>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      </Router>
     );
   }
 }
