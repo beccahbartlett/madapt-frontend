@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, Nav } from 'react-bootstrap'
 import { IndexLinkContainer } from 'react-router-bootstrap'
-import { NavLink } from 'react-router-dom'
 import './NavMenu.css'
 
 class NavMenu extends Component {
@@ -24,7 +23,7 @@ class NavMenu extends Component {
               return(
                 <IndexLinkContainer to={item.url} activeClassName="active">
                   <NavItem eventKey={index} href="#" className="navitem-text">
-                    <img className="navbar-menu-icon" src={item.icon} />
+                    <img className="navbar-menu-icon" src={item.icon} alt={item.text} />
                     {item.text}
                   </NavItem>
                 </IndexLinkContainer>

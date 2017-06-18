@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Nav.css';
 import NavMenu from '../navmenu/NavMenu';
-import NavSearch from '../navsearch/NavSearch';
 import { NavLink } from 'react-router-dom';
 // import icons for Webpack
 import iconLocation from '../../images/icons/location.png';
@@ -10,6 +9,8 @@ import iconViolence from '../../images/icons/violence.png';
 import iconFamily from '../../images/icons/family-planning.png';
 import iconLifecycle from '../../images/icons/lifecycle.png';
 import iconReproductive from '../../images/icons/reproductive.png';
+// import images
+import imgHeader from '../../images/mAdaptLogo.png';
 
 class Nav extends Component {
   constructor(props) {
@@ -56,7 +57,7 @@ class Nav extends Component {
         <NavLink exact activeClassName='active' to='/'>
           <div className="nav-header">
             <h1 className="nav-header-title">
-              <img src={require('../../images/mAdaptLogo.png')} />
+              <img src={imgHeader} alt="Header Image" />
               [ mAdapt ]
             </h1>
           </div>
