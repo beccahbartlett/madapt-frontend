@@ -30,7 +30,7 @@ class Nav extends Component {
         {
           icon: iconFamily,
           text: 'Family Planning',
-          url: '/familyplanning'
+          url: '/family-planning'
         },
         {
           icon: iconChild,
