@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import CardGrid from '../cardgrid/CardGrid';
+import Card from '../card/Card';
 import { Grid, Row, Col } from 'flexbox-react';
 import { NavLink } from 'react-router-dom'
 import './FamilyPlanning.css'
@@ -6,43 +8,28 @@ import './FamilyPlanning.css'
 class FamilyPlanning extends Component {
   render() {
     return (
-      <div>
-      Clinic
-      <main className="cards">
-        <article className="card">
-          <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-          <div className="text">
-            <p>Birth Spacing and Planning Overview</p>
-          </div>
-        </article>
-        <article className="card">
-          <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-          <div className="text">
-            <p>Fertility</p>
-          </div>
-        </article>
-        <article className="card">
-          <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-          <div className="text">
-            <p>Disability</p>
-          </div>
-        </article>
-        <NavLink to="/family-planning/contraception">
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Contraception</p>
-            </div>
-          </article>
-        </NavLink>
-        <article className="card">
-          <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-          <div className="text">
-            <p>Unplanned Pregnancy</p>
-          </div>
-        </article>
-      </main>
-      </div>
+      <CardGrid>
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Birth Spacing and Planning Overview"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Fertility"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Disability"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Contraception"
+          linkUrl="/family-planning/contraception" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Unplanned Pregnancy"
+          linkUrl="#" />
+      </CardGrid>
     )
   }
 }
