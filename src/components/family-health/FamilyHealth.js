@@ -1,23 +1,29 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'flexbox-react';
-import './TeenHealth.css'
+import './FamilyHealth.css'
 
-class TeenHealth extends Component {
+class FamilyHealth extends Component {
   render() {
     return (
       <div>
-      TeenHealth
+      Family Health
         <main className="cards">
           <article className="card">
             <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
             <div className="text">
-              <p>Australian norms</p>
+              <p>Women's health</p>
             </div>
           </article>
           <article className="card">
             <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
             <div className="text">
-              <p>Puberty</p>
+              <p>Men's health</p>
+            </div>
+          </article>
+          <article className="card">
+            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
+            <div className="text">
+              <p>Teen health</p>
             </div>
           </article>
           <article className="card">
@@ -29,13 +35,7 @@ class TeenHealth extends Component {
           <article className="card">
             <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
             <div className="text">
-              <p>Alcohol and other drugs</p>
-            </div>
-          </article>
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Healthy and respectful relationships</p>
+              <p>Disability access</p>
             </div>
           </article>
         </main>
@@ -44,4 +44,4 @@ class TeenHealth extends Component {
   }
 }
 
-export default TeenHealth
+export default FamilyHealth
