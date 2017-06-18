@@ -34,12 +34,7 @@ class Nav extends Component {
         },
         {
           icon: iconChild,
-          text: 'Newborn Health',
-          url: '#'
-        },
-        {
-          icon: iconBrain,
-          text: 'Mental Health',
+          text: 'Pregnancy and Newborn',
           url: '#'
         },
         {
@@ -49,23 +44,13 @@ class Nav extends Component {
         },
         {
           icon: iconLifecycle,
-          text: 'Teen Health',
+          text: 'Family Health',
           url: '/teen-health'
         },
         {
           icon: iconViolence,
           text: 'Violence',
           url: '#'
-        },
-        {
-          icon: iconFemale,
-          text: "Women's Health",
-          url: '/womens-health'
-        },
-        {
-          icon: iconMale,
-          text: "Men's Health",
-          url: '/mens-health'
         }
       ]
     }
