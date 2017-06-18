@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Home from './home/Home'
-import Clinic from './clinic/Clinic'
+import Access from './access/Access'
 import FamilyPlanning from './family-planning/FamilyPlanning'
 import MentalHealth from './mentalhealth/MentalHealth'
 import Relationship from './relationship/Relationship'
@@ -31,7 +31,7 @@ class App extends Component {
           <div className="container-body">
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/clinic' component={Clinic} />
+            <Route exact path='/access' component={Access} />
             <Route exact path='/relationship' component={Relationship} />
             <Route exact path='/family-planning' component={FamilyPlanning} />
             <Route exact path='/mentalhealth' component={MentalHealth} />
