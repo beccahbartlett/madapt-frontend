@@ -10,6 +10,8 @@ import Contraception from './family-planning/contraception/Contraception'
 import HealthSystemOverview from './access/health-system-overview/HealthSystemOverview'
 import AustralianNorms from './access/australian-norms/AustralianNorms'
 import BirthSpacing from './family-planning/birth-spacing/BirthSpacing'
+import Pregnancy from './pregnancy-newborn/pregnancy/Pregnancy'
+import Birth from './pregnancy-newborn/birth/Birth'
 import Nav from './nav/Nav'
 import Footer from './footer/Footer'
 import './App.css';
@@ -42,6 +44,8 @@ class App extends Component {
             <Route exact path='/family-planning/contraception' component={Contraception} />
             <Route exact path='/access/health-system-overview' component={HealthSystemOverview} />
             <Route exact path='/access/australian-norms' component={AustralianNorms} />
+            <Route exact path='/pregnancy-newborn/pregnancy' component={Pregnancy} />
+            <Route exact path='/pregnancy-newborn/birth' component={Birth} />
             <Route render={function() {
               return <p>Not Found</p>
             }} />

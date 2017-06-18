@@ -13,11 +13,11 @@ class PregnancyNewborn extends Component {
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Pregnancy"
-          linkUrl="#" />
+          linkUrl="/pregnancy-newborn/pregnancy" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Birth"
-          linkUrl="#" />
+          linkUrl="pregnancy-newborn/birth" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Postnatal"
