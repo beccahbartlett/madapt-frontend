@@ -9,6 +9,7 @@ import FamilyHealth from './family-health/FamilyHealth'
 import PregnancyNewborn from './pregnancy-newborn/PregnancyNewborn'
 import SexualHealth from './sexual-health/SexualHealth'
 import Contraception from './family-planning/contraception/Contraception'
+import BirthSpacing from './family-planning/birth-spacing/BirthSpacing'
 import About from './about/About'
 import Nav from './nav/Nav'
 import Footer from './footer/Footer'
@@ -35,6 +36,7 @@ class App extends Component {
             <Route exact path='/access' component={Access} />
             <Route exact path='/relationship' component={Relationship} />
             <Route exact path='/family-planning' component={FamilyPlanning} />
+            <Route exact path='/family-planning/birth-spacing' component={BirthSpacing} />
             <Route exact path='/mentalhealth' component={MentalHealth} />
             <Route exact path='/violence' component={Violence} />
             <Route exact path='/family-health' component={FamilyHealth} />
