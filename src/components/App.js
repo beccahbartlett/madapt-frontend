@@ -9,6 +9,8 @@ import FamilyHealth from './family-health/FamilyHealth'
 import PregnancyNewborn from './pregnancy-newborn/PregnancyNewborn'
 import SexualHealth from './sexual-health/SexualHealth'
 import Contraception from './family-planning/contraception/Contraception'
+import HealthSystemOverview from './access/health-system-overview/HealthSystemOverview'
+import AustralianNorms from './access/australian-norms/AustralianNorms'
 import BirthSpacing from './family-planning/birth-spacing/BirthSpacing'
 import About from './about/About'
 import Nav from './nav/Nav'
@@ -43,6 +45,8 @@ class App extends Component {
             <Route exact path='/pregnancy-newborn' component={PregnancyNewborn} />
             <Route exact path='/sexual-health' component={SexualHealth} />
             <Route exact path='/family-planning/contraception' component={Contraception} />
+            <Route exact path='/access/health-system-overview' component={HealthSystemOverview} />
+            <Route exact path='/access/australian-norms' component={AustralianNorms} />
             <Route exact path='/about' component={About} />
             <Route render={function() {
               return <p>Not Found</p>

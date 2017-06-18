@@ -25,10 +25,10 @@ class Footer extends Component {
         <div>
           <h4>Save our website on your phone!</h4>
           <ul>
-            <li><a class="fa fa-facebook" aria-hidden="true">a</a></li>
-            <li><i class="fa fa-twitter" aria-hidden="true">a</i></li>
-            <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
-            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            <li><a className="fa fa-facebook" aria-hidden="true"></a></li>
+            <li><i className="fa fa-twitter" aria-hidden="true"></i></li>
+            <li><i className="fa fa-youtube-play" aria-hidden="true"></i></li>
+            <li><i className="fa fa-instagram" aria-hidden="true"></i></li>
           </ul>
         </div>
 
