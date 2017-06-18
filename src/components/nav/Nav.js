@@ -30,12 +30,12 @@ class Nav extends Component {
         {
           icon: iconChild,
           text: 'Pregnancy and Newborn',
-          url: '#'
+          url: '/pregnancy-newborn'
         },
         {
           icon: iconReproductive,
           text: 'Sexual Health',
-          url: 'sexual-health'
+          url: '/sexual-health'
         },
         {
           icon: iconLifecycle,

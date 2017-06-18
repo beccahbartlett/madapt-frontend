@@ -6,6 +6,9 @@ import iconWomenHealth from '../../images/icons/women-health.png'
 import './FamilyHealth.css'
 
 class FamilyHealth extends Component {
+  componentDidMount() {
+    window.analytics.page();
+  }
   render() {
     return (
       <CardGrid>

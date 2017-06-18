@@ -1,45 +1,36 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'flexbox-react';
+import CardGrid from '../cardgrid/CardGrid';
+import Card from '../card/Card';
 import './PregnancyNewborn.css'
 
 class PregnancyNewborn extends Component {
+  componentDidMount() {
+    window.analytics.page();
+  }
   render() {
     return (
-      <div>
-      Family Health
-        <main className="cards">
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Pregnancy</p>
-            </div>
-          </article>
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Birth</p>
-            </div>
-          </article>
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Postnatal</p>
-            </div>
-          </article>
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Newborn -12 months</p>
-            </div>
-          </article>
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Disability access</p>
-            </div>
-          </article>
-        </main>
-      </div>
+      <CardGrid>
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Pregnancy"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Birth"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Postnatal"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Newborn - 12 months"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Disability Access"
+          linkUrl="#" />
+      </CardGrid>
     )
   }
 }

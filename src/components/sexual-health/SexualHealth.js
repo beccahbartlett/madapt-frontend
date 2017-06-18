@@ -6,6 +6,9 @@ import iconHIV from '../../images/icons/hiv-aids.png'
 import iconSTI from '../../images/icons/sti.png'
 
 class SexualHealth extends Component {
+  componentDidMount() {
+    window.analytics.page();
+  }
   render() {
     return (
       <CardGrid>
