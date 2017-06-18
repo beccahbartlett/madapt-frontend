@@ -15,8 +15,8 @@ var Panel = require('react-bootstrap').Panel;
   ]
   function getTabs() {
     return contraceptions.map(item => ({
-      tabClassName: 'tab', // Optional 
-      panelClassName: 'panel', // Optional 
+      tabClassName: 'tab', // Optional
+      panelClassName: 'panel', // Optional
       title: item.name,
       getContent: () => item.info,
     }));
@@ -28,9 +28,11 @@ class WomensHealth extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="wrapper">
         <h1>Women's health</h1>
-        <p>Women should have a general check-up every year./n/n Part of the check-up will involve talking to your doctor about your medical history, your family’s history of disease and your lifestyle choices, such as diet, exercise habits and whether or not you smoke or drink alcohol.\n\n Health checks specific to women include: </p>
+          <div className="content">
+          <p>Women should have a general check-up every year./n/n Part of the check-up will involve talking to your doctor about your medical history, your family’s history of disease and your lifestyle choices, such as diet, exercise habits and whether or not you smoke or drink alcohol.\n\n Health checks specific to women include: </p>
+        </div>
         <Tabs items={getTabs()}/>
         <br/>
       </div>
