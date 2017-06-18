@@ -45,7 +45,7 @@ class Nav extends Component {
         {
           icon: iconLifecycle,
           text: 'Family Health',
-          url: '/teen-health'
+          url: '/family-health'
         },
         {
           icon: iconViolence,
