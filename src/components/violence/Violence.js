@@ -4,6 +4,9 @@ import Card from '../card/Card';
 import './Violence.css'
 
 class Violence extends Component {
+  componentDidMount() {
+    window.analytics.page();
+  }
   render() {
     return (
       <CardGrid>

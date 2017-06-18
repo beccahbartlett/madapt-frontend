@@ -22,6 +22,9 @@ var Panel = require('react-bootstrap').Panel;
   }
 
 class Contraception extends Component {
+  componentDidMount() {
+    window.analytics.page();
+  }
   render() {
     return (
       <div className="wrapper">
