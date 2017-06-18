@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'flexbox-react';
+import { NavLink } from 'react-router-dom'
 import './FamilyPlanning.css'
 
 class FamilyPlanning extends Component {
@@ -26,12 +27,14 @@ class FamilyPlanning extends Component {
             <p>Disability</p>
           </div>
         </article>
-        <article className="card">
-          <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-          <div className="text">
-            <p>Contraception</p>
-          </div>
-        </article>
+        <NavLink to="/family-planning/contraception">
+          <article className="card">
+            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
+            <div className="text">
+              <p>Contraception</p>
+            </div>
+          </article>
+        </NavLink>
         <article className="card">
           <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
           <div className="text">
