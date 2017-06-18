@@ -10,7 +10,11 @@ class FamilyPlanning extends Component {
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Birth Spacing and Planning Overview"
-          linkUrl="#" />
+          linkUrl="/family-planning/birth-spacing" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Contraception"
+          linkUrl="/family-planning/contraception" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Fertility"
@@ -19,10 +23,6 @@ class FamilyPlanning extends Component {
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Disability"
           linkUrl="#" />
-        <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Contraception"
-          linkUrl="/family-planning/contraception" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Unplanned Pregnancy"
