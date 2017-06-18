@@ -25,7 +25,7 @@ class Nav extends Component {
         {
           icon: iconLocation,
           text: 'Access',
-          url: '#'
+          url: '/access'
         },
         {
           icon: iconFamily,
@@ -50,7 +50,7 @@ class Nav extends Component {
         {
           icon: iconViolence,
           text: 'Violence',
-          url: '#'
+          url: '/violence'
         }
       ]
     }
