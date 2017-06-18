@@ -50,7 +50,7 @@ class Nav extends Component {
         {
           icon: iconViolence,
           text: 'Violence',
-          url: '#'
+          url: '/violence'
         }
       ]
     }
