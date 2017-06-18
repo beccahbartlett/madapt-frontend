@@ -6,6 +6,9 @@ import 'react-responsive-tabs/styles.css'
 
 
 class HealthSystemOverview extends Component {
+  componentDidMount() {
+    window.analytics.page();
+  }
   render() {
     return (
       <div>

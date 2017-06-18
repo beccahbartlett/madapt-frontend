@@ -4,6 +4,9 @@ import Card from '../card/Card';
 import './PregnancyNewborn.css'
 
 class PregnancyNewborn extends Component {
+  componentDidMount() {
+    window.analytics.page();
+  }
   render() {
     return (
       <CardGrid>
