@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import './Footer.css'
+// import * as FontAwesome from 'react-icons/fa'
 
 class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <div>
-          <a href="#">In case of emergency call 000</a>
-          <a href="tel:131114">Lifelline Phone Service 13 11 14</a>
-        </div>
+
+          <div id="footer-header-wrapper">
+            <a href="tel:000">In case of emergency call 000</a>
+            <a href="tel:131114">Lifelline Phone Service 13 11 14</a>
+          </div>
 
         <div>
           <ul>
@@ -23,10 +25,10 @@ class Footer extends Component {
         <div>
           <h4>Save our website on your phone!</h4>
           <ul>
-            <li>f</li>
-            <li>t</li>
-            <li>yt</li>
-            <li>i</li>
+            <li><a class="fa fa-facebook" aria-hidden="true">a</a></li>
+            <li><i class="fa fa-twitter" aria-hidden="true">a</i></li>
+            <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+            <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
           </ul>
         </div>
 
