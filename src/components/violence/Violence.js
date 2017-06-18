@@ -1,50 +1,34 @@
 import React, { Component } from 'react';
+import CardGrid from '../cardgrid/CardGrid';
+import Card from '../card/Card';
 import { Grid, Row, Col } from 'flexbox-react';
 import './Violence.css'
 
 class Violence extends Component {
   render() {
     return (
-      <div>
-      Violence
-
-        <main className="cards">
-  <article className="card">
-    <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-    <div className="text">
-      <p>Types of Violence </p>
-    </div>
-  </article>
-  <article className="card">
-    <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-    <div className="text">
-      <p>Your Rights and Responsibilities</p>
-
-    </div>
-  </article>
-  <article className="card">
-  <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-    <div className="text">
-      <p>Seeking Safety and Assistance </p>
-
-    </div>
-  </article>
-  <article className="card">
-  <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-    <div className="text">
-      <p>Shelter and safety</p>
-
-    </div>
-  </article>
-  <article className="card">
-  <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-    <div className="text">
-      <p>Disability Access </p>
-
-    </div>
-  </article>
-</main>
-      </div>
+      <CardGrid>
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Types of Violence"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Your Rights and Responsibilities"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Seeking Safety and Assistance"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Shelter and safety"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Disability Access"
+          linkUrl="#" />
+      </CardGrid>
     )
   }
 }
