@@ -3,6 +3,9 @@ import { Grid, Row, Col } from 'flexbox-react';
 import './BirthSpacing.css'
 
 class BirthSpacing extends Component {
+  componentDidMount() {
+    window.analytics.page();
+  }
   render() {
     return (
       <div>

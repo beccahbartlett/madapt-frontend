@@ -4,6 +4,9 @@ import Card from '../card/Card';
 import './SexualHealth.css'
 
 class SexualHealth extends Component {
+  componentDidMount() {
+    window.analytics.page();
+  }
   render() {
     return (
       <CardGrid>
