@@ -14,11 +14,11 @@ class Access extends Component {
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Health System Overview"
-          linkUrl="#" />
+          linkUrl="/access/health-system-overview/" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Australian norms"
-          linkUrl="#" />
+          linkUrl="/access/australian-norms/" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Medicare and Centrelink"
