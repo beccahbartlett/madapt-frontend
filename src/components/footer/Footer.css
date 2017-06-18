@@ -2,19 +2,81 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+  font-family: "Avenir Black", sans-serif;
 }
 
-/* 1st child */
-.footer div:nth-child(1) {
-  background-color: yellow;
+.footer: hover {
+  color: orange;
+}
+
+
+#footer-header-wrapper{
+  text-align: center;
+  background-color: orange;
+}
+
+#footer-header-wrapper > * {
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px 10px;
+}
+
+.footer div:nth-child(2), .footer div:nth-child(3) { 
+  
+  background-color: black;
+  background-color: rgba(0, 0, 0, .8);
+  width: 50%;
+  height: 110px;
+  margin: 0px auto;
 }
 
 .footer div:nth-child(2) {
-  background-color: black;
+  font-size: 12px;
+  float:left;
+  margin: 0px auto;  
+  padding: 20px 300px 20px 20px;
+  -webkit-columns: 20px 2; /* Chrome, Safari, Opera */
+  -moz-columns: 20px 2; /* Firefox */
+  columns: 20px 2;
+
+  -webkit-column-rule: 1px outset grey; /* Chrome, Safari, Opera */
+  -moz-column-rule: 1px outset grey; /* Firefox */
+  column-rule: 1px outset grey;
 }
 
+.footer div:nth-child(2) > ul {
+  padding: 0px 10px;
+}
+.footer div:nth-child(2) > ul > li {
+  padding: 3px 0px;
+} 
+
 .footer div:nth-child(3) {
-  background-color: grey;
+  display: inline-block;
+  text-align: right;
+  padding: 10px 10px;
+  color: white;
+}
+
+.footer div:nth-child(3) > h4 {
+  font-size:  14px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+
+.footer div:nth-child(3) > ul > li {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+.footer div:nth-child(4) {
+  text-align: right;
+  clear: both; 
+}
+
+a {
+  color: white;
 }
 
 @media (max-width: 480px) {
