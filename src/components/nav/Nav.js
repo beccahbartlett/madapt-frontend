@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import './Nav.css'
-import NavMenu from '../navmenu/NavMenu'
-import NavSearch from '../navsearch/NavSearch'
-import { NavLink } from 'react-router-dom'
+import './Nav.css';
+import NavMenu from '../navmenu/NavMenu';
+import { NavLink } from 'react-router-dom';
 // import icons for Webpack
-import iconLocation from '../../images/icons/location.png'
-import iconPopular from '../../images/icons/popular-topics.png'
-import iconRelationships from '../../images/icons/relationships.png'
-import iconFamily from '../../images/icons/family-planning.png'
-import iconHealthcare from '../../images/icons/health-care-system.png'
-import iconReproductive from '../../images/icons/reproductive.png'
+import iconLocation from '../../images/icons/location.png';
+import iconChild from '../../images/icons/child.png';
+import iconViolence from '../../images/icons/violence.png';
+import iconFamily from '../../images/icons/family-planning.png';
+import iconLifecycle from '../../images/icons/lifecycle.png';
+import iconReproductive from '../../images/icons/reproductive.png';
+// import images
+import imgHeader from '../../images/mAdaptLogo.png';
 
 class Nav extends Component {
   constructor(props) {
@@ -18,33 +19,33 @@ class Nav extends Component {
       menuItems: [
         {
           icon: iconLocation,
-          text: 'Clinics',
-          url: 'clinic'
-        },
-        {
-          icon: iconPopular,
-          text: 'Popular Topics',
-          url: '#'
-        },
-        {
-          icon: iconRelationships,
-          text: 'Relationships',
-          url: '#'
+          text: 'Access',
+          url: '/access'
         },
         {
           icon: iconFamily,
           text: 'Family Planning',
-          url: '#'
+          url: '/family-planning'
         },
         {
-          icon: iconHealthcare,
-          text: 'Health Care System',
-          url: '#'
+          icon: iconChild,
+          text: 'Pregnancy and Newborn',
+          url: '/pregnancy-newborn'
         },
         {
           icon: iconReproductive,
-          text: 'Reproductive Health',
-          url: '#'
+          text: 'Sexual Health',
+          url: '/sexual-health'
+        },
+        {
+          icon: iconLifecycle,
+          text: 'Family Health',
+          url: '/family-health'
+        },
+        {
+          icon: iconViolence,
+          text: 'Violence',
+          url: '/violence'
         }
       ]
     }
@@ -55,12 +56,12 @@ class Nav extends Component {
       <div className="nav">
         <NavLink exact activeClassName='active' to='/'>
           <div className="nav-header">
-            <h1 className="nav-header-title">mAdapt</h1>
+            <h1 className="nav-header-title">
+              <img src={imgHeader} alt="Header Image" />
+              [ mAdapt ]
+            </h1>
           </div>
         </NavLink>
-        <div className="nav-search">
-          <NavSearch />
-        </div>
         <NavMenu menuButtons={this.state.menuItems}/>
       </div>
     )
