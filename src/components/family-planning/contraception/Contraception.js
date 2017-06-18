@@ -14,8 +14,8 @@ var Panel = require('react-bootstrap').Panel;
   ]
   function getTabs() {
     return contraceptions.map(item => ({
-      tabClassName: 'tab', // Optional 
-      panelClassName: 'panel', // Optional 
+      tabClassName: 'tab', // Optional
+      panelClassName: 'panel', // Optional
       title: item.name,
       getContent: () => item.biography,
     }));
@@ -24,11 +24,13 @@ var Panel = require('react-bootstrap').Panel;
 class Contraception extends Component {
   render() {
     return (
-      <div>
+      <div className="wrapper">
       <h1>Contraception</h1>
-      <p>There are many contraceptive methods available in Australia, including implants and injections, intrauterine devices (IUDs, both copper and hormonal), emergency contraception, pills and vaginal rings, barrier methods (male and female condoms and diaphragms), female and male sterilisation and natural methods (natural family planning).</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Zx8zbTMTncs" frameborder="0" allowfullscreen></iframe>
-      <Tabs items={getTabs()} />
+        <div className="content">
+          <p>There are many contraceptive methods available in Australia, including implants and injections, intrauterine devices (IUDs, both copper and hormonal), emergency contraception, pills and vaginal rings, barrier methods (male and female condoms and diaphragms), female and male sterilisation and natural methods (natural family planning).</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Zx8zbTMTncs" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <Tabs items={getTabs()} />
       </div>
     )
   }

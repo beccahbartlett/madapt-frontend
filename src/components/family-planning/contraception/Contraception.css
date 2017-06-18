@@ -1,0 +1,28 @@
+.wrapper {
+  margin: 0 70px;
+}
+
+.wrapper p {
+  font-size: 16px;
+}
+
+.wrapper iframe {
+  margin-top: 30px;
+}
+
+.wrapper .content {
+
+}
+
+.RRT__container {
+  margin: 40px 0;
+
+}
+
+.RRT__tabs {
+  font-size: 18px !important;
+}
+
+.RRT__panel .panel {
+  font-size: 18px !important;
+}
