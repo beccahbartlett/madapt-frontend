@@ -1,45 +1,34 @@
 import React, { Component } from 'react';
+import CardGrid from '../cardgrid/CardGrid';
+import Card from '../card/Card';
 import { Grid, Row, Col } from 'flexbox-react';
 import './FamilyHealth.css'
 
 class FamilyHealth extends Component {
   render() {
     return (
-      <div>
-      Family Health
-        <main className="cards">
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Women's health</p>
-            </div>
-          </article>
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Men's health</p>
-            </div>
-          </article>
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Teen health</p>
-            </div>
-          </article>
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Mental health</p>
-            </div>
-          </article>
-          <article className="card">
-            <img src="https://image.flaticon.com/icons/png/512/33/33777.png"/>
-            <div className="text">
-              <p>Disability access</p>
-            </div>
-          </article>
-        </main>
-      </div>
+      <CardGrid>
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Women's health"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Men's health"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Teen health"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Mental health"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Disability access"
+          linkUrl="#" />
+      </CardGrid>
     )
   }
 }
