@@ -20,6 +20,8 @@ var ReactRouter = require('react-router-dom');
 var Router = ReactRouter.BrowserRouter;
 var Route = ReactRouter.Route;
 var Switch = ReactRouter.Switch;
+var Redirect = ReactRouter.Redirect;
+
 
 class App extends Component {
   componentDidMount() {
@@ -34,7 +36,9 @@ class App extends Component {
           <Nav />
           <div className="container-body">
           <Switch>
-            <Route exact path='/' component={Home} />
+            <Route exact path="/" render={() => (
+              <Redirect to="/access"/>
+            )}/>
             <Route exact path='/access' component={Access} />
             <Route exact path='/family-planning' component={FamilyPlanning} />
             <Route exact path='/family-planning/birth-spacing' component={BirthSpacing} />
