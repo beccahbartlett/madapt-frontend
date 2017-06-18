@@ -4,7 +4,7 @@ import Clinic from './clinic/Clinic'
 import FamilyPlanning from './family-planning/FamilyPlanning'
 import MentalHealth from './mentalhealth/MentalHealth'
 import Relationship from './relationship/Relationship'
-import WomensHealth from './womens-health/WomensHealth'
+import Violence from './violence/Violence'
 import TeenHealth from './teen-health/TeenHealth'
 import SexualHealth from './sexual-health/SexualHealth'
 import Contraception from './family-planning/contraception/Contraception'
@@ -35,7 +35,7 @@ class App extends Component {
             <Route exact path='/relationship' component={Relationship} />
             <Route exact path='/family-planning' component={FamilyPlanning} />
             <Route exact path='/mentalhealth' component={MentalHealth} />
-            <Route exact path='/womens-health' component={WomensHealth} />
+            <Route exact path='/violence' component={Violence} />
             <Route exact path='/teen-health' component={TeenHealth} />
             <Route exact path='/sexual-health' component={SexualHealth} />
             <Route exact path='/family-planning/contraception' component={Contraception} />
