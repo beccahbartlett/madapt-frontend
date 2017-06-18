@@ -8,7 +8,7 @@ class Card extends Component {
       <article className="card">
         <Link to={this.props.linkUrl}>
           <div>
-            <img src={this.props.imgSrc}/>
+            <img src={this.props.imgSrc} alt={this.props.titleText}/>
             <div className="text">
               <p>{this.props.titleText}</p>
             </div>

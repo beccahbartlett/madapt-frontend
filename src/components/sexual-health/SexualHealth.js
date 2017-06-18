@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CardGrid from '../cardgrid/CardGrid';
 import Card from '../card/Card';
-import { Grid, Row, Col } from 'flexbox-react';
 import './SexualHealth.css'
 
 class SexualHealth extends Component {
