@@ -15,7 +15,7 @@ class FamilyHealth extends Component {
         <Card
           imgSrc={iconWomenHealth}
           titleText="Women's health"
-          linkUrl="#" />
+          linkUrl="/family-health/womens-health" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Men's health"
