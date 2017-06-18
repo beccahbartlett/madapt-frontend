@@ -3,24 +3,24 @@
 }
 
 .footer: hover {
-  color: orange;
+  color: #fec75e;
 }
 
 
-#footer-header-wrapper{
+#footer-header-wrapper {
   text-align: center;
-  background-color: orange;
+  background-color: #fec75e;
+  padding: 10px;
+  font-size: 18px;
 }
 
 #footer-header-wrapper > * {
   display: inline-block;
   font-size: 15px;
-  padding: 5px 10px;
+  padding: 10px;
 }
 
 .footer div:nth-child(2), .footer div:nth-child(3) {
-
-  background-color: black;
   background-color: rgba(0, 0, 0, .8);
   width: 50%;
   height: 110px;
@@ -56,11 +56,10 @@
 }
 
 .footer div:nth-child(3) > h4 {
-  font-size:  14px;
+  font-size: 14px;
   font-weight: bold;
   margin: 20px 0px;
 }
-
 
 .footer div:nth-child(3) > ul > li {
   display: inline-block;
@@ -68,26 +67,13 @@
 }
 
 .footer div:nth-child(4) {
-  text-align: right;
+  /*text-align: right;*/
   clear: both;
+  color: white;
+  background-color: rgba(0, 0, 0, .8);
+  padding: 10px 20px 20px 30px;
 }
 
 a {
   color: white;
-}
-
-@media (max-width: 480px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 1024px) {
-
-}
-
-@media (max-width: 1410px) {
-
 }
