@@ -7,6 +7,7 @@ import FamilyHealth from './family-health/FamilyHealth'
 import WomensHealth from './family-health/womens-health/WomensHealth'
 import PregnancyNewborn from './pregnancy-newborn/PregnancyNewborn'
 import SexualHealth from './sexual-health/SexualHealth'
+import HealthyRelationships from './sexual-health/healthy-relationships/HealthyRelationships'
 import SafeSex from './sexual-health/safe-sex/SafeSex'
 import Contraception from './family-planning/contraception/Contraception'
 import HealthSystemOverview from './access/health-system-overview/HealthSystemOverview'
@@ -42,6 +43,7 @@ class App extends Component {
             <Route exact path='/family-health/womens-health' component={WomensHealth} />
             <Route exact path='/pregnancy-newborn' component={PregnancyNewborn} />
             <Route exact path='/sexual-health' component={SexualHealth} />
+            <Route exact path='/sexual-health/healthy-relationships' component={HealthyRelationships} />
             <Route exact path='/sexual-health/safe-sex' component={SafeSex} />
             <Route exact path='/family-planning/contraception' component={Contraception} />
             <Route exact path='/access/health-system-overview' component={HealthSystemOverview} />

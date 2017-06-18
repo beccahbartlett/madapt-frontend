@@ -14,8 +14,8 @@ class SexualHealth extends Component {
       <CardGrid>
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Health Relationships"
-          linkUrl="#" />
+          titleText="Healthy Relationships"
+          linkUrl="/sexual-health/healthy-relationships" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Safe sex"
