@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import Home from './home/Home'
 import Access from './access/Access'
 import FamilyPlanning from './family-planning/FamilyPlanning'
-import MentalHealth from './mentalhealth/MentalHealth'
-import Relationship from './relationship/Relationship'
 import Violence from './violence/Violence'
 import FamilyHealth from './family-health/FamilyHealth'
 import PregnancyNewborn from './pregnancy-newborn/PregnancyNewborn'
@@ -35,10 +33,8 @@ class App extends Component {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/access' component={Access} />
-            <Route exact path='/relationship' component={Relationship} />
             <Route exact path='/family-planning' component={FamilyPlanning} />
             <Route exact path='/family-planning/birth-spacing' component={BirthSpacing} />
-            <Route exact path='/mentalhealth' component={MentalHealth} />
             <Route exact path='/violence' component={Violence} />
             <Route exact path='/family-health' component={FamilyHealth} />
             <Route exact path='/pregnancy-newborn' component={PregnancyNewborn} />
