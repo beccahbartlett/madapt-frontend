@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import CardGrid from '../cardgrid/CardGrid';
 import Card from '../card/Card';
+import iconTeenHealth from '../../images/icons/teen-health.png'
+import iconWomenHealth from '../../images/icons/women-health.png'
 import './FamilyHealth.css'
 
 class FamilyHealth extends Component {
@@ -11,7 +13,7 @@ class FamilyHealth extends Component {
     return (
       <CardGrid>
         <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          imgSrc={iconWomenHealth}
           titleText="Women's health"
           linkUrl="#" />
         <Card
@@ -19,7 +21,7 @@ class FamilyHealth extends Component {
           titleText="Men's health"
           linkUrl="#" />
         <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          imgSrc={iconTeenHealth}
           titleText="Teen health"
           linkUrl="#" />
         <Card
