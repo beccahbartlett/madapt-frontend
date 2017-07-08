@@ -1,14 +1,24 @@
 {
   "tab": [
     {
-      "title": "<h1>title 1</h1>",
-      "text": "title 1 text",
-      "image": "URL_1"
+      "title": "Recovery",
+      "text": "After delivery it is important for you to rest and give your body time to recover. If you had a vaginal delivery try lying flat for thirty minutes twice a day to reduce pelvic discomfort. Also, you can put ice in your pad for twenty minutes at a time every 2-3 hours to reduce swelling and pain. Finally, wearing compression underwear can offer support and reduce pain.",
+      "image": "https://s-media-cache-ak0.pinimg.com/564x/56/dc/db/56dcdbe53a870ddf045532ebc0cf9e1b.jpg"
     },
     {
-      "title": "title 2",
-      "text": "title 2 text",
-      "image": "URL_2"
+      "title": "Breastfeeding",
+      "text": "Breastfeeding not only allows you to give your baby all the nutrients he/she needs, it also allows the two of you to bond.  In the beginning as you are first learning to breast feed be sure to ask your midwife or lactation consultant for help.\n\nHere are some demonstrations on the best positions for initiating breastfeeding.\n\n<a href='https://www.thewomens.org.au/health-information/breastfeeding/'>Breastfeeding - The Womens</a>\n\n<a href='https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Breastfeeding-your-baby.pdf'>PDF Factsheet</a>\n\n<a href='http://www.mhcs.health.nsw.gov.au/publicationsandresources/pdf/publication-pdfs/ahs-9155-breast-feeding-and-postnatal-care/ahs-9115-breast-feeding-and-postnatal-care-english/at_download/file'>Breastfeeding and Postnatal Care PDF</a>",
+      "image": ""
+    },
+    {
+      "title": "Family Planning",
+      "text": "After delivery it is important to give your body the appropriate time it needs to heal.  Even if you are breastfeeding there is still a chance that you could become pregnant after delivery. Because of this it is good to know your options for birth control so that you can choose what works best for you and your family.\n\n<a href='https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Contraception-Choices2.pdf'>Contraception Choices PDF</a>",
+      "image": ""
+    },
+    {
+      "title": "Contraception",
+      "text": "Contraception can help you avoid pregnancy resulting from unprotected sex. There are several methods of contraception that are safe, effective and easy to use prior to having sex such as condoms, pills, implants, injections, IUDs, diaphragms, vaginal rings, and natural methods.  Additionally, you may use emergency contraception up to 5 days after engaging in unprotected sex.\n\n<a href='https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Contraception-Choices2.pdf'>Contraception Choices PDF</a>\n\n<a href='https://www.plannedparenthood.org/learn/birth-control'>Birth Control</a>\n\n<a href='https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Emergency-contraception3.pdf'>Emergency Contraception PDF</a>",
+      "image": ""
     }
   ]
 }
