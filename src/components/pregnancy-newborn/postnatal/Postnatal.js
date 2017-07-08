@@ -23,7 +23,9 @@ class Postnatal extends Component {
       tabClassName: 'tab', // Optional
       panelClassName: 'panel', // Optional
       title: item.title,
-      getContent: () => item.text,
+      getContent: () => {
+        return <div className='tabContent' dangerouslySetInnerHTML={{__html: item.text}} />
+      },
     }));
   }
   render() {
