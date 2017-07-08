@@ -14,6 +14,7 @@ import HealthSystemOverview from './access/health-system-overview/HealthSystemOv
 import AustralianNorms from './access/australian-norms/AustralianNorms'
 import BirthSpacing from './family-planning/birth-spacing/BirthSpacing'
 import Pregnancy from './pregnancy-newborn/pregnancy/Pregnancy'
+import Postnatal from './pregnancy-newborn/postnatal/Postnatal'
 import Birth from './pregnancy-newborn/birth/Birth'
 import Nav from './nav/Nav'
 import Footer from './footer/Footer'
@@ -55,6 +56,7 @@ class App extends Component {
             <Route exact path='/access/health-system-overview' component={HealthSystemOverview} />
             <Route exact path='/access/australian-norms' component={AustralianNorms} />
             <Route exact path='/pregnancy-newborn/pregnancy' component={Pregnancy} />
+            <Route exact path='/pregnancy-newborn/postnatal' component={Postnatal} />
             <Route exact path='/pregnancy-newborn/birth' component={Birth} />
             <Route render={function() {
               return <p>Not Found</p>
