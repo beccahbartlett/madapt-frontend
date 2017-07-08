@@ -24,21 +24,21 @@ class Postnatal extends Component {
       panelClassName: 'panel', // Optional
       title: item.title,
       getContent: () => {
-        return <div className='tabContent' dangerouslySetInnerHTML={{__html: item.text}} />
+        return (
+          <div>
+            <div className='tabContent' dangerouslySetInnerHTML={{__html: item.text}} />
+            <div className='tabVideo' dangerouslySetInnerHTML={{__html: item.video}} />
+          </div>
+        )
       },
     }));
   }
   render() {
     return (
       <div className="wrapper">
+        {data.summary}
+        <div dangerouslySetInnerHTML={{__html: data.topLevelVideo}}/>
         <Tabs items={this.getTabs()} />
-{/*
-        <Iframe url="https://www.youtube.com/embed/s1gmBVrwAs8"
-        width="450px"
-        height="450px"
-        display="initial"
-        position="relative"
-        allowFullScreen/>*/}
       </div>
     )
   }
