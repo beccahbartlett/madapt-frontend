@@ -4,6 +4,7 @@ import Tabs from 'react-responsive-tabs';
 import './Postnatal.css'
 import 'react-responsive-tabs/styles.css'
 import data from '../../../Content/postnatal.json';
+import Iframe from 'react-iframe'
 
 var Accordion = require('react-bootstrap').Accordion;
 var Panel = require('react-bootstrap').Panel;
@@ -31,6 +32,14 @@ class Postnatal extends Component {
   render() {
     return (
       <div className="wrapper">
+
+        <Iframe url="https://www.youtube.com/embed/s1gmBVrwAs8"
+        width="450px"
+        height="450px"
+        display="initial"
+        position="relative"
+        allowFullScreen/>
+
         <div dangerouslySetInnerHTML={ {__html: data.tab[0].title} } />
         {data.tab[0].text}
         {data.tab[0].image}
