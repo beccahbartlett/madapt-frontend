@@ -32,13 +32,13 @@ class Postnatal extends Component {
     return (
       <div className="wrapper">
         <Tabs items={this.getTabs()} />
-
+{/*
         <Iframe url="https://www.youtube.com/embed/s1gmBVrwAs8"
         width="450px"
         height="450px"
         display="initial"
         position="relative"
-        allowFullScreen/>
+        allowFullScreen/>*/}
       </div>
     )
   }
