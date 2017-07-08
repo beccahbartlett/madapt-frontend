@@ -1,0 +1,14 @@
+{
+  "tab": [
+    {
+      "title": "<h1>title 1</h1>",
+      "text": "title 1 text",
+      "image": "URL_1"
+    },
+    {
+      "title": "title 2",
+      "text": "title 2 text",
+      "image": "URL_2"
+    }
+  ]
+}
