@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'flexbox-react';
 import Tabs from 'react-responsive-tabs';
+import Iframe from 'react-iframe'
 import './Postnatal.css'
 import 'react-responsive-tabs/styles.css'
 import data from '../../../Content/postnatal.json';
-import Iframe from 'react-iframe'
 
 var Accordion = require('react-bootstrap').Accordion;
 var Panel = require('react-bootstrap').Panel;
@@ -15,7 +14,6 @@ class Postnatal extends Component {
     this.getTabs = this.getTabs.bind(this)
   }
   componentDidMount() {
-    console.log(data);
     window.analytics.page();
   }
   getTabs() {
@@ -27,7 +25,12 @@ class Postnatal extends Component {
         return (
           <div>
             <div className='tabContent' dangerouslySetInnerHTML={{__html: item.text}} />
-            <div className='tabVideo' dangerouslySetInnerHTML={{__html: item.video}} />
+            {item.video && <Iframe     
+                            url={item.video}
+                            width="560px"
+                            height="315px"
+                            position="relative"
+                            allowFullScreen />}
           </div>
         )
       },
@@ -37,7 +40,12 @@ class Postnatal extends Component {
     return (
       <div className="wrapper">
         {data.summary}
-        <div dangerouslySetInnerHTML={{__html: data.topLevelVideo}}/>
+        {data.topLevelVideo && <Iframe     
+                            url={data.topLevelVideo}
+                            width="560px"
+                            height="315px"
+                            position="relative"
+                            allowFullScreen />}
         <Tabs items={this.getTabs()} />
       </div>
     )
