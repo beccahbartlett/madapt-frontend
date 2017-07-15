@@ -29,6 +29,10 @@ class PregnancyNewborn extends Component {
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Disability Access"
           linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Complications of Pregnancy"
+          linkUrl="pregnancy-newborn/complications" />
       </CardGrid>
     )
   }
