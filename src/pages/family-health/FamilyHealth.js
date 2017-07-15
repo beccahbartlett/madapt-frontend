@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import CardGrid from '../cardgrid/CardGrid';
-import Card from '../card/Card';
+import CardGrid from '../../components/cardgrid/CardGrid';
+import Card from '../../components/card/Card';
 import iconTeenHealth from '../../images/icons/teen-health.png'
 import iconWomenHealth from '../../images/icons/women-health.png'
 

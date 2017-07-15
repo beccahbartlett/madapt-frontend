@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import CardGrid from '../cardgrid/CardGrid';
-import Card from '../card/Card';
+import CardGrid from '../../components/cardgrid/CardGrid';
+import Card from '../../components/card/Card';
 
-class FamilyPlanning extends Component {
+class Access extends Component {
   componentDidMount() {
     window.analytics.page();
   }
@@ -11,26 +11,31 @@ class FamilyPlanning extends Component {
       <CardGrid>
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Birth Spacing and Planning Overview"
-          linkUrl="/family-planning/birth-spacing" />
+          titleText="Health System Overview"
+          linkUrl="/access/health-system-overview/" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Contraception"
-          linkUrl="/family-planning/contraception" />
+          titleText="Australian norms"
+          linkUrl="/access/australian-norms/" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Fertility"
+          titleText="Medicare and Centrelink"
           linkUrl="#" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Disability"
+          titleText="Your Rights and Responsibilities"
           linkUrl="#" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Unplanned Pregnancy"
+          titleText="Disability Access"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Private vs. Public Health Services"
           linkUrl="#" />
       </CardGrid>
     )
   }
 }
-export default FamilyPlanning
+
+export default Access
