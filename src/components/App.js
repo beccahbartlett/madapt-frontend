@@ -39,7 +39,7 @@ class App extends Component {
           <div className="container-body">
           <Switch>
             <Route exact path="/" render={() => (
-              <Redirect to="/"/>
+              <Redirect to="/access"/>
             )}/>
             <Route exact path='/access' component={Access} />
             <Route exact path='/family-planning' component={FamilyPlanning} />
