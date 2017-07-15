@@ -1,0 +1,54 @@
+{
+   "tab": [
+    {
+      "title": "Pre-conception",
+      "text": "You have the right to decide when to get pregnant. It is important to begin thinking about your wishes early on. If you do wish to become pregnant your health is important, so make sure your body is getting the nutrients it needs to sustain a healthy pregnancy. Speak to your general practitioner (GP) about your wishes, and the possible need to start taking vitamins that contain folic acid. If you do not wish to become pregnant it is important to know your options regarding birth control.",
+      "links": [
+        {
+          "title": "Preparing for pregnancy",
+          "url": "https://www.thewomens.org.au/health-information/pregnancy-and-birth/preparing-for-pregnancy"
+        },
+        {
+          "title": "Preconception care",
+          "url": "http://www.cityfertility.com.au/information/pregnancy-planning/preconception-care"
+        },
+        {
+          "title": "Weight and fertility",
+          "url": "http://yourfertility.org.au/for-women/weight-and-fertility"
+        }
+      ]
+    },
+    {
+      "title": "Fertility",
+      "text": "Fertility can vary from woman to woman, however, health and lifestyle play a significant role in conception. If you’re trying to get pregnant, maintaining a healthy weight can help improve your chances of conceiving, having a healthy baby, and avoiding pregnancy related complications. Body mass index (BMI) is commonly used to assess if a person is underweight, healthy weight, overweight, or obese. you’re BMI falls in the overweight or obese category, creating a healthy eating and exercise plan can help you reach a healthy weight prior to getting pregnant.",
+      "links": [
+        {
+          "title": "Calculate your BMI here",
+          "url": "https://www.betterhealth.vic.gov.au/tools/body-mass-index-calculator-for-adult"
+        },
+        {
+          "title": "Fertility treatments",
+          "url": "https://www.thewomens.org.au/health-information/fertility-information/fertility-problems/fertility-treatments"
+        },
+        {
+          "title": "Access fertility fact-sheets here",
+          "url": "http://www.cityfertility.com.au/information/fertility-resources/fact-sheets"
+        }
+      ]
+    },
+    {
+      "title": "Trimesters",
+      "text": "First Trimester- Pregnancy is usually confirmed after you have missed your period. To determine how far into your pregnancy you are (known as you “gestation”) the first day of the last known menstrual period is calculated. The first trimester consists of the first three months (12 weeks) of pregnancy. The first trimester often brings with it uncomfortable symptoms like nausea, vomiting, and fatigue due to hormone and circulatory changes.<br/> Second Trimester- The second trimester consists of weeks 13 through 26, of pregnancy. During this time period some symptoms from the first trimester should get better. You will also begin to develop a bump as the foetus and uterus grow upward into the abdomen. <br/> Third Trimester- The third trimester of pregnancy starts at week 27 and continues to birth. During this trimester it is normal to be uncomfortable due to the extra weight and you may have difficulty sleeping. As time nears birth it is important to take birthing and parenting classes to ensure you are ready to deliver and care for your new baby. <br/>",
+      "links": [
+        {
+          "title": "Pregnancy and birth, now you are pregnant",
+          "url": "https://www.thewomens.org.au/health-information/pregnancy-and-birth/now-you-are-pregnant"
+        }
+      ]
+    },
+    {
+      "title": "Care during pregnancy",
+      "text": "Pregnancy can be both an exciting and stressful time for women and their families. Understanding what to expect helps reduce anxiety and fear surrounding childbirth and motherhood.  It is also essential to monitor potential risk factors as this can alert both mother and their healthcarer to take action should risks present. Ideally, antenatal care should be provided by a small group of healthcare professionals with whom the woman feels comfortable.  A system of clear referral paths should be established so that pregnant women who require additional care are managed and treated by the appropriate specialist teams when problems are identified. Below is a list of the appointments you are expected to attend during your pregnancy."
+    }
+  ]
+}
