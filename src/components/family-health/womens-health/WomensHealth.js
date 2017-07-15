@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'flexbox-react';
 import Tabs from 'react-responsive-tabs';
 import 'react-responsive-tabs/styles.css'
-import './WomensHealth.css'
-
-var Accordion = require('react-bootstrap').Accordion;
-var Panel = require('react-bootstrap').Panel;
 
   const contraceptions = [
     {name: 'PAP Test', info: 'Pap tests – you should have a Pap test every two years. This is an important screening test to pick up signs of irregularities that could lead to cervical cancer if not treated. Cervical cancer is one of the most preventable cancers.Your first Pap test should be within two years of the first time you have sex, once over the age of 20. You should continue to have them every two years until you are 70. Even if you have had the human papillomavirus (HPV) vaccine, you should continue to have regular Pap tests. Note: A renewed National Cervical Screening Program will begin on 1 May 2017. Under this new program, a five-yearly HPV test will replace the current Pap test for cervical screening. Until May 2017, women should continue to have their two-yearly Pap test.'},

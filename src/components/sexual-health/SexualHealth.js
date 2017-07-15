@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CardGrid from '../cardgrid/CardGrid';
 import Card from '../card/Card';
-import './SexualHealth.css'
 import iconHIV from '../../images/icons/hiv-aids.png'
 import iconSTI from '../../images/icons/sti.png'
 

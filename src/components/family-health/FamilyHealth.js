@@ -3,7 +3,6 @@ import CardGrid from '../cardgrid/CardGrid';
 import Card from '../card/Card';
 import iconTeenHealth from '../../images/icons/teen-health.png'
 import iconWomenHealth from '../../images/icons/women-health.png'
-import './FamilyHealth.css'
 
 class FamilyHealth extends Component {
   componentDidMount() {

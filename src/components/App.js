@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Home from './home/Home'
 import Access from './access/Access'
 import FamilyPlanning from './family-planning/FamilyPlanning'
 import Violence from './violence/Violence'

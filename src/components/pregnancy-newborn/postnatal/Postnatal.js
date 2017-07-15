@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import Tabs from 'react-responsive-tabs';
 import Iframe from 'react-iframe'
-import './Postnatal.css'
 import 'react-responsive-tabs/styles.css'
 import data from '../../../Content/postnatal.json';
-
-var Accordion = require('react-bootstrap').Accordion;
-var Panel = require('react-bootstrap').Panel;
 
 class Postnatal extends Component {
   constructor(props) {

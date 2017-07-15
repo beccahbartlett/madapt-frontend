@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'flexbox-react';
 import Tabs from 'react-responsive-tabs';
-import './Birth.css'
 import 'react-responsive-tabs/styles.css'
-
-var Accordion = require('react-bootstrap').Accordion;
-var Panel = require('react-bootstrap').Panel;
 
   const labours = [
     {name: 'SIGNS OF EARLY LABOUR', biography:

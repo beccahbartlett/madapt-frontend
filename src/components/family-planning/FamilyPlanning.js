@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import CardGrid from '../cardgrid/CardGrid';
 import Card from '../card/Card';
-import './FamilyPlanning.css'
 
 class FamilyPlanning extends Component {
   componentDidMount() {
