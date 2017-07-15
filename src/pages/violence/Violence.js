@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import CardGrid from '../cardgrid/CardGrid';
-import Card from '../card/Card';
-import iconHIV from '../../images/icons/hiv-aids.png'
-import iconSTI from '../../images/icons/sti.png'
+import CardGrid from '../../components/cardgrid/CardGrid';
+import Card from '../../components/card/Card';
 
-class SexualHealth extends Component {
+class Violence extends Component {
   componentDidMount() {
     window.analytics.page();
   }
@@ -13,27 +11,27 @@ class SexualHealth extends Component {
       <CardGrid>
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Healthy Relationships"
-          linkUrl="/sexual-health/healthy-relationships" />
-        <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Safe sex"
-          linkUrl="/sexual-health/safe-sex" />
-        <Card
-          imgSrc={iconSTI}
-          titleText="STI's/ HIV"
+          titleText="Types of Violence"
           linkUrl="#" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Sexuality"
+          titleText="Your Rights and Responsibilities"
           linkUrl="#" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Disability"
+          titleText="Seeking Safety and Assistance"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Shelter and safety"
+          linkUrl="#" />
+        <Card
+          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          titleText="Disability Access"
           linkUrl="#" />
       </CardGrid>
     )
   }
 }
 
-export default SexualHealth
+export default Violence
