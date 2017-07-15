@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
-import Tabs from 'react-responsive-tabs';
+import React, { Component } from 'react'
+import Tabs from 'react-responsive-tabs'
 import Iframe from 'react-iframe'
 import 'react-responsive-tabs/styles.css'
-import data from '../../../Content/pregnancy.json';
+import data from '../../../Content/pregnancy.json'
 import Links from '../../../components/links/Links'
+import Video from '../../../components/video/Video'
 
 class Pregnancy extends Component {
   constructor(props) {
@@ -22,12 +23,7 @@ class Pregnancy extends Component {
         return (
           <div>
             <div className='tabContent' dangerouslySetInnerHTML={{__html: item.text}} />
-            {item.video && <Iframe     
-                            url={item.video}
-                            width="560px"
-                            height="315px"
-                            position="relative"
-                            allowFullScreen />}
+            <Video url={item.video}/>
             <div className='tabLinks'>
             <Links links={item.links}/>
           </div>
