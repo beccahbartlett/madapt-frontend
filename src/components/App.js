@@ -16,6 +16,7 @@ import Pregnancy from '../pages/pregnancy-newborn/pregnancy/Pregnancy'
 import Postnatal from '../pages/pregnancy-newborn/postnatal/Postnatal'
 import Complications from '../pages/pregnancy-newborn/complications/Complications'
 import Birth from '../pages/pregnancy-newborn/birth/Birth'
+import PregnancyNewbornOneYear from '../pages/pregnancy-newborn/pregnancy-newborn/PregnancyNewbornOneYear'
 import Nav from './nav/Nav'
 import Footer from './footer/Footer'
 import './App.css';
@@ -59,6 +60,7 @@ class App extends Component {
             <Route exact path='/pregnancy-newborn/postnatal' component={Postnatal} />
             <Route exact path='/pregnancy-newborn/complications' component={Complications} />
             <Route exact path='/pregnancy-newborn/birth' component={Birth} />
+            <Route exact path='/pregnancy-newborn/pregnancy-newborn' component={PregnancyNewbornOneYear} />
             <Route render={function() {
               return <p>Not Found</p>
             }} />

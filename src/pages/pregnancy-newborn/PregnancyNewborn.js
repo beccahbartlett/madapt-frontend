@@ -24,7 +24,7 @@ class PregnancyNewborn extends Component {
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Newborn - 12 months"
-          linkUrl="#" />
+          linkUrl="pregnancy-newborn/pregnancy-newborn" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
           titleText="Disability Access"
