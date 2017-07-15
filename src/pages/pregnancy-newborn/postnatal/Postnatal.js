@@ -12,10 +12,15 @@ class Postnatal extends Component {
   componentDidMount() {
     window.analytics.page();
   }
+  getTabLinks(links) {
+    links.map(link => {
+      return <a href={link.url}>{link.text}</a>
+    })
+  }
   getTabs() {
     return data.tab.map(item => ({
-      tabClassName: 'tab', // Optional
-      panelClassName: 'panel', // Optional
+      tabClassName: 'tab',
+      panelClassName: 'panel',
       title: item.title,
       getContent: () => {
         return (
@@ -27,6 +32,11 @@ class Postnatal extends Component {
                             height="315px"
                             position="relative"
                             allowFullScreen />}
+            <div className='tabLinks'>
+              {item.links && item.links.map(link => {
+                return <div><a href={link.url}>{link.title}</a><br/></div>
+              })}
+            </div>
           </div>
         )
       },
