@@ -11,7 +11,7 @@ class FamilyPlanning extends Component {
       <CardGrid>
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Birth Spacing and Planning Overview"
+          titleText="Birth Spacing and Planning"
           linkUrl="/family-planning/birth-spacing" />
         <Card
           imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
