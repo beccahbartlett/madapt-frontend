@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'flexbox-react';
-import './SafeSex.css'
 
 class SafeSex extends Component {
   componentDidMount() {

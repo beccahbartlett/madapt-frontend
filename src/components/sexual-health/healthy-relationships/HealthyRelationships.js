@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'flexbox-react';
-import './HealthyRelationships.css'
 
 class HealthyRelationships extends Component {
   componentDidMount() {

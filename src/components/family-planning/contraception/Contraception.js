@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'flexbox-react';
-import { Accordian, Panel } from 'react-bootstrap'
-import './Contraception.css'
 import Tabs from 'react-responsive-tabs';
 import 'react-responsive-tabs/styles.css'
-
 
 class Contraception extends Component {
   constructor(props) {

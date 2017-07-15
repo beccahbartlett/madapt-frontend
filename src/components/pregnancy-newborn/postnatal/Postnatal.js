@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'flexbox-react';
 import Tabs from 'react-responsive-tabs';
-import './Postnatal.css'
 import 'react-responsive-tabs/styles.css'
 import data from '../../../Content/postnatal.json';
 import Iframe from 'react-iframe'
-
-var Accordion = require('react-bootstrap').Accordion;
-var Panel = require('react-bootstrap').Panel;
 
 class Postnatal extends Component {
   constructor(props) {
@@ -15,7 +10,6 @@ class Postnatal extends Component {
     this.getTabs = this.getTabs.bind(this)
   }
   componentDidMount() {
-    console.log(data);
     window.analytics.page();
   }
   getTabs() {
