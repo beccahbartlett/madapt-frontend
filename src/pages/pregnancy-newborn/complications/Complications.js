@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Tabs from 'react-responsive-tabs';
-import Iframe from 'react-iframe'
 import 'react-responsive-tabs/styles.css'
-import data from '../../../Content/postnatal.json';
+import Iframe from 'react-iframe'
+import data from '../../../Content/complications-of-pregnancy.json';
 
 class Postnatal extends Component {
   constructor(props) {
     super(props)
     this.getTabs = this.getTabs.bind(this)
+    this.getTabLinks = this.getTabLinks.bind(this)
   }
   componentDidMount() {
     window.analytics.page();
