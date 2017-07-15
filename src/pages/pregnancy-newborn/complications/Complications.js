@@ -34,7 +34,7 @@ class Postnatal extends Component {
                             position="relative"
                             allowFullScreen />}
             <div className='tabLinks'>
-              {item.links.map(link => {
+              {item.links && item.links.map(link => {
                 return <div><a href={link.url}>{link.title}</a><br/></div>
               })}
             </div>
