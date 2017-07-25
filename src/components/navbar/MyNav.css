@@ -10,6 +10,18 @@
   min-height: 8rem;
 }
 
+.mobile-item {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-overflow: ellipsis;
+  word-wrap: normal;
+  text-decoration: none !important;
+  white-space: nowrap;
+  max-height: 8rem;
+  min-height: 8rem;
+}
+
 .item-1 {
   background-color: #86D3EC;
 }
@@ -39,31 +51,22 @@
 }
 
 @media screen and (min-width: 600px){
+  .mobile-menu {
+    display: none;
+  }
   .toggleMenu {
     display: none;
   }
   .menu {
     display: block;
   }
-
-  .hide-menu {
-    display: block;
-  }
 }
 
 @media screen and (max-width: 600px){
-  .hide-menu {
-  display: none;
+  .menu {
+    display: none;
   }
 }
-
-.display-narrow {
-  .item {
-    display: block;
-  }
-}
-
-
 
 
 
