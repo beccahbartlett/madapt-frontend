@@ -38,9 +38,8 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Ham />
           <Nav />
-         
+          <Ham />
           <div className="container-body">
           <Switch>
             <Route exact path="/" render={() => (

@@ -57,12 +57,12 @@ class Nav extends Component {
         <NavLink exact activeClassName='active' to='/'>
           <div className="nav-header">
             <h1 className="nav-header-title">
-              <img src={imgHeader} alt="Header Image" />
+              <img className="image-banner" src={imgHeader} alt="Header Image" />
               [ mAdapt ]
             </h1>
           </div>
         </NavLink>
-        <NavMenu menuButtons={this.state.menuItems}/>
+        {/*<NavMenu menuButtons={this.state.menuItems}/>*/}
       </div>
     )
   }
