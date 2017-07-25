@@ -69,12 +69,47 @@ class MyNav extends Component {
 
         {this.state.menu && 
         <div className="mobile-menu">
-          <Link to="/access"><span className="mobile-item item-1" href="#">Access</span></Link>
-          <Link to="/family-planning"><span className="mobile-item item-2" href="#">Family Planning</span></Link>
-          <Link to="/pregnancy-newborn"><span className="mobile-item item-3" href="#">Pregnancy & Newborn</span></Link>
-          <Link to="/sexual-health"><span className="mobile-item item-4" href="#">Sexual Health</span></Link>
-          <Link to="/family-health"><span className="mobile-item item-5" href="#">Family Health</span></Link>
-          <Link to="/violence"><span className="mobile-item item-6" href="#">Violence</span></Link>
+          <Link to="/access">
+            <div className="mobile-item item-1">
+              <img className="icon" src={iconLocation} alt="Access"/>
+              <div>Access</div>
+            </div>
+          </Link>
+
+          <Link to="/family-planning">
+            <div className="mobile-item item-2">
+              <img className="icon" src={iconFamily} alt="Family planning"/>
+              <div>Family planning</div>
+            </div>
+          </Link>
+
+          <Link to="/pregnancy-newborn">
+            <div className="mobile-item item-3">
+              <img className="icon" src={iconChild} alt="Pregnancy newborn"/>
+              <div>Pregnancy newborn</div>
+            </div>
+          </Link>
+
+          <Link to="/sexual-health">
+            <div className="mobile-item item-4">
+              <img className="icon" src={iconReproductive} alt="Sexual health"/>
+              <div>Sexual health</div>
+            </div>
+          </Link>
+
+          <Link to="/family-health">
+            <div className="mobile-item item-5">
+              <img className="icon" src={iconLifecycle} alt="Family health"/>
+              <div>Family health</div>
+            </div>
+          </Link>
+
+          <Link to="/violence">
+            <div className="mobile-item item-6">
+              <img className="icon" src={iconViolence} alt="Violence"/>
+              <div>Violence</div>
+            </div>
+          </Link>               
         </div>}
       </div>
     )

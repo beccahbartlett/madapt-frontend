@@ -7,6 +7,11 @@
   text-decoration: none !important;
   white-space: nowrap;
   color: white;
+  transition: all 2s;
+}
+
+.item .item-1 :hover {
+   background: green;
 }
 
 .mobile-item {
@@ -17,8 +22,7 @@
   word-wrap: normal;
   text-decoration: none !important;
   white-space: nowrap;
-  max-height: 8rem;
-  min-height: 8rem;
+  color: white;
 }
 
 .item-1 {
