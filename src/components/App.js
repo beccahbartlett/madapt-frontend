@@ -18,6 +18,7 @@ import Complications from '../pages/pregnancy-newborn/complications/Complication
 import Birth from '../pages/pregnancy-newborn/birth/Birth'
 import PregnancyNewbornOneYear from '../pages/pregnancy-newborn/pregnancy-newborn/PregnancyNewbornOneYear'
 import Nav from './nav/Nav'
+import Ham from './navbar/MyNav'
 import Footer from './footer/Footer'
 import './App.css';
 var ReactRouter = require('react-router-dom');
@@ -38,6 +39,7 @@ class App extends Component {
       <Router>
         <div>
           <Nav />
+          <Ham />
           <div className="container-body">
           <Switch>
             <Route exact path="/" render={() => (
