@@ -3,6 +3,7 @@ import Tabs from 'react-responsive-tabs';
 import Iframe from 'react-iframe'
 import 'react-responsive-tabs/styles.css'
 import data from '../../../Content/newborn.json';
+import Links from '../../../components/links/Links'
 
 class PregnancyNewbornOneYear extends Component {
   constructor(props) {
@@ -33,9 +34,7 @@ class PregnancyNewbornOneYear extends Component {
                             position="relative"
                             allowFullScreen />}
             <div className='tabLinks'>
-              {item.links && item.links.map(link => {
-                return <div><a href={link.url}>{link.title}</a><br/></div>
-              })}
+            <Links links={item.links}/>
             </div>
           </div>
         )
