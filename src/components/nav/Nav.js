@@ -46,10 +46,12 @@ class Nav extends Component {
           icon: iconViolence,
           text: 'Violence',
           url: '/violence'
-        }
+        },
       ]
     }
   }
+
+  
 
   render() {
     return (
@@ -57,6 +59,7 @@ class Nav extends Component {
         <NavLink exact activeClassName='active' to='/'>
           <div className="nav-header">
             <h1 className="nav-header-title">
+              <button onClick={this.props.toggleLanguage} className="language-btn">Click me</button>
               <img className="image-banner" src={imgHeader} alt="Header Image" />
               [ mAdapt ]
             </h1>

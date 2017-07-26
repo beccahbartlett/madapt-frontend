@@ -29,6 +29,18 @@ var Redirect = ReactRouter.Redirect;
 
 
 class App extends Component {
+  constructor() {
+    super()
+    this.toggleLanguage = this.toggleLanguage.bind(this)  
+  }
+  state = {
+    arabic: false
+  }
+
+  toggleLanguage() {
+    this.setState({arabic: !this.state.arabic})
+    console.log(this.state.arabic);
+  }
   componentDidMount() {
     window.analytics.identify('testUserId', {
       username: 'testUsername'
@@ -38,8 +50,8 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Nav />
-          <Ham />
+          <Nav toggleLanguage={this.toggleLanguage}/>
+          <Ham arabic={this.state.arabic} />
           <div className="container-body">
           <Switch>
             <Route exact path="/" render={() => (

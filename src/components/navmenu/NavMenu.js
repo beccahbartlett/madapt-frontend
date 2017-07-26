@@ -23,7 +23,7 @@ class NavMenu extends Component {
               return(
                 <IndexLinkContainer to={item.url} activeClassName="active">
                   <NavItem eventKey={index} href="#" className="navitem-text">
-                    <img className="navbar-menu-icon" src={item.icon} alt={item.text} />
+                    <img className="navbar-memnu-icon" src={item.icon} alt={item.text} />
                     {item.text}
                   </NavItem>
                 </IndexLinkContainer>

@@ -26,7 +26,7 @@ class MyNav extends Component {
           <Link to="/access">
             <div className="item item-1">
               <img className="icon" src={iconLocation} alt="Access"/>
-              <div>Access</div>
+              <div>{this.props.arabic ? "Access" : "Arabic"}</div>
             </div>
           </Link>
 
