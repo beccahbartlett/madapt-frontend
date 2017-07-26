@@ -3,10 +3,5 @@
   padding-top: 220px;
   font-family: Lato;
   flex: 1 0 auto;
-  min-height: calc(95vh);
-}
-
-.footer {
-  flex-shrink: 0;
-  padding: 20px;
+  min-height: 80vh;
 }

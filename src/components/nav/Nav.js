@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Nav.css';
-import NavMenu from '../navmenu/NavMenu';
 import { NavLink } from 'react-router-dom';
 // import icons for Webpack
 import iconLocation from '../../images/icons/location.png';
@@ -62,7 +61,6 @@ class Nav extends Component {
             </h1>
           </div>
         </NavLink>
-        {/*<NavMenu menuButtons={this.state.menuItems}/>*/}
       </div>
     )
   }
