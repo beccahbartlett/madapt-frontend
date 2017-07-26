@@ -19,6 +19,7 @@ import Birth from '../pages/pregnancy-newborn/birth/Birth'
 import PregnancyNewbornOneYear from '../pages/pregnancy-newborn/pregnancy-newborn/PregnancyNewbornOneYear'
 import Nav from './nav/Nav'
 import Ham from './navbar/MyNav'
+import Ham2 from './footer-res/Footer'
 import Footer from './footer/Footer'
 import './App.css';
 var ReactRouter = require('react-router-dom');
@@ -68,7 +69,7 @@ class App extends Component {
             }} />
           </Switch>
           </div>
-         <Footer></Footer>
+          <Ham2></Ham2>
         </div>
       </Router>
     );

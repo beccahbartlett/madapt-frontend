@@ -5,7 +5,7 @@ import './Footer.css'
 class Footer extends Component {
   render() {
     return (
-      <div className="footer">
+      <div>
 
           <div id="footer-header-wrapper">
             <a href="tel:000">In case of emergency call 000</a>
