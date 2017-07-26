@@ -1,37 +1,117 @@
-import React, { Component } from 'react';
-import { Navbar, NavItem, Nav } from 'react-bootstrap'
-import { IndexLinkContainer } from 'react-router-bootstrap'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './NavMenu.css'
 
+import iconLocation from '../../images/icons/location.png'
+import iconChild from '../../images/icons/child.png';
+import iconViolence from '../../images/icons/violence.png';
+import iconFamily from '../../images/icons/family-planning.png';
+import iconLifecycle from '../../images/icons/lifecycle.png';
+import iconReproductive from '../../images/icons/reproductive.png';
+
 class NavMenu extends Component {
-  constructor(props) {
-    super(props)
-    this.handleClick = this.handleClick.bind(this)
-  }
-  handleClick(evt) {
-    console.log(evt)
-  }
+  state = {
+    menu: true,
+  };
+
+  showMenu() {
+    this.setState({menu: !this.state.menu});
+  };
   render() {
     return (
-      <Navbar inverse collapseOnSelect onSelect={this.handleClick}>
-        <Navbar.Header>
-          <Navbar.Toggle />
-        </Navbar.Header>
-        <Navbar.Collapse>
-          <Nav>
-            {this.props.menuButtons.map(function(item, index) {
-              return(
-                <IndexLinkContainer to={item.url} activeClassName="active">
-                  <NavItem eventKey={index} href="#" className="navitem-text">
-                    <img className="navbar-menu-icon" src={item.icon} alt={item.text} />
-                    {item.text}
-                  </NavItem>
-                </IndexLinkContainer>
-              )
-            })}
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <div>
+        <button onClick={() => this.showMenu()} className="toggleMenu">Menu =</button>
+
+        <div className="menu">
+          <Link to="/access">
+            <div className="item item-1">
+              <img className="icon" src={iconLocation} alt="Access"/>
+              <div>Access</div>
+            </div>
+          </Link>
+
+          <Link to="/family-planning">
+            <div className="item item-2">
+              <img className="icon" src={iconFamily} alt="Family planning"/>
+              <div>Family planning</div>
+            </div>
+          </Link>
+
+          <Link to="/pregnancy-newborn">
+            <div className="item item-3">
+              <img className="icon" src={iconChild} alt="Pregnancy newborn"/>
+              <div>Pregnancy newborn</div>
+            </div>
+          </Link>
+
+          <Link to="/sexual-health">
+            <div className="item item-4">
+              <img className="icon" src={iconReproductive} alt="Sexual health"/>
+              <div>Sexual health</div>
+            </div>
+          </Link>
+
+          <Link to="/family-health">
+            <div className="item item-5">
+              <img className="icon" src={iconLifecycle} alt="Family health"/>
+              <div>Family health</div>
+            </div>
+          </Link>
+
+          <Link to="/violence">
+            <div className="item item-6">
+              <img className="icon" src={iconViolence} alt="Violence"/>
+              <div>Violence</div>
+            </div>
+          </Link>               
+        </div>
+
+
+        {this.state.menu && 
+        <div className="mobile-menu">
+          <Link to="/access">
+            <div className="mobile-item item-1">
+              <img className="icon" src={iconLocation} alt="Access"/>
+              <div>Access</div>
+            </div>
+          </Link>
+
+          <Link to="/family-planning">
+            <div className="mobile-item item-2">
+              <img className="icon" src={iconFamily} alt="Family planning"/>
+              <div>Family planning</div>
+            </div>
+          </Link>
+
+          <Link to="/pregnancy-newborn">
+            <div className="mobile-item item-3">
+              <img className="icon" src={iconChild} alt="Pregnancy newborn"/>
+              <div>Pregnancy newborn</div>
+            </div>
+          </Link>
+
+          <Link to="/sexual-health">
+            <div className="mobile-item item-4">
+              <img className="icon" src={iconReproductive} alt="Sexual health"/>
+              <div>Sexual health</div>
+            </div>
+          </Link>
+
+          <Link to="/family-health">
+            <div className="mobile-item item-5">
+              <img className="icon" src={iconLifecycle} alt="Family health"/>
+              <div>Family health</div>
+            </div>
+          </Link>
+
+          <Link to="/violence">
+            <div className="mobile-item item-6">
+              <img className="icon" src={iconViolence} alt="Violence"/>
+              <div>Violence</div>
+            </div>
+          </Link>               
+        </div>}
+      </div>
     )
   }
 }
