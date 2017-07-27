@@ -7,29 +7,24 @@ import 'react-responsive-tabs/styles.css'
 class ContentPageContainer extends Component {
   constructor(props) {
     super(props)
+    this.state = {
+      data: this.getData()
+    }
     this.getTabs = this.getTabs.bind(this)
-    this.getData = this.getData.bind(this)
-
-    this.getData(res => {
-      this.data = res
-      this.data = this.data.bind(this)
-    })
-    
   }
   
-  getData(cb) {
+  getData() {
     // get data from JSON
     axios.get(this.props.filePath)
       .then(res => {
-        // this.setState({
-        //   data: res.data
-        // })
-        cb(res.data)
+        this.setState({
+          data: res.data
+        })
       })
   }
   
   getTabs() {
-    var data = this.data
+    var data = this.state.data
     return data.map(item => ({
       tabClassName: 'tab',
       panelClassName: 'panel',
@@ -55,18 +50,18 @@ class ContentPageContainer extends Component {
     }));
   }
   render() {
-    var data = this.data
+    var data = this.state.data
     return (
       <div className="wrapper">
-        <h1>{data.title}</h1>
-        {data.summary}
-        {data.topLevelVideo && <Iframe     
+        <h1>{data && data.title}</h1>
+        {data && data.summary}
+        {data && data.topLevelVideo && <Iframe     
                             url={data.topLevelVideo}
                             width="560px"
                             height="315px"
                             position="relative"
                             allowFullScreen />}
-        {data.tab && <Tabs items={this.getTabs()} />}
+        {data && data.tab && <Tabs items={this.getTabs()} />}
       </div>
     )
   }
