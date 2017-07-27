@@ -5,7 +5,7 @@ class PregnancyNewbornOneYear extends Component {
   render() {
     return (
       <ContentPageContainer
-        filePath='/Content/newborn.json'
+        filePath='/content/newborn.json'
         />
     )
   }

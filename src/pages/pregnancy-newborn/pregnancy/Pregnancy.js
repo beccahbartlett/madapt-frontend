@@ -5,7 +5,7 @@ class Pregnancy extends Component {
   render() {
     return (
       <ContentPageContainer
-        filePath='/Content/pregnancy.json'
+        filePath='/content/pregnancy.json'
         />
     )
   }
