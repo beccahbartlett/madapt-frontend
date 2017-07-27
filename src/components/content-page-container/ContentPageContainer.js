@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import axios from 'axios'
 import Tabs from 'react-responsive-tabs'
 import Iframe from 'react-iframe'
 import 'react-responsive-tabs/styles.css'
@@ -8,21 +9,27 @@ class ContentPageContainer extends Component {
     super(props)
     this.getTabs = this.getTabs.bind(this)
     this.getData = this.getData.bind(this)
-    this.state = {
-      pageName: props.pageName,
-      data: this.getData()
-    }
+
+    this.getData(res => {
+      this.data = res
+      this.data = this.data.bind(this)
+    })
+    
   }
   
-  getData() {
+  getData(cb) {
     // get data from JSON
-    this.setState({
-      data: null
-    })
+    axios.get(this.props.filePath)
+      .then(res => {
+        // this.setState({
+        //   data: res.data
+        // })
+        cb(res.data)
+      })
   }
   
   getTabs() {
-    var data = this.state.data
+    var data = this.data
     return data.map(item => ({
       tabClassName: 'tab',
       panelClassName: 'panel',
@@ -48,7 +55,7 @@ class ContentPageContainer extends Component {
     }));
   }
   render() {
-    var data = this.state.data
+    var data = this.data
     return (
       <div className="wrapper">
         <h1>{data.title}</h1>
