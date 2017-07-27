@@ -3,7 +3,6 @@ import Tabs from 'react-responsive-tabs';
 import Iframe from 'react-iframe'
 import 'react-responsive-tabs/styles.css'
 import ContentPageContainer from '../../../components/content-page-container/ContentPageContainer'
-// import data from '../../../Content/birth-spacing.json';
 
 class BirthSpacing extends Component {
   render() {
