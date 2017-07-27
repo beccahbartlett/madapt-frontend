@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import CardGrid from '../../components/cardgrid/CardGrid';
 import Card from '../../components/card/Card';
 
-import PregnancyIcon from '../../images/icons/pregnancy-newborn/pregnancy-newborn.png'
-import BirthIcon from '../../images/icons/pregnancy-newborn/birth.png'
-import PostnatalIcon from '../../images/icons/pregnancy-newborn/postnatal.png'
-import NewbornIcon from '../../images/icons/pregnancy-newborn/newborn-12months.png'
+import PregnancyIcon from '../../images/icons/pregnancynewborn/pregnancy-newborn.png'
+import BirthIcon from '../../images/icons/pregnancynewborn/birth.png'
+import PostnatalIcon from '../../images/icons/pregnancynewborn/postnatal.png'
+import NewbornIcon from '../../images/icons/pregnancynewborn/newborn-12months.png'
 
 class PregnancyNewborn extends Component {
   componentDidMount() {
