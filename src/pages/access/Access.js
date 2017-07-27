@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import CardGrid from '../../components/cardgrid/CardGrid';
 import Card from '../../components/card/Card';
 
+import HealthSystemIcon from '../../images/icons/access/health-system-overview.png'
+import AustralianNormIcon from '../../images/icons/access/australian-norms.png'
+import MedicareCentrelinkIcon from '../../images/icons/access/medicare-centrelink.png'
+import ResponsibilitiesIcon from '../../images/icons/access/responsibilities.png'
+import DisabilityAccessIcon from '../../images/icons/access/disability-access.png'
+import PrivatePublicIcon from '../../images/icons/access/private-public.png'
+
 class Access extends Component {
   componentDidMount() {
     window.analytics.page();
@@ -10,27 +17,27 @@ class Access extends Component {
     return (
       <CardGrid>
         <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          imgSrc={HealthSystemIcon}
           titleText="Health System Overview"
           linkUrl="/access/health-system-overview/" />
         <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          imgSrc={AustralianNormIcon}
           titleText="Australian norms"
           linkUrl="/access/australian-norms/" />
         <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          imgSrc={MedicareCentrelinkIcon}
           titleText="Medicare and Centrelink"
           linkUrl="#" />
         <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          imgSrc={ResponsibilitiesIcon}
           titleText="Your Rights and Responsibilities"
           linkUrl="#" />
         <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          imgSrc={DisabilityAccessIcon}
           titleText="Disability Access"
           linkUrl="#" />
         <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          imgSrc={PrivatePublicIcon}
           titleText="Private vs. Public Health Services"
           linkUrl="#" />
       </CardGrid>

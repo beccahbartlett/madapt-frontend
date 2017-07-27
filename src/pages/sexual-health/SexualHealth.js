@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import CardGrid from '../../components/cardgrid/CardGrid';
 import Card from '../../components/card/Card';
-import iconHIV from '../../images/icons/hiv-aids.png'
-import iconSTI from '../../images/icons/sti.png'
+
+import HealthyRelationshipsIcon from '../../images/icons/sexualhealth/healthy-relationships.png'
+import SafeSexIcon from '../../images/icons/sexualhealth/safe-sex.png'
+import StisIcon from '../../images/icons/sexualhealth/stis.png'
+import SexualityIcon from '../../images/icons/sexualhealth/sexuality.png'
 
 class SexualHealth extends Component {
   componentDidMount() {
@@ -12,24 +15,20 @@ class SexualHealth extends Component {
     return (
       <CardGrid>
         <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          imgSrc={HealthyRelationshipsIcon}
           titleText="Healthy Relationships"
           linkUrl="/sexual-health/healthy-relationships" />
         <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          imgSrc={SafeSexIcon}
           titleText="Safe sex"
           linkUrl="/sexual-health/safe-sex" />
         <Card
-          imgSrc={iconSTI}
+          imgSrc={StisIcon}
           titleText="STI's/ HIV"
           linkUrl="#" />
         <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
+          imgSrc={SexualityIcon}
           titleText="Sexuality"
-          linkUrl="#" />
-        <Card
-          imgSrc="https://image.flaticon.com/icons/png/512/33/33777.png"
-          titleText="Disability"
           linkUrl="#" />
       </CardGrid>
     )

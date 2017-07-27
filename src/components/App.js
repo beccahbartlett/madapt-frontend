@@ -27,7 +27,6 @@ var Route = ReactRouter.Route;
 var Switch = ReactRouter.Switch;
 var Redirect = ReactRouter.Redirect;
 
-
 class App extends Component {
   componentDidMount() {
     window.analytics.identify('testUserId', {
