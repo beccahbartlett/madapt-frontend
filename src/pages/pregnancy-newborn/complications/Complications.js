@@ -5,7 +5,7 @@ class Postnatal extends Component {
   render() {
     return (
       <ContentPageContainer
-        filePath='/content/complications-of-pregnancy.json'
+        filePath='/Content/complications-of-pregnancy.json'
         />
     )
   }
