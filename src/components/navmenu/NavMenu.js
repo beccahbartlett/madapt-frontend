@@ -26,42 +26,42 @@ class NavMenu extends Component {
           <Link to="/access">
             <div className="item item-1">
               <img className="icon" src={iconLocation} alt="Access"/>
-              <div>Access</div>
+              <div className="item-text">Access</div>
             </div>
           </Link>
 
           <Link to="/family-planning">
             <div className="item item-2">
               <img className="icon" src={iconFamily} alt="Family planning"/>
-              <div>Family planning</div>
+              <div className="item-text">Family Planning</div>
             </div>
           </Link>
 
           <Link to="/pregnancy-newborn">
             <div className="item item-3">
               <img className="icon" src={iconChild} alt="Pregnancy newborn"/>
-              <div>Pregnancy newborn</div>
+              <div className="item-text">Pregnancy and Newborn</div>
             </div>
           </Link>
 
           <Link to="/sexual-health">
             <div className="item item-4">
               <img className="icon" src={iconReproductive} alt="Sexual health"/>
-              <div>Sexual health</div>
+              <div className="item-text">Sexual Health</div>
             </div>
           </Link>
 
           <Link to="/family-health">
             <div className="item item-5">
               <img className="icon" src={iconLifecycle} alt="Family health"/>
-              <div>Family health</div>
+              <div className="item-text">Family Health</div>
             </div>
           </Link>
 
           <Link to="/violence">
             <div className="item item-6">
               <img className="icon" src={iconViolence} alt="Violence"/>
-              <div>Violence</div>
+              <div className="item-text">Violence</div>
             </div>
           </Link>               
         </div>

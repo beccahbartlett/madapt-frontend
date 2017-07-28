@@ -9,7 +9,7 @@ import iconFamily from '../../images/icons/family-planning.png';
 import iconLifecycle from '../../images/icons/lifecycle.png';
 import iconReproductive from '../../images/icons/reproductive.png';
 // import images
-import imgHeader from '../../images/mAdaptLogo.png';
+import imgHeader from '../../images/mAdaptLogo_white.png';
 
 class Nav extends Component {
   constructor(props) {

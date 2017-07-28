@@ -11,7 +11,11 @@
 }
 
 .item .item-1 :hover {
-   background: green;
+  background: green;
+}
+
+.icon {
+  height: 50%
 }
 
 .mobile-item {
@@ -28,31 +32,36 @@
 .item-1 {
   background-color: #86D3EC;
 }
+
 .item-2 {
   background-color: #AEAACF;
 }
+
 .item-3 {
   background-color: #EE7B83;
 }
+
 .item-4 {
   background-color: #A9D192;
 }
+
 .item-5 {
   background-color: #FAB556;
 }
+
 .item-6 {
   background-color: #B95C66;
 }
 
- @media screen and (min-width: 600px){
+@media screen and (min-width: 600px) {
   .item {
     border-bottom: 0;
-    height: 10rem;
-    padding: 2px;
-  }    
+    height: 8rem;
+    padding-top: 5px;
+  }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 600px) {
   .mobile-menu {
     display: none;
   }
@@ -67,16 +76,18 @@
   }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .menu {
     display: none;
   }
-
   .toggleMenu {
     margin-top: 100px;
   }
 }
 
-
-
-
+.item-text {
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 35%;
+  margin-top: 4%;
+}
