@@ -5,3 +5,7 @@
   flex: 1 0 auto;
   min-height: 80vh;
 }
+
+* {
+  font-family: 'Avenir', sans-serif;
+}
