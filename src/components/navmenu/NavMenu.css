@@ -76,7 +76,12 @@
     display: none;
   }
   .toggleMenu {
+    width: 100%;
     margin-top: 100px;
+    border: none;
+    background-color: darkslategrey;
+    color: white;
+    font-weight: 600;
   }
 }
 

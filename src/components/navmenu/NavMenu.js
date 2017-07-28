@@ -20,7 +20,7 @@ class NavMenu extends Component {
   render() {
     return (
       <div>
-        <button onClick={() => this.showMenu()} className="toggleMenu">Menu =</button>
+        <button onClick={() => this.showMenu()} className="toggleMenu">{this.state.menu ? '-' : '+'}</button>
 
         <div className="menu">
           <Link to="/access">
