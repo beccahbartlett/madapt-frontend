@@ -6,6 +6,12 @@
   min-height: 80vh;
 }
 
+@media screen and (max-width: 600px) {
+  .container-body {
+    padding-top: 50px;
+  }
+}
+
 .wrapper {
   padding-left: 10%;
   padding-right: 10%;

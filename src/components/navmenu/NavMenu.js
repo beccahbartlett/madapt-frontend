@@ -78,36 +78,36 @@ class NavMenu extends Component {
 
           <Link to="/family-planning">
             <div className="mobile-item item-2">
-              <img className="icon" src={iconFamilyPlanning} alt="Family planning"/>
-              <div>Family planning</div>
+              <img className="icon" src={iconFamilyPlanning} alt="Family Planning"/>
+              <div>Family Planning</div>
             </div>
           </Link>
 
           <Link to="/pregnancy-newborn">
             <div className="mobile-item item-3">
-              <img className="icon" src={iconPregnancy} alt="Pregnancy newborn"/>
-              <div>Pregnancy newborn</div>
+              <img className="icon" src={iconPregnancy} alt="Pregnancy and Newborn"/>
+              <div>Pregnancy and Newborn</div>
             </div>
           </Link>
 
           <Link to="/sexual-health">
             <div className="mobile-item item-4">
-              <img className="icon" src={iconSexualHealth} alt="Sexual health"/>
-              <div>Sexual health</div>
+              <img className="icon" src={iconSexualHealth} alt="Sexual Health"/>
+              <div>Sexual Health</div>
             </div>
           </Link>
 
           <Link to="/family-health">
             <div className="mobile-item item-5">
-              <img className="icon" src={iconFamilyHealth} alt="Family health"/>
-              <div>Family health</div>
+              <img className="icon" src={iconFamilyHealth} alt="Family and Social Health"/>
+              <div>Family and Social Health</div>
             </div>
           </Link>
 
-          <Link to="/violence">
+          <Link to="/clinics">
             <div className="mobile-item item-6">
-              <img className="icon" src={iconClinics} alt="Violence"/>
-              <div>Violence</div>
+              <img className="icon" src={iconClinics} alt="Clinics Location"/>
+              <div>Clinics Location</div>
             </div>
           </Link>               
         </div>}
