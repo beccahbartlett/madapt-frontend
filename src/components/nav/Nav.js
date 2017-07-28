@@ -57,7 +57,7 @@ class Nav extends Component {
           <div className="nav-header">
             <h1 className="nav-header-title">
               <img className="image-banner" src={imgHeader} alt="Header Image" />
-              [ mAdapt ]
+              mAdapt
             </h1>
           </div>
         </NavLink>
