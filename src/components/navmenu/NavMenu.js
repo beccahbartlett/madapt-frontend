@@ -26,42 +26,42 @@ class NavMenu extends Component {
           <Link to="/access">
             <div className="item item-1">
               <img className="icon" src={iconLocation} alt="Access"/>
-              <div className="item-text">Access</div>
+              <div className="item-text"><p>Access</p></div>
             </div>
           </Link>
 
           <Link to="/family-planning">
             <div className="item item-2">
               <img className="icon" src={iconFamily} alt="Family planning"/>
-              <div className="item-text">Family Planning</div>
+              <div className="item-text"><p>Family Planning</p></div>
             </div>
           </Link>
 
           <Link to="/pregnancy-newborn">
             <div className="item item-3">
               <img className="icon" src={iconChild} alt="Pregnancy newborn"/>
-              <div className="item-text">Pregnancy and Newborn</div>
+              <div className="item-text"><p>Pregnancy and Newborn</p></div>
             </div>
           </Link>
 
           <Link to="/sexual-health">
             <div className="item item-4">
               <img className="icon" src={iconReproductive} alt="Sexual health"/>
-              <div className="item-text">Sexual Health</div>
+              <div className="item-text"><p>Sexual Health</p></div>
             </div>
           </Link>
 
           <Link to="/family-health">
             <div className="item item-5">
               <img className="icon" src={iconLifecycle} alt="Family health"/>
-              <div className="item-text">Family Health</div>
+              <div className="item-text"><p>Family Health</p></div>
             </div>
           </Link>
 
           <Link to="/violence">
             <div className="item item-6">
               <img className="icon" src={iconViolence} alt="Violence"/>
-              <div className="item-text">Violence</div>
+              <div className="item-text"><p>Violence</p></div>
             </div>
           </Link>               
         </div>
