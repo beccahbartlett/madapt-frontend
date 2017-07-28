@@ -58,7 +58,7 @@ class NavMenu extends Component {
             </div>
           </Link>
 
-          <Link to="/violence">
+          <Link to="/clinics">
             <div className="item item-6">
               <img className="icon" src={iconClinics} alt="Clinics Location"/>
               <div className="item-text"><p>Clinics Location</p></div>
