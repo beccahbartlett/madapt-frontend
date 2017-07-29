@@ -9,7 +9,7 @@
 }
 
 .nav-header {
-  max-height: 100px;
+  height: 80px;
   background-size: cover;
   background: #557F51;
 }
@@ -29,10 +29,12 @@
 
 .nav-header .nav-header-title img {
   margin: 5px;
-  width: 150px;
+  height: 60px;
 }
 
 .language-btn {
   float: right;
   background-color: blue;
+  font-size: 1.5rem;
+  max-width: 25%;
 }
