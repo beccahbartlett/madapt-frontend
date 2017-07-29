@@ -15,29 +15,35 @@ class Access extends Component {
   }
   render() {
     return (
-      <CardGrid>
+      <CardGrid type="access">
         <Card
           imgSrc={HealthSystemIcon}
+          theme="1"
           titleText="Health System Overview"
           linkUrl="/access/health-system-overview/" />
         <Card
           imgSrc={AustralianNormIcon}
+          theme="1"
           titleText="Australian norms"
           linkUrl="/access/australian-norms/" />
         <Card
           imgSrc={MedicareCentrelinkIcon}
+          theme="1"
           titleText="Medicare and Centrelink"
           linkUrl="#" />
         <Card
           imgSrc={ResponsibilitiesIcon}
+          theme="1"
           titleText="Your Rights and Responsibilities"
           linkUrl="#" />
         <Card
           imgSrc={DisabilityAccessIcon}
+          theme="1"
           titleText="Disability Access"
           linkUrl="#" />
         <Card
           imgSrc={PrivatePublicIcon}
+          theme="1"
           titleText="Private vs. Public Health Services"
           linkUrl="#" />
       </CardGrid>
