@@ -10,8 +10,8 @@
 
 .nav-header {
   max-height: 100px;
-  background-image: url("../../images/header-banner.jpg");
   background-size: cover;
+  background: #557F51;
 }
 
 .nav-header .nav-header-title {
@@ -28,8 +28,8 @@
 }
 
 .nav-header .nav-header-title img {
-  margin: 20px;
-  width: 60px;
+  margin: 5px;
+  width: 150px;
 }
 
 .language-btn {

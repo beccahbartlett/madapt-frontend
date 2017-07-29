@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Nav.css';
 import { NavLink } from 'react-router-dom';
 // import images
-import imgHeader from '../../images/mAdaptLogo_white.png';
+import imgHeader from '../../images/shifraLogo.png';
 
 class Nav extends Component {
   render() {
@@ -13,7 +13,6 @@ class Nav extends Component {
             <h1 className="nav-header-title">
               <button onClick={this.props.toggleLanguage} className="language-btn">Toggle Language</button>
               <img className="image-banner" src={imgHeader} alt="Header Image" />
-              mAdapt
             </h1>
           </div>
         </NavLink>
