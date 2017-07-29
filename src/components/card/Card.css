@@ -1,23 +1,24 @@
 .card {
-  width: 100%;
-  margin: 20px;
+  flex-basis: 45%;
+  margin: 2%;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   background: #b1e1ed;
   text-align: center;
-  height: 300px;
+  height: 200px;
+  display: flex-item;
 }
 
-.card:last-child {
+/*.card:last-child {
   margin-right: 0;
-}
+}*/
 
 .card img {
-  width: 20%;
-  padding-top: 50px;
+  width: 30%;
+  padding-top: 30px;
 }
 
 .card .text {
-  padding: 0 20px 20px;
+  //padding: 0 20px 20px;
   font-size: 24px;
 }
 
@@ -28,9 +29,15 @@
   width: 100%;
   }
 
-@media (min-width: 1025px) {
+@media (min-width: 600px) {
   .card {
-    width: 30%;
+    flex-basis: 40%;
+  }
+}
+
+@media (min-width: 900px) {
+  .card {
+    flex-basis: 25%;
   }
 }
 
