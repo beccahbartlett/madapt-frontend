@@ -26,42 +26,42 @@ class MyNav extends Component {
           <Link to="/access">
             <div className="item item-1">
               <img className="icon" src={iconLocation} alt="Access"/>
-              <div>{this.props.arabic ? "Access" : "Arabic"}</div>
+              <div>{this.props.arabic ? "Access" : "تسجيل الدخول"}</div>
             </div>
           </Link>
 
           <Link to="/family-planning">
             <div className="item item-2">
               <img className="icon" src={iconFamily} alt="Family planning"/>
-              <div>Family planning</div>
+              <div>{this.props.arabic ? "Family Planning" : "نظيم الأسرة"}</div>
             </div>
           </Link>
 
           <Link to="/pregnancy-newborn">
             <div className="item item-3">
               <img className="icon" src={iconChild} alt="Pregnancy newborn"/>
-              <div>Pregnancy newborn</div>
+              <div>{this.props.arabic ? "Pregnancy Newborn" : "الحمل وحديثي الولادة"}</div>
             </div>
           </Link>
 
           <Link to="/sexual-health">
             <div className="item item-4">
               <img className="icon" src={iconReproductive} alt="Sexual health"/>
-              <div>Sexual health</div>
+              <div>{this.props.arabic ? "Sexual Health" : "الحياة الجنسية"}</div>
             </div>
           </Link>
 
           <Link to="/family-health">
             <div className="item item-5">
               <img className="icon" src={iconLifecycle} alt="Family health"/>
-              <div>Family health</div>
+              <div>{this.props.arabic ? "Family Health" : "صحة المجتمع والعائلة"}</div>
             </div>
           </Link>
 
           <Link to="/violence">
             <div className="item item-6">
               <img className="icon" src={iconViolence} alt="Violence"/>
-              <div>Violence</div>
+              <div>{this.props.arabic ? "Clinic Locations" : "Clinic arabic"}</div>
             </div>
           </Link>               
         </div>
@@ -72,42 +72,42 @@ class MyNav extends Component {
           <Link to="/access">
             <div className="mobile-item item-1">
               <img className="icon" src={iconLocation} alt="Access"/>
-              <div>Access</div>
+              <div>{this.props.arabic ? "Access" : "تسجيل الدخول"}</div>
             </div>
           </Link>
 
           <Link to="/family-planning">
             <div className="mobile-item item-2">
               <img className="icon" src={iconFamily} alt="Family planning"/>
-              <div>Family planning</div>
+              <div>{this.props.arabic ? "Family Planning" : "نظيم الأسرة"}</div>
             </div>
           </Link>
 
           <Link to="/pregnancy-newborn">
             <div className="mobile-item item-3">
               <img className="icon" src={iconChild} alt="Pregnancy newborn"/>
-              <div>Pregnancy newborn</div>
+              <div>{this.props.arabic ? "Pregnancy Newborn" : "الحمل وحديثي الولادة"}</div>
             </div>
           </Link>
 
           <Link to="/sexual-health">
             <div className="mobile-item item-4">
               <img className="icon" src={iconReproductive} alt="Sexual health"/>
-              <div>Sexual health</div>
+              <div>{this.props.arabic ? "Sexual Health" : "الحياة الجنسية"}</div>
             </div>
           </Link>
 
           <Link to="/family-health">
             <div className="mobile-item item-5">
               <img className="icon" src={iconLifecycle} alt="Family health"/>
-              <div>Family health</div>
+              <div>{this.props.arabic ? "Family Health" : "صحة المجتمع والعائلة"}</div>
             </div>
           </Link>
 
           <Link to="/violence">
             <div className="mobile-item item-6">
               <img className="icon" src={iconViolence} alt="Violence"/>
-              <div>Violence</div>
+              <div>{this.props.arabic ? "Clinic Locations" : "Clinic arabic"}</div>
             </div>
           </Link>               
         </div>}
