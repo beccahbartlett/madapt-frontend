@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import ContentPageContainer from './content-page-container/ContentPageContainer'
 import Access from '../pages/access/Access'
 import FamilyPlanning from '../pages/family-planning/FamilyPlanning'
-import Violence from '../pages/violence/Violence'
 import FamilyHealth from '../pages/family-health/FamilyHealth'
 import WomensHealth from '../pages/family-health/womens-health/WomensHealth'
 import PregnancyNewborn from '../pages/pregnancy-newborn/PregnancyNewborn'
@@ -11,12 +11,7 @@ import SafeSex from '../pages/sexual-health/safe-sex/SafeSex'
 import Contraception from '../pages/family-planning/contraception/Contraception'
 import HealthSystemOverview from '../pages/access/health-system-overview/HealthSystemOverview'
 import AustralianNorms from '../pages/access/australian-norms/AustralianNorms'
-import BirthSpacing from '../pages/family-planning/birth-spacing/BirthSpacing'
-import Pregnancy from '../pages/pregnancy-newborn/pregnancy/Pregnancy'
-import Postnatal from '../pages/pregnancy-newborn/postnatal/Postnatal'
-import Complications from '../pages/pregnancy-newborn/complications/Complications'
 import Birth from '../pages/pregnancy-newborn/birth/Birth'
-import PregnancyNewbornOneYear from '../pages/pregnancy-newborn/pregnancy-newborn/PregnancyNewbornOneYear'
 import Nav from './nav/Nav'
 import NavMenu from './navmenu/NavMenu'
 import Footer from './footer/Footer'
@@ -59,24 +54,47 @@ class App extends Component {
               <Route exact path="/" render={() => (
                 <Redirect to="/access"/>
               )}/>
-              <Route exact path='/access' component={Access} />
-              <Route exact path='/family-planning' component={FamilyPlanning} />
-              <Route exact path='/family-planning/birth-spacing' component={BirthSpacing} />
-              <Route exact path='/violence' component={Violence} />
-              <Route exact path='/family-health' component={FamilyHealth} />
-              <Route exact path='/family-health/womens-health' component={WomensHealth} />
-              <Route exact path='/pregnancy-newborn' component={PregnancyNewborn} />
-              <Route exact path='/sexual-health' component={SexualHealth} />
-              <Route exact path='/sexual-health/healthy-relationships' component={HealthyRelationships} />
-              <Route exact path='/sexual-health/safe-sex' component={SafeSex} />
-              <Route exact path='/family-planning/contraception' component={Contraception} />
-              <Route exact path='/access/health-system-overview' component={HealthSystemOverview} />
-              <Route exact path='/access/australian-norms' component={AustralianNorms} />
-              <Route exact path='/pregnancy-newborn/pregnancy' component={Pregnancy} />
-              <Route exact path='/pregnancy-newborn/postnatal' component={Postnatal} />
-              <Route exact path='/pregnancy-newborn/complications' component={Complications} />
-              <Route exact path='/pregnancy-newborn/birth' component={Birth} />
-              <Route exact path='/pregnancy-newborn/pregnancy-newborn' component={PregnancyNewbornOneYear} />
+
+              <Route exact path='/access' component={Access} lang={this.state.lang} />
+              <Route exact path='/access/health-system-overview' component={HealthSystemOverview} lang={this.state.lang} />
+              <Route exact path='/access/australian-norms' component={AustralianNorms} lang={this.state.lang} />
+              {/* Medicare and Centrelink  */}
+              {/* Your Rights and Responsibilities  */}
+              {/* Disability Access  */}
+              {/* Private vs. Public Health Services */}
+
+              <Route exact path='/family-planning' component={FamilyPlanning} lang={this.state.lang} />
+              <Route
+                exact path='/family-planning/birth-spacing'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/birth-spacing.json' lang={this.state.lang} />} />
+              <Route exact path='/family-planning/contraception' component={Contraception} lang={this.state.lang} />
+              {/* Unplanned Pregnancy */}
+              {/* Fertility and Infertility */}
+
+              <Route exact path='/pregnancy-newborn' component={PregnancyNewborn} lang={this.state.lang} />
+              <Route
+                exact path='/pregnancy-newborn/pregnancy'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/pregnancy-newborn/complications'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/complications-of-pregnancy.json' lang={this.state.lang} />} /> 
+              <Route exact path='/pregnancy-newborn/birth' component={Birth} lang={this.state.lang} />
+              <Route
+                exact path="/pregnancy-newborn/postnatal"
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/postnatal.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/pregnancy-newborn/newborn'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/newborn.json' lang={this.state.lang} />} />
+
+              <Route exact path='/sexual-health' component={SexualHealth} lang={this.state.lang} />
+              <Route exact path='/sexual-health/healthy-relationships' component={HealthyRelationships} lang={this.state.lang} />
+              <Route exact path='/sexual-health/safe-sex' component={SafeSex} lang={this.state.lang} />
+              {/* STIs/HIV  */}
+              {/* Sexuality  */}
+              
+              <Route exact path='/family-health' component={FamilyHealth} lang={this.state.lang} />              
+              <Route exact path='/family-health/womens-health' component={WomensHealth} lang={this.state.lang} />
+              
               <Route render={function() {
                 return <p>Not Found</p>
               }} />
