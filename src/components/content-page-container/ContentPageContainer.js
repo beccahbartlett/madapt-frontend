@@ -10,7 +10,8 @@ class ContentPageContainer extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      data: this.getData()
+      data: this.getData(),
+      lang: 'en'
     }
     this.getTabs = this.getTabs.bind(this)
   }
@@ -26,15 +27,16 @@ class ContentPageContainer extends Component {
   }
   
   getTabs() {
+    var lang = this.state.lang
     var data = this.state.data.tab
     return data.map(item => ({
       tabClassName: 'tab',
       panelClassName: 'panel',
-      title: item.title,
+      title: item.title[lang],
       getContent: () => {
         return (
           <div>
-            <div className='tabContent' dangerouslySetInnerHTML={{__html: item.text}} />
+            <div className='tabContent' dangerouslySetInnerHTML={{__html: item.text[lang]}} />
             {item.video && <Video url={item.video} />}
             <div className='tabLinks'>
               {item.links && <Links links={item.links} />}
@@ -46,11 +48,12 @@ class ContentPageContainer extends Component {
   }
 
   render() {
+    var lang = this.state.lang
     var data = this.state.data
     return (
       <div className="wrapper">
-        <h1 className="content-page-title">{data && data.title}</h1>
-        {data && data.summary}
+        <h1 className="content-page-title">{data && data.title[lang]}</h1>
+        {data && data.summary[lang]}
         {data && data.topLevelVideo && <Video url={data.topLevelVideo} />}
         {data && data.tab && <Tabs items={this.getTabs()} />}
       </div>

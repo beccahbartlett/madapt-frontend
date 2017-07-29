@@ -31,3 +31,8 @@
   margin: 20px;
   width: 60px;
 }
+
+.language-btn {
+  float: right;
+  background-color: blue;
+}

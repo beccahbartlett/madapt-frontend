@@ -1,17 +1,27 @@
 import React, { Component } from 'react';
 
-  const Link = props => {
-    return <a href={props.url}>{props.title}</a>
+class Links extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      lang: 'en'
+    }
   }
 
-  const Links = props => {
+  render() {
+    var lang = this.state.lang
     return (
       <div>
-        {props.links && props.links.map(link => {
-          return <div><Link title={link.title} url={link.url}/><br/></div>
+        {this.props.links && this.props.links.map(link => {
+          return <div><Link title={link.title[lang]} url={link.url}/><br/></div>
         })}
       </div>
     )
+  }
+}
+
+const Link = props => {
+  return <a href={props.url}>{props.title}</a>
 }
 
 export default Links

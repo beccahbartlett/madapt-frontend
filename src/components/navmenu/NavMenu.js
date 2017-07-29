@@ -17,32 +17,50 @@ class NavMenu extends Component {
       menuItems: [
         {
           icon: iconAccess,
-          name: 'Access',
+          name: {
+            en: 'Access',
+            ar: 'تسجيل الدخول' 
+          },
           url: '/access'
         },
         {
           icon: iconFamilyPlanning,
-          name: 'Family Planning',
+          name: {
+            en: 'Family Planning',
+            ar: 'تنظيم الأسرة' 
+          },
           url: '/family-planning'
         },
         {
           icon: iconPregnancy,
-          name: 'Pregnancy and Newborn',
+          name: {
+            en: 'Pregnancy and Newborn',
+            ar: 'الحمل وحديثي الولادة' 
+          },
           url: '/pregnancy-newborn'
         },
         {
           icon: iconSexualHealth,
-          name: 'Sexual Health',
+          name: {
+            en: 'Sexual Health',
+            ar: 'الحياة الجنسية' 
+          },
           url: '/sexual-health'
         },
         {
           icon: iconFamilyHealth,
-          name: 'Family and Social Health',
+          name: {
+            en: 'Family and Social Health',
+            ar: 'صحة المجتمع والعائلة'
+          },
           url: '/family-health'
         },
         {
           icon: iconClinics,
-          name: 'Clinic Locations',
+          name: {
+            en: 'Clinic Locations',
+            ar: '[Arabic] Clinic Locations'
+          },
           url: '/clinics'
         },
       ]
@@ -55,6 +73,7 @@ class NavMenu extends Component {
   }
 
   render() {
+    var lang = this.props.lang
     return (
       <div>
         <button onClick={() => this.showMenu()} className="toggleMenu">{this.state.menu ? '-' : '+'}</button>
@@ -64,7 +83,7 @@ class NavMenu extends Component {
               <Link to={item.url}>
                 <div className={`item item-${index + 1}`}>
                   <img className="icon" src={item.icon} alt="Access"/>
-                  <div className="item-text"><p>{item.name}</p></div>
+                  <div className="item-text"><p>{item.name[lang]}</p></div>
                 </div>
               </Link>
             )
@@ -78,7 +97,7 @@ class NavMenu extends Component {
                 <Link to={item.url}>
                   <div className={`mobile-item item-${index + 1}`}>
                     <img className="icon" src={item.icon} alt="Access"/>
-                    <div className="item-text"><p>{item.name}</p></div>
+                    <div className="item-text"><p>{item.name[lang]}</p></div>
                   </div>
                 </Link>
               )
