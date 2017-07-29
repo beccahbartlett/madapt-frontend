@@ -16,18 +16,22 @@ class SexualHealth extends Component {
       <CardGrid>
         <Card
           imgSrc={HealthyRelationshipsIcon}
+          theme="4"
           titleText="Healthy Relationships"
           linkUrl="/sexual-health/healthy-relationships" />
         <Card
           imgSrc={SafeSexIcon}
+          theme="4"
           titleText="Safe sex"
           linkUrl="/sexual-health/safe-sex" />
         <Card
           imgSrc={StisIcon}
+          theme="4"
           titleText="STI's/ HIV"
           linkUrl="#" />
         <Card
           imgSrc={SexualityIcon}
+          theme="4"
           titleText="Sexuality"
           linkUrl="#" />
       </CardGrid>

@@ -16,18 +16,22 @@ class PregnancyNewborn extends Component {
       <CardGrid>
         <Card
           imgSrc={PregnancyIcon}
+          theme="3"
           titleText="Pregnancy"
           linkUrl="/pregnancy-newborn/pregnancy" />
         <Card
           imgSrc={BirthIcon}
+          theme="3"
           titleText="Birth"
           linkUrl="pregnancy-newborn/birth" />
         <Card
           imgSrc={PostnatalIcon}
+          theme="3"
           titleText="Postnatal"
           linkUrl="pregnancy-newborn/postnatal" />
         <Card
           imgSrc={NewbornIcon}
+          theme="3"
           titleText="Newborn - 12 months"
           linkUrl="pregnancy-newborn/pregnancy-newborn" />
       </CardGrid>

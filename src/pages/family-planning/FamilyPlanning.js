@@ -17,22 +17,27 @@ class FamilyPlanning extends Component {
       <CardGrid>
         <Card
           imgSrc={BirthSpacingIcon}
+          theme="2"
           titleText="Birth Spacing and Planning"
           linkUrl="/family-planning/birth-spacing" />
         <Card
           imgSrc={ContraceptionIcon}
+          theme="2"
           titleText="Contraception"
           linkUrl="/family-planning/contraception" />
         <Card
           imgSrc={FertilityIcon}
+          theme="2"
           titleText="Fertility"
           linkUrl="#" />
         <Card
           imgSrc={FamilyPlanningIcon}
+          theme="2"
           titleText="Family Planning"
           linkUrl="#" />
         <Card
           imgSrc={UnplannedPregnancyIcon}
+          theme="2"
           titleText="Unplanned Pregnancy"
           linkUrl="#" />
       </CardGrid>

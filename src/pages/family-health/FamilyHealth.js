@@ -18,26 +18,32 @@ class FamilyHealth extends Component {
       <CardGrid>
         <Card
           imgSrc={WomensHealthIcon}
+          theme="5"
           titleText="Women's health"
           linkUrl="/family-health/womens-health" />
         <Card
           imgSrc={MensHealthIcon}
+          theme="5"
           titleText="Men's health"
           linkUrl="#" />
         <Card
           imgSrc={TeenHealthIcon}
+          theme="5"
           titleText="Teen health"
           linkUrl="#" />
         <Card
           imgSrc={ChildrensHealthIcon}
+          theme="5"
           titleText="Children's health"
           linkUrl="#" />
         <Card
           imgSrc={MentalHealthIcon}
+          theme="5"
           titleText="Mental health"
           linkUrl="#" />
         <Card
           imgSrc={Violence}
+          theme="5"
           titleText="Violence"
           linkUrl="#" />
       </CardGrid>
