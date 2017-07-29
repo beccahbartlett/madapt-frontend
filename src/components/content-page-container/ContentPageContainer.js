@@ -10,8 +10,7 @@ class ContentPageContainer extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      data: this.getData(),
-      lang: 'en'
+      data: this.getData()
     }
     this.getTabs = this.getTabs.bind(this)
   }
@@ -27,7 +26,7 @@ class ContentPageContainer extends Component {
   }
   
   getTabs() {
-    var lang = this.state.lang
+    var lang = this.props.lang
     var data = this.state.data.tab
     return data.map(item => ({
       tabClassName: 'tab',
@@ -48,7 +47,7 @@ class ContentPageContainer extends Component {
   }
 
   render() {
-    var lang = this.state.lang
+    var lang = this.props.lang
     var data = this.state.data
     return (
       <div className="wrapper">
