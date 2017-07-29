@@ -68,7 +68,7 @@
   .menu {
     display: block;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 80px;
     width: 100%;
   }
 }
@@ -79,7 +79,7 @@
   }
   .toggleMenu {
     width: 100%;
-    margin-top: 80px;
+    margin-top: 75px;
     border: none;
     background-color: darkslategrey;
     color: white;
