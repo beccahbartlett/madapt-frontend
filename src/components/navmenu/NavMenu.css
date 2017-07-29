@@ -4,14 +4,17 @@
   text-align: center;
   text-overflow: ellipsis;
   word-wrap: normal;
-  text-decoration: none !important;
   white-space: nowrap;
   color: white;
   transition: all 2s;
 }
 
-.item .item-1 :hover {
-  background: green;
+.item .item-text {
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 40%;
+  margin-top: 0.5em;
+  padding-top: 0.5em;
 }
 
 .mobile-item {
@@ -22,7 +25,6 @@
   text-align: center;
   text-overflow: ellipsis;
   word-wrap: normal;
-  text-decoration: none !important;
   white-space: nowrap;
   color: white;
 }
@@ -85,14 +87,10 @@
   }
 }
 
-.item-text {
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 40%;
-  margin-top: 0.5em;
-  padding-top: 0.5em;
-}
-
 .icon {
   height: 50%
+}
+
+a {
+  text-decoration-line: none !important;
 }

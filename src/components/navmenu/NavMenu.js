@@ -10,106 +10,79 @@ import iconFamilyHealth from '../../images/icons/familyhealth/family-health.png'
 import iconClinics from '../../images/icons/extraicons/findahealthservice.png';
 
 class NavMenu extends Component {
-  state = {
-    menu: true,
-  };
+  constructor(props) {
+    super(props)
+    this.state = {
+      menu: true,
+      menuItems: [
+        {
+          icon: iconAccess,
+          name: 'Access',
+          url: '/access'
+        },
+        {
+          icon: iconFamilyPlanning,
+          name: 'Family Planning',
+          url: '/family-planning'
+        },
+        {
+          icon: iconPregnancy,
+          name: 'Pregnancy and Newborn',
+          url: '/pregnancy-newborn'
+        },
+        {
+          icon: iconSexualHealth,
+          name: 'Sexual Health',
+          url: '/sexual-health'
+        },
+        {
+          icon: iconFamilyHealth,
+          name: 'Family and Social Health',
+          url: '/family-health'
+        },
+        {
+          icon: iconClinics,
+          name: 'Clinic Locations',
+          url: '/clinics'
+        },
+      ]
+    }
+    this.showMenu = this.showMenu.bind(this)
+  }
 
   showMenu() {
     this.setState({menu: !this.state.menu});
-  };
+  }
+
   render() {
     return (
       <div>
         <button onClick={() => this.showMenu()} className="toggleMenu">{this.state.menu ? '-' : '+'}</button>
-
         <div className="menu">
-          <Link to="/access">
-            <div className="item item-1">
-              <img className="icon" src={iconAccess} alt="Access"/>
-              <div className="item-text"><p>Access</p></div>
-            </div>
-          </Link>
-
-          <Link to="/family-planning">
-            <div className="item item-2">
-              <img className="icon" src={iconFamilyPlanning} alt="Family Planning"/>
-              <div className="item-text"><p>Family Planning</p></div>
-            </div>
-          </Link>
-
-          <Link to="/pregnancy-newborn">
-            <div className="item item-3">
-              <img className="icon" src={iconPregnancy} alt="Pregnancy and Newborn"/>
-              <div className="item-text"><p>Pregnancy and Newborn</p></div>
-            </div>
-          </Link>
-
-          <Link to="/sexual-health">
-            <div className="item item-4">
-              <img className="icon" src={iconSexualHealth} alt="Sexual Health"/>
-              <div className="item-text"><p>Sexual Health</p></div>
-            </div>
-          </Link>
-
-          <Link to="/family-health">
-            <div className="item item-5">
-              <img className="icon" src={iconFamilyHealth} alt="Family and Social Health"/>
-              <div className="item-text"><p>Family and Social Health</p></div>
-            </div>
-          </Link>
-
-          <Link to="/clinics">
-            <div className="item item-6">
-              <img className="icon" src={iconClinics} alt="Clinics Location"/>
-              <div className="item-text"><p>Clinics Location</p></div>
-            </div>
-          </Link>               
+          {this.state.menuItems.map((item, index) => {
+            return (
+              <Link to={item.url}>
+                <div className={`item item-${index + 1}`}>
+                  <img className="icon" src={item.icon} alt="Access"/>
+                  <div className="item-text"><p>{item.name}</p></div>
+                </div>
+              </Link>
+            )
+          })}            
         </div>
 
-
         {this.state.menu && 
-        <div className="mobile-menu">
-          <Link to="/access">
-            <div className="mobile-item item-1">
-              <img className="icon" src={iconAccess} alt="Access"/>
-              <div>Access</div>
-            </div>
-          </Link>
-
-          <Link to="/family-planning">
-            <div className="mobile-item item-2">
-              <img className="icon" src={iconFamilyPlanning} alt="Family Planning"/>
-              <div>Family Planning</div>
-            </div>
-          </Link>
-
-          <Link to="/pregnancy-newborn">
-            <div className="mobile-item item-3">
-              <img className="icon" src={iconPregnancy} alt="Pregnancy and Newborn"/>
-              <div>Pregnancy and Newborn</div>
-            </div>
-          </Link>
-
-          <Link to="/sexual-health">
-            <div className="mobile-item item-4">
-              <img className="icon" src={iconSexualHealth} alt="Sexual Health"/>
-              <div>Sexual Health</div>
-            </div>
-          </Link>
-
-          <Link to="/family-health">
-            <div className="mobile-item item-5">
-              <img className="icon" src={iconFamilyHealth} alt="Family and Social Health"/>
-              <div>Family and Social Health</div>
-            </div>
-          </Link>
-
-          <Link to="/clinics">
-            <div className="mobile-item item-6">
-              <img className="icon" src={iconClinics} alt="Clinics Location"/>
-              <div>Clinics Location</div>
-            </div>
-          </Link>               
+          <div className="mobile-menu">
+             {this.state.menuItems.map((item, index) => {
+              return (
+                <Link to={item.url}>
+                  <div className={`mobile-item item-${index + 1}`}>
+                    <img className="icon" src={item.icon} alt="Access"/>
+                    <div className="item-text"><p>{item.name}</p></div>
+                  </div>
+                </Link>
+              )
+            })} 
         </div>}
       </div>
     )
