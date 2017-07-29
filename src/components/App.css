@@ -1,9 +1,15 @@
 .container-body {
   width: 100%;
   padding-top: 200px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   flex: 1 0 auto;
   min-height: 80vh;
+}
+
+@media screen and (max-width: 600px) {
+  .container-body {
+    padding-top: 50px;
+  }
 }
 
 .wrapper {

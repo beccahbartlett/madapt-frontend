@@ -5,7 +5,7 @@ class BirthSpacing extends Component {
   render() {
     return (
       <ContentPageContainer
-        filePath='/content/birth-spacing.json'
+        filePath='/Content/birth-spacing.json'
         />
     )
   }
