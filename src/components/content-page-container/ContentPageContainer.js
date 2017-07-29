@@ -4,6 +4,7 @@ import Links from '../links/Links'
 import Video from '../video/Video'
 import Tabs from 'react-responsive-tabs'
 import 'react-responsive-tabs/styles.css'
+import './ContentPageContainer.css'
 
 class ContentPageContainer extends Component {
   constructor(props) {
@@ -48,7 +49,7 @@ class ContentPageContainer extends Component {
     var data = this.state.data
     return (
       <div className="wrapper">
-        <h1>{data && data.title}</h1>
+        <h1 className="content-page-title">{data && data.title}</h1>
         {data && data.summary}
         {data && data.topLevelVideo && <Video url={data.topLevelVideo} />}
         {data && data.tab && <Tabs items={this.getTabs()} />}
