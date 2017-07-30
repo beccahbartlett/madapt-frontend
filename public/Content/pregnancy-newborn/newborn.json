@@ -1,0 +1,110 @@
+{
+  "title": {
+    "en": "Newborn Health",
+    "ar": "[Arabic]" 
+  },
+  "summary": {
+    "en": "",
+    "ar": "" 
+  },
+  "topLevelVideo": "",
+  "tab": [
+    {
+      "title": {
+        "en": "Newborn Health",
+        "ar": "[Arabic]" 
+      },
+      "text": {
+        "en": "When your baby is born your midwife will give you a green book (Victoria) to help you keep up with your new babies health. It is important to keep up with this book and have it available for all appointments.<br><br>",
+        "ar": "[Arabic]" 
+      },
+      "image": "",
+      "links": [
+        {
+          "title": {
+            "en": "After Your Baby is Born",
+            "ar": "[Arabic]" 
+          },
+          "url": "https://www.thewomens.org.au/health-information/pregnancy-and-birth/after-your-baby-is-born/"
+        },
+        {
+          "title": {
+            "en": "My Personal Health Record (English)",
+            "ar": "[Arabic]" 
+          },
+          "url": "http://www.health.nsw.gov.au/kidsfamilies/MCFhealth/Publications/blue-book.pdf"
+        },
+        {
+          "title": {
+            "en": "My Personal Health Record (Arabic)",
+            "ar": "[Arabic]"
+          },
+          "url": "http://www.health.nsw.gov.au/kidsfamilies/MCFhealth/Documents/Blue-Book-Arabic.pdf"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Prematurity",
+        "ar": "[Arabic]" 
+      },
+      "text": {
+        "en": "A baby is termed premature if they are born prior to 37 weeks gestation. If they are born between 23-28 weeks they are called extremely premature. If they are born between 28-32 weeks they are called very premature. If they are born between 32-36 weeks they are called moderately premature. And, if they are born 36-37 weeks they are called late preterm. The earlier that a baby is born the higher risk the baby is and the longer they will need to spend in the neonatal intensive care unit.<br><br>",
+        "ar": "[Arabic]" 
+      },
+      "image": "",
+      "video": "",
+      "links": [
+        {
+          "title": {
+            "en": "Premature Labour, Birth and Babies",
+            "ar": "[Arabic]" 
+          },
+          "url": "http://raisingchildren.net.au/articles/premature_birth.html"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Nutrition",
+        "ar": "[Arabic]" 
+      },
+      "text": {
+        "en": "Breastfeeding- Breastfeeding not only allows you to give your baby all the nutrients he/she needs, it also allows the two of you to bond. Exclusive breastfeeding is recommended in the first six months of life. From 6-12 months breastfeeding is recommended while supplementing with food. <a href='/pregnancy-newborn/postnatal'>Breast Feeding</a>.<br><br>Formula Feeding- If you are unable to breastfeed or choose not to, formula will give your baby the nutrients to grow. Speak with your midwife or maternal child health nurse to choose what formula is best for you and your baby.<br><br>",
+        "ar": "[Arabic]" 
+      },
+      "image": "",
+      "links": [
+        {
+          "title": {
+            "en": "Breastfeeding",
+            "ar": "[Arabic]" 
+          },
+          "url": "https://www.thewomens.org.au/health-information/breastfeeding/ "
+        },
+        {
+          "title": {
+            "en": "Newborn Nutrition",
+            "ar": "[Arabic]" 
+          },
+          "url": "http://raisingchildren.net.au/nutrition/newborns_nutrition.html"
+        },
+        {
+          "title": {
+            "en": "Breastfeeding Your Baby (English)",
+            "ar": "[Arabic]" 
+          },
+          "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Breastfeeding-your-baby1.pdf"
+        },
+        {
+          "title": {
+            "en": "Breastfeeding Your Baby (Arabic)",
+            "ar": "[Arabic]" 
+          },
+          "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/multilingual/Breastfeeding-your-baby-arabic.pdf"
+        }
+      ]
+    }
+  ]
+}
+
