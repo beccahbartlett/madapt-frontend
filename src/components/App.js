@@ -3,7 +3,6 @@ import ContentPageContainer from './content-page-container/ContentPageContainer'
 import Access from '../pages/access/Access'
 import FamilyPlanning from '../pages/family-planning/FamilyPlanning'
 import FamilyHealth from '../pages/family-health/FamilyHealth'
-import WomensHealth from '../pages/family-health/womens-health/WomensHealth'
 import PregnancyNewborn from '../pages/pregnancy-newborn/PregnancyNewborn'
 import SexualHealth from '../pages/sexual-health/SexualHealth'
 import HealthyRelationships from '../pages/sexual-health/healthy-relationships/HealthyRelationships'
@@ -94,8 +93,10 @@ class App extends Component {
               {/* STIs/HIV  */}
               {/* Sexuality  */}
               
-              <Route exact path='/family-health' component={FamilyHealth} lang={this.state.lang} />              
-              <Route exact path='/family-health/womens-health' component={WomensHealth} lang={this.state.lang} />
+              <Route exact path='/family-health' component={FamilyHealth} lang={this.state.lang} />
+              <Route
+                exact path='/family-health/womens-health'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/womens-health.json' lang={this.state.lang} />} />
               
               <Route render={function() {
                 return <p>Not Found</p>
