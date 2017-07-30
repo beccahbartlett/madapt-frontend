@@ -1,40 +1,48 @@
 import React, { Component } from 'react';
-import CardGrid from '../../components/cardgrid/CardGrid';
-import Card from '../../components/card/Card';
-
+import GridPageContainer from '../../components/grid-page-container/GridPageContainer'
 import HealthyRelationshipsIcon from '../../images/icons/sexualhealth/healthy-relationships.png'
 import SafeSexIcon from '../../images/icons/sexualhealth/safe-sex.png'
 import StisIcon from '../../images/icons/sexualhealth/stis.png'
 import SexualityIcon from '../../images/icons/sexualhealth/sexuality.png'
 
 class SexualHealth extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      cards: [
+        {
+          imgSrc: HealthyRelationshipsIcon,
+          theme: '4',
+          titleText: 'Healthy Relationships',
+          linkUrl: '/sexual-health/healthy-relationships'
+        },
+        {
+          imgSrc: SafeSexIcon,
+          theme: '4',
+          titleText: 'Safe sex',
+          linkUrl: '/sexual-health/safe-sex'
+        },
+        {
+          imgSrc: StisIcon,
+          theme: '4',
+          titleText: "STI's/ HIV",
+          linkUrl: '#'
+        },
+        {
+          imgSrc: SexualityIcon,
+          theme: '4',
+          titleText: 'Sexuality',
+          linkUrl: '#'
+        }
+      ]
+    }
+  }
   componentDidMount() {
     window.analytics.page();
   }
   render() {
     return (
-      <CardGrid>
-        <Card
-          imgSrc={HealthyRelationshipsIcon}
-          theme="4"
-          titleText="Healthy Relationships"
-          linkUrl="/sexual-health/healthy-relationships" />
-        <Card
-          imgSrc={SafeSexIcon}
-          theme="4"
-          titleText="Safe sex"
-          linkUrl="/sexual-health/safe-sex" />
-        <Card
-          imgSrc={StisIcon}
-          theme="4"
-          titleText="STI's/ HIV"
-          linkUrl="#" />
-        <Card
-          imgSrc={SexualityIcon}
-          theme="4"
-          titleText="Sexuality"
-          linkUrl="#" />
-      </CardGrid>
+      <GridPageContainer cards={this.state.cards} />
     )
   }
 }
