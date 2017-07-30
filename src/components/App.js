@@ -5,8 +5,6 @@ import FamilyPlanning from '../pages/family-planning/FamilyPlanning'
 import FamilyHealth from '../pages/family-health/FamilyHealth'
 import PregnancyNewborn from '../pages/pregnancy-newborn/PregnancyNewborn'
 import SexualHealth from '../pages/sexual-health/SexualHealth'
-import HealthyRelationships from '../pages/sexual-health/healthy-relationships/HealthyRelationships'
-import SafeSex from '../pages/sexual-health/safe-sex/SafeSex'
 import Nav from './nav/Nav'
 import NavMenu from './navmenu/NavMenu'
 import Footer from './footer/Footer'
@@ -90,8 +88,12 @@ class App extends Component {
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/newborn.json' lang={this.state.lang} />} />
 
               <Route exact path='/sexual-health' component={SexualHealth} lang={this.state.lang} />
-              <Route exact path='/sexual-health/healthy-relationships' component={HealthyRelationships} lang={this.state.lang} />
-              <Route exact path='/sexual-health/safe-sex' component={SafeSex} lang={this.state.lang} />
+              <Route
+                exact path='/sexual-health/healthy-relationships'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/healthy-relationships.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/sexual-health/safe-sex'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/safe-sex.json' lang={this.state.lang} />} />
               {/* STIs/HIV  */}
               {/* Sexuality  */}
               
