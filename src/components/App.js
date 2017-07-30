@@ -8,7 +8,6 @@ import PregnancyNewborn from '../pages/pregnancy-newborn/PregnancyNewborn'
 import SexualHealth from '../pages/sexual-health/SexualHealth'
 import HealthyRelationships from '../pages/sexual-health/healthy-relationships/HealthyRelationships'
 import SafeSex from '../pages/sexual-health/safe-sex/SafeSex'
-import Contraception from '../pages/family-planning/contraception/Contraception'
 import HealthSystemOverview from '../pages/access/health-system-overview/HealthSystemOverview'
 import AustralianNorms from '../pages/access/australian-norms/AustralianNorms'
 import Nav from './nav/Nav'
@@ -66,7 +65,9 @@ class App extends Component {
               <Route
                 exact path='/family-planning/birth-spacing'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/family-planning/birth-spacing.json' lang={this.state.lang} />} />
-              <Route exact path='/family-planning/contraception' component={Contraception} lang={this.state.lang} />
+              <Route
+                exact path='/family-planning/contraception'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-planning/contraception.json' lang={this.state.lang} />} />
               {/* Unplanned Pregnancy */}
               {/* Fertility and Infertility */}
 
