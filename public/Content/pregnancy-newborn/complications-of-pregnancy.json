@@ -1,63 +1,114 @@
 {
-  "title": "Complications of Pregnancy",
-  "summary": "",
+  "title": {
+    "en": "Complications of Pregnancy",
+    "ar": "[Arabic]" 
+  },
+  "summary": {
+    "en": "",
+    "ar": "" 
+  },
   "topLevelVideo": "",
   "tab": [
     {
-      "title": "Ectopic Pregnancy",
-      "text": "An ectopic pregnancy occurs when a sperm and egg meet and implant in the fallopian tube instead of making their way to the uterus.  This is not a viable pregnancy because the fallopian tube is unable to expand to accommodate the fertilised egg. This can lead to pain and the possibility of the fallopian tube rupturing. This can cause internal bleeding and the need for immediate surgery.",
+      "title": {
+        "en": "Ectopic Pregnancy",
+        "ar": "[Arabic]" 
+      },
+      "text": {
+        "en": "An ectopic pregnancy occurs when a sperm and egg meet and implant in the fallopian tube instead of making their way to the uterus.  This is not a viable pregnancy because the fallopian tube is unable to expand to accommodate the fertilised egg. This can lead to pain and the possibility of the fallopian tube rupturing. This can cause internal bleeding and the need for immediate surgery.",
+        "ar": "[Arabic]" 
+      },
       "image": "http://healthywa.wa.gov.au/~/media/Images/HealthyWA/Articles/Having%20a%20baby/ectopic-pregnancy-diagram.ashx",
       "video" : "",
       "links": [
         {
-          "title": "Ectopic pregnancy - The Women's",
+          "title": {
+            "en": "Ectopic pregnancy - The Women's",
+            "ar": "[Arabic]" 
+          },
           "url": "https://www.thewomens.org.au/health-information/pregnancy-and-birth/pregnancy-problems/early-pregnancy-problems/ectopic-pregnancy"
         }
       ]
     },
     {
-      "title": "Miscarriage",
-      "text": "Miscarriage occurs when a pregnancy stops growing, and the tissue ultimately passes out of the body. Miscarriage is very common in early pregnancy. Contact your midwife or GP when you have vaginal bleeding or spotting, during pregnancy.",
+      "title": {
+        "en": "Miscarriage",
+        "ar": "[Arabic]" 
+      },
+      "text": {
+        "en": "Miscarriage occurs when a pregnancy stops growing, and the tissue ultimately passes out of the body. Miscarriage is very common in early pregnancy. Contact your midwife or GP when you have vaginal bleeding or spotting, during pregnancy.",
+        "ar": "[Arabic]" 
+      },
       "image": "",
       "video" : "",
       "links": [
         {
-          "title": "Early Pregnancy Loss (Miscarriage) - Mercy Health (PDF | English)",
+          "title": {
+            "en": "Early Pregnancy Loss (Miscarriage) - Mercy Health (PDF | English)",
+            "ar": "[Arabic]" 
+          },
           "url": "http://www.mercyhealth.com.au/hcmhs/services/Documents/Early%20Pregnancy%20English_June2015.pdf"
         },
         {
-          "title": "After A Miscarriage - The Women's (PDF | English)",
+          "title": {
+            "en": "After A Miscarriage - The Women's (PDF | English)",
+            "ar": "[Arabic]" 
+          },
           "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/After-a-miscarriage.pdf"
         }
       ]
     },
     {
-      "title": "Gestational Diabetes",
-      "text": "Gestational diabetes occurs when a woman develops diabetes during or immediately after pregnancy. Diabetes results from when body looses its ability to control blood sugar levels. Gestational diabetes is confined to pregnancy, but does put a woman at higher risk for developing diabetes later in life.",
+      "title": {
+        "en": "Gestational Diabetes",
+        "ar": "[Arabic]" 
+      },
+      "text": {
+        "en": "Gestational diabetes occurs when a woman develops diabetes during or immediately after pregnancy. Diabetes results from when body looses its ability to control blood sugar levels. Gestational diabetes is confined to pregnancy, but does put a woman at higher risk for developing diabetes later in life.",
+        "ar": "[Arabic]" 
+      },
       "image": "",
       "video" : "",
       "links": [
         {
-          "title": "Diabetes in pregnancy – gestational diabetes (PDF | English)",
+          "title": {
+            "en": "Diabetes in pregnancy – gestational diabetes (PDF | English)",
+            "ar": "[Arabic]" 
+          },
           "url": "http://www.mhcs.health.nsw.gov.au/publicationsandresources/pdf/publication-pdfs/diabetes/5590/bhc-5590-eng.pdf"
         }
       ]
     },
     {
-      "title": "Pre-Eclampsia/Eclampsia",
-      "text": "Pre-Eclampsia is a circulatory problem that women can develop in pregnancy or immediately after birth that can affect both mother and baby. Some warning signs include high blood pressure, protein in the urine, leg swelling, and blurred vision. Pre-eclampsia can progress rapidly and you should call your midwife or GP for any concerns and never miss antenatal appointments. If pre-eclampsia goes unaddressed it can lead to eclampsia, seizures, which could further harm both mother and baby and has the potential to be fatal.",
+      "title": {
+        "en": "Pre-Eclampsia/Eclampsia",
+        "ar": "[Arabic]" 
+      },
+      "text": {
+        "en": "Pre-Eclampsia is a circulatory problem that women can develop in pregnancy or immediately after birth that can affect both mother and baby. Some warning signs include high blood pressure, protein in the urine, leg swelling, and blurred vision. Pre-eclampsia can progress rapidly and you should call your midwife or GP for any concerns and never miss antenatal appointments. If pre-eclampsia goes unaddressed it can lead to eclampsia, seizures, which could further harm both mother and baby and has the potential to be fatal.",
+        "ar": "[Arabic]" 
+      },
       "image": "",
       "video" : "",
       "links": [
         {
-          "title": "Explaining Pre-eclampsia - The Women's (PDF | English)",
+          "title": {
+            "en": "Explaining Pre-eclampsia - The Women's (PDF | English)",
+            "ar": "[Arabic]" 
+          },
           "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Pre-eclampsia.pdf"
         }
       ]
     },
     {
-      "title": "Pre-term Labor/Birth",
-      "text": "Preterm labor is when you start having signs of labor earlier than 37 weeks. These signs can include contractions, pressure in the pelvis, fluid or blood coming from the vagina. If you are having any of these symptoms prior to 37 weeks, it is important to contact your midwife for guidance. Preterm birth is when a baby is born prior to 37 weeks gestation, and could lead to a multitude of complications for the baby.",
+      "title": {
+        "en": "Pre-term Labor/Birth",
+        "ar": "[Arabic]" 
+      },
+      "text": {
+        "en": "Preterm labor is when you start having signs of labor earlier than 37 weeks. These signs can include contractions, pressure in the pelvis, fluid or blood coming from the vagina. If you are having any of these symptoms prior to 37 weeks, it is important to contact your midwife for guidance. Preterm birth is when a baby is born prior to 37 weeks gestation, and could lead to a multitude of complications for the baby.",
+        "ar": "[Arabic]"
+      },
       "image": "",
       "video" : "",
       "links": [
@@ -68,25 +119,43 @@
       ]
     },
     {
-      "title": "Perinatal Depression & Anxiety",
-      "text": "Experiencing depression and anxiety during pregnancy and after birth is common. First time mothers may hesitate to seek help due to social expectations and the belief that parenthood should only be a happy occassion, however, it’s important to remember that many women experience depression and anxiety. Seeking help early on can speed up recovery and make pregnancy and motherhood a more enjoyable experience.<br><br>The Edinburgh Postnatal Depression Scale (EPDS) is a set of 10 screening questions that can indicate whether you have symptoms that are common in women with depression and anxiety during pregnancy and in the year following the birth of a child. This is not intended to provide a diagnosis – only trained health professionals should do this. It is strongly recommended that you complete this set of questions with a health professional.",
+      "title": {
+        "en": "Perinatal Depression & Anxiety",
+        "ar": "[Arabic]" 
+      },
+      "text": {
+        "en": "Experiencing depression and anxiety during pregnancy and after birth is common. First time mothers may hesitate to seek help due to social expectations and the belief that parenthood should only be a happy occassion, however, it’s important to remember that many women experience depression and anxiety. Seeking help early on can speed up recovery and make pregnancy and motherhood a more enjoyable experience.<br><br>The Edinburgh Postnatal Depression Scale (EPDS) is a set of 10 screening questions that can indicate whether you have symptoms that are common in women with depression and anxiety during pregnancy and in the year following the birth of a child. This is not intended to provide a diagnosis – only trained health professionals should do this. It is strongly recommended that you complete this set of questions with a health professional.",
+        "ar": "[Arabic]" 
+      },
       "image": "",
       "video" : "https://www.youtube.com/embed/FjqOqJLkyFs",
       "links": [
         {
-          "title": "Understanding perinatal depression and anxiety - beyondblue (PDF | English)",
+          "title": {
+            "en": "Understanding perinatal depression and anxiety - beyondblue (PDF | English)",
+            "ar": "[Arabic]" 
+          },
           "url": "http://resources.beyondblue.org.au/prism/file?token=BL/0940"
         },
         {
-          "title": "Self-help for anxiety - Reach Out",
+          "title": {
+            "en": "Self-help for anxiety - Reach Out",
+            "ar": "[Arabic]" 
+          },
           "url": "https://au.reachout.com/articles/self-help-for-anxiety"
         },
         {
-          "title": "Panda",
+          "title": {
+            "en": "Panda",
+            "ar": "[Arabic]" 
+          },
           "url": "http://www.panda.org.au/info-support"
         },
         {
-          "title": "Edinburgh Postnatal Depression Scale (EPDS) (PDF | English)",
+          "title": {
+            "en": "Edinburgh Postnatal Depression Scale (EPDS) (PDF | English)",
+            "ar": "[Arabic]" 
+          },
           "url": "http://www.mhcs.health.nsw.gov.au/publicationsandresources/pdf/publication-pdfs/7000/ahs-7000-eng.pdf"
         }
       ]

@@ -20,6 +20,11 @@ class PregnancyNewborn extends Component {
           titleText="Pregnancy"
           linkUrl="/pregnancy-newborn/pregnancy" />
         <Card
+          imgSrc={PregnancyIcon}
+          theme="3"
+          titleText="Complications"
+          linkUrl="/pregnancy-newborn/complications" />
+        <Card
           imgSrc={BirthIcon}
           theme="3"
           titleText="Birth"
