@@ -11,7 +11,6 @@ import SafeSex from '../pages/sexual-health/safe-sex/SafeSex'
 import Contraception from '../pages/family-planning/contraception/Contraception'
 import HealthSystemOverview from '../pages/access/health-system-overview/HealthSystemOverview'
 import AustralianNorms from '../pages/access/australian-norms/AustralianNorms'
-import Birth from '../pages/pregnancy-newborn/birth/Birth'
 import Nav from './nav/Nav'
 import NavMenu from './navmenu/NavMenu'
 import Footer from './footer/Footer'
@@ -77,8 +76,10 @@ class App extends Component {
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/pregnancy.json' lang={this.state.lang} />} />
               <Route
                 exact path='/pregnancy-newborn/complications'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/complications-of-pregnancy.json' lang={this.state.lang} />} /> 
-              <Route exact path='/pregnancy-newborn/birth' component={Birth} lang={this.state.lang} />
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/complications-of-pregnancy.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/pregnancy-newborn/birth'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/birth.json' lang={this.state.lang} />} /> 
               <Route
                 exact path="/pregnancy-newborn/postnatal"
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/postnatal.json' lang={this.state.lang} />} />

@@ -33,7 +33,7 @@ class PregnancyNewborn extends Component {
           imgSrc={NewbornIcon}
           theme="3"
           titleText="Newborn - 12 months"
-          linkUrl="pregnancy-newborn/pregnancy-newborn" />
+          linkUrl="pregnancy-newborn/newborn" />
       </CardGrid>
     )
   }

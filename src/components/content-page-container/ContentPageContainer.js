@@ -19,6 +19,7 @@ class ContentPageContainer extends Component {
     // get data from JSON
     axios.get(this.props.filePath)
       .then(res => {
+        console.log(res)
         this.setState({
           data: res.data
         })
@@ -55,6 +56,7 @@ class ContentPageContainer extends Component {
         {data && data.summary[lang]}
         {data && data.topLevelVideo && <Video url={data.topLevelVideo} />}
         {data && data.tab && <Tabs items={this.getTabs()} />}
+        {data && data.notes && <div className='notes' dangerouslySetInnerHTML={{__html: data.notes[lang]}} />}
       </div>
     )
   }
