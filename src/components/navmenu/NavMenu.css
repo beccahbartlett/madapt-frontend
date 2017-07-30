@@ -85,10 +85,25 @@
     color: white;
     font-weight: 600;
   }
+
+  .mobile-item {
+    display: block;
+    height: 40px;
+  }
+
+  .item-text {
+    display: inline-block;
+  }
+
+  .icon {
+    height: 80%;
+  }
+
 }
 
 .icon {
-  height: 50%
+  height: 50%;
+  padding-right: 5px;
 }
 
 a {
