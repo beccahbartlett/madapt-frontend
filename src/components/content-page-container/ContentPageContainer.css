@@ -6,3 +6,7 @@
   padding-left: 10%;
   padding-right: 10%;
 }
+
+.wrapper.right-align {
+  text-align: right;
+}
