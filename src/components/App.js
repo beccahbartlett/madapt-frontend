@@ -66,7 +66,7 @@ class App extends Component {
               <Route exact path='/family-planning' component={FamilyPlanning} lang={this.state.lang} />
               <Route
                 exact path='/family-planning/birth-spacing'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/birth-spacing.json' lang={this.state.lang} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-planning/birth-spacing.json' lang={this.state.lang} />} />
               <Route exact path='/family-planning/contraception' component={Contraception} lang={this.state.lang} />
               {/* Unplanned Pregnancy */}
               {/* Fertility and Infertility */}
@@ -74,17 +74,17 @@ class App extends Component {
               <Route exact path='/pregnancy-newborn' component={PregnancyNewborn} lang={this.state.lang} />
               <Route
                 exact path='/pregnancy-newborn/pregnancy'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy.json' lang={this.state.lang} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/pregnancy.json' lang={this.state.lang} />} />
               <Route
                 exact path='/pregnancy-newborn/complications'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/complications-of-pregnancy.json' lang={this.state.lang} />} /> 
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/complications-of-pregnancy.json' lang={this.state.lang} />} /> 
               <Route exact path='/pregnancy-newborn/birth' component={Birth} lang={this.state.lang} />
               <Route
                 exact path="/pregnancy-newborn/postnatal"
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/postnatal.json' lang={this.state.lang} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/postnatal.json' lang={this.state.lang} />} />
               <Route
                 exact path='/pregnancy-newborn/newborn'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/newborn.json' lang={this.state.lang} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/newborn.json' lang={this.state.lang} />} />
 
               <Route exact path='/sexual-health' component={SexualHealth} lang={this.state.lang} />
               <Route exact path='/sexual-health/healthy-relationships' component={HealthyRelationships} lang={this.state.lang} />
