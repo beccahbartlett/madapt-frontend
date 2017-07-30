@@ -53,7 +53,7 @@ class ContentPageContainer extends Component {
     return (
       <div className="wrapper">
         <h1 className="content-page-title">{data && data.title[lang]}</h1>
-        {data && data.summary[lang]}
+        {data && <div className='summary' dangerouslySetInnerHTML={{__html: data.summary[lang]}} />}
         {data && data.topLevelVideo && <Video url={data.topLevelVideo} />}
         {data && data.tab && <Tabs items={this.getTabs()} />}
         {data && data.notes && <div className='notes' dangerouslySetInnerHTML={{__html: data.notes[lang]}} />}
