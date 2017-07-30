@@ -8,7 +8,6 @@ import SexualHealth from '../pages/sexual-health/SexualHealth'
 import HealthyRelationships from '../pages/sexual-health/healthy-relationships/HealthyRelationships'
 import SafeSex from '../pages/sexual-health/safe-sex/SafeSex'
 import HealthSystemOverview from '../pages/access/health-system-overview/HealthSystemOverview'
-import AustralianNorms from '../pages/access/australian-norms/AustralianNorms'
 import Nav from './nav/Nav'
 import NavMenu from './navmenu/NavMenu'
 import Footer from './footer/Footer'
@@ -53,8 +52,12 @@ class App extends Component {
               )}/>
 
               <Route exact path='/access' component={Access} lang={this.state.lang} />
-              <Route exact path='/access/health-system-overview' component={HealthSystemOverview} lang={this.state.lang} />
-              <Route exact path='/access/australian-norms' component={AustralianNorms} lang={this.state.lang} />
+              <Route
+                exact path='/access/health-system-overview'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/health-system-overview.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/access/australian-norms'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/australian-norms.json' lang={this.state.lang} />} />
               {/* Medicare and Centrelink  */}
               {/* Your Rights and Responsibilities  */}
               {/* Disability Access  */}
