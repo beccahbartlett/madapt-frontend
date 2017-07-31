@@ -19,7 +19,6 @@ class ContentPageContainer extends Component {
     // get data from JSON
     axios.get(this.props.filePath)
       .then(res => {
-        console.log(res)
         this.setState({
           data: res.data
         })
