@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import { SocialIcon } from 'react-social-icons';
 import './Footer.css'
 
 class Footer extends Component {
@@ -30,11 +31,11 @@ class Footer extends Component {
 
           <div className="footerItem social">
             <h4>Save our website on your phone!</h4>
-            <ul>
-              <li><a className="fa fa-facebook" aria-hidden="true"></a>Facebook</li>
-              <li><i className="fa fa-twitter" aria-hidden="true"></i>Twitter</li>
-              <li><i className="fa fa-youtube-play" aria-hidden="true"></i>Youtube</li>
-              <li><i className="fa fa-instagram" aria-hidden="true"></i>Insta</li>
+            <ul className="footerIcons">
+              <li><SocialIcon url="#" network="facebook" color="white" style={{ height:25, width:25 }}/></li>
+              <li><SocialIcon url="#" network="twitter" color="white" style={{ height:25, width:25 }}/></li>
+              <li><SocialIcon url="#" network="youtube" color="white" style={{ height:25, width:25 }}/></li>
+              <li><SocialIcon url="#" network="instagram" color="white" style={{ height:25, width:25 }}/></li>
             </ul>
           </div>
 
