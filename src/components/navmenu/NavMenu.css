@@ -6,7 +6,11 @@
   word-wrap: normal;
   white-space: nowrap;
   color: white;
-  transition: all 2s;
+}
+
+.menu :hover .item-text {
+  transition: transform 0.05s;
+  transform: translateY(5px);
 }
 
 .item .item-text {
