@@ -40,7 +40,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Nav toggleLanguage={this.toggleLanguage}/>
+          <Nav lang={this.state.lang} toggleLanguage={this.toggleLanguage}/>
           <NavMenu lang={this.state.lang} />
           <div className="container-body">
             <Switch>

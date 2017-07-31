@@ -17,10 +17,6 @@
 .nav-header .nav-header-title {
   margin: 0;
   padding: 0;
-  color: white;
-  font-family: Courier;
-  font-size: 34px;
-  font-weight: 600;
 }
 
 .nav-header .nav-header-title:hover {
@@ -33,8 +29,13 @@
 }
 
 .language-btn {
+  margin-top: 40px;
+  margin-right: 10px;
+  height: 30px;
+  color: white;
   float: right;
-  background-color: blue;
+  background-color: #2f444e;
   font-size: 1.5rem;
   max-width: 25%;
+  border: none;
 }

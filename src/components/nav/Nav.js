@@ -11,7 +11,7 @@ class Nav extends Component {
         <NavLink exact activeClassName='active' to='/'>
           <div className="nav-header">
             <h1 className="nav-header-title">
-              <button onClick={this.props.toggleLanguage} className="language-btn">Toggle Language</button>
+              <button onClick={this.props.toggleLanguage} className="language-btn">{this.props.lang.toUpperCase()}</button>
               <img className="image-banner" src={imgHeader} alt="Header Image" />
             </h1>
           </div>
