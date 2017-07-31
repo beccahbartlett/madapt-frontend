@@ -4,14 +4,9 @@
   z-index: 9999;
 }
 
-.nav li {
-  width: 10%;
-}
-
 .nav-header {
   height: 80px;
-  background-size: cover;
-  background: #557F51;
+  background: #5e7d53;
 }
 
 .nav-header .nav-header-title {
