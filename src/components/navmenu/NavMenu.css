@@ -18,8 +18,7 @@
 }
 
 .mobile-item {
-  padding-top: 0.5em;
-  height: 60px;
+  padding-top: 0.35em;
   display: block; 
   width: 100%;
   text-align: center;
@@ -68,7 +67,7 @@
   .menu {
     display: block;
     position: absolute;
-    margin-top: 80px;
+    margin-top: 70px;
     width: 100%;
   }
 }
@@ -79,7 +78,7 @@
   }
   .toggleMenu {
     width: 100%;
-    margin-top: 75px;
+    margin-top: 70px;
     border: none;
     background-color: darkslategrey;
     color: white;
@@ -88,11 +87,14 @@
 
   .mobile-item {
     display: block;
-    height: 40px;
+    height: 30px;
+    vertical-align: middle;
+
   }
 
   .item-text {
     display: inline-block;
+    vertical-align: center;
   }
 
   .icon {
