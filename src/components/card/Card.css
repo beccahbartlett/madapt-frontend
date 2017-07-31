@@ -8,18 +8,24 @@
   display: flex-item;
 }
 
-/*.card:last-child {
-  margin-right: 0;
-}*/
-
 .card img {
   width: 30%;
   padding-top: 30px;
 }
 
+.card .text :hover {
+  transform: scaleY(1);
+}
+
+.card:hover img {
+  transform: scaleY(1);
+}
+
 .card .text {
   font-size: 24px;
   color: #fff;
+  transform: none;
+  transition: none;
 }
 
 .card .text > button {
