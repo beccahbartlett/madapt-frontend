@@ -16,6 +16,12 @@
 .footerEmergencyBanner {
   background-color: #5F6062;
   padding: 10px;
+  text-align: center;
+}
+
+.footerEmergencyBanner a {
+  padding: 0 5px;
+  font-weight: bold;
 }
 
 .footer a {
@@ -25,9 +31,14 @@
 .footerItem {
   display: inline-block;
   padding: 10px;
+  float: left;
 }
 
 .social {
+  float: right;
+}
+
+.social .footerIcons{
   float: right;
 }
 
@@ -40,4 +51,15 @@
   background-color: #5F6062;
   width: 100%;
   padding: 5px;
+}
+
+.footerIcons li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+@media screen and (max-width: 600px) {
+	.footerEmergencyBanner a {
+    display: block;
+  }
 }
