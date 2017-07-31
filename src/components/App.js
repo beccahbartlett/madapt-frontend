@@ -101,6 +101,21 @@ class App extends Component {
               <Route
                 exact path='/family-health/womens-health'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/womens-health.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/family-health/mens-health'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/mens-health.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/family-health/teen-health'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/teen-health.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/family-health/childrens-health'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/childrens-health.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/family-health/mental-health'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/mental-health.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/family-health/violence'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/violence' lang={this.state.lang} />} />
               
               <Route render={function() {
                 return <p>Not Found</p>
