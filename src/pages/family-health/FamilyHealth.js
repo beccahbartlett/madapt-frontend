@@ -22,31 +22,31 @@ class FamilyHealth extends Component {
           imgSrc: MensHealthIcon,
           theme: '5',
           titleText: "Men's health",
-          linkUrl: '#'
+          linkUrl: '/family-health/mens-health'
         },
         {
           imgSrc: TeenHealthIcon,
           theme: '5',
           titleText: 'Teen Health',
-          linkUrl: '#'
+          linkUrl: '/family-health/teen-health'
         },
         {
           imgSrc: ChildrensHealthIcon,
           theme: '5',
           titleText: "Children's Health",
-          linkUrl: '#'
+          linkUrl: '/family-health/childrens-health'
         },
         {
           imgSrc: MentalHealthIcon,
           theme: '5',
           titleText: 'Mental Health',
-          linkUrl: '#'
+          linkUrl: '/family-health/mental-health'
         },
         {
           imgSrc: Violence,
           theme: '5',
           titleText: 'Violence',
-          linkUrl: '#'
+          linkUrl: '/family-health/violence'
         }
       ]
     }
