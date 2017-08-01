@@ -1,0 +1,94 @@
+{
+    "title": {
+        "en": "Sexuality",
+        "ar": "[Arabic]"
+    },
+    "summary": {
+        "en": "<p>Sexual orientation refers to whether you are sexually attracted to women or men, both or neither, while sexual identity refers to whether you feel you are a female or a male, both or neither.</p><p>All sexual orientations and identities are equally valid and different terms of sexual orientation are gaining more acceptance in Australia.Somewhere between 5-10% of the total population are males who are sexually attracted to other men, known as gay or homosexual.</p><p>Up to 2% of the population are lesbian, that is women who are attracted to women.</p><p>About 8% of the population identify as bisexual; that is, they are attracted to both males and females.</p><p>Some people don’t identify on the gender or sexual orientation binary, meaning they don’t feel attracted to or like they fit any of the above descriptions. There are many different orientations. <a href='http://www.transstudent.org/definitions'>This website</a> lists basic explanations of some of them but it is important to remember some people also don’t identify with any of these labels and prefer not to be labelled at all.</p><p>If you are exploring your sexual orientation or gender identity, you can find some resources including support groups that can help you through the journey below</p>",
+        "ar": "[Arabic]"
+    },
+    "topLevelVideo": "https://www.youtube.com/embed/dF2YOw4xAd4",
+    "tab": [
+        {
+          "title": {
+              "en": "Well Women’s Check",
+              "ar": "[Arabic]"
+          },
+          "text": {
+              "en": "A well women’s test is done by your GP or Ob/gyn, and consists of a medical interview, a physical exam, a pap test, and a breast exam.",
+              "ar": "[Arabic]"
+          },
+          "image": "",
+          "video": "",
+          "links": []
+        },
+        {
+          "title": {
+              "en": "Cervical Cancer Screen - PAP Test",
+              "ar": "[Arabic]"
+          },
+          "text": {
+              "en": "This is a screening to test cervical cells for irregularities that could potentially lead to cervical cancer. The cervix is a narrow passage at the bottom of the uterus. Up to 90% of cervical cancers can be prevented by having a regular pap test. This test is to be done every two years  but will soon be moved to every five years for all women starting one to two years after becoming sexually active for the first time until 70 years of age.",
+              "ar": "[Arabic]"
+          },
+          "image": "",
+          "video": "https://www.youtube.com/embed/1JzV6z6G2Rc",
+          "links": [
+            {
+              "title": {
+                "en": "Pap tests",
+                "ar": "Pap tests"
+              },
+              "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/pap-tests"
+            }
+          ]
+        },
+        {
+          "title": {
+              "en": "Breast Exam",
+              "ar": "[Arabic]"
+          },
+          "text": {
+              "en": "A breast exam is done by a medical practitioner during a well women’s check by massaging the breast and under the armpits in a number of different ways in order to feel for lumps or changes in the tissue. If something abnormal is felt then you will be referred to have a mammogram (breast x-ray) and possibly to have a biopsy of the tissue in order to make sure the lump is not cancerous. Talk to your GP about the best way to self-check for breast changes in the privacy of your own home.",
+              "ar": "[Arabic]"
+          },
+          "image": "http://cdn.shopify.com/s/files/1/0392/9333/files/blog_mammary-exam-card.jpg?3082",
+          "video": "",
+          "links": [
+            {
+              "title": {
+                "en": "The Five Steps of a Breast Self-Exam",
+                "ar": "[Arabic]"
+              },
+              "url": "http://www.breastcancer.org/symptoms/testing/types/self_exam/bse_steps"
+            }
+          ]
+        },
+        {
+          "title": {
+              "en": "Gynecological Conditions",
+              "ar": "[Arabic]"
+          },
+          "text": {
+              "en": " Urinary Tract Infection (UTI)- A UTI is any infection to the urethra, bladder, ureters, or kidneys. It can cause symptoms that include: burning with urination, increased urinary frequency, urinating only small amounts, odorous urine, and lower back pain. UTIs are diagnosed with a urine sample and treated with antibiotics./n/n Thrush-  Vaginal thrush is an infection that most women get at some point in their life. It can feel like an itching and/or burning sensation and can leave your vaginal and vulval area looking red and cause a white discharge. It is mostly harmless and is caused by an overgrowth of Candida albicans yeast. You should visit your chemist for a vaginal cream or tablets (both oral and vaginal are available), but should see your doctor if it occurs more than twice during a single year. Thrush can also occur in other parts of the body, such as the mouth and is often the result of antibiotic use as these alter the balance of good and bad bacteria in the body./n/nPolycystic Ovarian Syndrome (PCOS): PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects./n/n Incontinence- Incontinence is the uncontrolled leakage of urine or feces. Causes for this vary, but one common cause of urinary incontinence can be childbirth.   ",
+              "ar": "[Arabic]"
+          },
+          "image": "",
+          "video": "",
+          "links": []
+        },
+        {
+          "title": {
+              "en": "Elderly Issues",
+              "ar": "[Arabic]"
+          },
+          "text": {
+              "en": "Menopause: Menopause is when a woman stops her menstrual cycle and ovulating (release eggs), and typically occurs around 50 years of age. Menopause is said to have occurred when she has stopped menstruating for more than a year. When this occurs the hormones that control menstruation lower and can cause a multitude of side effects including: hot flashes, vaginal changes, and mood fluctuations. /n/n Polycystic Ovarian Syndrome (PCOS): PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects. /n/n Prolapse- A prolapse can occur when muscles in your pelvic floor are weakened and the muscle and tendons that hold pelvic organs in place stretch or tear causing vaginal (or other pelvic organs) to descend through the vagina. ",
+              "ar": "[Arabic]"
+          },
+          "image": "",
+          "video": "https://www.youtube.com/embed/DJ9V5fg4Ug4?rel=0",
+          "links": []
+        }
+    ]
+}

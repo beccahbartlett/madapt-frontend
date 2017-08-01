@@ -26,13 +26,13 @@ class SexualHealth extends Component {
           imgSrc: StisIcon,
           theme: '4',
           titleText: "STI's/ HIV",
-          linkUrl: '#'
+          linkUrl: '/sexual-health/sti'
         },
         {
           imgSrc: SexualityIcon,
           theme: '4',
           titleText: 'Sexuality',
-          linkUrl: '#'
+          linkUrl: '/sexual-health/sexuality'
         }
       ]
     }
