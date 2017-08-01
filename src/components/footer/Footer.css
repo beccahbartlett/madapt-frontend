@@ -34,6 +34,10 @@
   float: left;
 }
 
+.footerItemBorder {
+  border-left: 1px solid;
+}
+
 .social {
   float: right;
 }
@@ -48,9 +52,10 @@
 }
 
 .footerCopyright {
-  background-color: #5F6062;
+  background-color: #454547;
   width: 100%;
   padding: 5px;
+  text-align: right;
 }
 
 .footerIcons li {
