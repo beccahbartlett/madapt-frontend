@@ -94,8 +94,12 @@ class App extends Component {
               <Route
                 exact path='/sexual-health/safe-sex'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/safe-sex.json' lang={this.state.lang} />} />
-              {/* STIs/HIV  */}
-              {/* Sexuality  */}
+              <Route
+                exact path='/sexual-health/sti'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/sti.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/sexual-health/sexuality'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/sexuality.json' lang={this.state.lang} />} />
               
               <Route exact path='/family-health' component={FamilyHealth} lang={this.state.lang} />
               <Route

@@ -1,0 +1,104 @@
+{
+    "title": {
+        "en": "Sexually Transmissible Infections",
+        "ar": "[Arabic]"
+    },
+    "summary": {
+        "en": "<p>Sexually transmissible infections (STIs) such as herpes, human papillomavirus (HPV), syphilis, chlamydia, gonorrhea, human immunodeficiency virus (HIV), hepatitis B and hepatitis c are infections passed on from one person to another through sexual activity including oral, vaginal, and anal sex or contaminated blood.</p><p>STIs can also be passed on through genital skin contact, fluid, or sharing contaminated sex toys.</p><p>As some STIs show no symptoms, it is important to always use condoms during sex and have regular testing in order to prevent transmission, as well as receive necessary treatment.</p><h2>Resources</h2><ul>  <li><a href='https://www.thewomens.org.au/health-information/sex-sexuality/sexually-transmitted-infections/about-stis/'>Prevention, Symptoms, Testing, Care and Support</a></li>  <li><a href='http://www.fpv.org.au/for-you/sexually-transmissible-infections-blood-borne-viruses/sti-bbv-get-the-facts'>STIs and testing information</a></li>  <li><a href='http://www.mshc.org.au/SexualHealthInformation/SexualHealthFactSheets/tabid/109/Default.aspx#.WVSRXxOGP-Y'>STIs fact sheet</a></li>  <li><a href='http://www.fpv.org.au/for-you/sexually-transmissible-infections-blood-borne-viruses/sti-bbv-testing-what-to-expect-at-fpv'>Testing</a></li>  <li><a href='http://www.mhahs.org.au/index.php/en/hiv/introduction'>Prevention, Symptoms, Testing, Care and Suppor for HIV</a></li></ul>",
+        "ar": "[Arabic]"
+    },
+    "topLevelVideo": "https://www.youtube.com/embed/pBMhfIHUP8M",
+    "tab": [
+      {
+        "title": {
+            "en": "Herpes",
+            "ar": "[Arabic]"
+        },
+        "text": {
+            "en": "<p><b>What it is:</b> Genital herpes is a sexually transmitted viral infection.</p><p><b>Symptoms:</b> Many infected people the herpes virus don’t experience any symptoms, so it’s always important to engage in safe sex. Some symptoms include, sores around the genitals, fever and body aches. Outbreak of sores can be sporadic and decline over time.</p><p><b>Treatment:</b> Although outbreaks can be managed with orally taken antivirals, herpes can’t be cured. Anyone infected with herpes should use a condom or oral barrier method during sex and avoid sex during outbreak.</p>",
+            "ar": "[Arabic]"
+        },
+        "image": "",
+        "video": "",
+        "links": []
+      },
+      {
+        "title": {
+            "en": "HPV",
+            "ar": "[Arabic]"
+        },
+        "text": {
+            "en": "<p><b>What it is:</b> HPV is one of the most common sexually transmitted viral infection. Certain strains affect the cells inside the cervix, which can sometimes lead to cervical cancer. In low-risk cases, the infection can lead to genital warts. Gardasil and Cervarix vaccines protect against certain strains of HPV which cause cervical cancer and genital warts.</p><p><b>Symptoms:</b> bumps (warts) around genitals</p><p><b>Treatment:</b> Although most cases of HPV go unnoticed and heal over a period of time without any medication, a pap smear test can identify HPV and any abnormal cell changes. Genital warts are treated by freezing, burning,</p>",
+            "ar": "[Arabic]"
+        },
+        "image": "",
+        "video": "",
+        "links": []
+      },
+      {
+        "title": {
+            "en": "Syphilis",
+            "ar": "[Arabic]"
+        },
+        "text": {
+            "en": "<p><b>What it is:</b> Syphilis is a sexual transmitted bacterial infection, which can also be transmitted from mother to baby during pregnancy. Syphilis occurs in four stages known as primary, secondary, latent, and tertiary. If untreated, tertiary stage syphilis can damage other organs in the body including the heart and brain.</p><p><b>Symptoms:</b> Although, the symptoms in the early stages may be mild, they can change as the infection progresses.</p><p><b>Primary stage:</b> painless sores around the genital and anal region, as well as the mouth. These sores can clear in a few weeks, but you should still get treatment.</p><p><b>Secondary stage:</b> skin rash, fever, swollen glands, weight loss, headaches, hair loss, and extreme tiredness.</p><p><b>Latent stage:</b> There are no symptoms during this stage, however the infection is still present.</p><p><b>Tertiary stage:</b> This stage can occur 10- 30 years after infection and lead to serious medical complications, damage to body organs, and death.</p> <p><b>Treatment:</b> After taking a blood sample or fluids from a sore, your GP can test and treat syphilis by prescribing antibiotics.</p>",
+            "ar": "[Arabic]"
+        },
+        "image": "",
+        "video": "",
+        "links": []
+      },
+      {
+        "title": {
+            "en": "Chlamydia",
+            "ar": "[Arabic]"
+        },
+        "text": {
+            "en": "<p><b>What it is:</b> Chlamydia is one of the most common sexually transmitted bacterial infection. If untreated chlamydia can cause pelvic inflammatory disease (PID) or infertility.</p><p><b>Symptoms:</b> A majority of women with Chlamydia don’t experience any symptoms. However, some symptoms include change in vaginal discharge, irregular vaginal bleeding, pelvic pain, painful periods and pain during sex.</p><p><b>Treatment:</b> If you think you may be at risk for chlamydia, make an appointment with your GP who can perform a urine or swab test and prescribe the appropriate treatment.</p>",
+            "ar": "[Arabic]"
+        },
+        "image": "",
+        "video": "",
+        "links": []
+      },
+      {
+        "title": {
+            "en": "Gonorrhea",
+            "ar": "[Arabic]"
+        },
+        "text": {
+            "en": "<p><b>What it is:</b> Gonorrhea is a sexually transmitted bacterial infection. If untreated gonorrhea can lead to pelvic inflammatory disease (PID) or infertility.</p><p><b>Symptoms:</b> Many women do not experience any symptoms. However, some symptoms include unusual vaginal or anal discharge, pelvic pain, pain during period, sex or while urinating, and sore throat.</p><p><b>Treatment:</b> If you think you may be at risk for gonorrhea, make an appointment with your GP who can perform a urine or swab test and provide treatment or further testing as needed.</p>",
+            "ar": "[Arabic]"
+        },
+        "image": "",
+        "video": "",
+        "links": []
+      },
+      {
+        "title": {
+            "en": "HIV",
+            "ar": "[Arabic]"
+        },
+        "text": {
+            "en": "<p><b>What it is:</b> HIV, which can lead to AIDS, makes the body’s immune system weaker over time leading to different types of illnesses. It is transmitted by unprotected sex, sharing needles and other unsterile injection equipment, blood transfusions, and mother-to-child during pregnancy, childbirth or breastfeeding.</p><p><b>Symptoms:</b> A person with HIV may not always show symptoms, however, some symptoms include flu-like symptoms, sudden weight loss, extreme tiredness, swollen glands, white spots in mouth, diarrhoea, loss of appetite, and rash on the skin.</p><p><b>Treatment:</b> Although there is currently no cure for HIV/AIDS, treatment is available to improve health and prevent the transmission from mother-to-child during pregnancy and childbirth. Make an appointment with your GP to get tested, for consultation, and treatment.</p>",
+            "ar": "[Arabic]"
+        },
+        "image": "",
+        "video": "",
+        "links": []
+      },
+      {
+        "title": {
+            "en": "Hepatitis B and C",
+            "ar": "[Arabic]"
+        },
+        "text": {
+            "en": "<p><b>What it is:</b> Hepatitis B and C are viral infections which affect the liver and can be spread through contaminated blood. Hepatitis B can also be spread through semen and saliva, as well as from mother with chronic hepatitis B to baby during or after birth. While some cases of hepatitis B and C can heal without treatment, there is the possibility that some cases (especially in regards to hepatitis C) can turn into chronic hepatitis.</p><p><b>Symptoms:</b> Most people experience no symptoms after they are infected and recover after a few weeks. However, in chronic cases, people may experience tiredness, loss of appetite, nausea and vomiting, pain on the right side under the ribs, joint pain and flu-like symptoms.</p><p><b>Treatment:</b> Both hepatitis B and C can be treated. Make an appointment to see your GP if you think you need to be tested or have any concerns.</p>",
+            "ar": "[Arabic]"
+        },
+        "image": "",
+        "video": "",
+        "links": []
+      }
+    ]
+}
