@@ -36,9 +36,9 @@ class ContentPageContainer extends Component {
         return (
           <div>
             <div className='tabContent' dangerouslySetInnerHTML={{__html: item.text[lang]}} />
-            {item.video && <Video url={item.video} />}
+            {item.video && <div><br/><Video url={item.video} /></div>}
             <div className='tabLinks'>
-              {item.links && <Links links={item.links} />}
+              {item.links && <div><br/><Links links={item.links} /></div>}
             </div>
           </div>
         )
@@ -54,7 +54,7 @@ class ContentPageContainer extends Component {
         <h1 className="content-page-title">{data && data.title[lang]}</h1>
         {data && <div className='summary' dangerouslySetInnerHTML={{__html: data.summary[lang]}} />}
         {data && data.topLevelVideo && <Video url={data.topLevelVideo} />}
-        {data && data.tab && <Tabs items={this.getTabs()} />}
+        {data && data.tab && <div><br/><Tabs items={this.getTabs()} /></div>}
         {data && data.notes && <div className='notes' dangerouslySetInnerHTML={{__html: data.notes[lang]}} />}
       </div>
     )
