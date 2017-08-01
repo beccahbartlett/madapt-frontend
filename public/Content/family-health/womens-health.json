@@ -9,19 +9,7 @@
     },
     "topLevelVideo": "",
     "tab": [
-        {
-          "title": {
-              "en": "Well Women’s Check",
-              "ar": "[Arabic]"
-          },
-          "text": {
-              "en": "A well women’s test is done by your GP or Ob/gyn, and consists of a medical interview, a physical exam, a pap test, and a breast exam.",
-              "ar": "[Arabic]"
-          },
-          "image": "",
-          "video": "",
-          "links": []
-        },
+        
         {
           "title": {
               "en": "Cervical Cancer Screen - PAP Test",
@@ -70,12 +58,20 @@
               "ar": "[Arabic]"
           },
           "text": {
-              "en": " Urinary Tract Infection (UTI)- A UTI is any infection to the urethra, bladder, ureters, or kidneys. It can cause symptoms that include: burning with urination, increased urinary frequency, urinating only small amounts, odorous urine, and lower back pain. UTIs are diagnosed with a urine sample and treated with antibiotics./n/n Thrush-  Vaginal thrush is an infection that most women get at some point in their life. It can feel like an itching and/or burning sensation and can leave your vaginal and vulval area looking red and cause a white discharge. It is mostly harmless and is caused by an overgrowth of Candida albicans yeast. You should visit your chemist for a vaginal cream or tablets (both oral and vaginal are available), but should see your doctor if it occurs more than twice during a single year. Thrush can also occur in other parts of the body, such as the mouth and is often the result of antibiotic use as these alter the balance of good and bad bacteria in the body./n/nPolycystic Ovarian Syndrome (PCOS): PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects./n/n Incontinence- Incontinence is the uncontrolled leakage of urine or feces. Causes for this vary, but one common cause of urinary incontinence can be childbirth.   ",
+              "en": " <p>Urinary Tract Infection (UTI)- A UTI is any infection to the urethra, bladder, ureters, or kidneys. It can cause symptoms that include: burning with urination, increased urinary frequency, urinating only small amounts, odorous urine, and lower back pain. UTIs are diagnosed with a urine sample and treated with antibiotics.</p> <p>Thrush-  Vaginal thrush is an infection that most women get at some point in their life. It can feel like an itching and/or burning sensation and can leave your vaginal and vulval area looking red and cause a white discharge. It is mostly harmless and is caused by an overgrowth of Candida albicans yeast. You should visit your chemist for a vaginal cream or tablets (both oral and vaginal are available), but should see your doctor if it occurs more than twice during a single year. Thrush can also occur in other parts of the body, such as the mouth and is often the result of antibiotic use as these alter the balance of good and bad bacteria in the body.</p> <p>Polycystic Ovarian Syndrome (PCOS): PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects.</p> <p>Incontinence- Incontinence is the uncontrolled leakage of urine or feces. Causes for this vary, but one common cause of urinary incontinence can be childbirth.</p>   ",
               "ar": "[Arabic]"
           },
-          "image": "",
+          "image": "http://image2.123tagged.com/images/m/mouth_thrush-21228.jpg",
           "video": "",
-          "links": []
+          "links": [
+            {
+              "title": {
+                "en": "Urinary Tract Infection",
+                "ar": "Urinary Tract Infection"
+              },
+              "url": "http://www.health.vic.gov.au/edfactsheets/downloads/urinary-tract-infections.pdf"
+            }
+          ]
         },
         {
           "title": {
@@ -83,12 +79,20 @@
               "ar": "[Arabic]"
           },
           "text": {
-              "en": "Menopause: Menopause is when a woman stops her menstrual cycle and ovulating (release eggs), and typically occurs around 50 years of age. Menopause is said to have occurred when she has stopped menstruating for more than a year. When this occurs the hormones that control menstruation lower and can cause a multitude of side effects including: hot flashes, vaginal changes, and mood fluctuations. /n/n Polycystic Ovarian Syndrome (PCOS): PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects. /n/n Prolapse- A prolapse can occur when muscles in your pelvic floor are weakened and the muscle and tendons that hold pelvic organs in place stretch or tear causing vaginal (or other pelvic organs) to descend through the vagina. ",
+              "en": "<p>Menopause: Menopause is when a woman stops her menstrual cycle and ovulating (release eggs), and typically occurs around 50 years of age. Menopause is said to have occurred when she has stopped menstruating for more than a year. When this occurs the hormones that control menstruation lower and can cause a multitude of side effects including: hot flashes, vaginal changes, and mood fluctuations. </p> <p>Polycystic Ovarian Syndrome (PCOS): PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects. </p> <p> Prolapse- A prolapse can occur when muscles in your pelvic floor are weakened and the muscle and tendons that hold pelvic organs in place stretch or tear causing vaginal (or other pelvic organs) to descend through the vagina.</p> ",
               "ar": "[Arabic]"
           },
           "image": "",
           "video": "https://www.youtube.com/embed/DJ9V5fg4Ug4?rel=0",
-          "links": []
+          "links": [
+            {
+              "title": {
+                "en": "Continence",
+                "ar": "Continence"
+              },
+              "url": "https://www.continence.org.au/other-languages.php/26/English"
+            }
+          ]
         }
     ]
 }
