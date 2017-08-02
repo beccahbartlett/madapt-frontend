@@ -10,7 +10,7 @@ class Footer extends Component {
       <div className="footer">
         <div className="footerEmergencyBanner">
           <a href="tel:000">In case of emergency call 000</a>
-          <a href="tel:131114">Lifelline Phone Service 13 11 14</a>
+          <a href="tel:131114">Lifeline Phone Service 13 11 14</a>
         </div>
 
         <div className="footerCore">
@@ -22,7 +22,7 @@ class Footer extends Component {
             </ul>
           </div>
 
-          <div className="footerItem">
+          <div className="footerItem footerItemBorder">
             <ul>
               <li><a href="#">Statistics</a></li>
               <li><a href="#">Premium for Clinics</a></li>
@@ -32,15 +32,15 @@ class Footer extends Component {
           <div className="footerItem social">
             <h4>Save our website on your phone!</h4>
             <ul className="footerIcons">
-              <li><SocialIcon url="#" network="facebook" color="white" style={{ height:25, width:25 }}/></li>
-              <li><SocialIcon url="#" network="twitter" color="white" style={{ height:25, width:25 }}/></li>
+              <li><SocialIcon url="https://www.facebook.com/mAdapt-1777571399195093/" network="facebook" color="white" style={{ height:25, width:25 }}/></li>
+              <li><SocialIcon url="https://twitter.com/mAdapt_app" network="twitter" color="white" style={{ height:25, width:25 }}/></li>
               <li><SocialIcon url="#" network="youtube" color="white" style={{ height:25, width:25 }}/></li>
-              <li><SocialIcon url="#" network="instagram" color="white" style={{ height:25, width:25 }}/></li>
+              <li><SocialIcon url="https://www.instagram.com/mAdapt_app/" network="instagram" color="white" style={{ height:25, width:25 }}/></li>
             </ul>
           </div>
 
           <div className="footerCopyright footerItem">
-            &copy; 2017 mAdapt
+            &copy; 2017 mAdapt. All rights reserved.
           </div>
         </div>
 
