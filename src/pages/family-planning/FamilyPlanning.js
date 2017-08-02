@@ -27,19 +27,19 @@ class FamilyPlanning extends Component {
           imgSrc: FertilityIcon,
           theme: '2',
           titleText: 'Fertility',
-          linkUrl: '#'
+          linkUrl: '/family-planning/fertility'
         },
-        {
-          imgSrc: FamilyPlanningIcon,
-          theme: '2',
-          titleText: 'Family Planning',
-          linkUrl: '#'
-        },
+        // {
+        //   imgSrc: FamilyPlanningIcon,
+        //   theme: '2',
+        //   titleText: 'Family Planning',
+        //   linkUrl: '#'
+        // },
         {
           imgSrc: UnplannedPregnancyIcon,
           theme: '2',
           titleText: 'Unplanned Pregnancy',
-          linkUrl: '#'
+          linkUrl: '/family-planning/unplanned-pregnancy'
         },
       ]
     }

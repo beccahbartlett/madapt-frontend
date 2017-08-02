@@ -1,11 +1,12 @@
 {
-  "title": {
-    "en": "Birth Spacing and Family Planning",
-    "ar": "[Arabic]" 
-  },
-  "summary": {
-    "en": "<p>Planning and spacing pregnancies is beneficial for both you and your baby. It can reduce the risk of low birth weight (baby weighing less than 2.5kg), preterm birth (baby born prior to 37 weeks of pregnancy), uterine rupture, and mental health issues such as postpartum depression or stress. Additionally, if you are a breastfeeding mother, you can benefit from birth spacing which allows your body to replenish important nutrients such as folic acid and iron, while also strengthening your abdominal and pelvic floor muscles. Research indicates that spacing pregnancies by at least 18- 24 months is best.</p>",
-    "ar": "[Arabic]" 
-  },
-  "topLevelVideo": "https://www.youtube.com/embed/UpkltFvBAXI"
+    "title": {
+        "en": "Birth Spacing and Planning",
+        "ar": "[Arabic]"
+    },
+    "summary": {
+        "en": "Planning and spacing pregnancies is beneficial for both you and your baby. It can reduce the risk of low birth weight (baby weighing less than 2.5kg), preterm birth (baby born prior to 37 weeks of pregnancy), uterine rupture, and mental health issues such as postpartum depression or stress. Additionally, if you are a breastfeeding mother, you can benefit from birth spacing which allows your body to replenish important nutrients such as folic acid and iron, while also strengthening your abdominal and pelvic floor muscles. Research indicates that spacing pregnancies by at least 18- 24 months is best. ",
+        "ar": "[Arabic]"
+    },
+    "topLevelVideo": "https://www.youtube.com/embed/UpkltFvBAXI",
+    "tab": []
 }

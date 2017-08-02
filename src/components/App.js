@@ -67,6 +67,12 @@ class App extends Component {
               <Route
                 exact path='/family-planning/contraception'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/family-planning/contraception.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/family-planning/unplanned-pregnancy'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-planning/unplanned-pregnancy.json' lang={this.state.lang} />} />
+              <Route
+                exact path='/family-planning/fertility'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-planning/fertility.json' lang={this.state.lang} />} />
               {/* Unplanned Pregnancy */}
               {/* Fertility and Infertility */}
 

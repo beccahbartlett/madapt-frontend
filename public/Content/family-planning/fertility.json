@@ -1,0 +1,35 @@
+{
+    "title": {
+        "en": "Fertility",
+        "ar": "[Arabic]"
+    },
+    "summary": {
+        "en": "<p>Preconception care: If you are trying to become pregnant, your health is important so make sure your body is getting the nutrients it needs to sustain a healthy pregnancy. Speak to your general practitioner (GP) about your plans and the possible need to start taking vitamins that contain folic acid. If you are not trying to become pregnant, it is important to know your options regarding birth control.</p>",
+        "ar": "[Arabic]"
+    },
+    "topLevelVideo": "",
+    "tab": [{
+            "title": {
+                "en": "Infertility",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>The likelihood of pregnancy is reduced after age 40 as the ability of eggs to fertilise and divide properly decreases, while increasing the chances of miscarriage and chromosomal disorders (e.g., down syndrome) in the baby. Between the ages of 45 and 55, the production of hormones such as oestrogen and progesterone declines leading to menopause.</p><p>In addition to aging, other conditions such as endometriosis and polycystic ovarian syndrome (PCOS) can lead to infertility. PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects. Similarly, endometriosis can have an effect on fertility as the tissue that normally lines the uterus grows on the ovaries, fallopian tubes and on the tissue linking the pelvis causing inflammation. While some women experience no symptoms from endometriosis, others have severe pain. Some cases of infertility and the causes can be treated through medication, so speak to your health professional about your options.  </p>",
+                "ar": "[Arabic]"
+            },
+            "image": "",
+            "video": "https://www.youtube.com/embed/joTrmeDf1dY?rel=0",
+            "links": [
+            {
+              "title": {
+                "en": "Infertility",
+                "ar": "Infertility"
+              },
+              "url": "https://www.thewomens.org.au/health-information/fertility-information/fertility-problems/fertility-treatments/"
+            }
+          ]
+        }
+          
+        
+    ]
+}
