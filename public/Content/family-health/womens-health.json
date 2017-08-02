@@ -73,9 +73,17 @@
               "en": "<ul><li><b>Urinary Tract Infection (UTI)</b> A UTI is any infection to the urethra, bladder, ureters, or kidneys. It can cause symptoms that include: burning with urination, increased urinary frequency, urinating only small amounts, odorous urine, and lower back pain. UTIs are diagnosed with a urine sample and treated with antibiotics.</li>  <li><b>Thrush</b> Vaginal thrush is an infection that most women get at some point in their life. It can feel like an itching and/or burning sensation and can leave your vaginal and vulval area looking red and cause a white discharge. It is mostly harmless and is caused by an overgrowth of Candida albicans yeast. You should visit your chemist for a vaginal cream or tablets (both oral and vaginal are available), but should see your doctor if it occurs more than twice during a single year. Thrush can also occur in other parts of the body, such as the mouth and is often the result of antibiotic use as these alter the balance of good and bad bacteria in the body.</li>  <li><b>Polycystic Ovarian Syndrome (PCOS)</b> PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects./n/n Incontinence- Incontinence is the uncontrolled leakage of urine or feces. Causes for this vary, but one common cause of urinary incontinence can be childbirth.</li></ul>",
               "ar": "[Arabic]"
           },
-          "image": "",
+          "image": "http://image2.123tagged.com/images/m/mouth_thrush-21228.jpg",
           "video": "",
-          "links": []
+          "links": [
+            {
+              "title": {
+                "en": "Urinary Tract Infection",
+                "ar": "Urinary Tract Infection"
+              },
+              "url": "http://www.health.vic.gov.au/edfactsheets/downloads/urinary-tract-infections.pdf"
+            }
+          ]
         },
         {
           "title": {
@@ -88,7 +96,15 @@
           },
           "image": "",
           "video": "https://www.youtube.com/embed/DJ9V5fg4Ug4?rel=0",
-          "links": []
+          "links": [
+            {
+              "title": {
+                "en": "Continence",
+                "ar": "Continence"
+              },
+              "url": "https://www.continence.org.au/other-languages.php/26/English"
+            }
+          ]
         }
     ]
 }

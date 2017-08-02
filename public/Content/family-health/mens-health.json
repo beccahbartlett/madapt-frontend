@@ -19,7 +19,15 @@
             },
             "image": "",
             "video": "https://www.youtube.com/embed/h6xBne6GBd0?rel=0",
-            "links":  []
+            "links": [
+            {
+              "title": {
+                "en": "Erectile Dysfunction",
+                "ar": "Erectile Dysfunction"
+              },
+              "url": " https://www.healthdirect.gov.au/erectile-dysfunction"
+            }
+          ]
         },
         {
             "title": {
@@ -32,7 +40,15 @@
             },
             "image": "https://www.andrologyaustralia.org/wp-content/uploads/Male-Infertility-Guide-WEB.pdf",
             "video": "https://www.youtube.com/embed/4Q5L4ROOD0g?rel=0",
-            "links": []
+            "links": [
+            {
+              "title": {
+                "en": "",
+                "ar": ""
+              },
+              "url": ""
+            }
+          ]
         },
         {
             "title": {
@@ -45,7 +61,15 @@
             },
             "image": "",
             "video": "https://www.youtube.com/embed/aDBzMUEnLSg?rel=0",
-            "links": []
+            "links": [
+            {
+              "title": {
+                "en": "Prostate Cancer",
+                "ar": "Prostate Cancer"
+              },
+              "url": "https://www.healthdirect.gov.au/prostate-cancer"
+            }
+          ]
         
         }
     ]

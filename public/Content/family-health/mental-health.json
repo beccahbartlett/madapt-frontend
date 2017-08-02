@@ -1,0 +1,77 @@
+{
+    "title": {
+        "en": "Mental Health",
+        "ar": "[Arabic]"
+    },
+    "summary": {
+        "en": "The World Health Organization (WHO) defines “mental health as a state of well-being in which every individual realizes his or her own potential, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to her or his community.” Ultimately, mental health can be defined as a holistic state of health including cognitive, emotional, and social health, not just the absence of a mental health condition.",
+        "ar": "[Arabic]"
+    },
+    "topLevelVideo": "https://www.youtube.com/embed/SQYNOXXjrxQ?rel=0",
+    "tab": [{
+            "title": {
+                "en": "Trauma",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "Traumatic incidents such as displacement, war, natural disasters, physical assault, and sexual assault/abuse can impact you physically, mentally, emotionally or behaviorally. The effects of a traumatic experience can be very profound and vary from person to person. There are many ways to cope with trauma such as talking to someone, finding a creative outlet including writing, and engaging in self-care like yoga, meditation, or listening to music. Avoid using drugs or alcohol to cope and if you find it difficult to cope seek professional support. ",
+                "ar": "[Arabic]"
+            },
+            "video": "",
+            "links": [
+            {
+              "title": {
+                "en": "Trauma",
+                "ar": "Trauma"
+              },
+              "url": "https://www.beyondblue.org.au/the-facts/trauma"
+            }
+          ]
+        },
+        {
+            "title": {
+                "en": "Grief",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>It’s completely normal to react strongly to grief—everyone handles grief and copes differently. Grief can be disruptive, but it is important to allow yourself time to grieve and heal. You may feel differently about your experience at different times, so you can try different coping strategies that might work for you including:</p> <p>Grief time: Grieving can take time, so be patient as you work through your emotions. Allow yourself up to 20 minutes each day to grieve by taking time to be alone. You can think, cry, pray, meditate, write or any other method that helps you.</p> <p>Journal: write about your feelings and about the person you are grieving. This can help you relieve stored emotions and show your progress. Let yourself cry (if you feel like it): Allow yourself to cry and work through your grief. Don’t worry if you can’t cry, because people work through grief differently.</p> <p>Talk it out: Grieving can feel lonely, so talk to someone who may have been through a similar experience or consider joining a support group.</p>",
+                "ar": "[Arabic]"
+            },
+            "image": "",
+            "video": "",
+            "links": [
+            {
+              "title": {
+                "en": "",
+                "ar": ""
+              },
+              "url": ""
+            }
+          ]
+        },
+        {
+            "title": {
+                "en": "Self-care",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>Self-care is any activity that can help you feel healthy, relaxed and re-energized to take on your daily responsibilities. Making time for self-care regularly allows you to maintain good physical, emotional and mental health. There are many ways to look after your health even when you don't think it needs special attention. It helps if you can:</p> <ul>   <li>eat well and exercise regularly</li>   <li>get enough sleep and set aside some time each day to relax</li>   <li>put time into activities and relationships that make you feel good</li>   <li>et yourself some short-term and long-term goals to look forward to</li>   <li>try to deal with problems instead of letting them build up</li>   <li>be aware of the possible effects of alcohol and drugs on your state of mind and relationships.</li>   </ul>  <p>These things can really help you keep on top of day-to-day-life and stay on top of regular stress levels and worries.</p>",
+                "ar": "[Arabic]"
+            },
+            "image": "",
+            "video": "",
+            "links": [
+            {
+              "title": {
+                "en": "Self-Care",
+                "ar": "Self-Care"
+              },
+              "url": "http://au.reachout.com/what-is-self-care#what"
+            }
+          ]
+        
+        }
+        
+        
+    ]
+}

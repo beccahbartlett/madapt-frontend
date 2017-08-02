@@ -119,7 +119,7 @@ class App extends Component {
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/mental-health.json' lang={this.state.lang} />} />
               <Route
                 exact path='/family-health/violence'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/violence' lang={this.state.lang} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/violence.json' lang={this.state.lang} />} />
               
               <Route render={function() {
                 return <p>Not Found</p>
