@@ -1,39 +1,209 @@
 {
-  "title": {
-    "en": "Contraception",
-    "ar": "[Arabic]" 
-  },
-  "summary": {
-    "en": "<p>There are many contraceptive methods available in Australia, including implants and injections, intrauterine devices (IUDs, both copper and hormonal), emergency contraception, pills and vaginal rings, barrier methods (male and female condoms and diaphragms), female and male sterilisation and natural methods (natural family planning)</p>",
-    "ar": "[Arabic]" 
-  },
-  "topLevelVideo": "https://www.youtube.com/embed/Zx8zbTMTncs",
-  "tab": [
-    {
-      "title": {
-        "en": "Hormonal Implants",
-        "ar": "[Arabic]" 
-      },
-      "text": {
-        "en": "<p>Implants are small, flexible rods or capsules placed under the skin of the upper arm. They contain a progestogen-only hormone which helps thicken cervical mucous and blocks the sperm and egg from meeting and prevents ovulation. They are effective in preventing pregnancy in over 99% of cases but do not protect against sexually transmitted infections or HIV. For this you need to use condoms. Hormonal implants need to be inserted by a trained professional and can be used for 3-5 years depending on the brand. A small percentage of women will experience irregular bleeding but many will stop having periods altogether. Once the implant is removed or expires, you can get pregnant immediately.</p>",
-        "ar": "[Arabic]" 
-      },
-      "image": "",
-      "links": [ ]
+    "title": {
+        "en": "Contraception",
+        "ar": "[Arabic]"
     },
-    {
-      "title": {
-        "en": "Where to Access",
-        "ar": "[Arabic]" 
-      },
-      "text": {
-        "en": "<p>Find a family planning service provider to discuss your options. More info:</p><ul>  <li><a href='https://www.thewomens.org.au/health-information/contraception/contraceptive-implants/'>Contraceptive implants</a></li>  <li><a href='http://www.arhp.org/publications-and-resources/patient-resources/fact-sheets/single-rod'>Health Matters Fact Sheets -Implant</a></li>  <li><a href='https://www.plannedparenthood.org/learn/birth-control/birth-control-implant-implanon'>Birth Control Implant</a></li></ul>",
-        "ar": "[Arabic]" 
-      },
-      "image": "",
-      "video": "",
-      "links": []
-    }
-  ]
+    "summary": {
+        "en": "Contraception can help you avoid pregnancy resulting from unprotected sex. There are several methods of contraception that are safe, effective and easy to use prior to having sex such as condoms, pills, implants, injections, IUDs, diaphragms, vaginal rings, and natural methods.  Additionally, you may use emergency contraception up to 5 days after engaging in unprotected sex. ",
+        "ar": "[Arabic]"
+    },
+    "topLevelVideo": "",
+    "tab": [{
+            "title": {
+                "en": "Intra uterine device (IUD)",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>What is it: An IUD is a copper or hormone releasing device that is placed inside the uterus and creates an environment which ensures that pregnancy cannot happen. </p><p>How to use it: The IUD is inserted by a health practitioner and can stay in place for up to 10 years depending on which type is used. The IUD can be removed at any time by visiting your doctor.  </p><p>Efficacy: 99 per cent effective</p>",
+                "ar": "[Arabic]"
+            },
+            "image": "",
+            "video": "https://www.youtube.com/embed/pCXUUj4OVxw",
+            "links": [
+            {
+              "title": {
+                "en": "",
+                "ar": ""
+              },
+              "url": ""
+            }
+          ]
+        },
+        {
+            "title": {
+                "en": "Condoms",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>What is it: Male and female condoms provide a barrier which prevents sperm from entering the uterus and fertilising an egg. Condoms can also reduce the risk of contracting sexually transmitted infections, including HIV.</p><p>How to use it:<ul><li>How to use it: Male condom- the male condom is put over the erect penis and should be used every time you have sex.</li><li>Female condom-  The female condom which is stronger than the male latex condom sits in the vagina using the flexible ring. You can order female condoms from Family Planning Victoria, retail stores, or health clinics.</li></ul></p><p>Efficacy:<ul><li>Male condom- 98 per cent effective when used correctly</li><li>Female condom- 95 per cent effective when used correctly </li></ul></p>",
+                "ar": "[Arabic]"
+            },
+            "image": "",
+            "video": "https://www.youtube.com/embed/-NbpQv3dJ1c",
+            "links": [
+            {
+              "title": {
+                "en": "",
+                "ar": ""
+              },
+              "url": ""
+            }
+          ]
+        },
+        {
+            "title": {
+                "en": "Pills",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>What is it: Contraceptive pills prevent pregnancy by using synthetic forms of hormones.  </p>  <p>How to use it: Contraceptive pills are available with a doctor’s prescription and should be taken orally every day at the same time. </p> <p>Efficacy: 99 per cent effective when used correctly. </p>",
+                "ar": "[Arabic]"
+            },
+            "image": "https://3.bp.blogspot.com/-jrvYC131CYY/V4mwbPWJZpI/AAAAAAAAAzg/FIiKH2vrAjcEVx6tS3mu4NRfUAuy6P9RwCLcB/s1600/xxxx.png",
+            "video": "https://www.youtube.com/embed/67Xvbahh8Is",
+            "links": [
+            {
+              "title": {
+                "en": "",
+                "ar": ""
+              },
+              "url": ""
+            }
+          ]
+        
+        },
+        {
+            "title": {
+                "en": "Injection",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>What is it: The injection (Depo) is a hormonal injection which stops ovulation and makes the fluid at the opening to the uterus thicker, which prevents sperm from entering.</p>  <p>How to use it: The injection is administered by a health practitioner every 12 to 14 weeks. </p> <p>Efficacy: 94 per cent effective </p>",
+                "ar": "[Arabic]"
+            },
+            "image": "",
+            "video": "https://www.youtube.com/embed/93VgngakeMU",
+            "links": [
+            {
+              "title": {
+                "en": "",
+                "ar": ""
+              },
+              "url": ""
+            }
+          ]
+        
+        },
+        {
+            "title": {
+                "en": "Implants",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>What is it: The implant is a hormonal device that is placed on the upper arm under the skin. It is a good option for women who cannot take synthetic oestrogens. </p>  <p>How to use it: The implant is inserted by a health practitioner and can be left in place for up to three years. </p> <p>Efficacy: 99 per cent effective </p>",
+                "ar": "[Arabic]"
+            },
+            "image": "",
+            "video": "https://www.youtube.com/embed/4RBnQKPbBy4",
+             "links": [
+            {
+              "title": {
+                "en": "",
+                "ar": ""
+              },
+              "url": ""
+            }
+          ]
+        
+        },
+        {
+            "title": {
+                "en": "Vaginal rings",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>What is it: The vaginal ring is put into the vagina and slowly releases hormones which prevent pregnancy.  </p>  <p>How to use it: The ring can easily be inserted at home. After three weeks, it should be removed and replaced one week later.  </p> <p>Efficacy: 99 per cent effective if used correctly. </p>",
+                "ar": "[Arabic]"
+            },
+            "image": "",
+            "video": "https://www.youtube.com/embed/JFjD9vSNdC8",
+             "links": [
+            {
+              "title": {
+                "en": "",
+                "ar": ""
+              },
+              "url": ""
+            }
+          ]
+        
+        },
+        {
+            "title": {
+                "en": "Diaphragms",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>What is it: The diaphragm is a soft dome that is fitted in the vagina providing a barrier from the uterus. </p>  <p>How to use it: The diaphragm should be fitted by a health practitioner and should remain in the vagina for up to 6 hours after having sex. This barrier method does not protect from sexually transmitted infections.  </p> <p>Efficacy: 94 per cent effective when used correctly.  </p>",
+                "ar": "[Arabic]"
+            },
+            "image": "",
+            "video": "",
+             "links": [
+            {
+              "title": {
+                "en": "",
+                "ar": ""
+              },
+              "url": ""
+            }
+          ]
+        
+        },
+        {
+            "title": {
+                "en": "Emergency contraception",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>What is it: Emergency contraception is also known as “the morning after pill.” This pill can stop ovulation and can be taken to prevent pregnancy if you had unprotected sex or if the condom malfunctions. </p>  <p>How to use it: You can purchase this pill from most pharmacies. Although you should take it as soon as possible, it can be effective up to 96 hours after having sex.   </p> <p>Efficacy: This method will not be very effective if used after 96 hours after having sex. </p>",
+                "ar": "[Arabic]"
+            },
+            "image": "",
+            "video": "https://www.youtube.com/embed/YGc92_b0lbk?list=PL_0c66FsSFAIevxnol1LzZxigrwTwPJhf",
+             "links": [
+            {
+              "title": {
+                "en": "",
+                "ar": ""
+              },
+              "url": ""
+            }
+          ]
+        
+        },
+        {
+            "title": {
+                "en": "Natural methods",
+                "ar": "[Arabic]"
+            },
+            "text": {
+                "en": "<p>What is it: Natural methods including temperature method, rhythm method, or cervical mucus method help you track the days which you are ovulating, which is when you have the highest chance of getting pregnant. You can avoid pregnancy by not having sex on those days. While natural methods are free and don’t involve any devices or medication, they are only effective when used correctly. </p>  <p>How to use it: Temperature method: Take your temperature every morning when you wake up. When you ovulate, your temperature can increase by almost 1 degree F, which can let you know when to avoid having sex.</p> <p>Rhythm method: Before you start, track your period of 6- 12 months, then use the following formula:<ul> <li>Subtract 18 from the number of days in your shortest cycle.</li> <li>Count that many days after you start your period. That’s your first fertile day.</li> <li>Subtract 11 from the number of days in your longest cycle.</li> <li>Count that many days from the start of your period. That’s your last fertile day.</li> <li>Don’t have sex on or between your first and last fertile days.</li> </ul>  </p> <p>Cervical mucus method:  When you are ovulating, you may have more cervical mucus than other times of the month, such as right after your period. You may also notice changes in color and texture which can signal that you are ovulating. When you are ovulating, your cervical mucus can look clear and stretch similar to egg whites. This can help you know when to avoid sex. </p><p>Efficacy- Natural methods can have up to a 24 per cent chance of leading to pregnancy when not used correctly. If your cycle is irregular, you might consult your health practitioner about your other options. </p>",
+                "ar": "[Arabic]"
+            },
+            "image": "",
+            "video": "https://www.youtube.com/embed/4RBnQKPbBy4",
+             "links": [
+            {
+              "title": {
+                "en": "Source",
+                "ar": "Source"
+              },
+              "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/contraception-choices "
+            }
+          ]
+        
+        }
+        
+    ]
 }
-
