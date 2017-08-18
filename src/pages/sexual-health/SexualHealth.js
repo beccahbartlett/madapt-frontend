@@ -13,25 +13,37 @@ class SexualHealth extends Component {
         {
           imgSrc: HealthyRelationshipsIcon,
           theme: '4',
-          titleText: 'Healthy Relationships',
+          titleText: {
+            'en': 'Healthy Relationships',
+            'ar': 'العلاقات الصحية' 
+          },
           linkUrl: '/sexual-health/healthy-relationships'
         },
         {
           imgSrc: SafeSexIcon,
           theme: '4',
-          titleText: 'Safe sex',
+          titleText: {
+            'en': 'Safe sex',
+            'ar': 'الجنس الآمن' 
+          },
           linkUrl: '/sexual-health/safe-sex'
         },
         {
           imgSrc: StisIcon,
           theme: '4',
-          titleText: "STI's/ HIV",
+          titleText: {
+            'en': 'STI\'s/ HIV',
+            'ar': 'فيروس نقص المناعة المكتسب والأمراض الجنسية'
+          },
           linkUrl: '/sexual-health/sti'
         },
         {
           imgSrc: SexualityIcon,
           theme: '4',
-          titleText: 'Sexuality',
+          titleText: {
+            'en': 'Sexuality',
+            'ar': 'النشاط الجنسي' 
+          },
           linkUrl: '/sexual-health/sexuality'
         }
       ]
@@ -42,7 +54,9 @@ class SexualHealth extends Component {
   }
   render() {
     return (
-      <GridPageContainer cards={this.state.cards} />
+      <GridPageContainer
+        cards={this.state.cards}
+        lang={this.props.lang} />
     )
   }
 }

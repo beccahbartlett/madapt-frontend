@@ -102,7 +102,10 @@ class App extends Component {
                 exact path='/pregnancy-newborn/newborn'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/newborn.json' lang={this.state.lang} />} />
 
-              <Route exact path='/sexual-health' component={SexualHealth} lang={this.state.lang} />
+                <Route
+                exact path='/sexual-health'
+                component={(props) => <SexualHealth {...props}
+                lang={this.state.lang} />} />
               <Route
                 exact path='/sexual-health/healthy-relationships'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/healthy-relationships.json' lang={this.state.lang} />} />
