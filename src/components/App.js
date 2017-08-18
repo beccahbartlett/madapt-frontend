@@ -48,7 +48,10 @@ class App extends Component {
                 <Redirect to="/access"/>
               )}/>
 
-              <Route exact path='/access' component={Access} lang={this.state.lang} />
+              <Route
+                exact path='/access'
+                component={(props) => <Access {...props}
+                lang={this.state.lang} />} />
               <Route
                 exact path='/access/health-system-overview'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/access/health-system-overview.json' lang={this.state.lang} />} />

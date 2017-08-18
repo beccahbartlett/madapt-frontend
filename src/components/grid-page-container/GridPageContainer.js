@@ -9,9 +9,10 @@ class GridPageContainer extends Component {
         {this.props.cards.map(item => {
           return (
             <Card
+              lang={this.props.lang}
               imgSrc={item.imgSrc}
               theme={item.theme}
-              titleText={item.titleText}
+              titleText={item.titleText[this.props.lang]}
               linkUrl={item.linkUrl} />
           )
         })}
