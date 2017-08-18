@@ -14,33 +14,39 @@ class FamilyPlanning extends Component {
         {
           imgSrc: BirthSpacingIcon,
           theme: '2',
-          titleText: 'Birth Spacing and Planning',
+          titleText: {
+            'en': 'Birth Spacing and Planning',
+            'ar': 'تخطيط الولادة والمدة الزمنية بين الحمل' 
+          },
           linkUrl: '/family-planning/birth-spacing'
         },
         {
           imgSrc: ContraceptionIcon,
           theme: '2',
-          titleText: 'Contraception',
+          titleText: {
+            'en': 'Contraception',
+            'ar': 'طرق منع الحمل' 
+          },
           linkUrl: '/family-planning/contraception'
+        },
+        {
+          imgSrc: UnplannedPregnancyIcon,
+          theme: '2',
+          titleText: {
+            'en': 'Unplanned Pregnancy',
+            'ar': 'الحمل الغير مخطط' 
+          },
+          linkUrl: '/family-planning/unplanned-pregnancy'
         },
         {
           imgSrc: FertilityIcon,
           theme: '2',
-          titleText: 'Fertility',
+          titleText: {
+            'en': 'Fertility',
+            'ar': 'الإخصاب والعجز الجنسي' 
+          },
           linkUrl: '/family-planning/fertility'
-        },
-        // {
-        //   imgSrc: FamilyPlanningIcon,
-        //   theme: '2',
-        //   titleText: 'Family Planning',
-        //   linkUrl: '#'
-        // },
-        {
-          imgSrc: UnplannedPregnancyIcon,
-          theme: '2',
-          titleText: 'Unplanned Pregnancy',
-          linkUrl: '/family-planning/unplanned-pregnancy'
-        },
+        }
       ]
     }
   }
@@ -49,7 +55,9 @@ class FamilyPlanning extends Component {
   }
   render() {
     return (
-      <GridPageContainer cards={this.state.cards} />
+      <GridPageContainer
+        cards={this.state.cards}
+        lang={this.props.lang} />
     )
   }
 }

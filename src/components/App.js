@@ -48,7 +48,10 @@ class App extends Component {
                 <Redirect to="/access"/>
               )}/>
 
-              <Route exact path='/access' component={Access} lang={this.state.lang} />
+              <Route
+                exact path='/access'
+                component={(props) => <Access {...props}
+                lang={this.state.lang} />} />
               <Route
                 exact path='/access/health-system-overview'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/access/health-system-overview.json' lang={this.state.lang} />} />
@@ -60,7 +63,10 @@ class App extends Component {
               {/* Disability Access  */}
               {/* Private vs. Public Health Services */}
 
-              <Route exact path='/family-planning' component={FamilyPlanning} lang={this.state.lang} />
+              <Route
+                exact path='/family-planning'
+                component={(props) => <FamilyPlanning {...props}
+                lang={this.state.lang} />} />
               <Route
                 exact path='/family-planning/birth-spacing'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/family-planning/birth-spacing.json' lang={this.state.lang} />} />
@@ -76,7 +82,10 @@ class App extends Component {
               {/* Unplanned Pregnancy */}
               {/* Fertility and Infertility */}
 
-              <Route exact path='/pregnancy-newborn' component={PregnancyNewborn} lang={this.state.lang} />
+              <Route
+                exact path='/pregnancy-newborn'
+                component={(props) => <PregnancyNewborn {...props}
+                lang={this.state.lang} />} />
               <Route
                 exact path='/pregnancy-newborn/pregnancy'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/pregnancy.json' lang={this.state.lang} />} />
@@ -93,7 +102,10 @@ class App extends Component {
                 exact path='/pregnancy-newborn/newborn'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/newborn.json' lang={this.state.lang} />} />
 
-              <Route exact path='/sexual-health' component={SexualHealth} lang={this.state.lang} />
+                <Route
+                exact path='/sexual-health'
+                component={(props) => <SexualHealth {...props}
+                lang={this.state.lang} />} />
               <Route
                 exact path='/sexual-health/healthy-relationships'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/healthy-relationships.json' lang={this.state.lang} />} />
@@ -107,7 +119,10 @@ class App extends Component {
                 exact path='/sexual-health/sexuality'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/sexuality.json' lang={this.state.lang} />} />
               
-              <Route exact path='/family-health' component={FamilyHealth} lang={this.state.lang} />
+              <Route
+                exact path='/family-health'
+                component={(props) => <FamilyHealth {...props}
+                lang={this.state.lang} />} />
               <Route
                 exact path='/family-health/womens-health'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/womens-health.json' lang={this.state.lang} />} />

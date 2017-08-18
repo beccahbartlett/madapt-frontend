@@ -13,31 +13,46 @@ class PregnancyNewborn extends Component {
         {
           imgSrc: PregnancyIcon,
           theme: '3',
-          titleText: 'Pregnancy',
+          titleText: {
+            'en': 'Pregnancy',
+            'ar': 'الحمل' 
+          },
           linkUrl: '/pregnancy-newborn/pregnancy'
         },
         {
           imgSrc: PregnancyIcon,
           theme: '3',
-          titleText: 'Complications',
+          titleText: {
+            'en': 'Complications',
+            'ar': 'Complications' 
+          },
           linkUrl: '/pregnancy-newborn/complications'
         },
         {
           imgSrc: BirthIcon,
           theme: '3',
-          titleText: 'Birth',
+          titleText: {
+            'en': 'Birth',
+            'ar': 'الولادة' 
+          },
           linkUrl: 'pregnancy-newborn/birth'
         },
         {
           imgSrc: PostnatalIcon,
           theme: '3',
-          titleText: 'Postnatal',
+          titleText: {
+            'en': 'Postnatal',
+            'ar': 'بعد الولادة' 
+          },
           linkUrl: 'pregnancy-newborn/postnatal'
         },
         {
           imgSrc: NewbornIcon,
           theme: '3',
-          titleText: 'Newborn - 12 months',
+          titleText: {
+            'en': 'Newborn - 12 months',
+            'ar': 'حديثي الولادة حتى 12 شهر' 
+          },
           linkUrl: 'pregnancy-newborn/newborn'
         }
       ]
@@ -48,7 +63,9 @@ class PregnancyNewborn extends Component {
   }
   render() {
     return (
-      <GridPageContainer cards={this.state.cards} />
+      <GridPageContainer
+        cards={this.state.cards}
+        lang={this.props.lang} />
     )
   }
 }
