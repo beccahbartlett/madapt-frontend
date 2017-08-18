@@ -38,7 +38,7 @@ class ContentPageContainer extends Component {
             <div className='tabContent' dangerouslySetInnerHTML={{__html: item.text[lang]}} />
             {item.video && <Video url={item.video} />}
             <div className='tabLinks'>
-              {item.links && <Links links={item.links} />}
+              {item.links.length > 0 && <Links links={item.links} />}
             </div>
           </div>
         )

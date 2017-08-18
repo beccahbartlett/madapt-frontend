@@ -19,15 +19,7 @@
             },
             "image": "",
             "video": "",
-            "links": [
-            {
-              "title": {
-                "en": "",
-                "ar": ""
-              },
-              "url": ""
-            }
-          ]
+            "links": []
         },
         {
             "title": {
@@ -40,15 +32,7 @@
             },
             "image": "",
             "video": "",
-            "links": [
-            {
-              "title": {
-                "en": "",
-                "ar": ""
-              },
-              "url": ""
-            }
-          ]
+            "links": []
         },
         {
             "title": {
@@ -83,15 +67,7 @@
             },
             "image": "",
             "video": "https://www.youtube.com/embed/o9tdxEr1nww?rel=0",
-            "links": [
-            {
-              "title": {
-                "en": "",
-                "ar": ""
-              },
-              "url": ""
-            }
-          ]
+            "links": []
         
         }
         

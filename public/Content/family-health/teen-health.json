@@ -83,15 +83,7 @@
             },
             "image": "http://www.nmml.org.au/content/Document/Looking%20After%20Ourselves%20English.pdf",
             "video": "https://www.youtube.com/embed/RTceiyk_ymI?rel=0",
-            "links": [
-            {
-              "title": {
-                "en": "",
-                "ar": ""
-              },
-              "url": ""
-            }
-          ]
+            "links": []
         
         },
         {
@@ -105,15 +97,7 @@
             },
             "image": "http://www.youthcentral.vic.gov.au/health-relationships/smoking",
             "video": "https://www.youtube.com/embed/lW6hwmdZbmE?rel=0",
-             "links": [
-            {
-              "title": {
-                "en": "",
-                "ar": ""
-              },
-              "url": ""
-            }
-          ]
+             "links": []
         
         },
         {
