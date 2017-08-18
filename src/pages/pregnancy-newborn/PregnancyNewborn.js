@@ -24,7 +24,7 @@ class PregnancyNewborn extends Component {
           theme: '3',
           titleText: {
             'en': 'Complications',
-            'ar': 'Complications' 
+            'ar': 'مضاعفات' 
           },
           linkUrl: '/pregnancy-newborn/complications'
         },
