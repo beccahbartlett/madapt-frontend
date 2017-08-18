@@ -74,7 +74,9 @@ class FamilyHealth extends Component {
   }
   render() {
     return (
-      <GridPageContainer cards={this.state.cards} />
+      <GridPageContainer
+        cards={this.state.cards}
+        lang={this.props.lang} />
     )
   }
 }
