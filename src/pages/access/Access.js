@@ -15,37 +15,55 @@ class Access extends Component {
         {
           imgSrc: HealthSystemIcon,
           theme: '1',
-          titleText: 'Health System Overview',
+          titleText: {
+            'en': 'Health System Overview',
+            'ar': 'النظام الصحي'
+          },
           linkUrl: '/access/health-system-overview'
         },
         {
           imgSrc: AustralianNormIcon,
           theme: '1',
-          titleText: 'Australian norms',
+          titleText: {
+            'en': 'Australian norms',
+            'ar': 'المعايير الاسترالية'
+          },
           linkUrl: '/access/australian-norms'
         },
         {
           imgSrc: MedicareCentrelinkIcon,
           theme: '1',
-          titleText: 'Medicare and Centrelink',
+          titleText: {
+            'en': 'Medicare and Centrelink',
+            'ar': 'مديكير وسنترلنك' 
+          },
           linkUrl: '#'
         },
         {
           imgSrc: ResponsibilitiesIcon,
           theme: '1',
-          titleText: 'Your Rights and Responsibilities',
+          titleText: {
+            'en': 'Your Rights and Responsibilities',
+            'ar': 'الحقوق والواجبات' 
+          },
           linkUrl: '#'
         },
         {
           imgSrc: DisabilityAccessIcon,
           theme: '1',
-          titleText: 'Disability Access',
+          titleText: {
+            'en': 'Disability Access',
+            'ar': 'تسجيل الدخول لذوي الاحتياجات الخاصة' 
+          },
           linkUrl: '#'
         },
         {
           imgSrc: PrivatePublicIcon,
           theme: '1',
-          titleText: 'Private vs. Public Health Services',
+          titleText: {
+            'en': 'Private vs. Public Health Services',
+            'ar': 'الخدمات الصحية العامة والخاصة' 
+          },
           linkUrl: '#'
         }
       ]
@@ -56,7 +74,8 @@ class Access extends Component {
   }
   render() {
     return (
-      <GridPageContainer cards={this.state.cards} />
+      <GridPageContainer cards={this.state.cards}
+                         lang={this.props.lang}/>
     )
   }
 }
