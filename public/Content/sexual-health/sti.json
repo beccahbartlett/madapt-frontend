@@ -1,22 +1,22 @@
 {
     "title": {
         "en": "Sexually Transmissible Infections",
-        "ar": "[Arabic]"
+        "ar": "الأمراض المنتقلة عن طريق الجنس"
     },
     "summary": {
-        "en": "<p>Sexually transmissible infections (STIs) such as herpes, human papillomavirus (HPV), syphilis, chlamydia, gonorrhea, human immunodeficiency virus (HIV), hepatitis B and hepatitis c are infections passed on from one person to another through sexual activity including oral, vaginal, and anal sex or contaminated blood.</p><p>STIs can also be passed on through genital skin contact, fluid, or sharing contaminated sex toys.</p><p>As some STIs show no symptoms, it is important to always use condoms during sex and have regular testing in order to prevent transmission, as well as receive necessary treatment.</p><h2>Resources</h2><ul>  <li><a href='https://www.thewomens.org.au/health-information/sex-sexuality/sexually-transmitted-infections/about-stis/'>Prevention, Symptoms, Testing, Care and Support</a></li>  <li><a href='http://www.fpv.org.au/for-you/sexually-transmissible-infections-blood-borne-viruses/sti-bbv-get-the-facts'>STIs and testing information</a></li>  <li><a href='http://www.mshc.org.au/SexualHealthInformation/SexualHealthFactSheets/tabid/109/Default.aspx#.WVSRXxOGP-Y'>STIs fact sheet</a></li>  <li><a href='http://www.fpv.org.au/for-you/sexually-transmissible-infections-blood-borne-viruses/sti-bbv-testing-what-to-expect-at-fpv'>Testing</a></li>  <li><a href='http://www.mhahs.org.au/index.php/en/hiv/introduction'>Prevention, Symptoms, Testing, Care and Suppor for HIV</a></li></ul>",
-        "ar": "[Arabic]"
+        "en": "<p>Sexually transmissible infections (STIs) such as herpes, human papillomavirus (HPV), syphilis, chlamydia, gonorrhea, human immunodeficiency virus (HIV), hepatitis B and hepatitis c are infections passed on from one person to another through sexual activity including oral, vaginal, and anal sex or contaminated blood.</p><p>STIs can also be passed on through genital skin contact, fluid, or sharing contaminated sex toys.</p><p>As some STIs show no symptoms, it is important to always use condoms during sex and have regular testing in order to prevent transmission, as well as receive necessary treatment.</p>",
+        "ar": "<p>الأمراض المعدية المنتقلة بالاتصال الجنسي مثل الهربس وفيروس الورم الحليمي البشري, والزهري والكلاميديا ​​والسيلان وفيروس نقص المناعة البشرية والتهاب الكبد B والتهاب الكبد الوبائي C هي عدوى تنتقل من شخص إلى آخر من خلال النشاط الجنسي بما في ذلك الفم، المهبل، و الجنس الشرجي أو الدم الملوث.</p><p>ويمكن أيضا أن تنتقل الأمراض المنقولة بالاتصال الجنسي عن طريق الاتصال الجنسي للبشرة التناسلية، والسوائل، أو تبادل الألعاب الجنسية الملوثة.</p><p>وبما أن بعض الأمراض التي تنتقل عن طريق الاتصال الجنسي لا تظهر أي أعراض، فمن المهم دائما استخدام الواقي الذكري أثناء ممارسة الجنس وإجراء اختبارات منتظمة لمنع انتقال المرض، فضلا عن تلقي العلاج اللازم.</p>"
     },
     "topLevelVideo": "https://www.youtube.com/embed/pBMhfIHUP8M",
     "tab": [
       {
         "title": {
             "en": "Herpes",
-            "ar": "[Arabic]"
+            "ar": "الهربس"
         },
         "text": {
             "en": "<p><b>What it is:</b> Genital herpes is a sexually transmitted viral infection.</p><p><b>Symptoms:</b> Many infected people the herpes virus don’t experience any symptoms, so it’s always important to engage in safe sex. Some symptoms include, sores around the genitals, fever and body aches. Outbreak of sores can be sporadic and decline over time.</p><p><b>Treatment:</b> Although outbreaks can be managed with orally taken antivirals, herpes can’t be cured. Anyone infected with herpes should use a condom or oral barrier method during sex and avoid sex during outbreak.</p>",
-            "ar": "[Arabic]"
+            "ar": "<p> الهربس التناسلي هو عدوى فيروسية تنتقل عن طريق الاتصال الجنسي.</p><p>الأعراض: العديد من المصابين بفيروس الهربس لا يعانون من أي أعراض واضحة، لذلك فمن المهم دائما اتباع قواعد الجنس الآمن. وتشمل بعض الأعراض، القروح حول الأعضاء التناسلية، والحمى وآلام في الجسم. ويمكن تفشي القروح بشكل قروح متفرقة تتعافى ​​بمرور الوقت.</p><p>العلاج: على الرغم من إمكانية علاج  تفشي الهربس  عن طريق مضادات الفيروسات الفموية ، لا يمكن شفاء الهربس. يجب على أي شخص مصاب بالهربس استخدام الواقي الذكري أو طريقة الحاجز الفموي أثناء ممارسة الجنس وتجنب ممارسة الجنس أثناء الإصابة بالمرض.</p>"
         },
         "image": "",
         "video": "",
@@ -25,11 +25,11 @@
       {
         "title": {
             "en": "HPV",
-            "ar": "[Arabic]"
+            "ar": "فيروس الورم الحليمي البشري"
         },
         "text": {
             "en": "<p><b>What it is:</b> HPV is one of the most common sexually transmitted viral infection. Certain strains affect the cells inside the cervix, which can sometimes lead to cervical cancer. In low-risk cases, the infection can lead to genital warts. Gardasil and Cervarix vaccines protect against certain strains of HPV which cause cervical cancer and genital warts.</p><p><b>Symptoms:</b> bumps (warts) around genitals</p><p><b>Treatment:</b> Although most cases of HPV go unnoticed and heal over a period of time without any medication, a pap smear test can identify HPV and any abnormal cell changes. Genital warts are treated by freezing, burning,</p>",
-            "ar": "[Arabic]"
+            "ar": "<p>فيروس الورم الحليمي البشري هو واحد من الأمراض الفيروسية المنتقلة جنسياً الأكثر شيوعاً. بعض السلالات تؤثر على الخلايا داخل عنق الرحم، والتي يمكن أن تؤدي في بعض الأحيان إلى سرطان عنق الرحم. في الحالات المنخفضة الخطورة، يمكن أن تؤدي العدوى إلى الثآليل التناسلية. لقاحات غارداسيل و سيرفاريكس تحمي ضد سلالات معينة من فيروس الورم الحليمي البشري التي تسبب سرطان عنق الرحم والثآليل التناسلية</p><p>الأعراض: الثآليل حول الأعضاء التناسلية</p><p>العلاج: على الرغم من أن معظم حالات فيروس الورم الحليمي البشري تزول دون أن يلاحظها أحد والشفاء على مدى فترة من الزمن دون أي علاج، فإن اختبار مسحة عنق الرحم  تمكن من التعرف على فيروس الورم الحليمي البشري وأي تغييرات غير طبيعية في الخلية. يتم علاج الثآليل التناسلية عن طريق التجميد، والحرق.</p>"
         },
         "image": "",
         "video": "",
@@ -38,11 +38,11 @@
       {
         "title": {
             "en": "Syphilis",
-            "ar": "[Arabic]"
+            "ar": "الزهري"
         },
         "text": {
             "en": "<p><b>What it is:</b> Syphilis is a sexual transmitted bacterial infection, which can also be transmitted from mother to baby during pregnancy. Syphilis occurs in four stages known as primary, secondary, latent, and tertiary. If untreated, tertiary stage syphilis can damage other organs in the body including the heart and brain.</p><p><b>Symptoms:</b> Although, the symptoms in the early stages may be mild, they can change as the infection progresses.</p><p><b>Primary stage:</b> painless sores around the genital and anal region, as well as the mouth. These sores can clear in a few weeks, but you should still get treatment.</p><p><b>Secondary stage:</b> skin rash, fever, swollen glands, weight loss, headaches, hair loss, and extreme tiredness.</p><p><b>Latent stage:</b> There are no symptoms during this stage, however the infection is still present.</p><p><b>Tertiary stage:</b> This stage can occur 10- 30 years after infection and lead to serious medical complications, damage to body organs, and death.</p> <p><b>Treatment:</b> After taking a blood sample or fluids from a sore, your GP can test and treat syphilis by prescribing antibiotics.</p>",
-            "ar": "[Arabic]"
+            "ar": "<p>الزهري هو مرض جرثومي منتقل جنسياً،  يمكن أيضا أن ينتقل من الأم إلى الطفل أثناء فترة الحمل. يحدث الزهري في أربع مراحل تعرف باسم البدئي، الثانوي، الكامن، والثالث. إذا لم يعالج، فمن الممكن أن مرض الزهري بالمرحلة الثالثة أن يتلف الأجهزة الأخرى في الجسم بما في ذلك القلب والدماغ.</p><p>الأعراض: على الرغم من أن الأعراض في المراحل المبكرة قد تكون خفيفة، فإنها يمكن أن تتغير مع تقدم العدوى.</p><p>المرحلة البدئية: قروح غير مؤلمة حول المنطقة التناسلية والشرج، وكذلك الفم. هذه القروح يمكن أن تكون واضحة في غضون بضعة أسابيع، ولكن يجب أن يتم علاجها.</p><p>المرحلة الثانوية: طفح جلدي، حمى، تورم الغدد، فقدان الوزن، الصداع، فقدان الشعر، والتعب الشديد.</p><p>المرحلة الكامنة: لا توجد أعراض خلال هذه المرحلة، ولكن العدوى لا تزال موجودة.</p><p>المرحلة الثالثة: يمكن أن تحدث هذه المرحلة بعد 10 - 30 سنة من العدوى وتؤدي إلى مضاعفات طبية خطيرة، وتلف أعضاء الجسم، والموت.</p><p>العلاج: بعد أخذ عينة الدم أو السوائل من منطقة التقرحات، يصف طبيبك العام المضادات الحيوية كعلاج لمرض الزهري.</p>"
         },
         "image": "",
         "video": "",
@@ -51,11 +51,11 @@
       {
         "title": {
             "en": "Chlamydia",
-            "ar": "[Arabic]"
+            "ar": "الكلاميديا"
         },
         "text": {
             "en": "<p><b>What it is:</b> Chlamydia is one of the most common sexually transmitted bacterial infection. If untreated chlamydia can cause pelvic inflammatory disease (PID) or infertility.</p><p><b>Symptoms:</b> A majority of women with Chlamydia don’t experience any symptoms. However, some symptoms include change in vaginal discharge, irregular vaginal bleeding, pelvic pain, painful periods and pain during sex.</p><p><b>Treatment:</b> If you think you may be at risk for chlamydia, make an appointment with your GP who can perform a urine or swab test and prescribe the appropriate treatment.</p>",
-            "ar": "[Arabic]"
+            "ar": "<p>الكلاميديا ​​هي واحدة من الأمراض البكتيرية المنتقلة جنسياً الأكثر شيوعاً. وفي حال عدم معالجتها يمكن أن تسبب مرض التهاب الحوض أو العقم.</p><p>الأعراض: غالبية النساء المصابات بالكلاميديا ​​لا يعانين من أي أعراض. ومع ذلك فإن بعض الأعراض تشمل تغيير الإفرازات المهبلية، والنزيف المهبلي غير المنتظم، وآلام الحوض، ودورة شهرية مؤلمة والألم أثناء ممارسة الجنس.</p><p>العلاج: إذا كنت تعتقدين أنك قد تكونين مصابة بالكلاميديا، عليك تحديد موعد مع طبيبك العام الذي يمكنه بإجراء اختبار البول أو المسحة من وصف العلاج المناسب.</p>"
         },
         "image": "",
         "video": "",
@@ -64,11 +64,11 @@
       {
         "title": {
             "en": "Gonorrhea",
-            "ar": "[Arabic]"
+            "ar": "السيلان"
         },
         "text": {
             "en": "<p><b>What it is:</b> Gonorrhea is a sexually transmitted bacterial infection. If untreated gonorrhea can lead to pelvic inflammatory disease (PID) or infertility.</p><p><b>Symptoms:</b> Many women do not experience any symptoms. However, some symptoms include unusual vaginal or anal discharge, pelvic pain, pain during period, sex or while urinating, and sore throat.</p><p><b>Treatment:</b> If you think you may be at risk for gonorrhea, make an appointment with your GP who can perform a urine or swab test and provide treatment or further testing as needed.</p>",
-            "ar": "[Arabic]"
+            "ar": "<p>السيلان هو عدوى جرثومية تنتقل عن طريق الاتصال الجنسي. إذا لم تتم معالجة مرض السيلان بشكل كامل من الممكن أن يؤدي إلى مرض التهاب الحوض أو العقم.</p><p>الأعراض: العديد من النساء لا يعانين من أي أعراض, ومع ذلك فإن بعض الأعراض تشمل الإفرازات المهبلية أو الشرجية غير العادية، وآلام بالحوض، والألم خلال الدورة الشهرية، وأثناء الجماع أو أثناء التبول، والتهاب الحلق.</p><p>العلاج: إذا كنت تعتقدين أنك قد تكونين مصابة بمرض السيلان عليك تحديد موعد مع طبيبك العام الذي يمكنه بإجراء اختبار البول أو المسحة من وصف العلاج المناسب, أو يقوم بمزيد من الاختبارات حسب الحاجة.</p>"
         },
         "image": "",
         "video": "",
@@ -77,11 +77,11 @@
       {
         "title": {
             "en": "HIV",
-            "ar": "[Arabic]"
+            "ar": "فيروس نقص المناعة البشرية"
         },
         "text": {
             "en": "<p><b>What it is:</b> HIV, which can lead to AIDS, makes the body’s immune system weaker over time leading to different types of illnesses. It is transmitted by unprotected sex, sharing needles and other unsterile injection equipment, blood transfusions, and mother-to-child during pregnancy, childbirth or breastfeeding.</p><p><b>Symptoms:</b> A person with HIV may not always show symptoms, however, some symptoms include flu-like symptoms, sudden weight loss, extreme tiredness, swollen glands, white spots in mouth, diarrhoea, loss of appetite, and rash on the skin.</p><p><b>Treatment:</b> Although there is currently no cure for HIV/AIDS, treatment is available to improve health and prevent the transmission from mother-to-child during pregnancy and childbirth. Make an appointment with your GP to get tested, for consultation, and treatment.</p>",
-            "ar": "[Arabic]"
+            "ar": "<p>فيروس نقص المناعة البشرية، والتي يمكن أن تؤدي إلى الإيدز، الذي يضعف الجهاز المناعي في الجسم مؤدي إلى أنواع مختلفة من الأمراض مع مرور الوقت. ينتقل عن طريق الجنس غير المحمي، استعمال الإبر الملوثة وغيرها من معدات الحقن غير المعقمة، ونقل الدم، وينتقل من الأم المصابة إلى الطفل أثناء الحمل والولادة أو الرضاعة الطبيعية.</p><p>الأعراض: الشخص المصاب بفيروس العوز المناعي البشري قد لا يظهر دائما الأعراض، ولكن بعض الأعراض تشمل أعراض تشبه الأنفلونزا، وفقدان الوزن المفاجئ، والتعب الشديد، والغدد المنتفخة، والبقع البيضاء في الفم، والإسهال، وفقدان الشهية، والطفح الجلدي.</p><p>العلاج: على الرغم من عدم وجود علاج حاليا لفيروس نقص المناعة البشرية / الإيدز، فإن العلاج متاح لتحسين الصحة العامة ومنع انتقال المرض من الأم إلى الطفل أثناء الحمل والولادة. تحديد موعد مع طبيبك العام للحصول على اختبار، للتشاور، والعلاج.</p>"
         },
         "image": "",
         "video": "",
@@ -90,15 +90,19 @@
       {
         "title": {
             "en": "Hepatitis B and C",
-            "ar": "[Arabic]"
+            "ar": "التهاب الكبد B و C"
         },
         "text": {
             "en": "<p><b>What it is:</b> Hepatitis B and C are viral infections which affect the liver and can be spread through contaminated blood. Hepatitis B can also be spread through semen and saliva, as well as from mother with chronic hepatitis B to baby during or after birth. While some cases of hepatitis B and C can heal without treatment, there is the possibility that some cases (especially in regards to hepatitis C) can turn into chronic hepatitis.</p><p><b>Symptoms:</b> Most people experience no symptoms after they are infected and recover after a few weeks. However, in chronic cases, people may experience tiredness, loss of appetite, nausea and vomiting, pain on the right side under the ribs, joint pain and flu-like symptoms.</p><p><b>Treatment:</b> Both hepatitis B and C can be treated. Make an appointment to see your GP if you think you need to be tested or have any concerns.</p>",
-            "ar": "[Arabic]"
+            "ar": "<p>التهابات فيروسية تؤثر على الكبد ويمكن أن تنتشر عن طريق الدم الملوث والسائل المنوي واللعاب. وكذلك من الأم للطفل أثناء أو بعد الولادة. إن بعض حالات التهاب الكبد B و C يمكن أن تشفي دون علاج، وهناك احتمال أن بعض الحالات (وخاصة فيما يتعلق بالتهاب الكبد C) أن تتحول إلى التهاب الكبد مزمن.</p><p>الأعراض: معظم الناس لا يعانون من أي أعراض بعد إصابتهم ويعودون للوضع الطبيعي بعد بضعة أسابي ، في الحالات المزمنة، يشعر المصاب بالتعب، وفقدان الشهية، والغثيان والقيء، والألم على الجانب الأيمن تحت الأضلاع، وآلام المفاصل وأعراض تشبه أعراض الانفلونزا.</p><p>العلاج: كل من حالات التهاب الكبد B و C يمكن علاجها. عليك تحديد موعد لرؤية طبيبك العام إذا كنت تعتقد أنك بحاجة إلى اختبار أو لديك أية مخاوف من المرض.</p>"
         },
         "image": "",
         "video": "",
         "links": []
       }
-    ]
+    ],
+    "notes": {
+      "en": "<h2>Resources</h2><ul>  <li><a href='https://www.thewomens.org.au/health-information/sex-sexuality/sexually-transmitted-infections/about-stis/'>Prevention, Symptoms, Testing, Care and Support</a></li>  <li><a href='http://www.fpv.org.au/for-you/sexually-transmissible-infections-blood-borne-viruses/sti-bbv-get-the-facts'>STIs and testing information</a></li>  <li><a href='http://www.mshc.org.au/SexualHealthInformation/SexualHealthFactSheets/tabid/109/Default.aspx#.WVSRXxOGP-Y'>STIs fact sheet</a></li>  <li><a href='http://www.fpv.org.au/for-you/sexually-transmissible-infections-blood-borne-viruses/sti-bbv-testing-what-to-expect-at-fpv'>Testing</a></li>  <li><a href='http://www.mhahs.org.au/index.php/en/hiv/introduction'>Prevention, Symptoms, Testing, Care and Suppor for HIV</a></li></ul>",
+      "ar": ""
+    }
 }
