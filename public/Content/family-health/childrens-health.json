@@ -1,21 +1,21 @@
 {
     "title": {
         "en": "Children's Health",
-        "ar": "[Arabic]"
+        "ar": ""
     },
     "summary": {
         "en": "<p>Your baby has made it to their first birthday! Here are learning and developmental milestones to look out for in the next four years.</p>",
-        "ar": "[Arabic]"
+        "ar": ""
     },
     "topLevelVideo": "",
     "tab": [{
             "title": {
                 "en": "At 18 months:",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "text": {
                 "en": "<ul>          <li>Walking</li>          <li>Managing corners and obstacles, climbing</li>          <li>Able to say 6-12 words</li>          <li>Repeating of the last word in sentences</li>          <li>Increased independence, wanting to do things without help</li>     <li>Exhibiting personality traits</li>          <li>Playing alone</li>          <li>Becomes easily frustrated, throws temper tantrums</li>          <li>Utilizes objects and routine for comfort</li>                 </ul>",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "image": "",
             "video": "",
@@ -32,11 +32,11 @@
         {
             "title": {
                 "en": "At 2 Years:",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "text": {
                 "en": "<ul>          <li>Walking up stairs</li>          <li>Squatting and standing without hands</li>          <li>Able to kick a ball and throw a ball</li>          <li>Able to say 50 or more words</li>          <li>Able to say some nursery rhymes</li>     <li>Increased independence, but still seeks parental attention</li>          <li>Clings tightly if afraid, fatigues, or showing affection</li>          <li>Throws temper tantrums when frustrated</li>          <li>Developing imagination</li>                 </ul>",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "image": "",
             "video": "",
@@ -53,11 +53,11 @@
         {
             "title": {
                 "en": "At 3 years:",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "text": {
                 "en": "<ul>          <li>Identifying pictures with names</li>          <li>Walking on tiptoes, balancing on one foot</li>          <li>Asks questions constantly</li>          <li>Listens to and tells stories</li>          <li>Able to wash and dry hands</li>     <li>Identifies friend by name</li>          <li>Utilizes less ‘baby talk’</li>          <li>Half the time able to speak in understandable ways</li>          <li>Decreases amount of temper tantrums</li>                    <li>Developing fears</li>                 </ul>",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "image": "",
             "video": "",
@@ -75,11 +75,11 @@
         {
             "title": {
                 "en": "At 3-4 Years:",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "text": {
                 "en": "<ul>          <li>Able to socialize with a broader range of people</li>          <li>Shares and plays with other children</li>          <li>Development of a sense of humor</li>          <li>Shows concern for others</li>          <li>Able to use hands and fingers with skill</li>          <li>Able to hold a pencil properly</li>          <li>Speaks well</li>                  </ul>",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "image": "",
             "video": "",
@@ -97,11 +97,11 @@
         {
             "title": {
                 "en": "At 4-5 years:",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "text": {
                 "en": "<ul>          <li>Asks complex questions</li>          <li>Improvement of walking, running, and climbing skills</li>          <li>Ride a bike with training wheels</li>          <li>Able to write some numbers and letters</li>          <li>Understands numbers</li>     <li>Develops relationships with friends</li>          <li>Shows increased independence, but may show frustrations when tired, angry, or embarrassed</li>          <li>Holds extended conversations</li>          <li>Increased skill and speed in physical abilities</li>               </ul>",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "image": "",
             "video": "",
@@ -111,11 +111,11 @@
         {
             "title": {
                 "en": "Nutrition",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "text": {
                 "en": "<p>It is important to teach your kids from an early age the value of nutritious foods in order to prevent long-term poor health outcomes such as obesity, diabetes, and heart disease. Try to engage your children to think about the foods they eat.</p>",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "image": "",
             "video": "https://www.youtube.com/embed/hy4wLh72tGQ?rel=0",
@@ -133,11 +133,11 @@
         {
             "title": {
                 "en": "Immunizations",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "text": {
                 "en": "<p>12 Months:</p><ul>          <li>Hib-MenC- Haemophilius influenza type b and meningococcal C</li>          <li>MMR- Measles, mumps, and rubella</li></ul>          <p>18 Months:</p>   <ul><li>TDPa-Diphtheria, tetanus, acellular pertussis (whooping cough)</li>          <li>MMRV- Measles, mumps, rubella, and varicella (chicken pox)</li></ul>          <p>4 Years:</p><ul><li>DTPa-IPV- Diphtheria, tetanus, acellular pertussis (whooping cough) and inactivated poliomyelitis (polio)</li>              </ul>",
-                "ar": "[Arabic]"
+                "ar": ""
             },
             "image": "",
             "video": "",

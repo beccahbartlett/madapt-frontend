@@ -12,11 +12,11 @@
     {
       "title": {
         "en": "Recovery",
-        "ar": "[Arabic]" 
+        "ar": "" 
       },
       "text": {
         "en": "<p>After delivery it is important for you to rest and give your body time to recover. If you had a vaginal delivery try lying flat for thirty minutes twice a day to reduce pelvic discomfort. Also, you can put ice in your pad for twenty minutes at a time every 2-3 hours to reduce swelling and pain. Finally, wearing compression underwear can offer support and reduce pain.</p>",
-        "ar": "[Arabic]" 
+        "ar": "" 
       },
       "image": "https://s-media-cache-ak0.pinimg.com/564x/56/dc/db/56dcdbe53a870ddf045532ebc0cf9e1b.jpg",
       "video": "",
@@ -26,11 +26,11 @@
     {
       "title": {
         "en": "Breastfeeding",
-        "ar": "[Arabic]" 
+        "ar": "" 
       },
       "text": {
         "en": "<p>Breastfeeding not only allows you to give your baby all the nutrients he/she needs, it also allows the two of you to bond.  In the beginning as you are first learning to breast feed be sure to ask your midwife or lactation consultant for help.<br><br>Here are some demonstrations on the best positions for initiating breastfeeding.</p>",
-        "ar": "[Arabic]" 
+        "ar": "" 
       },
       "image": "",
       "video": "https://www.youtube.com/embed/s1gmBVrwAs8",
@@ -38,21 +38,21 @@
         {
           "title": {
             "en": "Breastfeeding - The Women's",
-            "ar": "[Arabic] Breastfeeding - The Women's" 
+            "ar": " Breastfeeding - The Women's" 
           },
           "url": "https://www.thewomens.org.au/health-information/breastfeeding"
         },
         {
           "title": {
             "en": "Breastfeeding your baby (PDF | English)",
-            "ar": "[Arabic] Breastfeeding your baby (PDF | English)" 
+            "ar": " Breastfeeding your baby (PDF | English)" 
           },
           "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Breastfeeding-your-baby.pdf"
         },
         {
           "title": {
             "en": "Breastfeeding and Postnatal Care (PDF | English)",
-            "ar": "[Arabic] Breastfeeding and Postnatal Care (PDF | English)" 
+            "ar": " Breastfeeding and Postnatal Care (PDF | English)" 
           },
           "url": "http://www.mhcs.health.nsw.gov.au/publicationsandresources/pdf/publication-pdfs/ahs-9155-breast-feeding-and-postnatal-care/ahs-9115-breast-feeding-and-postnatal-care-english/at_download/file"
         }
@@ -61,11 +61,11 @@
     {
       "title": {
         "en": "Family Planning",
-        "ar": "[Arabic]" 
+        "ar": "" 
       },
       "text": {
         "en": "<p>After delivery it is important to give your body the appropriate time it needs to heal.  Even if you are breastfeeding there is still a chance that you could become pregnant after delivery. Because of this it is good to know your options for birth control so that you can choose what works best for you and your family.</p>",
-        "ar": "[Arabic]" 
+        "ar": "" 
       },
       "image": "",
       "video": "",
@@ -73,7 +73,7 @@
         {
           "title": {
             "en": "Contraception Choices - The Women's (PDF | English)",
-            "ar": "[Arabic] Contraception Choices - The Women's (PDF | English)" 
+            "ar": " Contraception Choices - The Women's (PDF | English)" 
           },
           "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Contraception-Choices2.pdf"
         }
@@ -82,11 +82,11 @@
     {
       "title": {
         "en": "Contraception",
-        "ar": "[Arabic] Contraception" 
+        "ar": " Contraception" 
       },
       "text": {
         "en": "<p>Contraception can help you avoid pregnancy resulting from unprotected sex. There are several methods of contraception that are safe, effective and easy to use prior to having sex such as condoms, pills, implants, injections, IUDs, diaphragms, vaginal rings, and natural methods.  Additionally, you may use emergency contraception up to 5 days after engaging in unprotected sex.</p>",
-        "ar": "[Arabic]" 
+        "ar": "" 
       },
       "image": "",
       "video": "",
@@ -94,21 +94,21 @@
         {
           "title": {
             "en": "Contraception Choices - The Women's (PDF | English)",
-            "ar": "[Arabic] Contraception Choices - The Women's (PDF | English)" 
+            "ar": " Contraception Choices - The Women's (PDF | English)" 
           },
           "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Contraception-Choices2.pdf"
         },
         {
           "title": {
             "en": "Birth Control",
-            "ar": "[Arabic] Birth Control" 
+            "ar": " Birth Control" 
           },
           "url": "https://www.plannedparenthood.org/learn/birth-control"
         },
         {
           "title": {
             "en": "Emergency Contraception - The Women's (PDF | English)",
-            "ar": "[Arabic] Emergency Contraception - The Women's (PDF | English)" 
+            "ar": " Emergency Contraception - The Women's (PDF | English)" 
           },
           "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Emergency-contraception3.pdf"
         }
