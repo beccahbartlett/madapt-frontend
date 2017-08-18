@@ -49,8 +49,11 @@ class ContentPageContainer extends Component {
   render() {
     var lang = this.props.lang
     var data = this.state.data
+    const style = {
+      direction: this.props.lang === 'en' ? 'ltr' : 'rtl'
+    }
     return (
-      <div className={`wrapper ${lang === 'ar' && 'right-align'}`}>
+      <div style={style} className={'wrapper'}>
         <h1 className="content-page-title">{data && data.title[lang]}</h1>
         {data && <div className='summary' dangerouslySetInnerHTML={{__html: data.summary[lang]}} />}
         {data && data.topLevelVideo && <Video url={data.topLevelVideo} />}
