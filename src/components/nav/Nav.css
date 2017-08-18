@@ -35,3 +35,7 @@
   max-width: 25%;
   border: none;
 }
+
+.language-btn:disabled {
+  opacity: 0.3;
+}
