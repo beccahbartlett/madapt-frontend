@@ -1,7 +1,7 @@
 {
   "title": {
     "en": "Newborn Health",
-    "ar": "[Arabic]" 
+    "ar": "الطفل حديث الولادة من الولادة وحتى العام الأول" 
   },
   "summary": {
     "en": "",
@@ -12,32 +12,32 @@
     {
       "title": {
         "en": "Newborn Health",
-        "ar": "[Arabic]" 
+        "ar": "صحة حديثي الولادة" 
       },
       "text": {
         "en": "<p>When your baby is born your midwife will give you a green book (Victoria) to help you keep up with your new babies health. It is important to keep up with this book and have it available for all appointments.</p>",
-        "ar": "[Arabic]" 
+        "ar": "<p>عندما يولد طفلك سوف تعطيك القابلة المسؤولة  عنك الكتاب الأخضر (فيكتوريا) لمساعدتك على مواكبة صحة مولودك الجديد. من المهم متابعة هذا الكتاب في جميع المراجعات.</p>" 
       },
       "image": "",
       "links": [
         {
           "title": {
             "en": "After Your Baby is Born",
-            "ar": "[Arabic]" 
+            "ar": "" 
           },
           "url": "https://www.thewomens.org.au/health-information/pregnancy-and-birth/after-your-baby-is-born/"
         },
         {
           "title": {
             "en": "My Personal Health Record (English)",
-            "ar": "[Arabic]" 
+            "ar": "" 
           },
           "url": "http://www.health.nsw.gov.au/kidsfamilies/MCFhealth/Publications/blue-book.pdf"
         },
         {
           "title": {
             "en": "My Personal Health Record (Arabic)",
-            "ar": "[Arabic]"
+            "ar": ""
           },
           "url": "http://www.health.nsw.gov.au/kidsfamilies/MCFhealth/Documents/Blue-Book-Arabic.pdf"
         }
@@ -46,11 +46,11 @@
     {
       "title": {
         "en": "Prematurity",
-        "ar": "[Arabic]" 
+        "ar": "الخدج" 
       },
       "text": {
         "en": "<p>A baby is termed premature if they are born prior to 37 weeks gestation. If they are born between 23-28 weeks they are called extremely premature. If they are born between 28-32 weeks they are called very premature. If they are born between 32-36 weeks they are called moderately premature. And, if they are born 36-37 weeks they are called late preterm. The earlier that a baby is born the higher risk the baby is and the longer they will need to spend in the neonatal intensive care unit.</p>",
-        "ar": "[Arabic]" 
+        "ar": "<p>ويسمى الطفل خديجاً في حال ولادته سابق لأوان الولادة الطبيعي أي قبل الأسبوع 37 من الحمل. أما إذا ولد بين 23-28 أسبوعا يطلق عليهم سابق لأوانه بشكل كبير جداً. إذا ولد بين 28-32 أسبوعا يطلق عليه سابق لأوانه جدا. إذا ولدوا بين 32-36 أسبوعا يطلق عليه ولادة قبل الأوان بشكل معتدل. وإذا ولد بين 36-37 أسبوعا يطلق عليه وقت متأخر من الخدج. كلما كانت ولادة الطفل بشكل أبكر كلما كان الخطر أعلى على حياته وسوف يحتاج وقت أطول في وحدة العناية المركزة لحديثي الولادة.</p>" 
       },
       "image": "",
       "video": "",
@@ -67,11 +67,11 @@
     {
       "title": {
         "en": "Nutrition",
-        "ar": "[Arabic]" 
+        "ar": "التغذية" 
       },
       "text": {
         "en": "<ul>  <li><b><a href='/pregnancy-newborn/postnatal'>Breastfeeding</a></b> Breastfeeding not only allows you to give your baby all the nutrients he/she needs, it also allows the two of you to bond. Exclusive breastfeeding is recommended in the first six months of life. From 6-12 months breastfeeding is recommended while supplementing with food.</li>  <li><b>Formula Feeding</b> If you are unable to breastfeed or choose not to, formula will give your baby the nutrients to grow. Speak with your midwife or maternal child health nurse to choose what formula is best for you and your baby.</li></ul>",
-        "ar": "[Arabic]" 
+        "ar": "<ul><li>الرضاعة الطبيعية: تسمح الرضاعة الطبيعية بتزويد طفلك بجميع المواد الغذائية التي يحتاجها، كما أنها تسمح بتعزيز العلاقة العاطفية بينكما. ومن المفضل الإرضاع الطبيعي حصرياً في الأشهر الستة الأولى من الحياة.</p><p>أما من  6-12 شهراً من المستحسن أن يزود الطفل بمكملات غذائية مع الرضاعة الطبيعية.</li><li>التغذية الاصطناعية : إذا كنت غير قادرة على الإرضاع الطبيعي أو اخترت عدم الاعتماد على الرضاعة الطبيعية فإن الحليب الاصطناعي سيعطي طفلك المواد الغذائية اللازمة لنموه. تحدثي مع القابلة أو الممرضة المسؤولة عن أفضل نوع لطفلك.</li></ul>" 
       },
       "image": "",
       "links": [
@@ -102,6 +102,67 @@
             "ar": "[Arabic]" 
           },
           "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/multilingual/Breastfeeding-your-baby-arabic.pdf"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Milestones",
+        "ar": "مراحل النمو" 
+      },
+      "text": {
+        "en": "<p>Your baby will be learning and developing rapidly after they’re born. Here are some tools to make sure that your little one is on track. If you have concerns, discuss them further with your maternal child health nurse.</p><h4>At 4 months</h4><ul>  <li>Lifting head 90 degrees during tummy time</li>  <li>Good head control</li>  <li>Smiling and laughing</li>  <li>Reaching for objects</li>  <li>Tracks moving objects with eyes</li>  <li>Shows awareness and interest in surroundings</li>  <li>Tries to pick up objects using both hands</li>  <li>Making noises in order to have their needs met</li>  <li>Recognition of familiar faces, increased interaction with others</li></ul><h4>At 8 months</h4><ul>  <li>Able to keep head level when pulled up</li>  <li>Sitting alone without support</li>  <li>Recognition of partially hidden objects</li>  <li>Attempts to get object that is out of reach</li>  <li>Looking for fallen objects</li>  <li>Moves by rolling or attempts to crawl</li>  <li>Makes sounds, imitates sounds</li>  <li>Claps hands</li>  <li>Shows likes and dislikes</li>  <li>Enjoys and demands attention and affection</li>  <li>Increases interaction with family</li></ul><h4>At 12 months</h4><ul>  <li>May stand or walk</li>  <li>Able to point with index finger</li>  <li>Expresses needs and wants in ways other than crying</li>  <li>Says three recognisable words</li>  <li>Understands several words and some commands</li>  <li>Helps to dress themselves by holding out arms or legs</li>  <li>Enjoys being around parents and showing affection</li>  <li>Begins to understand 'no'</li></ul>",
+        "ar": "<p>طفلك سوف يتعلم ويتطور بسرعة بعد ولادته. وفيما يلي بعض الأدوات للتأكد من أن نموه يتبع المسار الصحيح. إذا كان لديك أية مخاوف، عليك مناقشتها مع الممرضة المسؤولة.</p><h4>في 4 أشهر</h4><ul>  <li>رفع الرأس 90 درجة خلال وضعه على بطنه.</li>  <li>قدرة التحكم بالرأس جيدة.</li>  <li>يبتسم ويضحك.</li>  <li>الوصول إلى الأشياء.</li>  <li>متابعة العينين للأجسام المتحركة.</li>  <li>إظهار الوعي والاهتمام بالمحيط.</li>  <li>محاولة التقاط الأشياء باستخدام كلتا اليدين.</li>  <li>صنع أصوات من أجل تلبية احتياجاته.</li>  <li>التعرف على الوجوه المألوفة، وزيادة التفاعل مع الآخرين.</li></ul><h4>في 8 أشهر</h4><ul>  <li>قدرة الطفل على الحفاظ على مستوى الرأس عند سحب الطفل للأعلى.</li>  <li>يجلس وحده بدون مساعدة.</li>  <li>التعرف على الأشياء المخفية بشكل جزئي.</li>  <li>محاولة الوصول للأشياء البعيدة عن يده.</li>  <li>متابعة الأشياء المتساقطة.</li>  <li>محاولة الطفل الحركة والزحف.</li>  <li>التصويت و محاولات تقليد الأصوات.</li>  <li>التصفيق اليدين.</li>  <li>إظهار ما يحب وما يكره.</li>  <li>يتطلب الاهتمام والمودة من المحيطين به.</li>  <li>زيادة التفاعل مع العائلة.</li></ul><h4>في 12 شهرا</h4><ul>  <li>الوقوف أو المشي</li>  <li>القدرة على التأشير أو استعمال أصبع السبابة للدلالة على الأشياء.</li>  <li>يعبر عن احتياجاته بطرق أخرى غير البكاء.</li>  <li>يقول ثلاثة كلمات مميزة.</li>  <li>يفهم عدة كلمات ويستوعب بعض الأوامر.</li>  <li>يساعد على ارتداء اللباس  من خلال إخراج الساعدين أو الساقين.</li>  <li>يتمتع بالوجود حول أهله و إظهار المودة لهم.</li>  <li>يبدأ فهم معنى كلمة \"لا\"</li></ul> " 
+      },
+      "image": "",
+      "links": [
+        {
+          "title": {
+            "en": "Babies (0-12 Months)",
+            "ar": "" 
+          },
+          "url": "http://www.education.vic.gov.au/childhood/parents/health/Pages/babies.aspx"
+        },
+        {
+          "title": {
+            "en": "Newborns development",
+            "ar": "" 
+          },
+          "url": "http://raisingchildren.net.au/development/newborns_development.html"
+        },
+        {
+          "title": {
+            "en": "Physical and Cognitive Developmental Milestones",
+            "ar": "" 
+          },
+          "url": "https://www.communities.qld.gov.au/resources/childsafety/practice-manual/physical-cognative-milestones.pdf"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Vaccinations",
+        "ar": "اللقاحات"
+      },
+      "text": {
+        "en": "<p>In order to boost your child’s immunity and ensure that they do not contract illnesses unnecessarily it is important that they receive all immunisations during the appropriate timeframe.</p><h4>Birth</h4><ul>  <li>HepB- Hepatitis B vaccine</li></ul><h4>2 months</h4><ul>  <li>HepB-DTPa-Hib-IPV- Hepatitis B, diphtheria, tetanus, acellular pertussis (whooping coffee), Haemophilus influenza type b, inactivated poliomyelitis (polio)</li>  <li>13vPCV- Pneumococcal conjugate</li>  <li>Rotavirus</li></ul><h4>4 months</h4><ul>  <li>HepB-DTPa-Hib-IPV- Hepatitis B, diphtheria, tetanus, acellular pertussis (whooping coffee), Haemophilus influenza type b, inactivated poliomyelitis (polio)</li>  <li>13vPCV- Pneumococcal conjugate</li>  <li>Rotavirus</li></ul><h4>6 months</h4><ul>  <li>HepB-DTPa-Hib-IPV- Hepatitis B, diphtheria, tetanus, acellular pertussis (whooping coffee), Haemophilus influenza type b, inactivated poliomyelitis (polio)</li>  <li>13vPCV- Pneumococcal conjugate</li>  <li>Rotavirus B</li></ul><h4>12 months</h4><ul>  <li>Hib-MenC- Haemophilius influenza type b and meningococcal C</li>  <li>MMR- Measles, mumps, and rubella</li></ul>",
+        "ar": "<p>من أجل تعزيز مناعة طفلك وضمان عدم إصابته بالأمراض، من المهم أن يتلقى جميع اللقاحات خلال الوقت الزمني المناسب والمحدد.</p><h4>عند الولادة</h4><ul>  <li>لقاح التهاب الكبد البائي.</li></ul><h4>عمر الشهرين</h4><ul>  <li>HepB-DTPa-Hib-IPV لقاح التهاب الكبد البائي</li>  <li>(polio) الدفتيريا، الكزاز، السعال الديكي, النزلة النزفية نوع ب، شلل الأطفال</li>  <li>13vPCV - المكورات الرئوية , فيروس الروتا</li></ul><h4>عمر 4 أشهر</h4><ul>  <li>HepB-DTPa-Hib-IPV لقاح التهاب الكبد البائي</li>  <li>(polio) الدفتيريا، الكزاز، السعال الديكي, النزلة النزفية نوع ب، شلل الأطفال</li>  <li>13vPCV - المكورات الرئوية , فيروس الروتا</li></ul><h4>عمر 6 أشهر</h4><ul>  <li>HepB-DTPa-Hib-IPV لقاح التهاب الكبد البائي</li>  <li>(polio) الدفتيريا، الكزاز، السعال الديكي, النزلة النزفية نوع ب، شلل الأطفال</li>  <li>13vPCV - المكورات الرئوية , فيروس الروتا.</li></ul><h4>عمر 12 شهر</h4><ul>  <li>هيب-MenC, هيموفيليوس نوع الانفلونزا ب, المكورات السحائية C</li>  <li>الحصبة والنكاف والحصبة الألمانية</li></ul>" 
+      },
+      "image": "",
+      "links": [
+        {
+          "title": {
+            "en": "National Immunisation Program Schedule (From 20 April 2015)",
+            "ar": "" 
+          },
+          "url": "http://www.immunise.health.gov.au/internet/immunise/publishing.nsf/Content/national-immunisation-program-schedule"
+        },
+        {
+          "title": {
+            "en": "Women's and Newborn Health (Arabic)",
+            "ar": "" 
+          },
+          "url": "http://www.wslhd.health.nsw.gov.au/WNH/Multicultural---Multilingual-Information/Arabic"
         }
       ]
     }
