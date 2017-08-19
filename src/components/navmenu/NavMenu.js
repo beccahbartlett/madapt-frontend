@@ -77,7 +77,11 @@ class NavMenu extends Component {
     return (
       <div className="menuWrapper">
         <div className="toggleMenu">
-        <button onClick={() => this.showMenu()} className="toggleMenuButton">{`=`}</button>
+        <button onClick={() => this.showMenu()} className="toggleMenuButton">
+          <div className="bar"></div>
+          <div className ="bar"></div>
+          <div className ="bar"></div>
+        </button>
         </div>
 
         <div className="menu">

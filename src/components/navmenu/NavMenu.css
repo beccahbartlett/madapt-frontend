@@ -92,11 +92,23 @@
   }
 
   .toggleMenuButton {
-    font-size: 3rem;
     background-color: darkslategrey;
     border: none;
-    margin: 0.4rem;
-    line-height: 0.8;
+    margin: 0.3rem 1rem 0.3rem 0.3rem;
+    width: 4rem;
+  }
+
+  .toggleMenuButton:hover {
+     background-color: rgba(0,0,0,0.2);
+  }
+
+  .bar {
+    width: 100%;
+    margin: 6px 0 6px 0;
+    background-color: white;
+    border: 1.5px solid white;
+    border-radius: 2px;
+    text-align: center;
   }
 
   .mobile-item {
