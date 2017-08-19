@@ -13,7 +13,7 @@ class NavMenu extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      menu: true,
+      menu: false,
       menuItems: [
         {
           icon: iconAccess,
@@ -75,8 +75,15 @@ class NavMenu extends Component {
   render() {
     var lang = this.props.lang
     return (
-      <div>
-        <button onClick={() => this.showMenu()} className="toggleMenu">{this.state.menu ? '-' : '+'}</button>
+      <div className="menuWrapper">
+        <div className="toggleMenu">
+        <button onClick={() => this.showMenu()} className={this.state.menu ? 'rotate toggleMenuButton' : 'toggleMenuButton'}>
+          <div className="bar"></div>
+          <div className ="bar"></div>
+          <div className ="bar"></div>
+        </button>
+        </div>
+
         <div className="menu">
           {this.state.menuItems.map((item, index) => {
             return (
