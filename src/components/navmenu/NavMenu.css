@@ -96,6 +96,11 @@
     border: none;
     margin: 0.3rem 1rem 0.3rem 0.3rem;
     width: 4rem;
+    transition: all 0.2s;
+  }
+
+  .rotate {
+    transform: rotate(90deg);
   }
 
   .toggleMenuButton:hover {
