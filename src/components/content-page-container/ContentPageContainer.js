@@ -44,7 +44,7 @@ class ContentPageContainer extends Component {
             <div className='tabContent' dangerouslySetInnerHTML={{__html: this.getLocalisedData(item.text)}} />
             {item.video && <Video url={item.video} />}
             <div className='tabLinks'>
-              {item.links && item.links.length > 0 && <Links links={item.links} />}
+              {item.links && item.links.length > 0 && <Links links={item.links} lang={this.props.lang} />}
             </div>
           </div>
         )
@@ -53,7 +53,6 @@ class ContentPageContainer extends Component {
   }
 
   render() {
-    var lang = this.props.lang
     var data = this.state.data
     const style = {
       direction: this.props.lang === 'en' ? 'ltr' : 'rtl'
