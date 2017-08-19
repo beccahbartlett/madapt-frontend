@@ -6,7 +6,8 @@ import imgHeader from '../../images/shifraLogo.png';
 
 class Nav extends Component {
   componentDidMount() {
-    this.button.addEventListener('click', e => e.preventDefault())
+    this.btnEnglish.addEventListener('click', e => e.preventDefault())
+    this.btnArabic.addEventListener('click', e => e.preventDefault())
   }
   // remove it in componendWilluNmount
   render() {
@@ -16,8 +17,8 @@ class Nav extends Component {
         <NavLink exact activeClassName='active' to='/'>
           <div className="nav-header">
             <h1 className="nav-header-title">
-              <button disabled={lang === 'en'} ref={ref => this.button = ref} onClick={this.props.toggleLanguage} className="language-btn lang-en">English</button>
-              <button disabled={lang === 'ar'} ref={ref => this.button = ref} onClick={this.props.toggleLanguage} className="language-btn lang-ar">عربى</button>
+              <button disabled={lang === 'en'} ref={ref => this.btnEnglish = ref} onClick={this.props.toggleLanguage} className="language-btn lang-en">English</button>
+              <button disabled={lang === 'ar'} ref={ref => this.btnArabic = ref} onClick={this.props.toggleLanguage} className="language-btn lang-ar">عربى</button>
               <img className="image-banner" src={imgHeader} alt="Header Image" />
             </h1>
           </div>
