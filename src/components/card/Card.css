@@ -13,12 +13,8 @@
   padding-top: 30px;
 }
 
-.card .text :hover {
-  transform: scaleY(1);
-}
-
-.card:hover img {
-  transform: scaleY(1);
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card .text {
