@@ -17,16 +17,16 @@ class Footer extends Component {
         <div className="footerCore">
           <div className="footerItem">
             <ul>
-              <li><a href="#">About mAdapt</a></li>
-              <li><a href="#">All Topics</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a>About mAdapt</a></li>
+              <li><a>All Topics</a></li>
+              <li><a>Contact</a></li>
             </ul>
           </div>
 
           <div className="footerItem footerItemBorder">
             <ul>
-              <li><a href="#">Statistics</a></li>
-              <li><a href="#">Premium for Clinics</a></li>
+              <li><a>Statistics</a></li>
+              <li><a>Premium for Clinics</a></li>
             </ul>
           </div>
 
