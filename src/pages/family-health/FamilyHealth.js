@@ -71,6 +71,7 @@ class FamilyHealth extends Component {
   }
   componentDidMount() {
     window.analytics.page();
+    this.props.changeStyle(5);
   }
   render() {
     return (
