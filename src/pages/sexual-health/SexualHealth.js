@@ -51,6 +51,7 @@ class SexualHealth extends Component {
   }
   componentDidMount() {
     window.analytics.page();
+    this.props.changeStyle(4);
   }
   render() {
     return (

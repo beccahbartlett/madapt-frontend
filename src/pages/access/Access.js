@@ -71,6 +71,7 @@ class Access extends Component {
   }
   componentDidMount() {
     window.analytics.page();
+    this.props.changeStyle(1);
   }
   render() {
     return (

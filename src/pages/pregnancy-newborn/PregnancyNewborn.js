@@ -60,6 +60,7 @@ class PregnancyNewborn extends Component {
   }
   componentDidMount() {
     window.analytics.page();
+    this.props.changeStyle(3);
   }
   render() {
     return (

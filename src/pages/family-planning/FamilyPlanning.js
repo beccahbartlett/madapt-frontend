@@ -52,6 +52,7 @@ class FamilyPlanning extends Component {
   }
   componentDidMount() {
     window.analytics.page();
+    this.props.changeStyle(2);
   }
   render() {
     return (

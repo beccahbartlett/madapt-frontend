@@ -15,6 +15,12 @@ class ContentPageContainer extends Component {
     this.getTabs = this.getTabs.bind(this)
     this.getLocalisedData = this.getLocalisedData.bind(this)
   }
+
+  componentDidMount() {
+    if (this.props.changeStyle) {
+      // this.props.changeStyle(this.state.data.style);
+    }
+  }
   
   getData() {
     // get data from JSON
@@ -22,7 +28,8 @@ class ContentPageContainer extends Component {
       .then(res => {
         this.setState({
           data: res.data
-        })
+        });
+        this.props.changeStyle(this.state.data.style);
       })
   }
 
