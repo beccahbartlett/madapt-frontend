@@ -7,7 +7,7 @@
 }
 
 .footerCore {
-  padding: 10px 0 0 0;
+  padding: 5px 0 0 0;
   background-color: #58585A;
   position: absolute;
   width: 100%;
@@ -15,13 +15,14 @@
 
 .footerEmergencyBanner {
   background-color: #5F6062;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 
 .footerEmergencyBanner a {
   padding: 0 5px;
   font-weight: bold;
+  font-size: 12px;
 }
 
 .footer a {
@@ -30,8 +31,17 @@
 
 .footerItem {
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
   float: left;
+}
+
+.footerItem a{
+  font-size: 12px;
+}
+
+.footerItem h4{
+  font-size: 12px;
+  margin: 5px auto;
 }
 
 .footerItemBorder {
@@ -40,6 +50,7 @@
 
 .social {
   float: right;
+  padding: 0px 5px;
 }
 
 .social .footerIcons{
@@ -56,6 +67,7 @@
   width: 100%;
   padding: 5px;
   text-align: right;
+  font-size: 12px;
 }
 
 .footerIcons li {
