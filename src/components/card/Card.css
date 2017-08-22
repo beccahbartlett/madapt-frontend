@@ -1,21 +1,21 @@
 .card {
-  flex-basis: 45%;
-  margin: 2%;
+  flex-basis: 42%;
+  margin: 1rem;
   box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
   background: #b1e1ed;
   text-align: center;
-  height: 200px;
-  display: flex-item;
-  -webkit-transition: all 0.5s ease-out;
-	-moz-transition: all 0.5s ease-out;
-	-ms-transition: all 0.5s ease-out;
-	-o-transition: all 0.5s ease-out;
-	transition: all 0.5s ease-out; 
+  height: 13rem;
+  -webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+  align-items: center;
+  display:flex;
 }
 
 .card img {
   width: 30%;
-  padding-top: 30px;
 }
 
 .card:hover {
@@ -28,28 +28,36 @@
 }
 
 .card .text {
-  font-size: 24px;
-  color: #fff;
-  transform: none;
-  transition: none;
+  font-size: 2rem;
+  color: white;
 }
 
 .card .text > button {
   border: 0;
   color: white;
-  padding: 10px;
   width: 100%;
   }
 
 @media (min-width: 600px) {
   .card {
     flex-basis: 40%;
+    height: 18rem;
+  }
+
+  .card .text {
+    font-size: 2.5rem;
   }
 }
 
 @media (min-width: 900px) {
   .card {
     flex-basis: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    height: 20rem;
   }
 }
 
