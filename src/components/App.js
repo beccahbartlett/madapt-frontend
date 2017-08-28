@@ -74,6 +74,9 @@ class App extends Component {
               <Route
                 exact path='/access/australian-norms'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/access/australian-norms.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
+              <Route
+                exact path='/access/medicare-centrelink'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/medicare-centrelink.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
               {/* Medicare and Centrelink  */}
               {/* Your Rights and Responsibilities  */}
               {/* Disability Access  */}
