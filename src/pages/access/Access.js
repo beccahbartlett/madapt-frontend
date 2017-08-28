@@ -37,7 +37,7 @@ class Access extends Component {
             'en': 'Medicare and Centrelink',
             'ar': 'مديكير وسنترلنك' 
           },
-          linkUrl: '#'
+          linkUrl: '/access/medicare-centrelink'
         },
         {
           imgSrc: ResponsibilitiesIcon,
