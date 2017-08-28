@@ -1,53 +1,34 @@
-body {
+.aboutContainer {
   width: 100%;
-}
-
-.aboutWrapper {
-  width: 80%;
-}
-
-.aboutMAdaptTeam{
-  padding: 15px 15px;
-  display: inline-block;
-  float: left;
-  width: 29%;
-  font-size: 14px;
-}
-.aboutMAdaptContent{
-  padding: 15px 15px;
-  display: inline-block;
-  float: right;
-  width: 69%;
-  font-size: 14px;
-
-}
-
-.aboutMAdaptContent{
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.8rem;
+  margin: 0 auto;
 }
 
 .teamPhoto{
   width: 100%;
-  height: 100%;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  display: block;
+}
+
+.aboutMAdaptTeam {
+  text-align: center;
 }
 
 .bold{
   font-weight: bold;
 }
 
-@media screen and (max-width: 600px) {
-  .aboutMAdaptTeam{
-    padding: 5px 20px;
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    font-size: 12px;
+@media screen and (min-width: 600px) {
+ 
+  .aboutContainer {
+    width: 80%;
   }
-  .aboutMAdaptContent{
-    padding: 5px 20px;
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    font-size: 12px;
+
+  .teamPhoto {
+    width: 65%;
   }
 }

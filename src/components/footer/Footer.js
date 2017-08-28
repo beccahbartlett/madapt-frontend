@@ -17,7 +17,7 @@ class Footer extends Component {
         <div className="footerCore">
           <div className="footerItem">
             <ul>
-              <li><a href="/about">About mAdapt</a></li>
+              <li><Link to="/about">About mAdapt</Link></li>
               <li><a>All Topics</a></li>
               <li><a>Contact</a></li>
             </ul>
