@@ -2,7 +2,7 @@
   "style": 3,
   "title": {
     "en": "Complications of Pregnancy",
-    "ar": "" 
+    "ar": "مضاعفات الحمل" 
   },
   "summary": {
     "en": "",
@@ -13,11 +13,11 @@
     {
       "title": {
         "en": "Ectopic Pregnancy",
-        "ar": "" 
+        "ar": "الحمل خارج الرحم" 
       },
       "text": {
         "en": "<p>An ectopic pregnancy occurs when a sperm and egg meet and implant in the fallopian tube instead of making their way to the uterus.  This is not a viable pregnancy because the fallopian tube is unable to expand to accommodate the fertilised egg. This can lead to pain and the possibility of the fallopian tube rupturing. This can cause internal bleeding and the need for immediate surgery.</p>",
-        "ar": "" 
+        "ar": "<p>الحمل خارج الرحم (المنتبذ): يحدث الحمل خارج الرحم عندما تلتقي الحيوانات المنوية مع البيضة  ويتم التعشيش في قناة فالوب بدلاً من الرحم. هذا الحمل ليس قابل  للاستمرار لأن قناة فالوب غير قادرة على التوسع لاستيعاب الحمل. وبالتالي يؤدي الحمل المنتبذ إلى الألم وإمكانية تمزق قناة فالوب. هذا يؤدي بدوره إلى النزيف الداخلي والحاجة إلى إجراء جراحة فورية</p>" 
       },
       "image": "http://healthywa.wa.gov.au/~/media/Images/HealthyWA/Articles/Having%20a%20baby/ectopic-pregnancy-diagram.ashx",
       "video" : "",
@@ -34,11 +34,12 @@
     {
       "title": {
         "en": "Miscarriage",
-        "ar": "" 
+        "ar": "الإجهاض:" 
       },
       "text": {
         "en": "<p>Miscarriage occurs when a pregnancy stops growing, and the tissue ultimately passes out of the body. Miscarriage is very common in early pregnancy. Contact your midwife or GP when you have vaginal bleeding or spotting, during pregnancy.</p>",
-        "ar": "" 
+        "ar": "<p> يحدث الإجهاض عندما يتوقف الحمل عن النمو، وخروج الحمل من الجسم.  الإجهاض هو شائع جدا في المرحلة الأولى من الحمل.اتصلي بالقابلة أو الطبيب العام عندما يكون لديك نزيف مهبلي أثناء الحمل.</p>"
+
       },
       "image": "",
       "video" : "",
@@ -62,11 +63,11 @@
     {
       "title": {
         "en": "Gestational Diabetes",
-        "ar": "" 
+        "ar": "السکري الحملي:" 
       },
       "text": {
         "en": "<p>Gestational diabetes occurs when a woman develops diabetes during or immediately after pregnancy. Diabetes results from when body looses its ability to control blood sugar levels. Gestational diabetes is confined to pregnancy, but does put a woman at higher risk for developing diabetes later in life.</p>",
-        "ar": "" 
+        "ar": "<p> یحدث مرض السکري عند بعض النساء خلال فترة الحمل أو بعدھا مباشرة. ينتج مرض السكري من عدم قدرة الجسم على التحكم في مستويات السكر في الدم. يقتصر السكري الحملي على الحمل، ولكنه يضع المرأة في خطر أكبر لتطور مرض السكري لديها في وقت لاحق من الحياة.</p>" 
       },
       "image": "",
       "video" : "",
@@ -83,11 +84,11 @@
     {
       "title": {
         "en": "Pre-Eclampsia/Eclampsia",
-        "ar": "" 
+        "ar": "التسمم الحملي :" 
       },
       "text": {
         "en": "<p>Pre-Eclampsia is a circulatory problem that women can develop in pregnancy or immediately after birth that can affect both mother and baby. Some warning signs include high blood pressure, protein in the urine, leg swelling, and blurred vision. Pre-eclampsia can progress rapidly and you should call your midwife or GP for any concerns and never miss antenatal appointments. If pre-eclampsia goes unaddressed it can lead to eclampsia, seizures, which could further harm both mother and baby and has the potential to be fatal.</p>",
-        "ar": "" 
+        "ar": "<p>التسمم الحملي هو مشكلة في الدورة الدموية لدى النساء يمكن أن تتطور في فترة الحمل أو مباشرة بعد الولادة التي يمكن أن تؤثر على كل من الأم والطفل. وتشمل بعض العلامات التحذيرية له ارتفاع ضغط الدم، والبروتين في البول، وتورم الساق، وعدم وضوح الرؤية. يمكن للأعراض التقدم بسرعة وعليك استدعاء القابلة أو الممارس العام لأي مخاوف ولا تفوت المواعيد السابقة للولادة. إذا لم تتم معالجة الأعراض فإن التسمم الحملي يمكن أن يؤذي كل من الأم والطفل على حد سواء، وممكن أن تكون قاتلة .</p>" 
       },
       "image": "",
       "video" : "",
@@ -104,11 +105,11 @@
     {
       "title": {
         "en": "Pre-term Labor/Birth",
-        "ar": "" 
+        "ar": "المخاض المبكر / الولادة قبل الأوان/" 
       },
       "text": {
         "en": "<p>Preterm labor is when you start having signs of labor earlier than 37 weeks. These signs can include contractions, pressure in the pelvis, fluid or blood coming from the vagina. If you are having any of these symptoms prior to 37 weeks, it is important to contact your midwife for guidance. Preterm birth is when a baby is born prior to 37 weeks gestation, and could lead to a multitude of complications for the baby.</p>",
-        "ar": ""
+        "ar": "<p>هو ظهور علامات الولادة قبل الأسبوع 37. ويمكن أن تشمل هذه العلامات تقلصات، وضغط في الحوض، وخروج إفرازات مهبلية سائلة أو دموية. إذا كنت تعاني من أي من هذه الأعراض قبل الأسبوع 37 ، فمن المهم الاتصال بالقابلة للحصول على التوجيه الملائم.</p>"
       },
       "image": "",
       "video" : "",
@@ -122,11 +123,11 @@
     {
       "title": {
         "en": "Perinatal Depression & Anxiety",
-        "ar": "" 
+        "ar": "مقياس الاكتئاب بعد الولادة" 
       },
       "text": {
         "en": "<p>Experiencing depression and anxiety during pregnancy and after birth is common. First time mothers may hesitate to seek help due to social expectations and the belief that parenthood should only be a happy occassion, however, it’s important to remember that many women experience depression and anxiety. Seeking help early on can speed up recovery and make pregnancy and motherhood a more enjoyable experience.<br><br>The Edinburgh Postnatal Depression Scale (EPDS) is a set of 10 screening questions that can indicate whether you have symptoms that are common in women with depression and anxiety during pregnancy and in the year following the birth of a child. This is not intended to provide a diagnosis – only trained health professionals should do this. It is strongly recommended that you complete this set of questions with a health professional.</p>",
-        "ar": "" 
+        "ar": "<p>هو عبارة عن مجموعة من 10 أسئلة يمكن أن تشير إذا كان لديك الأعراض الشائعة في النساء الذين يعانون من الاكتئاب والقلق أثناء الحمل وفي السنة التالية من ولادة الطفل. وليس المقصود من ذلك تقييم  الحامل لنفسها بل يجب على المهنيين الصحيين المدربين فقط القيام بذلك.</br>مقياس الاكتئاب بعد الولادة :  هو عبارة عن مجموعة من 10 أسئلة يمكن أن تشير إذا كان لديك الأعراض الشائعة في النساء الذين يعانون من الاكتئاب والقلق أثناء الحمل وفي السنة التالية من ولادة الطفل. وليس المقصود من ذلك تقييم  الحامل لنفسها بل يجب على المهنيين الصحيين المدربين فقط القيام بذلك.</p>" 
       },
       "image": "",
       "video" : "https://www.youtube.com/embed/FjqOqJLkyFs",
