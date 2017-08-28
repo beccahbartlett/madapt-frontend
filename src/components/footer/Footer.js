@@ -17,7 +17,7 @@ class Footer extends Component {
         <div className="footerCore">
           <div className="footerItem">
             <ul>
-              <li><a>About mAdapt</a></li>
+              <li><a href="/about">About mAdapt</a></li>
               <li><a>All Topics</a></li>
               <li><a>Contact</a></li>
             </ul>
@@ -44,8 +44,6 @@ class Footer extends Component {
             &copy; 2017 mAdapt. All rights reserved.
           </div>
         </div>
-
-      
       </div>
     )
   }
