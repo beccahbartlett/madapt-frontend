@@ -8,6 +8,7 @@ import SexualHealth from '../pages/sexual-health/SexualHealth'
 import Nav from './nav/Nav'
 import NavMenu from './navmenu/NavMenu'
 import Footer from './footer/Footer'
+import About from '../pages/about/About'
 import './App.css';
 var ReactRouter = require('react-router-dom');
 var Router = ReactRouter.BrowserRouter;
@@ -23,7 +24,7 @@ class App extends Component {
       style: 1
     }
     this.toggleLanguage = this.toggleLanguage.bind(this)
-    this.changeStyle = this.changeStyle.bind(this) 
+    this.changeStyle = this.changeStyle.bind(this)
   }
 
   toggleLanguage() {
@@ -75,7 +76,7 @@ class App extends Component {
               <Route
                 exact path='/family-planning'
                 component={(props) => <FamilyPlanning {...props}
-                lang={this.state.lang} 
+                lang={this.state.lang}
                 changeStyle={this.changeStyle} />} />
               <Route
                 exact path='/family-planning/birth-spacing'
@@ -95,7 +96,7 @@ class App extends Component {
               <Route
                 exact path='/pregnancy-newborn'
                 component={(props) => <PregnancyNewborn {...props}
-                lang={this.state.lang} 
+                lang={this.state.lang}
                 changeStyle={this.changeStyle} />} />
               <Route
                 exact path='/pregnancy-newborn/pregnancy'
@@ -105,7 +106,7 @@ class App extends Component {
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/complications-of-pregnancy.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
               <Route
                 exact path='/pregnancy-newborn/birth'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/birth.json' lang={this.state.lang} changeStyle={this.changeStyle} />} /> 
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/birth.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
               <Route
                 exact path="/pregnancy-newborn/postnatal"
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/postnatal.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
@@ -116,7 +117,7 @@ class App extends Component {
                 <Route
                 exact path='/sexual-health'
                 component={(props) => <SexualHealth {...props}
-                lang={this.state.lang} 
+                lang={this.state.lang}
                 changeStyle={this.changeStyle} />} />
               <Route
                 exact path='/sexual-health/healthy-relationships'
@@ -130,11 +131,11 @@ class App extends Component {
               <Route
                 exact path='/sexual-health/sexuality'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/sexuality.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
-              
+
               <Route
                 exact path='/family-health'
                 component={(props) => <FamilyHealth {...props}
-                lang={this.state.lang} 
+                lang={this.state.lang}
                 changeStyle={this.changeStyle} />} />
               <Route
                 exact path='/family-health/womens-health'
@@ -154,7 +155,11 @@ class App extends Component {
               <Route
                 exact path='/family-health/violence'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/violence.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
-              
+              <Route
+                  exact path='/about'
+                  component={(props) => <About {...props}
+                  lang={this.state.lang}
+                  changeStyle={this.changeStyle} />} />
               <Route render={function() {
                 return <p>Not Found</p>
               }} />
