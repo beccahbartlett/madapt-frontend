@@ -38,6 +38,11 @@ class App extends Component {
     this.setState({
       lang: this.state.lang === 'en' ? 'ar' : 'en'
     })
+    ReactGA.event({
+      category: 'Locale',
+      action: 'Toggle Language To',
+      label: this.state.lang
+    });
   }
 
   changeStyle(style) {
