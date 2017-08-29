@@ -59,7 +59,7 @@ class NavMenu extends Component {
           icon: iconClinics,
           name: {
             en: 'Clinic Locations',
-            ar: ' Clinic Locations'
+            ar: 'مواقع العيادة'
           },
           url: '/clinics'
         },
