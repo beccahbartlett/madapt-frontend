@@ -41,7 +41,8 @@ class Footer extends Component {
           </div>
 
           <div className="footerCopyright footerItem">
-            &copy; 2017 mAdapt. All rights reserved.
+            <p>&copy; 2017 mAdapt. All rights reserved.</p>
+            <p className="disclaimer">This website and the resources to which it refers are intended to provide educational and general information only. They do not provide comprehensive medical or legal advice. Please seek specific medical or legal advice in relation to individual circumstances. mAdapt accepts no responsibility or legal liability for reliance on the information contained on this site, or other sites to which this site links.</p>
           </div>
         </div>
       </div>
