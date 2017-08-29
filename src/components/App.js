@@ -174,6 +174,9 @@ class App extends Component {
                   component={(props) => <About {...props}
                   lang={this.state.lang}
                   changeStyle={this.changeStyle} />} />
+              <Route
+                exact path='/clinics'
+                component={(props) => <div className="wrapper"><h1>قريبا / Coming Soon!</h1></div>} />
               <Route render={function() {
                 return <p>Not Found</p>
               }} />
