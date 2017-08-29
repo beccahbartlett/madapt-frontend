@@ -3,6 +3,9 @@ import teamPhoto from './mAdapt-team.jpg';
 import './AboutPageContainer.css'
 
 class AboutPageContainer extends Component {
+  componentDidMount() {
+    global.logPageView(window.location.pathname + window.location.search)
+  }
   render() {
     return (
       <div className="aboutContainer">

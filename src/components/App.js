@@ -15,6 +15,13 @@ var Router = ReactRouter.BrowserRouter;
 var Route = ReactRouter.Route;
 var Switch = ReactRouter.Switch;
 var Redirect = ReactRouter.Redirect;
+var ReactGA = require('react-ga')
+ReactGA.initialize('UA-105402728-1')
+
+global.logPageView = function(path) {
+  ReactGA.set({ page: path });
+  ReactGA.pageview(path);
+}
 
 class App extends Component {
   constructor() {
@@ -33,12 +40,6 @@ class App extends Component {
     })
   }
 
-  componentDidMount() {
-    window.analytics.identify('testUserId', {
-      username: 'testUsername'
-    })
-  }
-
   changeStyle(style) {
     if (this.state.style !== style) {
       this.setState({style: style});
@@ -47,7 +48,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router onUpdate={this.logPageView}>
         <div>
           <Nav lang={this.state.lang} toggleLanguage={this.toggleLanguage}/>
           <NavMenu lang={this.state.lang} />

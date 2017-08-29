@@ -3,6 +3,9 @@ import CardGrid from '../cardgrid/CardGrid'
 import Card from '../card/Card'
 
 class GridPageContainer extends Component {
+  componentDidMount() {
+    global.logPageView(window.location.pathname + window.location.search)
+  }
   render() {
     return (
       <CardGrid>
