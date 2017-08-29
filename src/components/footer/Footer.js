@@ -19,7 +19,7 @@ class Footer extends Component {
             <ul>
               <li><Link to="/about">About mAdapt</Link></li>
               <li><a>All Topics</a></li>
-              <li><a>Contact</a></li>
+              <li><a href="http://www.madapt.org/contact/">Contact</a></li>
             </ul>
           </div>
 

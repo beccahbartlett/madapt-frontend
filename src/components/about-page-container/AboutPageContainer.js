@@ -38,6 +38,8 @@ class AboutPageContainer extends Component {
           <li>We share reproductive health knowledge in a respectful way and in a language users can understand.</li>
           <li>Our web app Shifra is state of the art and the first of its kind, both in Australia and in the world.</li>
           <li>Shifra is available in Arabic and English and will be made accessible to Victoria’s five largest non-English speaking populations by the end of 2018.</li>
+          <br />
+          <h4><a href="http://www.madapt.org/contact/">Contact Us</a></h4>
         </div>
       </div>
     )
