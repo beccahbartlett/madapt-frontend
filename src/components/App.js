@@ -81,9 +81,11 @@ class App extends Component {
                 exact path='/access/rights-responsibilities'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/access/rights-responsibilities.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
               <Route
+                exact path='/access/disability'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/disability.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
+              <Route
                 exact path='/access/private-vs-public'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/access/private-vs-public.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
-              {/* Disability Access  */}
 
               <Route
                 exact path='/family-planning'

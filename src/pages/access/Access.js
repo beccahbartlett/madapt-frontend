@@ -55,7 +55,7 @@ class Access extends Component {
             'en': 'Disability Access',
             'ar': 'تسجيل الدخول لذوي الاحتياجات الخاصة' 
           },
-          linkUrl: '#'
+          linkUrl: '/access/disability'
         },
         {
           imgSrc: PrivatePublicIcon,
