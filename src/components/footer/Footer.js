@@ -42,7 +42,7 @@ class Footer extends Component {
 
           <div className="footerCopyright footerItem">
             <p>&copy; 2017 mAdapt. All rights reserved.</p>
-            <p className="disclaimer">This website and the resources to which it refers are intended to provide educational and general information only. They do not provide comprehensive medical or legal advice. Please seek specific medical or legal advice in relation to individual circumstances. mAdapt accepts no responsibility or legal liability for reliance on the information contained on this site, or other sites to which this site links.</p>
+            {this.props.lang == 'en' ? <p className="disclaimer">This website and the resources to which it refers are intended to provide educational and general information only. They do not provide comprehensive medical or legal advice. Please seek specific medical or legal advice in relation to individual circumstances. mAdapt accepts no responsibility or legal liability for reliance on the information contained on this site, or other sites to which this site links.</p> : <p className="disclaimer">   ويهدف هذا الموقع والموارد التي يشير إليها إلى توفير المعلومات التعليمية والعامة فقط. وهي لا تقدم المشورة الطبية أو القانونية الشاملة. يرجى طلب المشورة الطبية أو القانونية المحددة فيما يتعلق بالظروف الفردية. mAdapt لا تتحمل أي مسؤولية أو مسؤولية قانونية عن الاعتماد على المعلومات الواردة في هذا الموقع، أو المواقع الأخرى التي يرتبط بها هذا الموقع. </p>}
           </div>
         </div>
       </div>

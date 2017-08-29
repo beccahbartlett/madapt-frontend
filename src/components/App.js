@@ -182,7 +182,7 @@ class App extends Component {
               }} />
             </Switch>
           </div>
-          <Footer></Footer>
+          <Footer lang={this.state.lang}></Footer>
         </div>
       </Router>
     );
