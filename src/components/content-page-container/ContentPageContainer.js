@@ -17,6 +17,7 @@ class ContentPageContainer extends Component {
   }
 
   componentDidMount() {
+    global.logPageView(window.location.pathname + window.location.search)
     if (this.props.changeStyle) {
       // this.props.changeStyle(this.state.data.style);
     }
