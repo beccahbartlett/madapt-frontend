@@ -32,7 +32,7 @@ class PregnancyNewborn extends Component {
           imgSrc: BirthIcon,
           theme: '3',
           titleText: {
-            'en': 'Birth',
+            'en': 'Labour & Birth',
             'ar': 'الولادة' 
           },
           linkUrl: 'pregnancy-newborn/birth'
