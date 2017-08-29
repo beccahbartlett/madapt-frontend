@@ -14,7 +14,7 @@ class AboutPageContainer extends Component {
           <p className="bold">The mAdapt team is based in Australia and the United States.</p>
           <span>Rebeccah Bartlett, Founder and CEO</span><br/>
           <span>Registered nurse-midwife, BA</span><br/>
-          <span>History/Anthropology, MPH MAternal and Child Health</span><br/><br/>
+          <span>History/Anthropology, MPH Maternal and Child Health</span><br/><br/>
 
           <span>Sarah Fortuna, Communications and strategy</span><br/>
           <span>BA, MSS, EMA</span><br/><br/>
@@ -32,7 +32,7 @@ class AboutPageContainer extends Component {
           <p>mAdapt recognises that many refugee groups are over-sampled with little consideration of their agency or desire to be a part of, instead of subject to, the research experience. As such, mAdapt has been designed with the intention to be a health intervention as well as a movement to increase community ownership of the health products and programs that affect them directly. This means building our organisational capacity from within our target communities and contributing to a workforce that is health empowered as well as gender and culture diverse.</p>
 
           <h4>Vision</h4>
-          <li>Respectful health knowledge, accessible in every language</li>
+          <li>Respectful health knowledge, accessible in every language.</li>
 
           <h4>Mission</h4>
           <li>We share reproductive health knowledge in a respectful way and in a language users can understand.</li>
