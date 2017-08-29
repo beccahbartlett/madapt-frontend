@@ -64,7 +64,7 @@ class Access extends Component {
             'en': 'Private vs. Public Health Services',
             'ar': 'الخدمات الصحية العامة والخاصة' 
           },
-          linkUrl: '#'
+          linkUrl: '/access/private-vs-public'
         }
       ]
     }
