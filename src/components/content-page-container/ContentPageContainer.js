@@ -3,6 +3,7 @@ import axios from 'axios'
 import Links from '../links/Links'
 import Video from '../video/Video'
 import Tabs from 'react-responsive-tabs'
+import Image from '../image/Image'
 import 'react-responsive-tabs/styles.css'
 import './ContentPageContainer.css'
 
@@ -61,15 +62,17 @@ class ContentPageContainer extends Component {
   }
 
   render() {
-    var data = this.state.data
+    const data = this.state.data
+    const lang = this.props.lang
     const style = {
-      direction: this.props.lang === 'en' ? 'ltr' : 'rtl'
+      direction: lang === 'en' ? 'ltr' : 'rtl'
     }
     return (
       <div style={style} className={'wrapper'}>
         <h1 className="content-page-title">{data && this.getLocalisedData(data.title)}</h1>
-        {data && !data.arabicComplete && this.props.lang ==='ar' && <h3>Arabic content coming soon</h3> }
-        {data && <div className='summary' dangerouslySetInnerHTML={{__html: this.getLocalisedData(data.summary)}} />}
+        {data && data.topLevelImage && <Image img={this.getLocalisedData(data.topLevelImage)} />}
+        {data && !data.arabicComplete && lang ==='ar' && <h3>Arabic content coming soon</h3> }
+        {data && data.summary && <div className='summary' dangerouslySetInnerHTML={{__html: this.getLocalisedData(data.summary)}} />}
         {data && data.topLevelVideo && <Video url={data.topLevelVideo} />}
         {data && data.topLevelVideo && data.tab && <br/>}
         {data && data.tab && <Tabs items={this.getTabs()} />}

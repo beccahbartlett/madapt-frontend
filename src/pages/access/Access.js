@@ -37,7 +37,7 @@ class Access extends Component {
             'en': 'Medicare and Centrelink',
             'ar': 'مديكير وسنترلنك' 
           },
-          linkUrl: '#'
+          linkUrl: '/access/medicare-centrelink'
         },
         {
           imgSrc: ResponsibilitiesIcon,
@@ -64,7 +64,7 @@ class Access extends Component {
             'en': 'Private vs. Public Health Services',
             'ar': 'الخدمات الصحية العامة والخاصة' 
           },
-          linkUrl: '#'
+          linkUrl: '/access/private-vs-public'
         }
       ]
     }

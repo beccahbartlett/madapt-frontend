@@ -74,10 +74,14 @@ class App extends Component {
               <Route
                 exact path='/access/australian-norms'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/access/australian-norms.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
-              {/* Medicare and Centrelink  */}
+              <Route
+                exact path='/access/medicare-centrelink'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/medicare-centrelink.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
+              <Route
+                exact path='/access/private-vs-public'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/private-vs-public.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
               {/* Your Rights and Responsibilities  */}
               {/* Disability Access  */}
-              {/* Private vs. Public Health Services */}
 
               <Route
                 exact path='/family-planning'
