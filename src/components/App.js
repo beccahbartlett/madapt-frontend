@@ -78,9 +78,11 @@ class App extends Component {
                 exact path='/access/medicare-centrelink'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/access/medicare-centrelink.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
               <Route
+                exact path='/access/rights-responsibilities'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/rights-responsibilities.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
+              <Route
                 exact path='/access/private-vs-public'
                 component={(props) => <ContentPageContainer {...props} filePath='/Content/access/private-vs-public.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
-              {/* Your Rights and Responsibilities  */}
               {/* Disability Access  */}
 
               <Route

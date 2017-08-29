@@ -46,7 +46,7 @@ class Access extends Component {
             'en': 'Your Rights and Responsibilities',
             'ar': 'الحقوق والواجبات' 
           },
-          linkUrl: '#'
+          linkUrl: '/access/rights-responsibilities'
         },
         {
           imgSrc: DisabilityAccessIcon,
