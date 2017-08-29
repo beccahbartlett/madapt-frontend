@@ -9,8 +9,8 @@
       "mobile": "/img/table_english_6.png"
     },
     "ar": {
-      "desktop": "",
-      "mobile": ""
+      "desktop": "/img/table_arabic_3.png",
+      "mobile": "/img/table_arabic_6.png"
     }
   }
 }
