@@ -116,5 +116,9 @@
         }
       ]
     }
-  ]
+  ],
+  "notes": {
+    "en": "",
+    "ar": "<h3>Resources</h3><ul><li><a href=\"https://www.healthinfotranslations.org/pdfDocs/RecoveryVaginalBirth_ar.pdf\">الانتعاش بعد الولادة</a></li><li><a href=\"https://healthreach.nlm.nih.gov/files/Arabic_YourRecoveryAfterCesareanBirth-Part1_Final.pdf?_ga=2.33873761.177285029.1504011766-407673951.1504011766\">شفاءك بعد الولادة الطبيعية</a></li><li><a href=\"https://healthreach.nlm.nih.gov/files/Arabic_YourRecoveryAfterCesareanBirth-Part2_Final.pdf?_ga=2.33873761.177285029.1504011766-407673951.1504011766\">الاستعادة بعد قيصرية</a></li></ul>"
+  }
 }
