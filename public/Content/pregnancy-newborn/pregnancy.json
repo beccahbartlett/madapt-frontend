@@ -141,5 +141,17 @@
   "notes": {
     "en": "",
     "ar": "<h3>Resources</h3><ul><li><a href=\"http://www.mhcs.health.nsw.gov.au/publicationsandresources/pdf/publication-pdfs/600/hts-600-ara.pdf/at_download/file\">الحمل والولادة</a></li></ul>"
+  },
+  "timeline": {
+    "en": {
+      "desktop": "/img/pregnancy1920*1541.png",
+      "mobile": "/img/pregnancy960*2270.png",
+      "pdf": "/documents/appointment during pregnancy english.pdf"
+    },
+    "ar": {
+      "desktop": "/img/pregnancy_arabic-03.png",
+      "mobile": "/img/pregnancy_arabic-06.png",
+      "pdf": ""
+    }
   }
 }
