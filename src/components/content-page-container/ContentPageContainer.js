@@ -77,6 +77,7 @@ class ContentPageContainer extends Component {
         {data && data.topLevelVideo && data.tab && <br/>}
         {data && data.tab && <Tabs items={this.getTabs()} />}
         {data && data.notes && <div className='notes' dangerouslySetInnerHTML={{__html: this.getLocalisedData(data.notes)}} />}
+        {data && data.timeline && <Image img={this.getLocalisedData(data.timeline)}/>}
       </div>
     )
   }
