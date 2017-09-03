@@ -7,6 +7,10 @@
   margin: 0 auto;
 }
 
+.aboutContainer .heading {
+  text-decoration: underline;
+}
+
 .teamPhoto{
   width: 100%;
   padding-bottom: 2rem;
