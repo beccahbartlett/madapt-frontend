@@ -12,17 +12,49 @@ class AboutPageContainer extends Component {
         <div className="aboutMAdaptTeam">
           <img className="teamPhoto" src={teamPhoto} alt='mAdapt team photo' />
           <p className="bold">The mAdapt team is based in Australia and the United States.</p>
-          <span>Rebeccah Bartlett, Founder and CEO</span><br/>
-          <span>Registered nurse-midwife, BA</span><br/>
-          <span>History/Anthropology, MPH Maternal and Child Health</span><br/><br/>
 
-          <span>Sarah Fortuna, Communications and strategy</span><br/>
-          <span>BA, MSS, EMA</span><br/><br/>
+          <p>
+            <span className="heading">Founders</span><br/>
+            <span>Rebeccah Bartlett, Founder and CEO</span><br/>
+            <span>Hannah Rackers (USA)</span>
+          </p>
 
-          <span>Claire Butselaar, Public Health Technical Advisor</span><br/>
-          <span>Registered Nurse, MPH</span><br/><br/>
+          <p>
+            <span className="heading">Executives</span><br/>
+            <span>Zainab Alidina (USA)</span><br/>
+            <span>Stephanie Metzin (USA)</span><br/>
+            <span>Claire Butselaar</span><br/>
+            <span>Sarah Fortuna</span><br/>
+            <span>Julie Gibson</span><br/>
+            <span>Sid Verma</span>
+          </p>
 
-          <span>Alex Sloman, Tech Advisor</span><br/>
+          <p>
+            <span className="heading">Researchers</span><br/>
+            <span>Jenny Ora Anand (USA)</span><br/>
+            <span>Fekir Negussie (USA)</span>
+          </p>
+
+          <p>
+            <span className="heading">Researchers</span><br/>
+            <span>Jenny Ora Anand (USA)</span><br/>
+            <span>Fekir Negussie (USA)</span>
+          </p>
+
+          <p>
+            <span className="heading">Developers</span><br/>
+            <span>Stephen Dodd</span><br/>
+            <span>James Liu</span><br/>
+            <span>David McDeavitt</span><br/>
+            <span>Enrique “Kit” Perez</span>
+          </p>
+
+          <p>
+            <span className="heading">Designers</span><br/>
+            <span>Boying Fu</span><br/>
+            <span>Rebecca Hranalovic</span><br/>
+            <span>Katherine Wu</span>
+          </p>
         </div>
         <div className="aboutMAdaptContent">
           <h4>About mAdapt</h4>
