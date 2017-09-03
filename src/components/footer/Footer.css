@@ -32,7 +32,6 @@
 .footerItem {
   display: inline-block;
   padding: 5px;
-  float: left;
 }
 
 .footerItem a{
@@ -79,8 +78,4 @@
 	.footerEmergencyBanner a {
     display: block;
   }
-}
-
-.disclaimer {
-  text-align: left;
 }
