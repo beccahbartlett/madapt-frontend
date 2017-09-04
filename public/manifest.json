@@ -1,9 +1,9 @@
 {
-  "short_name": "mAdapt",
+  "short_name": "Shifra",
   "name": "mAdapt - Innovating Access. Mapping Need. Building Data.",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "shifraFavicon.ico",
       "sizes": "64x64",
       "type": "image/png"
     }
