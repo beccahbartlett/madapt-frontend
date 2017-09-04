@@ -1,23 +1,23 @@
 {
-  "arabicComplete": false,
+  "arabicComplete": true,
   "style": 2,
   "title": {
     "en": "Contraception",
-    "ar": "منع الحمل"
+    "ar": "وسائل منع الحمل"
   },
   "summary": {
     "en": "<p>Contraception can help you avoid pregnancy resulting from unprotected sex. There are several methods of contraception that are safe, effective and easy to use prior to having sex such as condoms, pills, implants, injections, IUDs, diaphragms, vaginal rings, and natural methods.  Additionally, you may use emergency contraception up to 5 days after engaging in unprotected sex.</p>",
-    "ar": ""
+    "ar":  "<p> تساعدك وسائل منع الحمل على تجنب الحمل بعد ممارسة الجنس دون الواقي الذكري.</p><p> هناك عدة طرق لمنع الحمل تكون آمنة وفعالة وسهلة الاستخدام قبل ممارسة الجنس مثل الواقي الذكري والحبوب والغرسات والحقن واللولب والحجاب الحاجز والحلقات المهبلية والطرق الطبيعية. بالإضافة إلى ذلك، يمكنك استخدام وسائل منع الحمل في حالات الطوارئ حتى 5 أيام بعد ممارسة الجنس غير المحمي.</p>"
   },
   "topLevelVideo": "",
   "tab": [{
       "title": {
         "en": "Intra uterine device (IUD)",
-        "ar": ""
+        "ar": "اللولب"
       },
       "text": {
         "en": "<p>What is it: An IUD is a copper or hormone releasing device that is placed inside the uterus and creates an environment which ensures that pregnancy cannot happen. </p><p>How to use it: The IUD is inserted by a health practitioner and can stay in place for up to 10 years depending on which type is used. The IUD can be removed at any time by visiting your doctor.  </p><p>Efficacy: 99 per cent effective</p>",
-        "ar": ""
+        "ar": "<p>اللولب هو قطعة نحاسية أو جهاز يحرر هرمون يتم وضعه داخل الرحم ويخلق بيئة تضمن عدم إمكانية حدوث الحمل.</p><p>كيفية استخدامه: يتم تركيب اللولب من قبل طبيب الصحة ويمكن أن تبقى في مكانه لمدة تصل إلى 10 سنوات اعتمادا على النوع المستخدم, ويمكن إزالة اللولب في أي وقت عن طريق زيارة الطبيب.</p><p> فعاليته 99% كوسيلة لمنع الحمل.</p>"      
       },
       "image": "",
       "video": "https://www.youtube.com/embed/pCXUUj4OVxw"
@@ -25,11 +25,11 @@
     {
       "title": {
         "en": "Condoms",
-        "ar": ""
+        "ar": "الواقي"
       },
       "text": {
         "en": "<p>What is it: Male and female condoms provide a barrier which prevents sperm from entering the uterus and fertilising an egg. Condoms can also reduce the risk of contracting sexually transmitted infections, including HIV.</p><p>How to use it:<ul><li>How to use it: Male condom- the male condom is put over the erect penis and should be used every time you have sex.</li><li>Female condom-  The female condom which is stronger than the male latex condom sits in the vagina using the flexible ring. You can order female condoms from Family Planning Victoria, retail stores, or health clinics.</li></ul></p><p>Efficacy:<ul><li>Male condom- 98 per cent effective when used correctly</li><li>Female condom- 95 per cent effective when used correctly </li></ul></p>",
-        "ar": ""
+        "ar": "<p>ما هذا:</p><p>حاجز يمنع الحيوانات المنوية من دخول الرحم وإلقاح البويضة. ويمكن أن يقلل استعماله أيضا من خطر الإصابة بالأمراض المنقولة بالاتصال الجنسي، بما في ذلك فيروس نقص المناعة البشرية, هناك نوعان له ذكري وأنثوي.</p><p>كيفية استخدامها:</p><p> الواقي الذكري - يتم وضع الواقي الذكري على القضيب المنتصب، ويجب استخدامه في كل مرة يمارس فيها الجنس.</p><p> الواقي الأنثوي - الواقيات الأنثوية التي تكون المطاط المستعمل بها أقوى من واقي الذكري يوضع في المهبل باستخدام الحلقة المرنة. يمكنك شراء الواقي الذكري الأنثوي من منظمة تنظيم الأسرة  بفيكتوريا، محلات البيع ، العيادات الصحية و الانترنت. </p><p>فعالية:</p><p> الواقي الذكري - 98 في المائة فعالة عند استخدامها بشكل صحيح</p><p>الواقي الأنثوي - 95 في المائة فعالة عند استخدامها بشكل صحيح</p>"
       },
       "image": "",
       "video": "https://www.youtube.com/embed/-NbpQv3dJ1c"
@@ -37,11 +37,11 @@
     {
       "title": {
         "en": "Pills",
-        "ar": ""
+        "ar": "حبوب منع الحمل"
       },
       "text": {
         "en": "<p>What is it: Contraceptive pills prevent pregnancy by using synthetic forms of hormones.  </p>  <p>How to use it: Contraceptive pills are available with a doctor’s prescription and should be taken orally every day at the same time. </p> <p>Efficacy: 99 per cent effective when used correctly. </p>",
-        "ar": ""
+        "ar": "<p>ما هذا:</p><p>هي وسيلة لمنع الحمل باستخدام هرمونات اصطناعية.</p><p>كيفية استخدامها:</p><p>يقوم الطبيب بوصف حبوب منع الحمل مع وصفة طبية ، وينبغي أن تؤخذ عن طريق الفم كل يوم في نفس الوقت.</p><p>فعالية:</p><p>99 في المائة فعالة عندما تستخدم بشكل صحيح.</p>"
       },
       "image": "https://3.bp.blogspot.com/-jrvYC131CYY/V4mwbPWJZpI/AAAAAAAAAzg/FIiKH2vrAjcEVx6tS3mu4NRfUAuy6P9RwCLcB/s1600/xxxx.png",
       "video": "https://www.youtube.com/embed/67Xvbahh8Is"
@@ -49,11 +49,11 @@
     {
       "title": {
         "en": "Injection",
-        "ar": ""
+        "ar": "حقن"
       },
       "text": {
         "en": "<p>What is it: The injection (Depo) is a hormonal injection which stops ovulation and makes the fluid at the opening to the uterus thicker, which prevents sperm from entering.</p>  <p>How to use it: The injection is administered by a health practitioner every 12 to 14 weeks. </p> <p>Efficacy: 94 per cent effective </p>",
-        "ar": ""
+        "ar": "<p>ما هذا:</p><p>الحقن هو حقنة هرمونية توقف الإباضة لمدة تصل إلى ثلاثة أشهر. كما أنه يجعل السائل في عنق الرحم سمكياً، وبالتالي تمنع الحيوانات المنوية من الدخول.</p><p>كيفية استخدامه:</p><p>يتم  الحقن من قبل ممارس صحي كل 12-14 أسابيع.</p><p>الفعالية:</p><p>94 في المائة فعالة</p>"
       },
       "image": "",
       "video": "https://www.youtube.com/embed/93VgngakeMU"
@@ -61,11 +61,11 @@
     {
       "title": {
         "en": "Implants",
-        "ar": ""
+        "ar": "الزرعات"
       },
       "text": {
         "en": "<p>What is it: The implant is a hormonal device that is placed on the upper arm under the skin. It is a good option for women who cannot take synthetic oestrogens. </p>  <p>How to use it: The implant is inserted by a health practitioner and can be left in place for up to three years. </p> <p>Efficacy: 99 per cent effective </p>",
-        "ar": ""
+        "ar": "<p>ما هذا:</p><p>الزرع هو جهاز هرموني يتم وضعه على الجزء العلوي من الذراع تحت الجلد. هو خيار جيد للنساء الذين لا يستطيعون أخذ الأستروجين الاصطناعي.</p><p>كيفية استخدامه:</p><p>يتم إدخال الغرسة من قبل طبيب الصحة ويمكن أن تترك في مكان لمدة تصل إلى ثلاث سنوات.</p><p>الفعالية:</p><p>99 في المائة فعالة</p>"
       },
       "image": "",
       "video": "https://www.youtube.com/embed/4RBnQKPbBy4"
@@ -73,11 +73,11 @@
     {
       "title": {
         "en": "Vaginal rings",
-        "ar": ""
+        "ar": "حلقات مهبلية"
       },
       "text": {
         "en": "<p>What is it: The vaginal ring is put into the vagina and slowly releases hormones which prevent pregnancy.  </p>  <p>How to use it: The ring can easily be inserted at home. After three weeks, it should be removed and replaced one week later.  </p> <p>Efficacy: 99 per cent effective if used correctly. </p>",
-        "ar": ""
+        "ar": "<p>ما هذا:</p><p>يتم وضع حلقة المهبل في المهبل ويتحرر منها الهرمونات التي تمنع الحمل ببطء.</p><p>كيفية استخدامه:</p><p>يمكن بسهولة استخدامها وتطبيقها في المنزل, ينبغي إزالتها بعد ثلاثة أسابيع، واستبدالها بعد أسبوع واحد من نهاية الدورة الفترة.</p><p>فعالية:</p><p>99 في المائة فعالة إذا ما استخدمت بشكل صحيح.</p>"
       },
       "image": "",
       "video": "https://www.youtube.com/embed/JFjD9vSNdC8"
@@ -85,11 +85,11 @@
     {
       "title": {
         "en": "Diaphragms",
-        "ar": ""
+        "ar": "الأغشية"
       },
       "text": {
         "en": "<p>What is it: The diaphragm is a soft dome that is fitted in the vagina providing a barrier from the uterus. </p>  <p>How to use it: The diaphragm should be fitted by a health practitioner and should remain in the vagina for up to 6 hours after having sex. This barrier method does not protect from sexually transmitted infections.  </p> <p>Efficacy: 94 per cent effective when used correctly.  </p>",
-        "ar": ""
+        "ar": "<p>ما هذا:</p><p>ما هو الغشاء  هو قطعة  لينة التي يتم تركيبها في المهبل تعمل حاجز يفصل الرحم.</p><p>كيفية استخدامه:</p><p>يجب أن يتم تركيب الغشاء من قبل ممارس صحي ويجب أن يبقى في المهبل لمدة تصل إلى 6 ساعات بعد ممارسة الجنس. هذا الغشاء لا يحمي من الأمراض المنتقلة عن طريق الاتصال الجنسي.</p><p>الفعالية:</p><p>94 في المائة فعالة عند استخدامها بشكل صحيح.</p>"
       },
       "image": "",
       "video": ""
@@ -97,11 +97,11 @@
     {
       "title": {
         "en": "Emergency contraception",
-        "ar": ""
+        "ar": "وسائل منع الحمل في حالات الطوارئ"
       },
       "text": {
         "en": "<p>What is it: Emergency contraception is also known as “the morning after pill.” This pill can stop ovulation and can be taken to prevent pregnancy if you had unprotected sex or if the condom malfunctions. </p>  <p>How to use it: You can purchase this pill from most pharmacies. Although you should take it as soon as possible, it can be effective up to 96 hours after having sex.   </p> <p>Efficacy: This method will not be very effective if used after 96 hours after having sex. </p>",
-        "ar": ""
+        "ar": "<p>ما هذا:</p><p>وسائل منع الحمل في حالات الطوارئ المعروف أيضا باسم  حبوب منع الحمل في الصباح. هذه الحبوب تمنع الحمل لأنها توقف الإباضة ويمكن اتخاذها لمنع الحمل إذا كان لديك ممارسة جنسية دون وقاية أو إذا كان الواقي الذكري معطلا أوغير صالح للاستخدام.</p><p>كيفية استخدامها:</p><p>يمكنك شراء هذه الحبوب من معظم الصيدليات ولكن الصيدلي سوف يسألك بعض الأسئلة و ممكن أن يرفض الصيدلي إعطائها لك، قم بشرائها لدى صيدلي آخر. </p><p>من حقك الحصول على هذا النوع من تنظيم الأسرة.</p><p>فعالية:</p><p>على الرغم من أنك يجب أن تأخذ في أقرب وقت ممكن، يمكن أن تكون فعاليتها تصل إلى 96 ساعة بعد ممارسة الجنس.</p>"
       },
       "image": "",
       "video": "https://www.youtube.com/embed/YGc92_b0lbk?list=PL_0c66FsSFAIevxnol1LzZxigrwTwPJhf"
@@ -109,11 +109,11 @@
     {
       "title": {
         "en": "Natural methods",
-        "ar": ""
+        "ar": "الأساليب الطبيعية"
       },
       "text": {
         "en": "<p>What is it: Natural methods including temperature method, rhythm method, or cervical mucus method help you track the days which you are ovulating, which is when you have the highest chance of getting pregnant. You can avoid pregnancy by not having sex on those days. While natural methods are free and don’t involve any devices or medication, they are only effective when used correctly. </p>  <p>How to use it: Temperature method: Take your temperature every morning when you wake up. When you ovulate, your temperature can increase by almost 1 degree F, which can let you know when to avoid having sex.</p> <p>Rhythm method: Before you start, track your period of 6- 12 months, then use the following formula:<ul> <li>Subtract 18 from the number of days in your shortest cycle.</li> <li>Count that many days after you start your period. That’s your first fertile day.</li> <li>Subtract 11 from the number of days in your longest cycle.</li> <li>Count that many days from the start of your period. That’s your last fertile day.</li> <li>Don’t have sex on or between your first and last fertile days.</li> </ul>  </p> <p>Cervical mucus method:  When you are ovulating, you may have more cervical mucus than other times of the month, such as right after your period. You may also notice changes in color and texture which can signal that you are ovulating. When you are ovulating, your cervical mucus can look clear and stretch similar to egg whites. This can help you know when to avoid sex. </p><p>Efficacy- Natural methods can have up to a 24 per cent chance of leading to pregnancy when not used correctly. If your cycle is irregular, you might consult your health practitioner about your other options. </p>",
-        "ar": ""
+        "ar": "<p>ما هذا:</p><p> الأساليب الطبيعية بمنع الحمل تتضمن مراقبة درجة حرارة الجسم، مراقبة الدورة الشهرية للمرأة، وطريقة مراقبة كثافة مخاطية  عنق الرحم كلها تساعدك على مراقبة أيام الإباضة، خلال هذه الأيام تكون لديك أعلى فرصة للحصول على الحمل. </p><p>بينما يمكنك تجنب الحمل عن طريق عدم ممارسة الجنس في تلك الأيام.</p><p>تعتبر أساليب منع الحمل الطبيعية هي سهلة ومجانية ولا تحتاج إلى استخدام أي أجهزة أو أدوية، فإنها تعمل فقط عند استخدامها بشكل صحيح ولكن  فعاليتها ليست 100 ٪.</p><p>كيفية استخدامها:</p><p>طريقة درجة الحرارة: تؤخذ درجة الحرارة كل صباح عند الاستيقاظ وعند الإباضة يمكن أن تزيد درجة الحرارة بنسبة 2 درجة مئوية تقريباً، وبذلك ممكن معرفة متى يجنب ممارسة الجنس.</p><p>طريقة الإيقاع: قبل البدء يتم متابعة الدورة الشهرية  لفترة من 6-12 شهراً، ثم استخدم الصيغة التالية:</p><ul><li>يتم طرح 18 من عدد الأيام في أقصر دورة الخاصة بك.</li><li>استخدمي الرقم الناتج وضيفيه لليوم الأول بدورتك الشهرية  فيكون الناتج هو اليوم الأول للإباضة.</li><li>يتم طرح 11 من عدد الأيام في أطول دورة الخاصة بك.</li><li>استخدمي الرقم الناتج من أول يوم بالدورة الشهرية الخاصة بك فيكون هذا اليوم هو اليوم الأخير للإباضة. </li><li>لا تمارس الجنس بين أيام الإباضة الأولى والأخيرة.</li></ul><p>طريقة مراقبة مخاطية عنق الرحم: عندما تكونين بمرحلة الإباضة، يكون مخاط عنق الرحم أكثر سماكة من أوقات أخرى من الشهر. قد تلاحظين أيضا تغيرات في اللون والملمس والتي يمكن أن تشير إلى أنك بمرحلة الإباضة. حيث يشابه مخاط عنق الرحم الخاص شفافاً واضحاً على غرار بياض البيض. هذا يمكن أن يساعدك على معرفة متى تجنب الجنس.</p><p>فعالية طرق منع الحمل الطبيعية يمكن أن تؤدي إلى الحمل بنسبة 24 % عندما لا تستعمل بشكل صحيح. إذا كانت الدورة غير منتظمة، فيمكنك استشارة طبيبك الصحي حول خياراتك الأخرى.</p>"
       },
       "image": "",
       "video": "https://www.youtube.com/embed/4RBnQKPbBy4"
