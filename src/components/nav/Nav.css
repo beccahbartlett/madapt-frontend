@@ -9,6 +9,30 @@
   background: #5e7d53;
 }
 
+.nav-header.style-1 {
+  background: #5e7d53;
+}
+
+.nav-header.style-2 {
+  background: #4a7e8f;
+}
+
+.nav-header.style-3 {
+  background: #8d4349;
+}
+
+.nav-header.style-4 {
+  background: #926c29;
+}
+
+.nav-header.style-5 {
+  background: #68637f;
+}
+
+.nav-header.style-6 {
+  background: #70372c;
+}
+
 .nav-header .nav-header-title {
   margin: 0;
   padding: 0;
