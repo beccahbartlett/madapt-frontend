@@ -55,7 +55,7 @@ class App extends Component {
     return (
       <Router onUpdate={this.logPageView}>
         <div>
-          <Nav lang={this.state.lang} toggleLanguage={this.toggleLanguage}/>
+          <Nav lang={this.state.lang} toggleLanguage={this.toggleLanguage} style={this.state.style}/>
           <NavMenu lang={this.state.lang} />
           <div className={`container-body style-${this.state.style}`}>
             <Switch>
