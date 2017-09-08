@@ -1,22 +1,22 @@
 {
-    "arabicComplete": false,
+    "arabicComplete": true,
     "title": {
         "en": "Violence",
-        "ar": ""
+        "ar": "العنف"
     },
     "summary": {
         "en": "<h3>Right to Healthy & Respectful Relationships</h3><p>You have the right to be treated with respect in your relationship with your partner. Healthy relationships are based on kindness and caring for one another.</p> <p>Healthy relationships never involve physical, sexual, or emotional abuse. Having a partner that is coercive, manipulative, or controlling is also a form of abuse.</p> <p>Everyone, regardless of their religion, culture, age, ability, sexual orientation, ethnicity, has the right to live free from abuse and has the right to legal protection. If you are in immediate danger please call 000.</p> <p>Abuse is any time one person takes advantage or tries to control another person. There are many ways in which this happens, below are some subcategories and how to deal with them.</p>",
-        "ar": ""
+        "ar": "<p>لديك الحق الكامل في العلاقات الصحية والاحترام ولديك الحق في أن تعامل باحترام في علاقتك مع شريك حياتك. وتستند العلاقات الصحية على العطف والرعاية لبعضكما البعض. لا تشمل العلاقات الصحية أبدا الاعتداء الجسدي أو الجنسي أو العاطفي. كما أن وجود شريك قسري أو متلاعب أو مسيطر هو أيضا شكل من أشكال الإساءة والعنف. </p><p>ولكل شخص، بغض النظر عن دينه وثقافته وعمره وقدرته وميله الجنسي وعرقه، الحق في العيش في مأمن من الإساءة وله الحق في الحماية القانونية. إذا كنت في خطر فوري يرجى الاتصال 000.</p>"
     },
     "topLevelVideo": "https://www.youtube.com/embed/J7T33JZSrSU?rel=0",
     "tab": [{
             "title": {
                 "en": "Types of Abuse",
-                "ar": ""
+                "ar": "أنواع إساءة الاستخدام"
             },
             "text": {
                 "en": "<ul>   <li>Physical- Physical abuse includes hitting, punching, slapping, pushing or other physical acts of aggression including yelling and screaming.</li> <li>Sexual- Sexual abuse includes rape, forced intercourse, forcing you to do sexual acts against your will, unwanted sexual comments or touching. Husbands can perpetrate sexual violence against their wives. </li>   <li>Emotional or psychological- Emotional abuse can include put downs, making you feel stupid or inferior, telling other people that you are stupid, making comments on your physical appearance, swearing and name calling.</li>   <li>Financial or economic- Financial abuse includes keeping money or financial assets from you, or not allowing you to have your money. </li>   <li>Controlling- Controlling occurs when one prevents you from seeing your family or friends, keeping you from participating in community events, threatening you with taking your children or deportation. Another form of controlling behavior is seen through coercion and manipulation. This occurs when someone uses their position of power over you to make you do things that you do not want to do.</li>  </ul>",
-                "ar": ""
+                "ar": "<p>أنواع العنف والإساءة  هي أي وقت يستفيد فيه شخص ما أو يحاول السيطرة على شخص آخر. هناك العديد من الطرق التي يحدث هذا، وفيما يلي بعض الفئات الفرعية</p><ul><li>الاعتداء البدني الجسدي يشمل الضرب أو اللكم أو الصفع أو الدفع أو غيرها من أعمال العدوان الجسدي بما في ذلك الصراخ والشتم. </li><li>الاعتداء الجنسي يشمل الاغتصاب، الجماع القسري، إرغامك على القيام بأعمال جنسية ضد إرادتك، تعليقات جنسية غير مرغوب فيها أو لمس للأعضاء التناسلية. ويمكن للأزواج أن يرتكبوا العنف الجنسي ضد زوجاتهم.  </li><li>الإساءة العاطفية أو النفسية تشمل الدونية والتحقير، مما يجعلك تشعر بالغباء أو الدونية، وتقول لأشخاص آخرين أنك غبي، يكون هناك تعليقات سيئة على مظهرك الجسدي، والشتيمة باسمك أو استخدام العبارات السيئة. </li><li>سوء المعاملة المالية أو الاقتصادية: تشمل حفظ المال عنك، أو عدم السماح لك الحصول على أموالك.</li><li>السيطرة : يعرف التحكم أو السيطرة بأنها عندما يمنعك أحد ما من رؤية عائلتك أو أصدقائك، ويبعدك عن المشاركة في المناسبات المجتمعية، ويهددك بأخذ أطفالك أو ترحيلك. وهناك شكل آخر من أشكال السيطرة على السلوك من خلال الإكراه والتلاعب. يحدث هذا عندما يستخدم شخص ما السلطة عليك لجعلك تفعل أشياء كنت لا تريد أن تفعلها. </li></ul>"
             },
             "image": "",
             "video": "",
@@ -25,11 +25,11 @@
         {
             "title": {
                 "en": "Rights",
-                "ar": ""
+                "ar": "الحقوق"
             },
             "text": {
                 "en": "<p>Everyone, regardless of their religion, culture, age, ability, sexual orientation, ethnicity, has the right to live free from abuse and has the right to legal protection. If you are in immediate danger please call 000.</p> <p><ul>           <h4>The Family Violence Protection Act of 2008 & Amendment of 2014</h4> <li>Protection and safety for those who have experienced family violence</li>    <li>Accountability of perpetrators of family violence</li>   <li>Police can issue Family Violence Safety Notices that take effect immediately and are active until a family violence intervention order goes before the court.</li>   <li>Violation of a safety notice or intervention order can lead to 2 years punishment</li>      </ul></p>",
-                "ar": ""
+                "ar": "<p>ولكل شخص، بغض النظر عن دينه وثقافته وعمره وقدرته وميله الجنسي وعرقه ، الحق في العيش في مأمن من الإساءة وله الحق في الحماية القانونية. إذا كنت في خطر فوري يرجى الاتصال 000.</p><p>قانون حماية العنف الأسري لعام 2008 وتعديل عام 2014</p><ul><li>حماية وسلامة أولئك الذين تعرضوا للعنف العائلي.</li><li>مساءلة مرتكبي العنف الأسري.</li><li>مکن للشرطة أن تصدر إشعارات سلامة العنف العائلي سارية المفعول علی الفور حتی ینتقل أمر العنف العائلي إلی المحکمة.</li><li>قد یؤدي انتھاك إشعار السلامة أو أمر التدخل إلی عقوبة لمدة سنتین</li></ul>"
             },
             "image": "",
             "video": "",
@@ -38,11 +38,11 @@
         {
             "title": {
                 "en": "Intervention Order",
-                "ar": ""
+                "ar": "أمر التدخل"
             },
             "text": {
                 "en": "<p>An intervention order is a legal order intended to prevent future violence. This can include preventing the perpetrator from coming near you at home or work or preventing them from coming near a child’s school. Here are some facts about intervention orders:</p> <p><ul>           <li>You can apply for an intervention order if you are concerned that violence will happen to you again at your local Magistrate’s Court.</li>    <li>You can also apply online at the link below</li>   <li>A Police Officer can also apply for an intervention order on your behalf</li>         </ul></p>",
-                "ar": ""
+                "ar": "<p>أمر التدخل - أمر التدخل هو نظام قانوني يهدف إلى منع العنف في المستقبل. ويمكن أن يشمل ذلك منع الجاني منالاقتراب منك في المنزل أو العمل أو منعهم من الاقتراب من مدرسة الطفل. وفيما يلي بعض الحقائق حول أوامر التدخل: </p><ul><li>یمکنك التقدم بطلب للتدخل إذا کنت قلقا من أن العنف سیحدث لك مرة أخرى في محکمة الصلح المحلیة.</li><li>يمكنك أيضا تطبيق عبر الإنترنت على الرابط أدناه</li><li>یمکن لضباط الشرطة أیضا التقدم بطلب للحصول علی أمر تدخل نيابة عنك</li></ul>"
             },
             "image": "",
             "video": "https://www.youtube.com/embed/DbnqqBRXwpM?rel=0",
@@ -55,16 +55,15 @@
               "url": "https://familyviolence.courts.vic.gov.au/online-form "
             }
           ]
-          
         },
         {
             "title": {
                 "en": "Safety Resources",
-                "ar": ""
+                "ar": "السلامة"
             },
             "text": {
                 "en": "<p>If you are affected by family violence know that there is help out there. If you are planning to leave your current situation or interested in knowing what options you have there are organizations that offer shelter and other resources. </p>",
-                "ar": ""
+                "ar": "<p>إذا كنت متأثرا بالعنف العائلي، عليك أن تعلم أن هناك مساعدة. إذا كنت تخطط لترك الوضع الحالي الخاص بك أو معرفة ما هي الخيارات المتوفرة ولديك منظمات توفر المأوى وكل ما يلزمك.</p>"
             },
             "image": "",
             "video": "https://www.youtube.com/embed/o9tdxEr1nww?rel=0",
