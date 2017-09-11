@@ -59,9 +59,9 @@ class App extends Component {
           <NavMenu lang={this.state.lang} />
           <div className={`container-body style-${this.state.style}`}>
             <Switch>
-              <Route exact path="/" render={() => (
-                <Redirect to="/access"/>
-              )}/>
+							<Route
+                exact path='/'
+                component={(props) => <ContentPageContainer {...props} filePath='/Content/home.json' lang={this.state.lang} changeStyle={this.changeStyle} />} />
 
               <Route
                 exact path='/access'
