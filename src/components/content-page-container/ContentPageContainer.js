@@ -44,8 +44,8 @@ class ContentPageContainer extends Component {
   getTabs() {
     var data = this.state.data.tab
     return data.map(item => ({
-      tabClassName: 'tab',
-      panelClassName: 'panel',
+      tabClassName: `tab tab-style-${this.props.style}`,
+      panelClassName: `panel panel-style-${this.props.style}`,
       title: this.getLocalisedData(item.title),
       getContent: () => {
         return (
