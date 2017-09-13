@@ -1,5 +1,6 @@
 {
-    "arabicComplete": true,
+		"arabicComplete": true,
+		"style": 5,
     "title": {
         "en": "Mental Health",
         "ar": "الصحة العقلية"
