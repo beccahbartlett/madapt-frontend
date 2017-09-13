@@ -1,5 +1,6 @@
 {
-    "arabicComplete": true,
+		"arabicComplete": true,
+		"style": 5,
     "title": {
         "en": "Men's Health",
         "ar": "صحة الرجال"

@@ -12,12 +12,9 @@ class Links extends Component {
     var lang = this.state.lang
     return (
       <div>
-        <h3>{this.props.lang === 'en' ? 'Links' : 'الروابط'}</h3>
-        <ul>
-          {this.props.links && this.props.links.map(link => {
-            return <li><Link title={link.title[lang]} url={link.url}/></li>
-          })}
-        </ul>
+				{this.props.links && this.props.links.map(link => {
+					return <div><span><Link title={link.title[lang]} url={link.url}/></span><br/></div>
+				})}
       </div>
     )
   }
