@@ -69,7 +69,7 @@ class ContentPageContainer extends Component {
     }
     return (
       <div style={style} className={'wrapper'}>
-        <h1 className="content-page-title">{data && this.getLocalisedData(data.title)}</h1>
+        <h1 className={`content-page-title content-page-title-style-${this.props.style}`}>{data && this.getLocalisedData(data.title)}</h1>
         {data && data.topLevelImage && <Image img={this.getLocalisedData(data.topLevelImage)} />}
         {data && !data.arabicComplete && lang ==='ar' && <h3>Arabic content coming soon</h3> }
         {data && data.summary && <div className='summary' dangerouslySetInnerHTML={{__html: this.getLocalisedData(data.summary)}} />}
