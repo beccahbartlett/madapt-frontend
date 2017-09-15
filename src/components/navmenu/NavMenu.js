@@ -77,7 +77,7 @@ class NavMenu extends Component {
     return (
       <div className="menuWrapper">
         <div className="toggleMenu">
-        <button onClick={() => this.showMenu()} className={this.state.menu ? 'rotate toggleMenuButton' : 'toggleMenuButton'}>
+        <button onClick={this.showMenu} className={this.state.menu ? 'rotate toggleMenuButton' : 'toggleMenuButton'}>
           <div className="bar"></div>
           <div className ="bar"></div>
           <div className ="bar"></div>
@@ -103,7 +103,7 @@ class NavMenu extends Component {
              {this.state.menuItems.map((item, index) => {
               return (
                 <Link to={item.url}>
-                  <div className={`mobile-item item-${index + 1}`}>
+                  <div className={`mobile-item item-${index + 1}`} onClick={this.showMenu}>
                     <img className="icon" src={item.icon} alt="Access"/>
                     <p className="item-text">{item.name[lang]}</p>
                   </div>
