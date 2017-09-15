@@ -103,10 +103,10 @@ class NavMenu extends Component {
              {this.state.menuItems.map((item, index) => {
               return (
                 <Link to={item.url}>
-                  <span className={`mobile-item item-${index + 1}`}>
+                  <div className={`mobile-item item-${index + 1}`}>
                     <img className="icon" src={item.icon} alt="Access"/>
                     <p className="item-text">{item.name[lang]}</p>
-                  </span>
+                  </div>
                 </Link>
               )
             })} 
