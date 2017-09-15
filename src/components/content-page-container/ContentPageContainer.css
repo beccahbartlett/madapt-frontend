@@ -7,6 +7,13 @@
   padding-right: 10%;
 }
 
+@media screen and (max-width: 600px) {
+	.wrapper {
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+}
+
 .wrapper.right-align {
   text-align: right;
 }
