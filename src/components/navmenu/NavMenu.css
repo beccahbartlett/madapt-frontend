@@ -118,13 +118,18 @@
 
   .mobile-item {
     display: block;
-    height: 30px;
-  }
+		height: 8rem;
+		padding-top: 2.5rem;
+	}
+	
+	.mobile-item > p {
+		margin: 0;
+	}
 
   .item-text {
     display: inline-block;
-    vertical-align: center;
-  }
+    vertical-align: middle;
+	}
 
   .icon {
     height: 80%;
