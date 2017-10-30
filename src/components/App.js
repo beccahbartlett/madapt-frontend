@@ -61,7 +61,7 @@ class App extends Component {
             <Switch>
 							<Route
                 exact path='/'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/home.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/home.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
 
               <Route
                 exact path='/access'
@@ -70,22 +70,22 @@ class App extends Component {
                 changeStyle={this.changeStyle} />} />
               <Route
                 exact path='/access/health-system-overview'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/health-system-overview.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/access/health-system-overview.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/access/australian-norms'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/australian-norms.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/access/australian-norms.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/access/medicare-centrelink'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/medicare-centrelink.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/access/medicare-centrelink.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/access/rights-responsibilities'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/rights-responsibilities.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/access/rights-responsibilities.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/access/disability'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/disability.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/access/disability.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/access/private-vs-public'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/access/private-vs-public.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/access/private-vs-public.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
 
               <Route
                 exact path='/family-planning'
@@ -94,16 +94,16 @@ class App extends Component {
                 changeStyle={this.changeStyle} />} />
               <Route
                 exact path='/family-planning/birth-spacing'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-planning/birth-spacing.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/family-planning/birth-spacing.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/family-planning/contraception'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-planning/contraception.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/family-planning/contraception.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/family-planning/unplanned-pregnancy'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-planning/unplanned-pregnancy.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/family-planning/unplanned-pregnancy.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/family-planning/fertility'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-planning/fertility.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/family-planning/fertility.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
 
               <Route
                 exact path='/pregnancy-newborn'
@@ -112,19 +112,19 @@ class App extends Component {
                 changeStyle={this.changeStyle} />} />
               <Route
                 exact path='/pregnancy-newborn/pregnancy'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/pregnancy.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/pregnancy-newborn/pregnancy.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/pregnancy-newborn/complications'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/complications-of-pregnancy.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/pregnancy-newborn/complications-of-pregnancy.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/pregnancy-newborn/birth'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/birth.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/pregnancy-newborn/birth.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path="/pregnancy-newborn/postnatal"
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/postnatal.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/pregnancy-newborn/postnatal.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/pregnancy-newborn/newborn'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/pregnancy-newborn/newborn.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/pregnancy-newborn/newborn.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
 
                 <Route
                 exact path='/sexual-health'
@@ -133,16 +133,16 @@ class App extends Component {
                 changeStyle={this.changeStyle} />} />
               <Route
                 exact path='/sexual-health/healthy-relationships'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/healthy-relationships.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/sexual-health/healthy-relationships.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/sexual-health/safe-sex'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/safe-sex.json' lang={this.state.lang} changeStyle={this.changeStyle} />} style={this.state.style} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/sexual-health/safe-sex.json' lang={this.state.lang} changeStyle={this.changeStyle} />} style={this.state.style} />
               <Route
                 exact path='/sexual-health/sti'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/sti.json' lang={this.state.lang} changeStyle={this.changeStyle} />} style={this.state.style} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/sexual-health/sti.json' lang={this.state.lang} changeStyle={this.changeStyle} />} style={this.state.style} />
               <Route
                 exact path='/sexual-health/sexuality'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/sexual-health/sexuality.json' lang={this.state.lang} changeStyle={this.changeStyle} />} style={this.state.style} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/sexual-health/sexuality.json' lang={this.state.lang} changeStyle={this.changeStyle} />} style={this.state.style} />
 
               <Route
                 exact path='/family-health'
@@ -151,22 +151,22 @@ class App extends Component {
                 changeStyle={this.changeStyle} />} />
               <Route
                 exact path='/family-health/womens-health'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/womens-health.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/family-health/womens-health.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/family-health/mens-health'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/mens-health.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/family-health/mens-health.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/family-health/teen-health'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/teen-health.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/family-health/teen-health.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/family-health/childrens-health'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/childrens-health.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/family-health/childrens-health.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/family-health/mental-health'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/mental-health.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/family-health/mental-health.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                 exact path='/family-health/violence'
-                component={(props) => <ContentPageContainer {...props} filePath='/Content/family-health/violence.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+                component={(props) => <ContentPageContainer {...props} filePath='/content/family-health/violence.json' lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
               <Route
                   exact path='/about'
                   component={(props) => <About {...props}
