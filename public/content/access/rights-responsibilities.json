@@ -1,5 +1,6 @@
 {
-  "arabicComplete": false,
+	"arabicComplete": false,
+	"style": 1,
   "title": {
     "en": "Your Rights and Responsibilities",
     "ar": "حقوقك ومسؤولياتك"

@@ -1,5 +1,6 @@
 {
-  "arabicComplete": true,
+	"arabicComplete": true,
+	"style": 1,
   "title": {
     "en": "Disability Access",
     "ar": "ذوي الاحتياجات الخاصة"

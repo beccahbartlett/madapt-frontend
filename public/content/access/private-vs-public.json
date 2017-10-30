@@ -1,5 +1,6 @@
 {
-  "arabicComplete": true,
+	"arabicComplete": true,
+	"style": 1,
   "title": {
     "en": "Private vs. Public Access Maternity Care Options",
     "ar": "العيادات الخاصة والعامة"
