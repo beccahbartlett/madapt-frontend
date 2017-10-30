@@ -30,8 +30,9 @@ class App extends Component {
     this.state = {
       lang: 'en',
 			style: 1,
-			routes: this.getRoutes()
-    }
+			routes: null
+		}
+		this.getRoutes()
     this.toggleLanguage = this.toggleLanguage.bind(this)
 		this.changeStyle = this.changeStyle.bind(this)
 	}
@@ -73,9 +74,10 @@ class App extends Component {
           <div className={`container-body style-${this.state.style}`}>
             <Switch>
 
-							{routes && routes.map(route => {
+							{routes && routes.map((route, index) => {
 								return (
 									<Route
+										key={index}
 										exact path={route.displayUrl}
 										component={(props) => <ContentPageContainer {...props} filePath={route.contentUrl} lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
 								)

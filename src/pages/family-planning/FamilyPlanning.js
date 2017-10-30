@@ -3,7 +3,6 @@ import GridPageContainer from '../../components/grid-page-container/GridPageCont
 import BirthSpacingIcon from '../../images/icons/familyplanning/birthspacing.png'
 import ContraceptionIcon from '../../images/icons/familyplanning/contraception-types.png'
 import FertilityIcon from '../../images/icons/familyplanning/fertility.png'
-import FamilyPlanningIcon from '../../images/icons/familyplanning/family-planning.png'
 import UnplannedPregnancyIcon from '../../images/icons/familyplanning/unplanned-pregnancy.png'
 
 class FamilyPlanning extends Component {

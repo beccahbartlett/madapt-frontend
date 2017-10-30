@@ -87,7 +87,7 @@ class NavMenu extends Component {
         <div className="menu">
           {this.state.menuItems.map((item, index) => {
             return (
-              <Link to={item.url}>
+              <Link to={item.url} key={index}>
                 <div className={`item item-${index + 1}`}>
                   <img className="icon" src={item.icon} alt="Access"/>
                   <div className="item-text"><p>{item.name[lang]}</p></div>
@@ -102,7 +102,7 @@ class NavMenu extends Component {
           <div className="mobile-menu">
              {this.state.menuItems.map((item, index) => {
               return (
-                <Link to={item.url}>
+                <Link to={item.url} key={index}>
                   <div className={`mobile-item item-${index + 1}`} onClick={this.showMenu}>
                     <img className="icon" src={item.icon} alt="Access"/>
                     <p className="item-text">{item.name[lang]}</p>

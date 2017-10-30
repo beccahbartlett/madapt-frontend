@@ -11,17 +11,15 @@ class ContentPageContainer extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      data: this.getData()
-    }
+      data: null
+		}
+		this.getData()
     this.getTabs = this.getTabs.bind(this)
     this.getLocalisedData = this.getLocalisedData.bind(this)
   }
 
   componentDidMount() {
     global.logPageView(window.location.pathname + window.location.search)
-    if (this.props.changeStyle) {
-      // this.props.changeStyle(this.state.data.style);
-    }
   }
   
   getData() {
@@ -30,8 +28,8 @@ class ContentPageContainer extends Component {
       .then(res => {
         this.setState({
           data: res.data
-        });
-        this.props.changeStyle(this.state.data.style);
+        })
+				this.props.changeStyle(this.state.data.style)
       })
   }
 
@@ -43,13 +41,13 @@ class ContentPageContainer extends Component {
   
   getTabs() {
     var data = this.state.data.tab
-    return data.map(item => ({
+    return data.map((item, index) => ({
       tabClassName: `tab tab-style-${this.props.style}`,
       panelClassName: `panel panel-style-${this.props.style}`,
       title: this.getLocalisedData(item.title),
       getContent: () => {
         return (
-          <div>
+          <div key={index}>
             <div className='tabContent' dangerouslySetInnerHTML={{__html: this.getLocalisedData(item.text)}} />
             {item.video && <Video url={item.video} />}
             <div className='tabLinks'>

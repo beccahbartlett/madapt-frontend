@@ -9,9 +9,10 @@ class GridPageContainer extends Component {
   render() {
     return (
       <CardGrid>
-        {this.props.cards.map(item => {
+        {this.props.cards.map((item, index) => {
           return (
             <Card
+							key={index}
               lang={this.props.lang}
               imgSrc={item.imgSrc}
               theme={item.theme}
