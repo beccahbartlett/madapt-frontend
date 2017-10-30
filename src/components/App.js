@@ -30,8 +30,9 @@ class App extends Component {
     this.state = {
       lang: 'en',
 			style: 1,
-			routes: this.getRoutes()
-    }
+			routes: null
+		}
+		this.getRoutes()
     this.toggleLanguage = this.toggleLanguage.bind(this)
 		this.changeStyle = this.changeStyle.bind(this)
 	}

@@ -11,17 +11,15 @@ class ContentPageContainer extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      data: this.getData()
-    }
+      data: null
+		}
+		this.getData()
     this.getTabs = this.getTabs.bind(this)
     this.getLocalisedData = this.getLocalisedData.bind(this)
   }
 
   componentDidMount() {
     global.logPageView(window.location.pathname + window.location.search)
-    if (this.props.changeStyle) {
-      // this.props.changeStyle(this.state.data.style);
-    }
   }
   
   getData() {
@@ -30,8 +28,8 @@ class ContentPageContainer extends Component {
       .then(res => {
         this.setState({
           data: res.data
-        });
-        this.props.changeStyle(this.state.data.style);
+        })
+				this.props.changeStyle(this.state.data.style)
       })
   }
 
