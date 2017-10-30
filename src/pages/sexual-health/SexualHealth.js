@@ -12,7 +12,7 @@ class SexualHealth extends Component {
       cards: [
         {
           imgSrc: HealthyRelationshipsIcon,
-          theme: '4',
+          theme: this.props.theme,
           titleText: {
             'en': 'Healthy Relationships',
             'ar': 'العلاقات الصحية' 
@@ -21,7 +21,7 @@ class SexualHealth extends Component {
         },
         {
           imgSrc: SafeSexIcon,
-          theme: '4',
+          theme: this.props.theme,
           titleText: {
             'en': 'Safe sex',
             'ar': 'الجنس الآمن' 
@@ -30,7 +30,7 @@ class SexualHealth extends Component {
         },
         {
           imgSrc: StisIcon,
-          theme: '4',
+          theme: this.props.theme,
           titleText: {
             'en': 'STI\'s/ HIV',
             'ar': 'فيروس نقص المناعة المكتسب والأمراض الجنسية'
@@ -39,7 +39,7 @@ class SexualHealth extends Component {
         },
         {
           imgSrc: SexualityIcon,
-          theme: '4',
+          theme: this.props.theme,
           titleText: {
             'en': 'Sexuality',
             'ar': 'النشاط الجنسي' 

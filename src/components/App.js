@@ -79,7 +79,7 @@ class App extends Component {
 									<Route
 										key={index}
 										exact path={route.displayUrl}
-										component={(props) => <ContentPageContainer {...props} filePath={route.contentUrl} lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
+										component={(props) => <ContentPageContainer {...props} filePath={route.contentUrl} lang={this.state.lang} changeStyle={this.changeStyle} style={route.style} />} />
 								)
 							})}
 							
@@ -87,27 +87,32 @@ class App extends Component {
                 exact path='/access'
                 component={(props) => <Access {...props}
                 lang={this.state.lang}
-                changeStyle={this.changeStyle} />} />
+                changeStyle={this.changeStyle}
+								theme={1} />} />
 							<Route
                 exact path='/family-planning'
                 component={(props) => <FamilyPlanning {...props}
                 lang={this.state.lang}
-                changeStyle={this.changeStyle} />} />
+                changeStyle={this.changeStyle}
+								theme={2} />} />
 							<Route
                 exact path='/pregnancy-newborn'
                 component={(props) => <PregnancyNewborn {...props}
                 lang={this.state.lang}
-                changeStyle={this.changeStyle} />} />
+                changeStyle={this.changeStyle}
+								theme={3} />} />
 							<Route
                 exact path='/sexual-health'
                 component={(props) => <SexualHealth {...props}
                 lang={this.state.lang}
-                changeStyle={this.changeStyle} />} />
+                changeStyle={this.changeStyle}
+								theme={4} />} />
 							<Route
                 exact path='/family-health'
                 component={(props) => <FamilyHealth {...props}
                 lang={this.state.lang}
-                changeStyle={this.changeStyle} />} />
+                changeStyle={this.changeStyle}
+								theme={5} />} />
 							<Route
                   exact path='/about'
                   component={(props) => <About {...props}

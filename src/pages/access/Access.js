@@ -14,7 +14,7 @@ class Access extends Component {
       cards: [
         {
           imgSrc: HealthSystemIcon,
-          theme: '1',
+          theme: this.props.theme,
           titleText: {
             'en': 'Health System Overview',
             'ar': 'النظام الصحي'
@@ -23,7 +23,7 @@ class Access extends Component {
         },
         {
           imgSrc: AustralianNormIcon,
-          theme: '1',
+          theme: this.props.theme,
           titleText: {
             'en': 'Australian norms',
             'ar': 'المعايير الاسترالية'
@@ -32,7 +32,7 @@ class Access extends Component {
         },
         {
           imgSrc: MedicareCentrelinkIcon,
-          theme: '1',
+          theme: this.props.theme,
           titleText: {
             'en': 'Medicare and Centrelink',
             'ar': 'مديكير وسنترلنك' 
@@ -41,7 +41,7 @@ class Access extends Component {
         },
         {
           imgSrc: ResponsibilitiesIcon,
-          theme: '1',
+          theme: this.props.theme,
           titleText: {
             'en': 'Your Rights and Responsibilities',
             'ar': 'الحقوق والواجبات' 
@@ -50,7 +50,7 @@ class Access extends Component {
         },
         {
           imgSrc: DisabilityAccessIcon,
-          theme: '1',
+          theme: this.props.theme,
           titleText: {
             'en': 'Disability Access',
             'ar': 'تسجيل الدخول لذوي الاحتياجات الخاصة' 
@@ -59,7 +59,7 @@ class Access extends Component {
         },
         {
           imgSrc: PrivatePublicIcon,
-          theme: '1',
+          theme: this.props.theme,
           titleText: {
             'en': 'Private vs. Public Health Services',
             'ar': 'الخدمات الصحية العامة والخاصة' 
@@ -70,7 +70,7 @@ class Access extends Component {
     }
   }
   componentDidMount() {
-    this.props.changeStyle(1);
+    this.props.changeStyle(this.props.theme);
   }
   render() {
     return (

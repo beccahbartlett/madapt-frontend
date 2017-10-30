@@ -12,7 +12,7 @@ class PregnancyNewborn extends Component {
       cards: [
         {
           imgSrc: PregnancyIcon,
-          theme: '3',
+          theme: this.props.theme,
           titleText: {
             'en': 'Pregnancy',
             'ar': 'الحمل' 
@@ -21,7 +21,7 @@ class PregnancyNewborn extends Component {
         },
         {
           imgSrc: PregnancyIcon,
-          theme: '3',
+          theme: this.props.theme,
           titleText: {
             'en': 'Complications',
             'ar': 'مضاعفات' 
@@ -30,7 +30,7 @@ class PregnancyNewborn extends Component {
         },
         {
           imgSrc: BirthIcon,
-          theme: '3',
+          theme: this.props.theme,
           titleText: {
             'en': 'Labour & Birth',
             'ar': 'الولادة' 
@@ -39,7 +39,7 @@ class PregnancyNewborn extends Component {
         },
         {
           imgSrc: PostnatalIcon,
-          theme: '3',
+          theme: this.props.theme,
           titleText: {
             'en': 'Postnatal',
             'ar': 'بعد الولادة' 
@@ -48,7 +48,7 @@ class PregnancyNewborn extends Component {
         },
         {
           imgSrc: NewbornIcon,
-          theme: '3',
+          theme: this.props.theme,
           titleText: {
             'en': 'Newborn - 12 months',
             'ar': 'حديثي الولادة حتى 12 شهر' 

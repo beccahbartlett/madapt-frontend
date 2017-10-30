@@ -11,7 +11,7 @@ class ContentPageContainer extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      data: null
+			data: null
 		}
 		this.getData()
     this.getTabs = this.getTabs.bind(this)
@@ -19,7 +19,8 @@ class ContentPageContainer extends Component {
   }
 
   componentDidMount() {
-    global.logPageView(window.location.pathname + window.location.search)
+		global.logPageView(window.location.pathname + window.location.search)
+		this.props.changeStyle(this.props.style)
   }
   
   getData() {
@@ -27,9 +28,8 @@ class ContentPageContainer extends Component {
     axios.get(this.props.filePath)
       .then(res => {
         this.setState({
-          data: res.data
-        })
-				this.props.changeStyle(this.state.data.style)
+					data: res.data
+				})
       })
   }
 

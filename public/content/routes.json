@@ -4,188 +4,207 @@
 		"section": "home",
 		"name": "Welcome to Shifra",
 		"contentUrl": "/content/home.json",
-		"displayUrl": "/"
+		"displayUrl": "/",
+		"style": 1
 	},
 	{
 		"type": "contentPage",
 		"section": "access",
 		"name": "Health System Overview",
 		"contentUrl": "/content/access/health-system-overview.json",
-		"displayUrl": "/access/health-system-overview"
+		"displayUrl": "/access/health-system-overview",
+		"style": 1
 	},
 	{
 		"type": "contentPage",
 		"section": "access",
 		"name": "Australian Norms",
 		"contentUrl": "/content/access/australian-norms.json",
-		"displayUrl": "/access/australian-norms"
+		"displayUrl": "/access/australian-norms",
+		"style": 1
 	},
 	{
 		"type": "contentPage",
 		"section": "access",
 		"name": "Medicare and Centrelink",
 		"contentUrl": "/content/access/medicare-centrelink.json",
-		"displayUrl": "/access/medicare-centrelink"
+		"displayUrl": "/access/medicare-centrelink",
+		"style": 1
 	},
 	{
 		"type": "contentPage",
 		"section": "access",
 		"name": "Your Rights and Responsibilities",
 		"contentUrl": "/content/access/rights-responsibilities.json",
-		"displayUrl": "/access/rights-responsibilities"
+		"displayUrl": "/access/rights-responsibilities",
+		"style": 1
 	},
 	{
 		"type": "contentPage",
 		"section": "access",
 		"name": "Disability Access",
 		"contentUrl": "/content/access/disability.json",
-		"displayUrl": "/access/disability"
-	},
-	{
-		"type": "contentPage",
-		"section": "access",
-		"name": "Disability Access",
-		"contentUrl": "/content/access/disability.json",
-		"displayUrl": "/access/disability"
+		"displayUrl": "/access/disability",
+		"style": 1
 	},
 	{
 		"type": "contentPage",
 		"section": "access",
 		"name": "Private vs. Public Health Services",
 		"contentUrl": "/content/access/private-vs-public.json",
-		"displayUrl": "/access/private-vs-public"
+		"displayUrl": "/access/private-vs-public",
+		"style": 2
 	},
 	{
 		"type": "contentPage",
 		"section": "familyPlanning",
 		"name": "Birth Spacing",
 		"contentUrl": "/content/family-planning/birth-spacing.json",
-		"displayUrl": "/family-planning/birth-spacing"
+		"displayUrl": "/family-planning/birth-spacing",
+		"style": 2
 	},
 	{
 		"type": "contentPage",
 		"section": "familyPlanning",
 		"name": "Contraception",
 		"contentUrl": "/content/family-planning/contraception.json",
-		"displayUrl": "/family-planning/contraception"
+		"displayUrl": "/family-planning/contraception",
+		"style": 2
 	},
 	{
 		"type": "contentPage",
 		"section": "familyPlanning",
 		"name": "Unplanned Pregnancy",
 		"contentUrl": "/content/family-planning/unplanned-pregnancy.json",
-		"displayUrl": "/family-planning/unplanned-pregnancy"
+		"displayUrl": "/family-planning/unplanned-pregnancy",
+		"style": 2
 	},
 	{
 		"type": "contentPage",
 		"section": "familyPlanning",
 		"name": "Fertility",
 		"contentUrl": "/content/family-planning/fertility.json",
-		"displayUrl": "/family-planning/fertility"
+		"displayUrl": "/family-planning/fertility",
+		"style": 2
 	},
 	{
 		"type": "contentPage",
 		"section": "pregnancyNewborn",
 		"name": "Pregnancy",
 		"contentUrl": "/content/pregnancy-newborn/pregnancy.json",
-		"displayUrl": "/pregnancy-newborn/pregnancy"
+		"displayUrl": "/pregnancy-newborn/pregnancy",
+		"style": 3
 	},
 	{
 		"type": "contentPage",
 		"section": "pregnancyNewborn",
 		"name": "Complications",
 		"contentUrl": "/content/pregnancy-newborn/complications-of-pregnancy.json",
-		"displayUrl": "/pregnancy-newborn/complications"
+		"displayUrl": "/pregnancy-newborn/complications",
+		"style": 3
 	},
 	{
 		"type": "contentPage",
 		"section": "pregnancyNewborn",
 		"name": "Birth",
 		"contentUrl": "/content/pregnancy-newborn/birth.json",
-		"displayUrl": "/pregnancy-newborn/birth"
+		"displayUrl": "/pregnancy-newborn/birth",
+		"style": 3
 	},
 	{
 		"type": "contentPage",
 		"section": "pregnancyNewborn",
 		"name": "Postnatal",
 		"contentUrl": "/content/pregnancy-newborn/postnatal.json",
-		"displayUrl": "/pregnancy-newborn/postnatal"
+		"displayUrl": "/pregnancy-newborn/postnatal",
+		"style": 3
 	},
 	{
 		"type": "contentPage",
 		"section": "pregnancyNewborn",
 		"name": "Newborn",
 		"contentUrl": "/content/pregnancy-newborn/newborn.json",
-		"displayUrl": "/pregnancy-newborn/newborn"
+		"displayUrl": "/pregnancy-newborn/newborn",
+		"style": 3
 	},
 	{
 		"type": "contentPage",
 		"section": "sexualHealth",
 		"name": "Healthy Relationships",
 		"contentUrl": "/content/sexual-health/healthy-relationships.json",
-		"displayUrl": "/sexual-health/healthy-relationships"
+		"displayUrl": "/sexual-health/healthy-relationships",
+		"style": 4
 	},
 	{
 		"type": "contentPage",
 		"section": "sexualHealth",
 		"name": "Safe Sex",
 		"contentUrl": "/content/sexual-health/safe-sex.json",
-		"displayUrl": "/sexual-health/safe-sex"
+		"displayUrl": "/sexual-health/safe-sex",
+		"style": 4
 	},
 	{
 		"type": "contentPage",
 		"section": "sexualHealth",
 		"name": "STI's/HIV",
 		"contentUrl": "/content/sexual-health/sti.json",
-		"displayUrl": "/sexual-health/sti"
+		"displayUrl": "/sexual-health/sti",
+		"style": 4
 	},
 	{
 		"type": "contentPage",
 		"section": "sexualHealth",
 		"name": "STI's/HIV",
 		"contentUrl": "/content/sexual-health/sexuality.json",
-		"displayUrl": "/sexual-health/sexuality"
+		"displayUrl": "/sexual-health/sexuality",
+		"style": 4
 	},
 	{
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Women's Health",
 		"contentUrl": "/content/family-health/womens-health.json",
-		"displayUrl": "/family-health/womens-health"
+		"displayUrl": "/family-health/womens-health",
+		"style": 5
 	},
 	{
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Men's Health",
 		"contentUrl": "/content/family-health/mens-health.json",
-		"displayUrl": "/family-health/mens-health"
+		"displayUrl": "/family-health/mens-health",
+		"style": 5
 	},
 	{
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Teen Health",
 		"contentUrl": "/content/family-health/teen-health.json",
-		"displayUrl": "/family-health/teen-health"
+		"displayUrl": "/family-health/teen-health",
+		"style": 5
 	},
 	{
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Children's Health",
 		"contentUrl": "/content/family-health/childrens-health.json",
-		"displayUrl": "/family-health/childrens-health"
+		"displayUrl": "/family-health/childrens-health",
+		"style": 5
 	},
 	{
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Mental Health",
 		"contentUrl": "/content/family-health/mental-health.json",
-		"displayUrl": "/family-health/mental-health"
+		"displayUrl": "/family-health/mental-health",
+		"style": 5
 	},
 	{
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Violence",
 		"contentUrl": "/content/family-health/violence.json",
-		"displayUrl": "/family-health/violence"
+		"displayUrl": "/family-health/violence",
+		"style": 5
 	}
 ]

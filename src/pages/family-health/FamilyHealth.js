@@ -14,7 +14,7 @@ class FamilyHealth extends Component {
       cards: [
         {
           imgSrc: WomensHealthIcon,
-          theme: '5',
+          theme: this.props.theme,
           titleText: {
             'en': 'Women\'s Health',
             'ar': 'صحة المرأة'
@@ -23,7 +23,7 @@ class FamilyHealth extends Component {
         },
         {
           imgSrc: MensHealthIcon,
-          theme: '5',
+          theme: this.props.theme,
           titleText: {
             'en': 'Men\'s health',
             'ar': 'صحة الرجل'
@@ -32,7 +32,7 @@ class FamilyHealth extends Component {
         },
         {
           imgSrc: TeenHealthIcon,
-          theme: '5',
+          theme: this.props.theme,
           titleText: {
             'en': 'Teen Health',
             'ar': 'صحة الأطفال' 
@@ -41,7 +41,7 @@ class FamilyHealth extends Component {
         },
         {
           imgSrc: ChildrensHealthIcon,
-          theme: '5',
+          theme: this.props.theme,
           titleText: {
             'en': 'Children\'s Health',
             'ar': 'صحة المراهقين'
@@ -50,7 +50,7 @@ class FamilyHealth extends Component {
         },
         {
           imgSrc: MentalHealthIcon,
-          theme: '5',
+          theme: this.props.theme,
           titleText: {
             'en': 'Mental Health',
             'ar': 'الصحة العقلية' 
@@ -59,7 +59,7 @@ class FamilyHealth extends Component {
         },
         {
           imgSrc: Violence,
-          theme: '5',
+          theme: this.props.theme,
           titleText: {
             'en': 'Violence',
             'ar': 'العنف' 

@@ -12,7 +12,7 @@ class FamilyPlanning extends Component {
       cards: [
         {
           imgSrc: BirthSpacingIcon,
-          theme: '2',
+          theme: this.props.theme,
           titleText: {
             'en': 'Birth Spacing and Planning',
             'ar': 'تخطيط الولادة والمدة الزمنية بين الحمل' 
@@ -21,7 +21,7 @@ class FamilyPlanning extends Component {
         },
         {
           imgSrc: ContraceptionIcon,
-          theme: '2',
+          theme: this.props.theme,
           titleText: {
             'en': 'Contraception',
             'ar': 'طرق منع الحمل' 
@@ -30,7 +30,7 @@ class FamilyPlanning extends Component {
         },
         {
           imgSrc: UnplannedPregnancyIcon,
-          theme: '2',
+          theme: this.props.theme,
           titleText: {
             'en': 'Unplanned Pregnancy',
             'ar': 'الحمل الغير مخطط' 
@@ -39,7 +39,7 @@ class FamilyPlanning extends Component {
         },
         {
           imgSrc: FertilityIcon,
-          theme: '2',
+          theme: this.props.theme,
           titleText: {
             'en': 'Fertility',
             'ar': 'الإخصاب والعجز الجنسي' 
