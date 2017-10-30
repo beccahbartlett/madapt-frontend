@@ -87,7 +87,7 @@ class NavMenu extends Component {
         <div className="menu">
           {this.state.menuItems.map((item, index) => {
             return (
-              <Link to={item.url}>
+              <Link to={item.url} key={index}>
                 <div className={`item item-${index + 1}`}>
                   <img className="icon" src={item.icon} alt="Access"/>
                   <div className="item-text"><p>{item.name[lang]}</p></div>

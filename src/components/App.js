@@ -73,9 +73,10 @@ class App extends Component {
           <div className={`container-body style-${this.state.style}`}>
             <Switch>
 
-							{routes && routes.map(route => {
+							{routes && routes.map((route, index) => {
 								return (
 									<Route
+										key={index}
 										exact path={route.displayUrl}
 										component={(props) => <ContentPageContainer {...props} filePath={route.contentUrl} lang={this.state.lang} changeStyle={this.changeStyle} style={this.state.style} />} />
 								)
