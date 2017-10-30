@@ -19,7 +19,7 @@ class Nav extends Component {
             <h1 className="nav-header-title">
               <button disabled={lang === 'en'} ref={ref => this.btnEnglish = ref} onClick={this.props.toggleLanguage} className="language-btn lang-en">English</button>
               <button disabled={lang === 'ar'} ref={ref => this.btnArabic = ref} onClick={this.props.toggleLanguage} className="language-btn lang-ar">عربى</button>
-              <img className="image-banner" src={imgHeader} alt="Header Image" />
+              <img className="image-banner" src={imgHeader} alt="Header" />
             </h1>
           </div>
         </NavLink>

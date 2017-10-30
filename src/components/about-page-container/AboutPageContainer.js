@@ -10,7 +10,7 @@ class AboutPageContainer extends Component {
     return (
       <div className="aboutContainer">
         <div className="aboutMAdaptTeam">
-          <img className="teamPhoto" src={teamPhoto} alt='mAdapt team photo' />
+          <img className="teamPhoto" src={teamPhoto} alt='mAdapt team' />
           <p className="bold">The mAdapt team is based in Australia and the United States.</p>
 
           <p>
