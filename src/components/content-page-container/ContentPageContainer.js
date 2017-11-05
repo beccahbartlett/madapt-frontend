@@ -47,8 +47,8 @@ class ContentPageContainer extends Component {
       title: this.getLocalisedData(item.title),
       getContent: () => {
         return (
-          <div key={index}>
-            <div className='tabContent' dangerouslySetInnerHTML={{__html: this.getLocalisedData(item.text)}} />
+          <div className='tabContent' key={index}>
+            <div dangerouslySetInnerHTML={{__html: this.getLocalisedData(item.text)}} />
 						{item.video && <Video url={item.video} />}
 						{item.image && <img src={item.image} />}
             <div className='tabLinks'>

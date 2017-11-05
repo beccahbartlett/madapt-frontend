@@ -2,6 +2,10 @@
   font-weight: 600;
 }
 
+.tabContent img {
+	width: 100%;
+}
+
 .wrapper {
   padding-left: 10%;
   padding-right: 10%;
