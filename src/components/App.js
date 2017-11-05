@@ -8,7 +8,6 @@ import SexualHealth from '../pages/sexual-health/SexualHealth'
 import Nav from './nav/Nav'
 import NavMenu from './navmenu/NavMenu'
 import Footer from './footer/Footer'
-import About from '../pages/about/About'
 import axios from 'axios'
 import './App.css';
 
@@ -113,11 +112,6 @@ class App extends Component {
                 lang={this.state.lang}
                 changeStyle={this.changeStyle}
 								theme={5} />} />
-							<Route
-                  exact path='/about'
-                  component={(props) => <About {...props}
-                  lang={this.state.lang}
-                  changeStyle={this.changeStyle} />} />
 							<Route
                 exact path='/clinics'
                 component={(props) => <div className="wrapper"><h1>قريبا / Coming Soon!</h1></div>} />

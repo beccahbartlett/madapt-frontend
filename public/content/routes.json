@@ -9,6 +9,14 @@
 	},
 	{
 		"type": "contentPage",
+		"section": "about",
+		"name": "About Us",
+		"contentUrl": "/content/about.json",
+		"displayUrl": "/about",
+		"style": 1
+	},
+	{
+		"type": "contentPage",
 		"section": "access",
 		"name": "Health System Overview",
 		"contentUrl": "/content/access/health-system-overview.json",
