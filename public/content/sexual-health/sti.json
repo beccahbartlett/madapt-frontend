@@ -9,7 +9,7 @@
         "en": "<p>Sexually transmissible infections (STIs) such as herpes, human papillomavirus (HPV), syphilis, chlamydia, gonorrhea, human immunodeficiency virus (HIV), hepatitis B and hepatitis c are infections passed on from one person to another through sexual activity including oral, vaginal, and anal sex or contaminated blood.</p><p>STIs can also be passed on through genital skin contact, fluid, or sharing contaminated sex toys.</p><p>As some STIs show no symptoms, it is important to always use condoms during sex and have regular testing in order to prevent transmission, as well as receive necessary treatment.</p>",
         "ar": "<p>الأمراض المعدية المنتقلة بالاتصال الجنسي مثل الهربس وفيروس الورم الحليمي البشري, والزهري والكلاميديا ​​والسيلان وفيروس نقص المناعة البشرية والتهاب الكبد B والتهاب الكبد الوبائي C هي عدوى تنتقل من شخص إلى آخر من خلال النشاط الجنسي بما في ذلك الفم، المهبل، و الجنس الشرجي أو الدم الملوث.</p><p>ويمكن أيضا أن تنتقل الأمراض المنقولة بالاتصال الجنسي عن طريق الاتصال الجنسي للبشرة التناسلية، والسوائل، أو تبادل الألعاب الجنسية الملوثة.</p><p>وبما أن بعض الأمراض التي تنتقل عن طريق الاتصال الجنسي لا تظهر أي أعراض، فمن المهم دائما استخدام الواقي الذكري أثناء ممارسة الجنس وإجراء اختبارات منتظمة لمنع انتقال المرض، فضلا عن تلقي العلاج اللازم.</p>"
     },
-    "topLevelVideo": "https://www.youtube.com/embed/pBMhfIHUP8M",
+    "topLevelVideo": ["https://www.youtube.com/embed/pBMhfIHUP8M"],
     "tab": [
       {
         "title": {

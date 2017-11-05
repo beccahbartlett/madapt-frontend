@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ContentPageContainer from './content-page-container/ContentPageContainer'
-import Access from '../pages/access/Access'
+import HealthcareAustralia from '../pages/healthcare-australia/HealthcareAustralia'
 import FamilyPlanning from '../pages/family-planning/FamilyPlanning'
 import FamilyHealth from '../pages/family-health/FamilyHealth'
 import PregnancyNewborn from '../pages/pregnancy-newborn/PregnancyNewborn'
@@ -8,7 +8,6 @@ import SexualHealth from '../pages/sexual-health/SexualHealth'
 import Nav from './nav/Nav'
 import NavMenu from './navmenu/NavMenu'
 import Footer from './footer/Footer'
-import About from '../pages/about/About'
 import axios from 'axios'
 import './App.css';
 
@@ -84,8 +83,8 @@ class App extends Component {
 							})}
 							
 							<Route
-                exact path='/access'
-                component={(props) => <Access {...props}
+                exact path='/healthcare-australia'
+                component={(props) => <HealthcareAustralia {...props}
                 lang={this.state.lang}
                 changeStyle={this.changeStyle}
 								theme={1} />} />
@@ -113,11 +112,6 @@ class App extends Component {
                 lang={this.state.lang}
                 changeStyle={this.changeStyle}
 								theme={5} />} />
-							<Route
-                  exact path='/about'
-                  component={(props) => <About {...props}
-                  lang={this.state.lang}
-                  changeStyle={this.changeStyle} />} />
 							<Route
                 exact path='/clinics'
                 component={(props) => <div className="wrapper"><h1>قريبا / Coming Soon!</h1></div>} />

@@ -7,7 +7,7 @@ import ResponsibilitiesIcon from '../../images/icons/access/responsibilities.png
 import DisabilityAccessIcon from '../../images/icons/access/disability-access.png'
 import PrivatePublicIcon from '../../images/icons/access/private-public.png'
 
-class Access extends Component {
+class HealthcareAustralia extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -19,7 +19,7 @@ class Access extends Component {
             'en': 'Health System Overview',
             'ar': 'النظام الصحي'
           },
-          linkUrl: '/access/health-system-overview'
+          linkUrl: '/healthcare-australia/health-system-overview'
         },
         {
           imgSrc: AustralianNormIcon,
@@ -28,7 +28,7 @@ class Access extends Component {
             'en': 'Australian norms',
             'ar': 'المعايير الاسترالية'
           },
-          linkUrl: '/access/australian-norms'
+          linkUrl: '/healthcare-australia/australian-norms'
         },
         {
           imgSrc: MedicareCentrelinkIcon,
@@ -37,7 +37,7 @@ class Access extends Component {
             'en': 'Medicare and Centrelink',
             'ar': 'مديكير وسنترلنك' 
           },
-          linkUrl: '/access/medicare-centrelink'
+          linkUrl: '/healthcare-australia/medicare-centrelink'
         },
         {
           imgSrc: ResponsibilitiesIcon,
@@ -46,7 +46,7 @@ class Access extends Component {
             'en': 'Your Rights and Responsibilities',
             'ar': 'الحقوق والواجبات' 
           },
-          linkUrl: '/access/rights-responsibilities'
+          linkUrl: '/healthcare-australia/rights-responsibilities'
         },
         {
           imgSrc: DisabilityAccessIcon,
@@ -55,7 +55,7 @@ class Access extends Component {
             'en': 'Disability Access',
             'ar': 'تسجيل الدخول لذوي الاحتياجات الخاصة' 
           },
-          linkUrl: '/access/disability'
+          linkUrl: '/healthcare-australia/disability'
         },
         {
           imgSrc: PrivatePublicIcon,
@@ -64,7 +64,7 @@ class Access extends Component {
             'en': 'Private vs. Public Health Services',
             'ar': 'الخدمات الصحية العامة والخاصة' 
           },
-          linkUrl: '/access/private-vs-public'
+          linkUrl: '/healthcare-australia/private-vs-public'
         }
       ]
     }
@@ -80,4 +80,4 @@ class Access extends Component {
   }
 }
 
-export default Access
+export default HealthcareAustralia

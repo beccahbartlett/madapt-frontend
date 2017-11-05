@@ -47,9 +47,10 @@ class ContentPageContainer extends Component {
       title: this.getLocalisedData(item.title),
       getContent: () => {
         return (
-          <div key={index}>
-            <div className='tabContent' dangerouslySetInnerHTML={{__html: this.getLocalisedData(item.text)}} />
-            {item.video && <Video url={item.video} />}
+          <div className='tabContent' key={index}>
+            <div dangerouslySetInnerHTML={{__html: this.getLocalisedData(item.text)}} />
+						{item.video && <Video url={item.video} />}
+						{item.image && <img src={item.image} />}
             <div className='tabLinks'>
               {item.links && item.links.length > 0 && <Links links={item.links} lang={this.props.lang} />}
             </div>
@@ -70,8 +71,10 @@ class ContentPageContainer extends Component {
         <h1 className={`content-page-title content-page-title-style-${this.props.style}`}>{data && this.getLocalisedData(data.title)}</h1>
         {data && data.topLevelImage && <Image img={this.getLocalisedData(data.topLevelImage)} />}
         {data && !data.arabicComplete && lang ==='ar' && <h3>Arabic content coming soon</h3> }
-        {data && data.summary && <div className='summary' dangerouslySetInnerHTML={{__html: this.getLocalisedData(data.summary)}} />}
-        {data && data.topLevelVideo && <Video url={data.topLevelVideo} />}
+				{data && data.summary && <div className='summary' dangerouslySetInnerHTML={{__html: this.getLocalisedData(data.summary)}} />}
+				<div className="content-page-videos">
+					{data && data.topLevelVideo && data.topLevelVideo.map((video, index) => <Video key={index} url={video} /> ) }
+				</div>
         {data && data.topLevelVideo && data.tab && <br/>}
         {data && data.tab && <Tabs items={this.getTabs()} />}
         {data && data.notes && <div className='notes' dangerouslySetInnerHTML={{__html: this.getLocalisedData(data.notes)}} />}

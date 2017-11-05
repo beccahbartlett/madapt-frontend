@@ -2,9 +2,20 @@
   font-weight: 600;
 }
 
+.tabContent img {
+	width: 100%;
+}
+
 .wrapper {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+@media screen and (min-width: 600px) {
+	.content-page-videos {
+		display: flex;
+		flex-direction: row;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -33,12 +44,12 @@
 }
 
 .tab-style-1.RRT__tab--selected {
-	background-color: #f2fafd;
+	background-color: #f5faf3;
 	color: #a7d28d;
 }
 
 .panel-style-1 {
-	background-color: #f2fafd;
+	background-color: #f5faf3;
 	border: 2px solid #a7d28d;
 }
 
