@@ -19,7 +19,7 @@ class HealthcareAustralia extends Component {
             'en': 'Health System Overview',
             'ar': 'النظام الصحي'
           },
-          linkUrl: '/access/health-system-overview'
+          linkUrl: '/healthcare-australia/health-system-overview'
         },
         {
           imgSrc: AustralianNormIcon,
@@ -28,7 +28,7 @@ class HealthcareAustralia extends Component {
             'en': 'Australian norms',
             'ar': 'المعايير الاسترالية'
           },
-          linkUrl: '/access/australian-norms'
+          linkUrl: '/healthcare-australia/australian-norms'
         },
         {
           imgSrc: MedicareCentrelinkIcon,
@@ -37,7 +37,7 @@ class HealthcareAustralia extends Component {
             'en': 'Medicare and Centrelink',
             'ar': 'مديكير وسنترلنك' 
           },
-          linkUrl: '/access/medicare-centrelink'
+          linkUrl: '/healthcare-australia/medicare-centrelink'
         },
         {
           imgSrc: ResponsibilitiesIcon,
@@ -46,7 +46,7 @@ class HealthcareAustralia extends Component {
             'en': 'Your Rights and Responsibilities',
             'ar': 'الحقوق والواجبات' 
           },
-          linkUrl: '/access/rights-responsibilities'
+          linkUrl: '/healthcare-australia/rights-responsibilities'
         },
         {
           imgSrc: DisabilityAccessIcon,
@@ -55,7 +55,7 @@ class HealthcareAustralia extends Component {
             'en': 'Disability Access',
             'ar': 'تسجيل الدخول لذوي الاحتياجات الخاصة' 
           },
-          linkUrl: '/access/disability'
+          linkUrl: '/healthcare-australia/disability'
         },
         {
           imgSrc: PrivatePublicIcon,
@@ -64,7 +64,7 @@ class HealthcareAustralia extends Component {
             'en': 'Private vs. Public Health Services',
             'ar': 'الخدمات الصحية العامة والخاصة' 
           },
-          linkUrl: '/access/private-vs-public'
+          linkUrl: '/healthcare-australia/private-vs-public'
         }
       ]
     }
