@@ -7,7 +7,7 @@ import ResponsibilitiesIcon from '../../images/icons/access/responsibilities.png
 import DisabilityAccessIcon from '../../images/icons/access/disability-access.png'
 import PrivatePublicIcon from '../../images/icons/access/private-public.png'
 
-class Access extends Component {
+class HealthcareAustralia extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -80,4 +80,4 @@ class Access extends Component {
   }
 }
 
-export default Access
+export default HealthcareAustralia

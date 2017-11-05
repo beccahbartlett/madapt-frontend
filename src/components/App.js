@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ContentPageContainer from './content-page-container/ContentPageContainer'
-import Access from '../pages/access/Access'
+import HealthcareAustralia from '../pages/healthcare-australia/HealthcareAustralia'
 import FamilyPlanning from '../pages/family-planning/FamilyPlanning'
 import FamilyHealth from '../pages/family-health/FamilyHealth'
 import PregnancyNewborn from '../pages/pregnancy-newborn/PregnancyNewborn'
@@ -83,8 +83,8 @@ class App extends Component {
 							})}
 							
 							<Route
-                exact path='/access'
-                component={(props) => <Access {...props}
+                exact path='/healthcare-australia'
+                component={(props) => <HealthcareAustralia {...props}
                 lang={this.state.lang}
                 changeStyle={this.changeStyle}
 								theme={1} />} />

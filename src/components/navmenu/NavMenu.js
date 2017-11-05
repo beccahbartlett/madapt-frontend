@@ -18,10 +18,10 @@ class NavMenu extends Component {
         {
           icon: iconAccess,
           name: {
-            en: 'Access',
+            en: 'Healthcare in Australia',
             ar: 'تسجيل الدخول' 
           },
-          url: '/access'
+          url: '/healthcare-australia'
         },
         {
           icon: iconFamilyPlanning,

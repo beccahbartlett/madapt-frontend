@@ -19,48 +19,48 @@
 		"type": "contentPage",
 		"section": "access",
 		"name": "Health System Overview",
-		"contentUrl": "/content/access/health-system-overview.json",
-		"displayUrl": "/access/health-system-overview",
+		"contentUrl": "/content/healthcare-australia/health-system-overview.json",
+		"displayUrl": "/healthcare-australia/health-system-overview",
 		"style": 1
 	},
 	{
 		"type": "contentPage",
 		"section": "access",
 		"name": "Australian Norms",
-		"contentUrl": "/content/access/australian-norms.json",
-		"displayUrl": "/access/australian-norms",
+		"contentUrl": "/content/healthcare-australia/australian-norms.json",
+		"displayUrl": "/healthcare-australia/australian-norms",
 		"style": 1
 	},
 	{
 		"type": "contentPage",
 		"section": "access",
 		"name": "Medicare and Centrelink",
-		"contentUrl": "/content/access/medicare-centrelink.json",
-		"displayUrl": "/access/medicare-centrelink",
+		"contentUrl": "/content/healthcare-australia/medicare-centrelink.json",
+		"displayUrl": "/healthcare-australia/medicare-centrelink",
 		"style": 1
 	},
 	{
 		"type": "contentPage",
 		"section": "access",
 		"name": "Your Rights and Responsibilities",
-		"contentUrl": "/content/access/rights-responsibilities.json",
-		"displayUrl": "/access/rights-responsibilities",
+		"contentUrl": "/content/healthcare-australia/rights-responsibilities.json",
+		"displayUrl": "/healthcare-australia/rights-responsibilities",
 		"style": 1
 	},
 	{
 		"type": "contentPage",
 		"section": "access",
 		"name": "Disability Access",
-		"contentUrl": "/content/access/disability.json",
-		"displayUrl": "/access/disability",
+		"contentUrl": "/content/healthcare-australia/disability.json",
+		"displayUrl": "/healthcare-australia/disability",
 		"style": 1
 	},
 	{
 		"type": "contentPage",
 		"section": "access",
 		"name": "Private vs. Public Health Services",
-		"contentUrl": "/content/access/private-vs-public.json",
-		"displayUrl": "/access/private-vs-public",
+		"contentUrl": "/content/healthcare-australia/private-vs-public.json",
+		"displayUrl": "/healthcare-australia/private-vs-public",
 		"style": 2
 	},
 	{
