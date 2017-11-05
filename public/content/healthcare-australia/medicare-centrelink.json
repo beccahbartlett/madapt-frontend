@@ -9,7 +9,7 @@
     "en": "Please refer to the video and links attached to this section for Arabic translated resources from Medicare and Centrelink.",
     "ar": "يرجى الرجوع إلى الفيديو والروابط المرفقة بهذا القسم للموارد المترجمة باللغة العربية"
   },
-  "topLevelVideo": "https://www.youtube.com/embed/zFah_YbVLjw",
+  "topLevelVideo": ["https://www.youtube.com/embed/zFah_YbVLjw"],
   "notes": {
       "en": "",
       "ar": "<h3>موارد</h3><ul><li><a href=\"https://www.humanservices.gov.au/individuals/information-in-your-language/arabic\">قسم الخدمات الإنسانية</a></li></ul>"

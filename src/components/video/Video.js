@@ -4,11 +4,11 @@ import './Video.css';
 
 const Video = props => {
   return (
-    <div>
-    {props.url && <div className='intrinsic-container'><Iframe
-                    url={props.url}
-                    allowFullScreen /></div>}
-    </div>
+    <div className='intrinsic-container'>
+			<Iframe
+				url={props.url}
+				allowFullScreen />
+		</div>
   )
 }
 

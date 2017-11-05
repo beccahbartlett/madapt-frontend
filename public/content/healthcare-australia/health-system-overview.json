@@ -9,7 +9,7 @@
 		"en": "<ul><li>In Australia, there are many ways to access a health care.</li><li>Some services are free and others cost money.</li><li>Having to pay money for your health check/visit will depend on:<ul><li>If you have insurance or not</li><li>You have a Medicare card (Medicare is the government-supported universal health care program in Australia)</li><li>If your health service is supported under the Medicare scheme</li></ul></li></ul><p><strong>You have the right to be treated with respect and courtesy at every visit, by every staff member. For more on, see the Your Rights and Responsibilities section.</strong></p>",
 		"ar": "<p>تتمتع أستراليا بنظام شامل وعالمي للرعاية الصحية. وهذا يعني أن المواطنين الأستراليين والزائرين الحاملين بطاقة الرعاية الصحية ميديكير يحق لهم الحصول على الرعاية الصحية المجانية في المستشفيات العامة ومع بعض الأطباء، المعروفين باسم الممارسين العامين أو الأطباء العامين.</p>"
 	},
-	"topLevelVideo": "https://www.youtube.com/embed/zFah_YbVLjw",
+	"topLevelVideo": ["https://www.youtube.com/embed/zFah_YbVLjw", "https://www.youtube.com/embed/7uRFFoTpVRw"],
 	"tab": [{
 			"title": {
 				"en": "What if I have a health emergency?",

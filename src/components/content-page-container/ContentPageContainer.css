@@ -11,6 +11,13 @@
   padding-right: 10%;
 }
 
+@media screen and (min-width: 600px) {
+	.content-page-videos {
+		display: flex;
+		flex-direction: row;
+	}
+}
+
 @media screen and (max-width: 600px) {
 	.wrapper {
 		padding-left: 4%;

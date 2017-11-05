@@ -9,7 +9,7 @@
         "en": "<h3>Right to Healthy & Respectful Relationships</h3><p>You have the right to be treated with respect in your relationship with your partner. Healthy relationships are based on kindness and caring for one another.</p> <p>Healthy relationships never involve physical, sexual, or emotional abuse. Having a partner that is coercive, manipulative, or controlling is also a form of abuse.</p> <p>Everyone, regardless of their religion, culture, age, ability, sexual orientation, ethnicity, has the right to live free from abuse and has the right to legal protection. If you are in immediate danger please call 000.</p> <p>Abuse is any time one person takes advantage or tries to control another person. There are many ways in which this happens, below are some subcategories and how to deal with them.</p>",
         "ar": "<p>لديك الحق الكامل في العلاقات الصحية والاحترام ولديك الحق في أن تعامل باحترام في علاقتك مع شريك حياتك. وتستند العلاقات الصحية على العطف والرعاية لبعضكما البعض. لا تشمل العلاقات الصحية أبدا الاعتداء الجسدي أو الجنسي أو العاطفي. كما أن وجود شريك قسري أو متلاعب أو مسيطر هو أيضا شكل من أشكال الإساءة والعنف. </p><p>ولكل شخص، بغض النظر عن دينه وثقافته وعمره وقدرته وميله الجنسي وعرقه، الحق في العيش في مأمن من الإساءة وله الحق في الحماية القانونية. إذا كنت في خطر فوري يرجى الاتصال 000.</p>"
     },
-    "topLevelVideo": "https://www.youtube.com/embed/J7T33JZSrSU?rel=0",
+    "topLevelVideo": ["https://www.youtube.com/embed/J7T33JZSrSU?rel=0"],
     "tab": [{
             "title": {
                 "en": "Types of Abuse",
