@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import GridPageContainer from '../../components/grid-page-container/GridPageContainer'
 import HealthSystemIcon from '../../images/icons/access/health-system-overview.png'
-import AustralianNormIcon from '../../images/icons/access/australian-norms.png'
 import MedicareCentrelinkIcon from '../../images/icons/access/medicare-centrelink.png'
 import ResponsibilitiesIcon from '../../images/icons/access/responsibilities.png'
-import DisabilityAccessIcon from '../../images/icons/access/disability-access.png'
 import PrivatePublicIcon from '../../images/icons/access/private-public.png'
+import CommunityServicesIcon from '../../images/icons/access/community-services.png'
+import TranslatingInterpretingIcon from '../../images/icons/access/interpreter.png'
+import PrivateHealthIcon from '../../images/icons/access/private-health.png'
 
 class HealthcareAustralia extends Component {
   constructor(props) {
@@ -21,15 +22,15 @@ class HealthcareAustralia extends Component {
           },
           linkUrl: '/healthcare-australia/health-system-overview'
         },
-        {
-          imgSrc: AustralianNormIcon,
-          theme: this.props.theme,
-          titleText: {
-            'en': 'Australian norms',
-            'ar': 'المعايير الاسترالية'
-          },
-          linkUrl: '/healthcare-australia/australian-norms'
-        },
+        // {
+        //   imgSrc: AustralianNormIcon,
+        //   theme: this.props.theme,
+        //   titleText: {
+        //     'en': 'Australian norms',
+        //     'ar': 'المعايير الاسترالية'
+        //   },
+        //   linkUrl: '/healthcare-australia/australian-norms'
+        // },
         {
           imgSrc: MedicareCentrelinkIcon,
           theme: this.props.theme,
@@ -48,26 +49,26 @@ class HealthcareAustralia extends Component {
           },
           linkUrl: '/healthcare-australia/rights-responsibilities'
         },
-        {
-          imgSrc: DisabilityAccessIcon,
-          theme: this.props.theme,
-          titleText: {
-            'en': 'Disability Access',
-            'ar': 'تسجيل الدخول لذوي الاحتياجات الخاصة' 
-          },
-          linkUrl: '/healthcare-australia/disability'
-        },
-        {
-          imgSrc: PrivatePublicIcon,
-          theme: this.props.theme,
-          titleText: {
-            'en': 'Private vs. Public Health Services',
-            'ar': 'الخدمات الصحية العامة والخاصة' 
-          },
-          linkUrl: '/healthcare-australia/private-vs-public'
-				},
+        // {
+        //   imgSrc: DisabilityAccessIcon,
+        //   theme: this.props.theme,
+        //   titleText: {
+        //     'en': 'Disability Access',
+        //     'ar': 'تسجيل الدخول لذوي الاحتياجات الخاصة' 
+        //   },
+        //   linkUrl: '/healthcare-australia/disability'
+        // },
+        // {
+        //   imgSrc: PrivatePublicIcon,
+        //   theme: this.props.theme,
+        //   titleText: {
+        //     'en': 'Private vs. Public Health Services',
+        //     'ar': 'الخدمات الصحية العامة والخاصة' 
+        //   },
+        //   linkUrl: '/healthcare-australia/private-vs-public'
+				// },
 				{
-          imgSrc: PrivatePublicIcon,
+          imgSrc: TranslatingInterpretingIcon,
           theme: this.props.theme,
           titleText: {
             'en': 'Translating and Interpreting Services',
@@ -76,7 +77,7 @@ class HealthcareAustralia extends Component {
           linkUrl: '/healthcare-australia/translating-interpreting'
 				},
 				{
-          imgSrc: PrivatePublicIcon,
+          imgSrc: PrivateHealthIcon,
           theme: this.props.theme,
           titleText: {
             'en': 'Private Health Insurance',
@@ -85,7 +86,7 @@ class HealthcareAustralia extends Component {
           linkUrl: '/healthcare-australia/private-health'
 				},
 				{
-          imgSrc: PrivatePublicIcon,
+          imgSrc: CommunityServicesIcon,
           theme: this.props.theme,
           titleText: {
             'en': 'Community Based Services',
