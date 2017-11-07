@@ -26,6 +26,14 @@
 	{
 		"type": "contentPage",
 		"section": "access",
+		"name": "Translating and Interpreting Services",
+		"contentUrl": "/content/healthcare-australia/translating-interpreting.json",
+		"displayUrl": "/healthcare-australia/translating-interpreting",
+		"style": 1
+	},
+	{
+		"type": "contentPage",
+		"section": "access",
 		"name": "Australian Norms",
 		"contentUrl": "/content/healthcare-australia/australian-norms.json",
 		"displayUrl": "/healthcare-australia/australian-norms",

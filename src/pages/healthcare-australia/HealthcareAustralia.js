@@ -65,6 +65,15 @@ class HealthcareAustralia extends Component {
             'ar': 'الخدمات الصحية العامة والخاصة' 
           },
           linkUrl: '/healthcare-australia/private-vs-public'
+				},
+				{
+          imgSrc: PrivatePublicIcon,
+          theme: this.props.theme,
+          titleText: {
+            'en': 'Translating and Interpreting Services',
+            'ar': ''
+          },
+          linkUrl: '/healthcare-australia/translating-interpreting'
         }
       ]
     }
