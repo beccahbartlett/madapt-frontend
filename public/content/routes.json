@@ -69,7 +69,15 @@
 		"name": "Private vs. Public Health Services",
 		"contentUrl": "/content/healthcare-australia/private-vs-public.json",
 		"displayUrl": "/healthcare-australia/private-vs-public",
-		"style": 2
+		"style": 1
+	},
+	{
+		"type": "contentPage",
+		"section": "access",
+		"name": "Private Health Insurance",
+		"contentUrl": "/content/healthcare-australia/private-health.json",
+		"displayUrl": "/healthcare-australia/private-health",
+		"style": 1
 	},
 	{
 		"type": "contentPage",

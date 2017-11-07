@@ -74,6 +74,15 @@ class HealthcareAustralia extends Component {
             'ar': ''
           },
           linkUrl: '/healthcare-australia/translating-interpreting'
+				},
+				{
+          imgSrc: PrivatePublicIcon,
+          theme: this.props.theme,
+          titleText: {
+            'en': 'Private Health Insurance',
+            'ar': ''
+          },
+          linkUrl: '/healthcare-australia/private-health'
         }
       ]
     }
