@@ -84,3 +84,7 @@
 .card6 {
   background: #B95C66;
 }
+
+.card-inner {
+	width: 100%;
+}
