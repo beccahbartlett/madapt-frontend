@@ -6,7 +6,7 @@ class Card extends Component {
   render() {
     return (
       <article className={`card card${this.props.theme}`}>
-        <Link to={this.props.linkUrl}>
+        <Link className="card-inner" to={this.props.linkUrl}>
           <img src={this.props.imgSrc} alt={this.props.titleText}/>
           <div className="text">
             <p>{this.props.titleText}</p>
