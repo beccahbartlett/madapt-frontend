@@ -65,6 +65,33 @@ class HealthcareAustralia extends Component {
             'ar': 'الخدمات الصحية العامة والخاصة' 
           },
           linkUrl: '/healthcare-australia/private-vs-public'
+				},
+				{
+          imgSrc: PrivatePublicIcon,
+          theme: this.props.theme,
+          titleText: {
+            'en': 'Translating and Interpreting Services',
+            'ar': ''
+          },
+          linkUrl: '/healthcare-australia/translating-interpreting'
+				},
+				{
+          imgSrc: PrivatePublicIcon,
+          theme: this.props.theme,
+          titleText: {
+            'en': 'Private Health Insurance',
+            'ar': ''
+          },
+          linkUrl: '/healthcare-australia/private-health'
+				},
+				{
+          imgSrc: PrivatePublicIcon,
+          theme: this.props.theme,
+          titleText: {
+            'en': 'Community Based Services',
+            'ar': ''
+          },
+          linkUrl: '/healthcare-australia/community-services'
         }
       ]
     }

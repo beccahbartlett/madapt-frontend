@@ -20,7 +20,7 @@
                 "ar": "<p>هو مصطلح آخر للعجز الجنسي.</p><p>يحدث العجز الجنسي عندما يكون الرجل غير قادر على الحصول على أو الحفاظ على الانتصاب الذي هو كاف للجماع الجنسي. إنها مشكلة شائعة، ممكن أن تكون ناجمة عن عوامل جسدية ونفسية.</p>"
             },
             "image": "",
-            "video": "https://www.youtube.com/embed/h6xBne6GBd0?rel=0",
+            "video": ["https://www.youtube.com/embed/h6xBne6GBd0?rel=0"],
             "links": [
             {
               "title": {
@@ -41,7 +41,7 @@
                 "ar": "<p>لعقم عند الذكور هو السبب الوحيد للعقم في 1 من أصل 5 من الأزواج. يحدث هذا عندما يكون هناك مشكلة في إنتاج الحيوانات المنوية أو حركتها، يتم تشخيصه من خلال الاختبارات الطبية.</p>"
             },
             "image": "https://www.andrologyaustralia.org/wp-content/uploads/Male-Infertility-Guide-WEB.pdf",
-            "video": "https://www.youtube.com/embed/4Q5L4ROOD0g?rel=0",
+            "video": ["https://www.youtube.com/embed/4Q5L4ROOD0g?rel=0"],
             "links": []
         },
         {
@@ -54,7 +54,7 @@
                 "ar": "<p>سرطان البروستات هو السرطان الأكثر شيوعا لدى الرجال.</p><p>يحدث عندما تنمو خلايا البروستات، وهي الغدة المتوضعة بين القضيب والمثانة والتي تساعد في إنتاج الحيوانات المنوية، خارج نطاق السيطرة. وتشمل بعض الأعراض الدم في البول، والألم مع التبول، وصعوبة بالتبول.</p><p>من المهم إجراء فحوصات روتينية مع طبيبك العام من أجل فحص دوري للبروستات.</p>"
             },
             "image": "",
-            "video": "https://www.youtube.com/embed/aDBzMUEnLSg?rel=0",
+            "video": ["https://www.youtube.com/embed/aDBzMUEnLSg?rel=0"],
             "links": [
             {
               "title": {

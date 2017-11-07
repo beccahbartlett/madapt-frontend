@@ -35,7 +35,7 @@
         "ar": "" 
       },
       "image": "",
-      "video": "https://www.youtube.com/embed/s1gmBVrwAs8",
+      "video": ["https://www.youtube.com/embed/s1gmBVrwAs8"],
       "links": [
         {
           "title": {

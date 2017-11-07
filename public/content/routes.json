@@ -26,6 +26,14 @@
 	{
 		"type": "contentPage",
 		"section": "access",
+		"name": "Translating and Interpreting Services",
+		"contentUrl": "/content/healthcare-australia/translating-interpreting.json",
+		"displayUrl": "/healthcare-australia/translating-interpreting",
+		"style": 1
+	},
+	{
+		"type": "contentPage",
+		"section": "access",
 		"name": "Australian Norms",
 		"contentUrl": "/content/healthcare-australia/australian-norms.json",
 		"displayUrl": "/healthcare-australia/australian-norms",
@@ -61,7 +69,23 @@
 		"name": "Private vs. Public Health Services",
 		"contentUrl": "/content/healthcare-australia/private-vs-public.json",
 		"displayUrl": "/healthcare-australia/private-vs-public",
-		"style": 2
+		"style": 1
+	},
+	{
+		"type": "contentPage",
+		"section": "access",
+		"name": "Community Based Services",
+		"contentUrl": "/content/healthcare-australia/community-services.json",
+		"displayUrl": "/healthcare-australia/community-services",
+		"style": 1
+	},
+	{
+		"type": "contentPage",
+		"section": "access",
+		"name": "Private Health Insurance",
+		"contentUrl": "/content/healthcare-australia/private-health.json",
+		"displayUrl": "/healthcare-australia/private-health",
+		"style": 1
 	},
 	{
 		"type": "contentPage",
