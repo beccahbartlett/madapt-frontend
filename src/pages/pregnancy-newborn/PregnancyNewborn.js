@@ -4,6 +4,8 @@ import PregnancyIcon from '../../images/icons/pregnancynewborn/pregnancy-newborn
 import BirthIcon from '../../images/icons/pregnancynewborn/birth.png'
 import PostnatalIcon from '../../images/icons/pregnancynewborn/postnatal.png'
 import NewbornIcon from '../../images/icons/pregnancynewborn/newborn-12months.png'
+import ModelsIcon from '../../images/icons/pregnancynewborn/models.png'
+import ComplicationsIcon from '../../images/icons/pregnancynewborn/complications.png'
 
 class PregnancyNewborn extends Component {
   constructor(props) {
@@ -20,7 +22,7 @@ class PregnancyNewborn extends Component {
           linkUrl: '/pregnancy-newborn/pregnancy'
         },
         {
-          imgSrc: PregnancyIcon,
+          imgSrc: ComplicationsIcon,
           theme: this.props.theme,
           titleText: {
             'en': 'Complications',
@@ -54,6 +56,15 @@ class PregnancyNewborn extends Component {
             'ar': 'حديثي الولادة حتى 12 شهر' 
           },
           linkUrl: 'pregnancy-newborn/newborn'
+				},
+				{
+          imgSrc: ModelsIcon,
+          theme: this.props.theme,
+          titleText: {
+            'en': 'Models of Maternity Care',
+            'ar': ''
+          },
+          linkUrl: 'pregnancy-newborn/models-maternity-care'
         }
       ]
     }
