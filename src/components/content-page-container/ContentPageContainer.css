@@ -7,16 +7,12 @@
   padding-right: 10%;
 }
 
-.tabContent img {
-	width: 100%;
-}
-
 @media screen and (min-width: 600px) {
 	.content-page-videos {
 		display: flex;
 		flex-direction: row;
 	}
-	.tab-image {
+	.tabContent img {
 		width: 50%;
 	}
 }
@@ -26,7 +22,7 @@
 		padding-left: 4%;
 		padding-right: 4%;
 	}
-	.tab-image {
+	.tabContent img {
 		width: 100%;
 	}
 }
