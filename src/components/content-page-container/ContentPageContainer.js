@@ -52,7 +52,7 @@ class ContentPageContainer extends Component {
 						<div className="content-page-videos">
 							{item.video && item.video.map((video, index) => <Video key={index} url={video} /> ) }
 						</div>
-						{item.image && <img src={item.image} />}
+						{item.image && <img className="tab-image" src={item.image} />}
             <div className='tabLinks'>
               {item.links && item.links.length > 0 && <Links links={item.links} lang={this.props.lang} />}
             </div>
