@@ -138,6 +138,14 @@
 	{
 		"type": "contentPage",
 		"section": "pregnancyNewborn",
+		"name": "Models of Maternity Care",
+		"contentUrl": "/content/pregnancy-newborn/models-maternity-care.json",
+		"displayUrl": "/pregnancy-newborn/models-maternity-care",
+		"style": 3
+	},
+	{
+		"type": "contentPage",
+		"section": "pregnancyNewborn",
 		"name": "Birth",
 		"contentUrl": "/content/pregnancy-newborn/birth.json",
 		"displayUrl": "/pregnancy-newborn/birth",
