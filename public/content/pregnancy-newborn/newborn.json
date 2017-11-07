@@ -11,37 +11,120 @@
   },
   "topLevelVideo": "",
   "tab": [
-    {
+		{
       "title": {
-        "en": "Newborn Health",
-        "ar": "صحة حديثي الولادة" 
+        "en": "The First Few Days",
+        "ar": ""
       },
       "text": {
-        "en": "<p>When your baby is born your midwife will give you a green book (Victoria) to help you keep up with your new babies health. It is important to keep up with this book and have it available for all appointments.</p>",
-        "ar": "<p>عندما يولد طفلك سوف تعطيك القابلة المسؤولة  عنك الكتاب الأخضر (فيكتوريا) لمساعدتك على مواكبة صحة مولودك الجديد. من المهم متابعة هذا الكتاب في جميع المراجعات.</p>" 
+        "en": "<p><ul><li>Your midwife will check your baby’s breathing and temperature at birth.<ul><li>This may be repeated every few hours for the first few days if you or your baby had any risk factors during labour or birth.</li></ul></li><li>You midwife will give you a Personal Health Record Book to help you keep up with your new baby's health.<ul><li>It is important to keep up with this book and have it available for all appointments.</li><li>This book is coloured differently in each state. For example in Victoria, this book is green, in NSW, it is blue and QLD it is red.</li></ul></li></ul><p><img  style=\"width: 20%;\" src=\"/img/pregnancy/newborn-doc-1.png\" alt=\"My personal health record\"><img style=\"width: 20%;\" src=\"/img/pregnancy/newborn-doc-2.png\" alt=\"Health Development\"><img style=\"width: 20%;\" src=\"/img/pregnancy/newborn-doc-3.png\" alt=\"Queensland Health Personal health record\"></p><ul><li>Your midwife will also ask for consent to give Vitamin K injection in your baby’s thigh (this helps your baby to clot blood as this doesn't happen naturally when they are first born).<ul><li>You can ask for this medication to be given to them in their mouth but this will required 2 other times over the first month and if the baby spits it up, it cannot be repeated.</li></ul></li><li>If you consent, your baby will also be given the Hepatitis B vaccine in their other thigh.<ul><li>More information can be found on your child's vaccination schedule and why immunisation is so important in Shifra’s Immunisation section.</li></ul></li><li>A heel prick test to screen for about 25 genetic disorders that relate to how your baby absorbs and processes fats and proteins will be undertaken between 48-72 hours after birth. You will only be contacted with the results if they are abnormal and this is very rare.</li></ul></p>",
+        "ar": ""
       },
       "image": "",
       "links": [
         {
           "title": {
+            "en": "Newborn screening",
+            "ar": "" 
+          },
+          "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/newborn-screening"
+        },
+        {
+          "title": {
+            "en": "Newborn Screening Brochure",
+            "ar": "" 
+          },
+          "url": "https://www.vcgs.org.au/sites/default/files/NewbornBrochure.pdf"
+        },
+        {
+          "title": {
             "en": "After Your Baby is Born",
-            "ar": "" 
-          },
-          "url": "https://www.thewomens.org.au/health-information/pregnancy-and-birth/after-your-baby-is-born/"
-        },
-        {
-          "title": {
-            "en": "My Personal Health Record (English)",
-            "ar": "" 
-          },
-          "url": "http://www.health.nsw.gov.au/kidsfamilies/MCFhealth/Publications/blue-book.pdf"
-        },
-        {
-          "title": {
-            "en": "My Personal Health Record (Arabic)",
             "ar": ""
           },
-          "url": "http://www.health.nsw.gov.au/kidsfamilies/MCFhealth/Documents/Blue-Book-Arabic.pdf"
+          "url": "https://www.thewomens.org.au/health-information/pregnancy-and-birth/after-your-baby-is-born/"
+				},
+				{
+          "title": {
+            "en": "My Personal Health Record (English)",
+            "ar": ""
+          },
+          "url": "http://www.health.nsw.gov.au/kidsfamilies/MCFhealth/Publications/blue-book.pdf"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Feeding your baby",
+        "ar": ""
+      },
+      "text": {
+        "en": "<p><ul><li>Breastfeeding gives your baby all the nutrients he or she needs. It can also help you both to bond (get closer to each other emotionally).</li><li>Learning to breastfeed is difficult for many mothers and can be a frustrating and emotional experience at the beginning. This usually gets better after the first few days.</li><li>Your midwife, maternal child health nurse and lactation consultant (breastfeeding specialist) can help you and your baby get more experience. You should be given information as to how to access these services on the postnatal ward, after you have your baby.</li><li>Here are some demonstrations on the best positions for initiating breastfeeding.</li><li>Breastfeeding is recommended for up to two years and you can start offering solid food slowly, from 6 months.</li><li>If you are unable to breastfeed or choose not to, formula will give your baby the nutrients he or she needs to grow.</li><li>Speak with your midwife or maternal child health nurse to choose what formula is best for you and your baby.</li><li>Water is in both breastmilk and formula so you baby does not need to be offered water (including coconut or sugar cane water) until 6 months of age.</li></ul></p>",
+        "ar": ""
+      },
+      "image": "",
+      "links": [
+        {
+          "title": {
+            "en": "Raising Children Network- How to breastfeed: getting a good attachment",
+            "ar": "" 
+          },
+          "url": "http://raisingchildren.net.au/articles/breastfeeding_attachment_video.html"
+        },
+        {
+          "title": {
+            "en": "Raising Children Network- Bottle and formula preparation",
+            "ar": "" 
+          },
+          "url": "http://raisingchildren.net.au/articles/dads_formula_preparation_video.html/context/1081"
+        },
+        {
+          "title": {
+            "en": "Breastfeeding",
+            "ar": ""
+          },
+          "url": "https://www.thewomens.org.au/health-information/breastfeeding/"
+				},
+				{
+          "title": {
+            "en": "Newborn Nutrition",
+            "ar": ""
+          },
+          "url": "http://raisingchildren.net.au/nutrition/newborns_nutrition.html"
+				},
+				{
+          "title": {
+            "en": "Breastfeeding Your Baby (English)",
+            "ar": ""
+          },
+          "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Breastfeeding-your-baby1.pdf"
+        }
+      ]
+		},
+		{
+      "title": {
+        "en": "Sleeping",
+        "ar": "" 
+      },
+      "text": {
+        "en": "<p><ul><li>Babies sleep a lot in the first few weeks but this isn’t always at times that are convenient for parents.</li><li>It’s important to try and take lots of little naps when your baby is napping.</li><li>Learning to read your baby’s tired signs is important and this can be difficult in the first few weeks.</li><li>It’s OK to not always know if your baby is crying because she is hungry, tired or needs a nappy change.</li></ul></p>",
+        "ar": ""
+      },
+      "image": "",
+      "video": "",
+      "links": [
+        {
+          "title": {
+            "en": "Raising Children Network- Newborns sleep",
+            "ar": "" 
+          },
+          "url": "http://raisingchildren.net.au/sleep/newborns_sleep.html"
+				},
+				{
+          "title": {
+            "en": "Raising Children Network- Baby Cues video guide",
+            "ar": "" 
+          },
+          "url": "http://raisingchildren.net.au/baby_cues/baby_cues.html"
         }
       ]
     },
@@ -51,8 +134,8 @@
         "ar": "الخدج" 
       },
       "text": {
-        "en": "<p>A baby is termed premature if they are born prior to 37 weeks gestation. If they are born between 23-28 weeks they are called extremely premature. If they are born between 28-32 weeks they are called very premature. If they are born between 32-36 weeks they are called moderately premature. And, if they are born 36-37 weeks they are called late preterm. The earlier that a baby is born the higher risk the baby is and the longer they will need to spend in the neonatal intensive care unit.</p>",
-        "ar": "<p>ويسمى الطفل خديجاً في حال ولادته سابق لأوان الولادة الطبيعي أي قبل الأسبوع 37 من الحمل. أما إذا ولد بين 23-28 أسبوعا يطلق عليهم سابق لأوانه بشكل كبير جداً. إذا ولد بين 28-32 أسبوعا يطلق عليه سابق لأوانه جدا. إذا ولدوا بين 32-36 أسبوعا يطلق عليه ولادة قبل الأوان بشكل معتدل. وإذا ولد بين 36-37 أسبوعا يطلق عليه وقت متأخر من الخدج. كلما كانت ولادة الطفل بشكل أبكر كلما كان الخطر أعلى على حياته وسوف يحتاج وقت أطول في وحدة العناية المركزة لحديثي الولادة.</p>" 
+        "en": "<p><ul><li>A baby is considered premature if they are born before 37 weeks of pregnancy.</li><li>The earlier that a baby is born the higher risk the baby is and the longer they will need to spend in the neonatal intensive care unit.</li><li>The staff at your hospital are there to support you during this stressful time.</li><li>You can ask for  a social worker to visit you if you need help understanding all that is happening during this time.</li><li>You have a right to be with your baby and to ask questions whenever you have them.</li><li>An interpreter can be provided if you don’t understand what is happening.</li></ul></p>",
+        "ar": ""
       },
       "image": "",
       "video": "",
@@ -65,58 +148,18 @@
           "url": "http://raisingchildren.net.au/articles/premature_birth.html"
         }
       ]
-    },
-    {
+		},
+		{
       "title": {
-        "en": "Nutrition",
-        "ar": "التغذية" 
+        "en": "Development, Growth and Learning",
+        "ar": "" 
       },
       "text": {
-        "en": "<ul>  <li><b><a href='/pregnancy-newborn/postnatal'>Breastfeeding</a></b> Breastfeeding not only allows you to give your baby all the nutrients he/she needs, it also allows the two of you to bond. Exclusive breastfeeding is recommended in the first six months of life. From 6-12 months breastfeeding is recommended while supplementing with food.</li>  <li><b>Formula Feeding</b> If you are unable to breastfeed or choose not to, formula will give your baby the nutrients to grow. Speak with your midwife or maternal child health nurse to choose what formula is best for you and your baby.</li></ul>",
-        "ar": "<ul><li>الرضاعة الطبيعية: تسمح الرضاعة الطبيعية بتزويد طفلك بجميع المواد الغذائية التي يحتاجها، كما أنها تسمح بتعزيز العلاقة العاطفية بينكما. ومن المفضل الإرضاع الطبيعي حصرياً في الأشهر الستة الأولى من الحياة.</p><p>أما من  6-12 شهراً من المستحسن أن يزود الطفل بمكملات غذائية مع الرضاعة الطبيعية.</li><li>التغذية الاصطناعية : إذا كنت غير قادرة على الإرضاع الطبيعي أو اخترت عدم الاعتماد على الرضاعة الطبيعية فإن الحليب الاصطناعي سيعطي طفلك المواد الغذائية اللازمة لنموه. تحدثي مع القابلة أو الممرضة المسؤولة عن أفضل نوع لطفلك.</li></ul>" 
+        "en": "<p><table class=\"table\"><thead><tr><th><strong>Age</strong></th><th><strong>Milestones</strong></th></tr></thead><tbody><tr><td>Birth - 4 months</td><td>* Your baby will be learning, developing and growing quickly after they’re born. <br/> * Here are some milestone that most baby’s meet in their first year. <br/> * Some babies will reach these milestone sooner than others so don’t worry too much if your baby is a little behind. <br/> * If you have concerns though you discuss them further with your maternal child health nurse or GP.</td></tr><tr><td>4 - 8 months</td><td>* Lifting head 90 degrees during tummy time <br/> * Good head control <br/> * Smiling and laughing <br/> * Reaching for objects <br/> * Tracks moving objects with eyes <br/> * Shows awareness and interest in surroundings <br/> * Tries to pick up objects using both hands <br/> * Making noises in order to have their needs met <br/> * Recognition of familiar faces, increased interaction with others</td></tr><tr><td>8 - 12 months</td><td>* Able to keep head level when pulled up <br/> * Sitting alone without support <br/> * Recognition of partially hidden objects <br/> * Attempts to get object that is out of reach <br/> * Looking for fallen objects <br/> * Moves by rolling or attempts to crawl <br/> * Makes sounds, imitates sounds <br/> * Claps hands <br/> * Shows likes and dislikes <br/> * Enjoys and demands attention and affection <br/> * Increases interaction with family</td></tr><tr><td>12 months +</td><td>* May stand or walk <br/> * Able to point with index finger <br/> * Expresses needs and wants in ways other than crying <br/> * Says three recognisable words <br/> * Understands several words and some commands <br/> * Helps to dress themselves by holding out arms or legs <br/> * Enjoys being around parents and showing affection <br/> * Begins to understand 'no'</td></tr></tbody></table></p>",
+        "ar": ""
       },
       "image": "",
-      "links": [
-        {
-          "title": {
-            "en": "Breastfeeding",
-            "ar": "" 
-          },
-          "url": "https://www.thewomens.org.au/health-information/breastfeeding/ "
-        },
-        {
-          "title": {
-            "en": "Newborn Nutrition",
-            "ar": "" 
-          },
-          "url": "http://raisingchildren.net.au/nutrition/newborns_nutrition.html"
-        },
-        {
-          "title": {
-            "en": "Breastfeeding Your Baby (English)",
-            "ar": "" 
-          },
-          "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Breastfeeding-your-baby1.pdf"
-        },
-        {
-          "title": {
-            "en": "Breastfeeding Your Baby (Arabic)",
-            "ar": "" 
-          },
-          "url": "https://thewomens.r.worldssl.net/images/uploads/fact-sheets/multilingual/Breastfeeding-your-baby-arabic.pdf"
-        }
-      ]
-    },
-    {
-      "title": {
-        "en": "Milestones",
-        "ar": "مراحل النمو" 
-      },
-      "text": {
-        "en": "<p>Your baby will be learning and developing rapidly after they’re born. Here are some tools to make sure that your little one is on track. If you have concerns, discuss them further with your maternal child health nurse.</p><h4>At 4 months</h4><ul>  <li>Lifting head 90 degrees during tummy time</li>  <li>Good head control</li>  <li>Smiling and laughing</li>  <li>Reaching for objects</li>  <li>Tracks moving objects with eyes</li>  <li>Shows awareness and interest in surroundings</li>  <li>Tries to pick up objects using both hands</li>  <li>Making noises in order to have their needs met</li>  <li>Recognition of familiar faces, increased interaction with others</li></ul><h4>At 8 months</h4><ul>  <li>Able to keep head level when pulled up</li>  <li>Sitting alone without support</li>  <li>Recognition of partially hidden objects</li>  <li>Attempts to get object that is out of reach</li>  <li>Looking for fallen objects</li>  <li>Moves by rolling or attempts to crawl</li>  <li>Makes sounds, imitates sounds</li>  <li>Claps hands</li>  <li>Shows likes and dislikes</li>  <li>Enjoys and demands attention and affection</li>  <li>Increases interaction with family</li></ul><h4>At 12 months</h4><ul>  <li>May stand or walk</li>  <li>Able to point with index finger</li>  <li>Expresses needs and wants in ways other than crying</li>  <li>Says three recognisable words</li>  <li>Understands several words and some commands</li>  <li>Helps to dress themselves by holding out arms or legs</li>  <li>Enjoys being around parents and showing affection</li>  <li>Begins to understand 'no'</li></ul>",
-        "ar": "<p>طفلك سوف يتعلم ويتطور بسرعة بعد ولادته. وفيما يلي بعض الأدوات للتأكد من أن نموه يتبع المسار الصحيح. إذا كان لديك أية مخاوف، عليك مناقشتها مع الممرضة المسؤولة.</p><h4>في 4 أشهر</h4><ul>  <li>رفع الرأس 90 درجة خلال وضعه على بطنه.</li>  <li>قدرة التحكم بالرأس جيدة.</li>  <li>يبتسم ويضحك.</li>  <li>الوصول إلى الأشياء.</li>  <li>متابعة العينين للأجسام المتحركة.</li>  <li>إظهار الوعي والاهتمام بالمحيط.</li>  <li>محاولة التقاط الأشياء باستخدام كلتا اليدين.</li>  <li>صنع أصوات من أجل تلبية احتياجاته.</li>  <li>التعرف على الوجوه المألوفة، وزيادة التفاعل مع الآخرين.</li></ul><h4>في 8 أشهر</h4><ul>  <li>قدرة الطفل على الحفاظ على مستوى الرأس عند سحب الطفل للأعلى.</li>  <li>يجلس وحده بدون مساعدة.</li>  <li>التعرف على الأشياء المخفية بشكل جزئي.</li>  <li>محاولة الوصول للأشياء البعيدة عن يده.</li>  <li>متابعة الأشياء المتساقطة.</li>  <li>محاولة الطفل الحركة والزحف.</li>  <li>التصويت و محاولات تقليد الأصوات.</li>  <li>التصفيق اليدين.</li>  <li>إظهار ما يحب وما يكره.</li>  <li>يتطلب الاهتمام والمودة من المحيطين به.</li>  <li>زيادة التفاعل مع العائلة.</li></ul><h4>في 12 شهرا</h4><ul>  <li>الوقوف أو المشي</li>  <li>القدرة على التأشير أو استعمال أصبع السبابة للدلالة على الأشياء.</li>  <li>يعبر عن احتياجاته بطرق أخرى غير البكاء.</li>  <li>يقول ثلاثة كلمات مميزة.</li>  <li>يفهم عدة كلمات ويستوعب بعض الأوامر.</li>  <li>يساعد على ارتداء اللباس  من خلال إخراج الساعدين أو الساقين.</li>  <li>يتمتع بالوجود حول أهله و إظهار المودة لهم.</li>  <li>يبدأ فهم معنى كلمة \"لا\"</li></ul> " 
-      },
-      "image": "",
+      "video": "",
       "links": [
         {
           "title": {
@@ -124,15 +167,15 @@
             "ar": "" 
           },
           "url": "http://www.education.vic.gov.au/childhood/parents/health/Pages/babies.aspx"
-        },
-        {
+				},
+				{
           "title": {
             "en": "Newborns development",
             "ar": "" 
           },
           "url": "http://raisingchildren.net.au/development/newborns_development.html"
-        },
-        {
+				},
+				{
           "title": {
             "en": "Physical and Cognitive Developmental Milestones",
             "ar": "" 
@@ -140,50 +183,31 @@
           "url": "https://www.communities.qld.gov.au/resources/childsafety/practice-manual/physical-cognative-milestones.pdf"
         }
       ]
-    },
-    {
+		},
+		{
       "title": {
-        "en": "Vaccinations",
-        "ar": "اللقاحات"
+        "en": "Immunisations",
+        "ar": ""
       },
       "text": {
-        "en": "<p>In order to boost your child’s immunity and ensure that they do not contract illnesses unnecessarily it is important that they receive all immunisations during the appropriate timeframe.</p><h4>Birth</h4><ul>  <li>HepB- Hepatitis B vaccine</li></ul><h4>2 months</h4><ul>  <li>HepB-DTPa-Hib-IPV- Hepatitis B, diphtheria, tetanus, acellular pertussis (whooping coffee), Haemophilus influenza type b, inactivated poliomyelitis (polio)</li>  <li>13vPCV- Pneumococcal conjugate</li>  <li>Rotavirus</li></ul><h4>4 months</h4><ul>  <li>HepB-DTPa-Hib-IPV- Hepatitis B, diphtheria, tetanus, acellular pertussis (whooping coffee), Haemophilus influenza type b, inactivated poliomyelitis (polio)</li>  <li>13vPCV- Pneumococcal conjugate</li>  <li>Rotavirus</li></ul><h4>6 months</h4><ul>  <li>HepB-DTPa-Hib-IPV- Hepatitis B, diphtheria, tetanus, acellular pertussis (whooping coffee), Haemophilus influenza type b, inactivated poliomyelitis (polio)</li>  <li>13vPCV- Pneumococcal conjugate</li>  <li>Rotavirus B</li></ul><h4>12 months</h4><ul>  <li>Hib-MenC- Haemophilius influenza type b and meningococcal C</li>  <li>MMR- Measles, mumps, and rubella</li></ul>",
-        "ar": "<p>من أجل تعزيز مناعة طفلك وضمان عدم إصابته بالأمراض، من المهم أن يتلقى جميع اللقاحات خلال الوقت الزمني المناسب والمحدد.</p><h4>عند الولادة</h4><ul>  <li>لقاح التهاب الكبد البائي.</li></ul><h4>عمر الشهرين</h4><ul>  <li>HepB-DTPa-Hib-IPV لقاح التهاب الكبد البائي</li>  <li>(polio) الدفتيريا، الكزاز، السعال الديكي, النزلة النزفية نوع ب، شلل الأطفال</li>  <li>13vPCV - المكورات الرئوية , فيروس الروتا</li></ul><h4>عمر 4 أشهر</h4><ul>  <li>HepB-DTPa-Hib-IPV لقاح التهاب الكبد البائي</li>  <li>(polio) الدفتيريا، الكزاز، السعال الديكي, النزلة النزفية نوع ب، شلل الأطفال</li>  <li>13vPCV - المكورات الرئوية , فيروس الروتا</li></ul><h4>عمر 6 أشهر</h4><ul>  <li>HepB-DTPa-Hib-IPV لقاح التهاب الكبد البائي</li>  <li>(polio) الدفتيريا، الكزاز، السعال الديكي, النزلة النزفية نوع ب، شلل الأطفال</li>  <li>13vPCV - المكورات الرئوية , فيروس الروتا.</li></ul><h4>عمر 12 شهر</h4><ul>  <li>هيب-MenC, هيموفيليوس نوع الانفلونزا ب, المكورات السحائية C</li>  <li>الحصبة والنكاف والحصبة الألمانية</li></ul>" 
+        "en": "<p><ul><li>Getting your children vaccinated is important to protecting them from illnesses that can be life-threatening.</li><li>Vaccinations children, the elderly and those with low immunity such as pregnant women and people undergoing chemotherapy from getting sick.</li><li>When the whole community is immunised diseases can be stopped forever.</li></ul><p><img src=\"/img/pregnancy/immunisation-schedule.png\" alt=\"Immunisation Schedule\"></p></p>",
+        "ar": ""
       },
       "image": "",
       "links": [
         {
           "title": {
-            "en": "National Immunisation Program Schedule (From 20 April 2015)",
+            "en": "Childhood immunisation",
             "ar": "" 
           },
-          "url": "http://www.immunise.health.gov.au/internet/immunise/publishing.nsf/Content/national-immunisation-program-schedule"
-        },
-        {
-          "title": {
-            "en": "Women's and Newborn Health (Arabic)",
-            "ar": "" 
-          },
-          "url": "http://www.wslhd.health.nsw.gov.au/WNH/Multicultural---Multilingual-Information/Arabic"
-        }
+          "url": "https://www.betterhealth.vic.gov.au/health/healthyliving/immunisation-childhood"
+				}
       ]
     }
   ],
   "notes": {
-    "en": "",
-    "ar": "<h3>موارد</h3><ul><li><a href=\" https://www.health.qld.gov.au/__data/assets/pdf_file/0017/430901/28776.pdf\">كيف ينمو طفلك</a></li></ul>"
-  }, 
-  "timeline": {
-    "en": {
-      "desktop": "/img/vaccination1920*952.png",
-      "mobile": "/img/vaccination960*1210.png",
-      "pdf": "/documents/vaccination english.pdf"
-    },
-    "ar": {
-      "desktop": "",
-      "mobile": "",
-      "pdf": ""
-    }
+    "en": "<h3>Resources</h3><ul><li><a href=\"http://raisingchildren.net.au/videos/videos.html\">Raising Children Network- Videos</a></li><li><a href=\"http://raisingchildren.net.au/articles/bathing_newborn_video.html\">Raising Children Network - Bathing a newborn safely</a></li><li><a href=\"http://raisingchildren.net.au/articles/dressing_newborn_video.html\">Raising Children Network -Raising Children Network - Dressing a Newborn</a></li><li><a href=\"http://raisingchildren.net.au/articles/nappy_changing_video.html\">Raising Children Network - Changing a nappy</a></li><li><a href=\"http://raisingchildren.net.au/articles/wrapping_a_newborn_video.html\">Raising Children Network - Wrapping a newborn</a></li></ul>",
+    "ar": ""
   }
 }
 
