@@ -74,6 +74,14 @@
 	{
 		"type": "contentPage",
 		"section": "access",
+		"name": "Community Based Services",
+		"contentUrl": "/content/healthcare-australia/community-services.json",
+		"displayUrl": "/healthcare-australia/community-services",
+		"style": 1
+	},
+	{
+		"type": "contentPage",
+		"section": "access",
 		"name": "Private Health Insurance",
 		"contentUrl": "/content/healthcare-australia/private-health.json",
 		"displayUrl": "/healthcare-australia/private-health",

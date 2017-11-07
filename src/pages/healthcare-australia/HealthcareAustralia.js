@@ -83,6 +83,15 @@ class HealthcareAustralia extends Component {
             'ar': ''
           },
           linkUrl: '/healthcare-australia/private-health'
+				},
+				{
+          imgSrc: PrivatePublicIcon,
+          theme: this.props.theme,
+          titleText: {
+            'en': 'Community Based Services',
+            'ar': ''
+          },
+          linkUrl: '/healthcare-australia/community-services'
         }
       ]
     }
