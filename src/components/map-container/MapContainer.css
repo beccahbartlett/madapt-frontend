@@ -50,3 +50,9 @@
 	margin-top: 20px;
 	align-self: center;
 }
+
+.sf-map-marker {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+}
