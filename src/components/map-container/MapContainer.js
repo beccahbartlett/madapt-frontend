@@ -4,15 +4,39 @@ import './MapContainer.css'
 
 class MapContainer extends Component {
 
+	constructor(props) {
+		super(props)
+		this.state = {
+			lat: -37.9722342,
+			lon: 144.7729551
+		}
+		this.getUserLocation = this.getUserLocation.bind(this)
+
+		// this.getUserLocation()
+	}
+
+	getUserLocation() {
+		global.getUserLocation((data) => {
+			const lat = data.latitude
+			const lon = data.longitude
+			this.setState({
+				lat: lat,
+				lon: lon
+			})
+		})
+	}
+
 	render() {
+		var lat = this.state.lat
+		var lon = this.state.lon
 		return (
 			<div className="sf-map-container">
 				<div className="sf-map-filters"></div>
 				<div className="sf-map-view">
-				<GoogleMapReact
-					defaultCenter={{lat: 59.95, lng: 30.33}}
-					defaultZoom={11}
-				/>
+				{lat && <GoogleMapReact
+					defaultCenter={{lat: lat, lng: lon}}
+					defaultZoom={9}
+				/>}
 				</div>
 			</div>
 		)
