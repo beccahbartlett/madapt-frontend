@@ -29,7 +29,6 @@ class MapContainer extends Component {
 		this.onSubmit = this.onSubmit.bind(this)
 		this.onPostcodeChange = this.onPostcodeChange.bind(this)
 		this.onServicesChange = this.onServicesChange.bind(this)
-		// this.getUserLocation()
 	}
 
 	getUserLocation() {
@@ -76,7 +75,6 @@ class MapContainer extends Component {
 					before.formValues.gpChecked = checked
 					return before
 				})
-				// this.setState({ formValues: { gpChecked: checked } })
 				break
 			case 'pharmacy':
 				this.setState(prevState => {
@@ -84,7 +82,6 @@ class MapContainer extends Component {
 					before.formValues.pharmacyChecked = checked
 					return before
 				})
-				// this.setState({ formValues: { pharmacyChecked: checked } })
 				break
 			case 'hospital':
 				this.setState(prevState => {
@@ -92,7 +89,6 @@ class MapContainer extends Component {
 					before.formValues.hospitalChecked = checked
 					return before
 				})
-				// this.setState({ formValues: { hospitalChecked: checked } })
 				break
 			default:
 				break
