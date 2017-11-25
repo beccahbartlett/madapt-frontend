@@ -21,6 +21,7 @@ class ContentPageContainer extends Component {
   componentDidMount() {
 		global.logPageView(window.location.pathname + window.location.search)
 		this.props.changeStyle(this.props.style)
+		global.getUserLocation()
   }
   
   getData() {
