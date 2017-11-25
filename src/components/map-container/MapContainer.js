@@ -55,10 +55,8 @@ class MapContainer extends Component {
 	onPostcodeChange(e) {
 		const postcode = e.target.value
 		if (parseInt(postcode)) {
-			this.setState(prevState => {
-				const before = prevState
-				before.postcode = postcode
-				return before
+			this.setState({
+				postcode: postcode
 			})
 		}
 	}
@@ -67,7 +65,6 @@ class MapContainer extends Component {
 		const type = e.target.dataset.type
 		console.log(type)
 		const checked = e.target.checked
-
 		const state = this.state
 
 		switch(type) {
@@ -89,6 +86,10 @@ class MapContainer extends Component {
 	onSubmit(e) {
 		e.preventDefault()
 		const postcode = this.state.postcode
+		// Clear current results
+		this.setState({
+			results: []
+		})
 		Object.keys(this.state.services).forEach(service => {
 			if (this.state.services[service]) this.makeSearchRequest(postcode, service)
 		})
@@ -136,19 +137,17 @@ class MapContainer extends Component {
 		return (
 			<div className="sf-map-container">
 				<div className="sf-map-sidebar">
-					<div className="sf-map-filters">
-						<form onSubmit={this.onSubmit}>
-							<input id="sf-map-input-postcode" type="text" placeholder="Postcode" onChange={this.onPostcodeChange}/>
-							<input id="sf-map-input-submit" type="submit" value="Search"/>
-							<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="gp" checked={services.gp}/>Doctor</label>
-							<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="pharmacy" checked={services.pharmacy}/>Pharmacy</label>
-							<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="hospital" checked={services.hospital}/>Hospital</label>
-						</form>
-					</div>
+					<form className="sf-map-filters" onSubmit={this.onSubmit}>
+						<input id="sf-map-input-postcode" type="text" placeholder="Postcode" onChange={this.onPostcodeChange}/>
+						<input id="sf-map-input-submit" type="submit" value="Search"/>
+						<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="gp" checked={services.gp}/>Doctor</label>
+						<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="pharmacy" checked={services.pharmacy}/>Pharmacy</label>
+						<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="hospital" checked={services.hospital}/>Hospital</label>
+					</form>
 					<div className="sf-map-results">
 						{results && results.map(result => {
 							return (
-								<div>{result.name}</div>
+								<div className="sf-map-result-container">{result.name}</div>
 							)
 						})}
 					</div>
