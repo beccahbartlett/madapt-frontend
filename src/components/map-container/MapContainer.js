@@ -17,9 +17,9 @@ class MapContainer extends Component {
 			results: null,
 			zoomLevel: null,
 			services: {
-				gpChecked: false,
-				pharmacyChecked: false,
-				hospitalChecked: false
+				gp: false,
+				pharmacy: false,
+				hospital: false
 			},
 			postcode: null,
 		}
@@ -72,13 +72,13 @@ class MapContainer extends Component {
 
 		switch(type) {
 			case 'gp':
-				state.services.gpChecked = checked
+				state.services.gp = checked
 				break
 			case 'pharmacy':
-				state.services.pharmacyChecked = checked
+				state.services.pharmacy = checked
 				break
 			case 'hospital':
-				state.services.hospitalChecked = checked
+				state.services.hospital = checked
 				break
 			default:
 				break
@@ -89,12 +89,19 @@ class MapContainer extends Component {
 	onSubmit(e) {
 		e.preventDefault()
 		const postcode = this.state.postcode
-		const selectedServices = this.state.services
-		this.makeSearchRequest(postcode)
+		let selectedServices = []
+		Object.keys(this.state.services).forEach(service => {
+			if (this.state.services[service]) selectedServices.push(service)
+		})
+
+		selectedServices = selectedServices.join(' +')
+
+		this.makeSearchRequest(postcode, selectedServices)
 		console.log(this.state)
 	}
 
-	makeSearchRequest(postcode, service) {
+	makeSearchRequest(postcode, services) {
+		console.log(services)
 		var baseUrl = 'https://api.serviceseeker.com.au'
 		var endpoint = '/api/v3/search'
 		var url = baseUrl + endpoint
@@ -102,7 +109,7 @@ class MapContainer extends Component {
 			url: url,
 			method: 'get',
 			params: {
-				q: 'GP',
+				q: services,
 				area: postcode
 			},
 			auth: {
@@ -136,15 +143,15 @@ class MapContainer extends Component {
 						<form onSubmit={this.onSubmit}>
 							<input id="sf-map-input-postcode" type="text" placeholder="Postcode" onChange={this.onPostcodeChange}/>
 							<input id="sf-map-input-submit" type="submit" value="Search"/>
-							<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="gp" checked={services.gpChecked}/>Doctor</label>
-							<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="pharmacy" checked={services.pharmacyChecked}/>Pharmacy</label>
-							<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="hospital" checked={services.hospitalChecked}/>Hospital</label>
+							<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="gp" checked={services.gp}/>Doctor</label>
+							<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="pharmacy" checked={services.pharmacy}/>Pharmacy</label>
+							<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="hospital" checked={services.hospital}/>Hospital</label>
 						</form>
 					</div>
 					<div className="sf-map-results">
 						{results && results.map(result => {
 							return (
-								<div>{result.site.name}</div>
+								<div>{result.name}</div>
 							)
 						})}
 					</div>
@@ -161,7 +168,7 @@ class MapContainer extends Component {
 								<div className="sf-map-marker gp"
 									lat={result.location.point.lat}
 									lng={result.location.point.lon}
-									text={result.site.name}
+									text={result.name}
 								/>
 							)
 						})}
