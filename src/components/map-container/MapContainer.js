@@ -101,7 +101,7 @@ class MapContainer extends Component {
 						{results && results.map(result => {
 							console.log(result.location.point)
 							return (
-								<div className="sf-map-marker"
+								<div className="sf-map-marker gp"
 									lat={result.location.point.lat}
 									lng={result.location.point.lon}
 									text={result.site.name}

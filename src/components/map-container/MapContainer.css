@@ -56,11 +56,14 @@
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background-color: #6FB2DF;
-	background-image: url('/img/icons8-stethoscope.png');
 	background-size: 65%;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.sf-map-marker.gp {
+	background-color: #6FB2DF;
+	background-image: url('/img/icons8-stethoscope.png');
 }
 
 .sf-map-results {
