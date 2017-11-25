@@ -123,6 +123,9 @@ class MapContainer extends Component {
 			.then(res => {
 				console.log(res.data)
 				res.data.objects && this.setState(prevState => {
+					res.data.objects.map(obj => {
+						return obj['marker_type'] = service
+					})
 					return {
 						results: res.data.objects.concat(prevState.results),
 						coords: {
@@ -175,9 +178,8 @@ class MapContainer extends Component {
 						defaultCenter={this.defaultCenter}
 						defaultZoom={this.defaultZoom}>
 						{results && results.map(result => {
-							console.log(result.location.point)
 							return (
-								<div className="sf-map-marker gp"
+								<div className={`sf-map-marker ${result['marker_type']}`}
 									lat={result.location.point.lat}
 									lng={result.location.point.lon}
 									text={result.name}
