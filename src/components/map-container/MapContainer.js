@@ -7,10 +7,15 @@ class MapContainer extends Component {
 
 	constructor(props) {
 		super(props)
-		this.state = {
+		this.defaultCenter = {
 			lat: -37.9722342,
-			lon: 144.7729551,
-			results: null
+			lng: 144.7729551,
+		}
+		this.defaultZoom = 9
+		this.state = {
+			coords: null,
+			results: null,
+			zoomLevel: null
 		}
 		this.getUserLocation = this.getUserLocation.bind(this)
 		this.getResults = this.getResults.bind(this)
@@ -23,8 +28,10 @@ class MapContainer extends Component {
 			const lat = data.latitude
 			const lon = data.longitude
 			this.setState({
-				lat: lat,
-				lon: lon
+				coords: {
+					lat: lat,
+					lng: lon
+				}
 			})
 		})
 	}
@@ -57,14 +64,20 @@ class MapContainer extends Component {
 			.then(res => {
 				console.log(res.data)
 				this.setState({
-					results: res.data.objects
+					results: res.data.objects,
+					coords: {
+						lat: res.data.objects[0].location.point.lat,
+						lng: res.data.objects[0].location.point.lon,
+					},
+					zoomLevel: 15
 				})
+				console.log(this.state)
 			})
 	}
 
 	render() {
-		var lat = this.state.lat
-		var lon = this.state.lon
+		var coords = this.state.coords
+		var zoomLevel = this.state.zoomLevel
 		var results = this.state.results
 		return (
 			<div className="sf-map-container">
@@ -78,8 +91,10 @@ class MapContainer extends Component {
 				</div>
 				<div className="sf-map-view">
 					<GoogleMapReact
-						defaultCenter={{lat: lat, lng: lon}}
-						defaultZoom={9}>
+						center={coords}
+						zoom={zoomLevel}
+						defaultCenter={this.defaultCenter}
+						defaultZoom={this.defaultZoom}>
 						{results && results.map(result => {
 							return (
 								<div className="sf-map-marker"
