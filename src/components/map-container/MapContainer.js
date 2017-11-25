@@ -18,9 +18,9 @@ class MapContainer extends Component {
 			zoomLevel: null,
 			formValues: {
 				postcode: null,
-				gpChecked: null,
-				pharmacyChecked: null,
-				hospitalChecked: null
+				gpChecked: false,
+				pharmacyChecked: false,
+				hospitalChecked: false
 			}
 		}
 		this.getUserLocation = this.getUserLocation.bind(this)
@@ -68,31 +68,22 @@ class MapContainer extends Component {
 		console.log(type)
 		const checked = e.target.checked
 
+		const state = this.state
+
 		switch(type) {
 			case 'gp':
-				this.setState(prevState => {
-					const before = prevState
-					before.formValues.gpChecked = checked
-					return before
-				})
+				state.formValues.gpChecked = checked
 				break
 			case 'pharmacy':
-				this.setState(prevState => {
-					const before = prevState
-					before.formValues.pharmacyChecked = checked
-					return before
-				})
+				state.formValues.pharmacyChecked = checked
 				break
 			case 'hospital':
-				this.setState(prevState => {
-					const before = prevState
-					before.formValues.hospitalChecked = checked
-					return before
-				})
+				state.formValues.hospitalChecked = checked
 				break
 			default:
 				break
 		}
+		this.setState(state)
 	}
 
 	onSubmit(e) {
@@ -134,15 +125,16 @@ class MapContainer extends Component {
 		var coords = this.state.coords
 		var zoomLevel = this.state.zoomLevel
 		var results = this.state.results
+		var formValues = this.state.formValues
 		return (
 			<div className="sf-map-container">
 				<div className="sf-map-sidebar">
 					<div className="sf-map-filters">
 						<form onSubmit={this.onSubmit}>
 							<input id="sf-map-input-postcode" type="text" placeholder="Postcode" onChange={this.onPostcodeChange}/>
-							<label><input id="sf-map-input" type="checkbox" onChange={this.onServicesChange} data-type="gp"/>Doctor</label>
-							<label><input id="sf-map-input" type="checkbox" onChange={this.onServicesChange} data-type="pharmacy"/>Pharmacy</label>
-							<label><input id="sf-map-input" type="checkbox" onChange={this.onServicesChange} data-type="hospital"/>Hospital</label>
+							<label><input id="sf-map-input" type="checkbox" onChange={this.onServicesChange} data-type="gp" checked={formValues.gpChecked}/>Doctor</label>
+							<label><input id="sf-map-input" type="checkbox" onChange={this.onServicesChange} data-type="pharmacy" checked={formValues.pharmacyChecked}/>Pharmacy</label>
+							<label><input id="sf-map-input" type="checkbox" onChange={this.onServicesChange} data-type="hospital" checked={formValues.hospitalChecked}/>Hospital</label>
 							<input type="submit" value="Submit"/>
 						</form>
 					</div>
