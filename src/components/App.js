@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ContentPageContainer from './content-page-container/ContentPageContainer'
 import HealthcareAustralia from '../pages/healthcare-australia/HealthcareAustralia'
+import HealthcareAustraliaCMS from '../pages/healthcare-australia-cms/HealthcareAustraliaCMS'
 import FamilyPlanning from '../pages/family-planning/FamilyPlanning'
 import FamilyHealth from '../pages/family-health/FamilyHealth'
 import PregnancyNewborn from '../pages/pregnancy-newborn/PregnancyNewborn'
@@ -125,6 +126,9 @@ class App extends Component {
                 lang={this.state.lang}
                 changeStyle={this.changeStyle}
 								theme={5} />} />
+              <Route
+                exact path='/healthcare-australia-cms'
+                component={(props) => <HealthcareAustraliaCMS/>} />
 							<Route
                 exact path='/clinics'
                 component={(props) => <div className="wrapper"><h1>قريبا / Coming Soon!</h1></div>} />
