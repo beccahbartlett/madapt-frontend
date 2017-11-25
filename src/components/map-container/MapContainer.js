@@ -31,7 +31,11 @@ class MapContainer extends Component {
 		var lon = this.state.lon
 		return (
 			<div className="sf-map-container">
-				<div className="sf-map-filters"></div>
+				<div className="sf-map-sidebar">
+					<div className="sf-map-filters">
+						<input id="sf-map-input-postcode" type="text" placeholder="Postcode"/>
+					</div>
+				</div>
 				<div className="sf-map-view">
 				{lat && <GoogleMapReact
 					defaultCenter={{lat: lat, lng: lon}}
