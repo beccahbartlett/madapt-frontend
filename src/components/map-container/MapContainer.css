@@ -18,7 +18,6 @@
 .sf-map-filters {
 	display: flex;
 	flex-direction: column;
-	height: 20%;
 }
 
 .sf-map-view {
@@ -50,6 +49,7 @@
 #sf-map-input-postcode {
 	padding: 10px;
 	align-self: center;
+	height: 40px;
 }
 
 .sf-map-marker {
@@ -70,4 +70,18 @@
 	overflow-y: scroll;
 	width: 100%;
 	padding: 10px;
+}
+
+#sf-map-input-submit {
+  padding: 10px;
+  color: white;
+  float: right;
+  background-color: #2f444e;
+  font-size: 1.5rem;
+	border: none;
+	width: 40%;
+}
+
+#sf-map-input-submit:disabled {
+  opacity: 0.3;
 }
