@@ -30,6 +30,7 @@ class MapContainer extends Component {
 		this.onPostcodeChange = this.onPostcodeChange.bind(this)
 		this.onServicesChange = this.onServicesChange.bind(this)
 		this.parseStreetAddress = this.parseStreetAddress.bind(this)
+		this.onMarkerClick = this.onMarkerClick.bind(this)
 	}
 
 	getUserLocation() {
@@ -100,6 +101,11 @@ class MapContainer extends Component {
 	parseStreetAddress(location) {
 		const addr = `${location['street_number']} ${location['street_name']} ${location['street_type']}, ${location['suburb']} ${location['state']} ${location['postcode']}`
 		return addr
+	}
+
+	onMarkerClick(e) {
+		const data = JSON.parse(e.target.dataset.result)
+		console.log(data)
 	}
 
 	makeSearchRequest(postcode, service) {
@@ -179,10 +185,13 @@ class MapContainer extends Component {
 						defaultZoom={this.defaultZoom}>
 						{results && results.map(result => {
 							return (
-								<div className={`sf-map-marker ${result['marker_type']}`}
+								<div
+									className={`sf-map-marker ${result['marker_type']}`}
+									onClick={this.onMarkerClick}
 									lat={result.location.point.lat}
 									lng={result.location.point.lon}
 									text={result.name}
+									data-result={JSON.stringify(result)}
 								/>
 							)
 						})}
