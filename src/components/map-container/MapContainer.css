@@ -53,9 +53,14 @@
 }
 
 .sf-map-marker {
-	width: 10px;
-	height: 10px;
-	background-color: red;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #6FB2DF;
+	background-image: url('/img/icons8-stethoscope.png');
+	background-size: 65%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .sf-map-results {
