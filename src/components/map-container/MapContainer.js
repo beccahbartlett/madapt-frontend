@@ -11,7 +11,7 @@ class MapContainer extends Component {
 			lon: 144.7729551
 		}
 		this.getUserLocation = this.getUserLocation.bind(this)
-
+		this.getResults = this.getResults.bind(this)
 		// this.getUserLocation()
 	}
 
@@ -26,6 +26,13 @@ class MapContainer extends Component {
 		})
 	}
 
+	getResults(e) {
+		if (e.key === 'Enter') {
+			const postcode = e.target.value
+			console.log(`${postcode} entered`)
+		}
+	}
+
 	render() {
 		var lat = this.state.lat
 		var lon = this.state.lon
@@ -33,7 +40,7 @@ class MapContainer extends Component {
 			<div className="sf-map-container">
 				<div className="sf-map-sidebar">
 					<div className="sf-map-filters">
-						<input id="sf-map-input-postcode" type="text" placeholder="Postcode"/>
+						<input id="sf-map-input-postcode" type="text" placeholder="Postcode" onKeyPress={this.getResults}/>
 					</div>
 				</div>
 				<div className="sf-map-view">
