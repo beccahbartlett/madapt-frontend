@@ -29,6 +29,7 @@ class MapContainer extends Component {
 		this.onSubmit = this.onSubmit.bind(this)
 		this.onPostcodeChange = this.onPostcodeChange.bind(this)
 		this.onServicesChange = this.onServicesChange.bind(this)
+		this.parseStreetAddress = this.parseStreetAddress.bind(this)
 	}
 
 	getUserLocation() {
@@ -96,6 +97,11 @@ class MapContainer extends Component {
 		console.log(this.state)
 	}
 
+	parseStreetAddress(location) {
+		const addr = `${location['street_number']} ${location['street_name']} ${location['street_type']}, ${location['suburb']} ${location['state']} ${location['postcode']}`
+		return addr
+	}
+
 	makeSearchRequest(postcode, service) {
 		console.log(service)
 		var baseUrl = 'https://api.serviceseeker.com.au'
@@ -147,7 +153,11 @@ class MapContainer extends Component {
 					<div className="sf-map-results">
 						{results && results.map(result => {
 							return (
-								<div className="sf-map-result-container">{result.name}</div>
+								<div className="sf-map-result-container">
+									<span className="sf-map-result-title">{result.name}</span>
+									<br/>
+									<span className="sf-map-result-addr">{this.parseStreetAddress(result.location)}</span>
+								</div>
 							)
 						})}
 					</div>
