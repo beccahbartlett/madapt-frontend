@@ -14,7 +14,7 @@ class MapContainer extends Component {
 		this.defaultZoom = 9
 		this.state = {
 			coords: null,
-			results: null,
+			results: [],
 			zoomLevel: null,
 			services: {
 				gp: false,
@@ -89,19 +89,14 @@ class MapContainer extends Component {
 	onSubmit(e) {
 		e.preventDefault()
 		const postcode = this.state.postcode
-		let selectedServices = []
 		Object.keys(this.state.services).forEach(service => {
-			if (this.state.services[service]) selectedServices.push(service)
+			if (this.state.services[service]) this.makeSearchRequest(postcode, service)
 		})
-
-		selectedServices = selectedServices.join(' +')
-
-		this.makeSearchRequest(postcode, selectedServices)
 		console.log(this.state)
 	}
 
-	makeSearchRequest(postcode, services) {
-		console.log(services)
+	makeSearchRequest(postcode, service) {
+		console.log(service)
 		var baseUrl = 'https://api.serviceseeker.com.au'
 		var endpoint = '/api/v3/search'
 		var url = baseUrl + endpoint
@@ -109,7 +104,7 @@ class MapContainer extends Component {
 			url: url,
 			method: 'get',
 			params: {
-				q: services,
+				q: service,
 				area: postcode
 			},
 			auth: {
@@ -120,13 +115,15 @@ class MapContainer extends Component {
 		axios(config)
 			.then(res => {
 				console.log(res.data)
-				res.data.objects && this.setState({
-					results: res.data.objects,
-					coords: {
-						lat: res.data.objects[0].location.point.lat,
-						lng: res.data.objects[0].location.point.lon,
-					},
-					zoomLevel: 15
+				res.data.objects && this.setState(prevState => {
+					return {
+						results: res.data.objects.concat(prevState.results),
+						coords: {
+							lat: res.data.objects[0].location.point.lat,
+							lng: res.data.objects[0].location.point.lon,
+						},
+						zoomLevel: 15
+					}
 				})
 			})
 	}
