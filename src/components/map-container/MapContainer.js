@@ -15,11 +15,20 @@ class MapContainer extends Component {
 		this.state = {
 			coords: null,
 			results: null,
-			zoomLevel: null
+			zoomLevel: null,
+			formValues: {
+				postcode: null,
+				gpChecked: null,
+				pharmacyChecked: null,
+				hospitalChecked: null
+			}
 		}
 		this.getUserLocation = this.getUserLocation.bind(this)
 		this.getResults = this.getResults.bind(this)
 		this.makeSearchRequest = this.makeSearchRequest.bind(this)
+		this.onSubmit = this.onSubmit.bind(this)
+		this.onPostcodeChange = this.onPostcodeChange.bind(this)
+		this.onServicesChange = this.onServicesChange.bind(this)
 		// this.getUserLocation()
 	}
 
@@ -42,6 +51,57 @@ class MapContainer extends Component {
 			console.log(`${postcode} entered`)
 			this.makeSearchRequest(postcode)
 		}
+	}
+
+	onPostcodeChange(e) {
+		const postcode = e.target.value
+		if (parseInt(postcode)) {
+			this.setState(prevState => {
+				const before = prevState
+				before.formValues.postcode = postcode
+				return before
+			})
+		}
+	}
+
+	onServicesChange(e) {
+		const type = e.target.dataset.type
+		console.log(type)
+		const checked = e.target.checked
+
+		switch(type) {
+			case 'gp':
+				this.setState(prevState => {
+					const before = prevState
+					before.formValues.gpChecked = checked
+					return before
+				})
+				// this.setState({ formValues: { gpChecked: checked } })
+				break
+			case 'pharmacy':
+				this.setState(prevState => {
+					const before = prevState
+					before.formValues.pharmacyChecked = checked
+					return before
+				})
+				// this.setState({ formValues: { pharmacyChecked: checked } })
+				break
+			case 'hospital':
+				this.setState(prevState => {
+					const before = prevState
+					before.formValues.hospitalChecked = checked
+					return before
+				})
+				// this.setState({ formValues: { hospitalChecked: checked } })
+				break
+			default:
+				break
+		}
+	}
+
+	onSubmit(e) {
+		e.preventDefault()
+		console.log(this.state)
 	}
 
 	makeSearchRequest(postcode) {
@@ -82,7 +142,13 @@ class MapContainer extends Component {
 			<div className="sf-map-container">
 				<div className="sf-map-sidebar">
 					<div className="sf-map-filters">
-						<input id="sf-map-input-postcode" type="text" placeholder="Postcode" onKeyPress={this.getResults}/>
+						<form onSubmit={this.onSubmit}>
+							<input id="sf-map-input-postcode" type="text" placeholder="Postcode" onChange={this.onPostcodeChange}/>
+							<label><input id="sf-map-input" type="checkbox" onChange={this.onServicesChange} data-type="gp"/>Doctor</label>
+							<label><input id="sf-map-input" type="checkbox" onChange={this.onServicesChange} data-type="pharmacy"/>Pharmacy</label>
+							<label><input id="sf-map-input" type="checkbox" onChange={this.onServicesChange} data-type="hospital"/>Hospital</label>
+							<input type="submit" value="Submit"/>
+						</form>
 					</div>
 					<div className="sf-map-results">
 						{results && results.map(result => {
