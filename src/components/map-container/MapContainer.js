@@ -71,7 +71,6 @@ class MapContainer extends Component {
 					},
 					zoomLevel: 15
 				})
-				console.log(this.state)
 			})
 	}
 
@@ -86,7 +85,11 @@ class MapContainer extends Component {
 						<input id="sf-map-input-postcode" type="text" placeholder="Postcode" onKeyPress={this.getResults}/>
 					</div>
 					<div className="sf-map-results">
-						{results && <div>Result</div>}
+						{results && results.map(result => {
+							return (
+								<div>{result.site.name}</div>
+							)
+						})}
 					</div>
 				</div>
 				<div className="sf-map-view">
@@ -96,11 +99,12 @@ class MapContainer extends Component {
 						defaultCenter={this.defaultCenter}
 						defaultZoom={this.defaultZoom}>
 						{results && results.map(result => {
+							console.log(result.location.point)
 							return (
 								<div className="sf-map-marker"
 									lat={result.location.point.lat}
 									lng={result.location.point.lon}
-									text={result.name}
+									text={result.site.name}
 								/>
 							)
 						})}
