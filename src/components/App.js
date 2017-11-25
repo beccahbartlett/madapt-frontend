@@ -8,6 +8,7 @@ import SexualHealth from '../pages/sexual-health/SexualHealth'
 import Nav from './nav/Nav'
 import NavMenu from './navmenu/NavMenu'
 import Footer from './footer/Footer'
+import MapContainer from './map-container/MapContainer'
 import axios from 'axios'
 import './App.css';
 
@@ -127,7 +128,7 @@ class App extends Component {
 								theme={5} />} />
 							<Route
                 exact path='/clinics'
-                component={(props) => <div className="wrapper"><h1>قريبا / Coming Soon!</h1></div>} />
+                component={(props) => <MapContainer {...props} />} />
               <Route render={function() {
                 return <p>Not Found</p>
               }} />
