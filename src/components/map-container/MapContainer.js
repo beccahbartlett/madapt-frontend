@@ -63,7 +63,7 @@ class MapContainer extends Component {
 		axios(config)
 			.then(res => {
 				console.log(res.data)
-				this.setState({
+				res.data.objects && this.setState({
 					results: res.data.objects,
 					coords: {
 						lat: res.data.objects[0].location.point.lat,
@@ -100,7 +100,7 @@ class MapContainer extends Component {
 								<div className="sf-map-marker"
 									lat={result.location.point.lat}
 									lng={result.location.point.lon}
-									text={result.site.name}
+									text={result.name}
 								/>
 							)
 						})}
