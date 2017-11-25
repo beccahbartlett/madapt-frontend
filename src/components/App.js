@@ -24,16 +24,22 @@ global.logPageView = function(path) {
   ReactGA.pageview(path);
 }
 
-global.getUserLocation = function() {
-	axios.get('http://freegeoip.net/json/')
-	.then(res => {
-		const postcode = res.data["zip_code"]
+global.logUserLocation = function() {
+	global.getUserLocation((data) => {
 		ReactGA.event({
 			category: 'Locations',
 			action: 'Get Postcode',
 			label: 'Postcode',
-			value: parseInt(postcode)
+			value: parseInt(data['zip_code'])
 		});
+	})
+}
+
+global.getUserLocation = function(cb) {
+	axios.get('http://freegeoip.net/json/')
+	.then(res => {
+		console.log(res.data)
+		cb(res.data)
 	})
 }
 
