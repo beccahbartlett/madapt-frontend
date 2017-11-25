@@ -18,3 +18,23 @@
 	height: 100%;
 	background-color: purple;
 }
+
+@media screen and (max-width: 600px) {
+	.sf-map-container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.sf-map-filters {
+		top: 0;
+		width: 100%;
+		height: 30%;
+		background-color: pink;
+	}
+	
+	.sf-map-view {
+		width: 100%;
+		height: 70%;
+		background-color: purple;
+	}
+}
