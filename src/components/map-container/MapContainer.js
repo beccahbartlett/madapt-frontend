@@ -161,6 +161,8 @@ class MapContainer extends Component {
 									<span className="sf-map-result-phone">{result.phones[0].number}</span>
 									<br/>
 									<span className="sf-map-result-bulkbill">{'Bulk Billing: ' + (!result['is_bulk_billing'] ? 'No' : 'Yes')}</span>
+									<br/>
+									<a href={result.web} className="sf-map-result-website">{result.web}</a>
 								</div>
 							)
 						})}
