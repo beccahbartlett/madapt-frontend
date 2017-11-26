@@ -38,7 +38,6 @@ global.logUserLocation = function() {
 global.getUserLocation = function(cb) {
 	axios.get('http://freegeoip.net/json/')
 	.then(res => {
-		console.log(res.data)
 		cb(res.data)
 	})
 }
