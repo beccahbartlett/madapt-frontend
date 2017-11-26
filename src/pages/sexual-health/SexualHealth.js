@@ -23,7 +23,7 @@ class SexualHealth extends Component {
           imgSrc: SafeSexIcon,
           theme: this.props.theme,
           titleText: {
-            'en': 'Safe sex',
+            'en': 'Having Sex',
             'ar': 'الجنس الآمن' 
           },
           linkUrl: '/sexual-health/safe-sex'
