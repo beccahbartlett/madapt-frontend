@@ -115,7 +115,7 @@ class MapContainer extends Component {
 	onResItemClick(idx) {
 		console.log(`onResItemClick ${idx}`)
 		this.state.mapMarkers.forEach(marker => {
-			marker.close()
+			if (marker.close) marker.close()
 		})
 		this.state.mapMarkers[idx].open()
 	}
@@ -197,8 +197,8 @@ class MapContainer extends Component {
 						{results && results.map((result, idx) => {
 							return (
 								<MapMarker
-									lat={result.location.point.lat}
-									lng={result.location.point.lon}
+									lat={result.location.point.lat || this.state.defaultCenter.lat}
+									lng={result.location.point.lon || this.state.defaultCenter.lng}
 									text={result.name}
 									result={result}
 									ref={marker => this.state.mapMarkers.push(marker)}
