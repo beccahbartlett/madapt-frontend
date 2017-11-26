@@ -31,6 +31,10 @@ class MapResult extends Component {
 		})
 	}
 
+	getData() {
+		return this.props.result
+	}
+
 	render() {
 		const style = this.state.style
 		const result = this.props.result
