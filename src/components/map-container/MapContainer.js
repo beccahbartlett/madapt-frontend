@@ -22,6 +22,8 @@ class MapContainer extends Component {
 				hospital: false
 			},
 			postcode: null,
+			resultContainers: [],
+			mapMarkers: []
 		}
 		this.getUserLocation = this.getUserLocation.bind(this)
 		this.getResults = this.getResults.bind(this)
@@ -31,6 +33,7 @@ class MapContainer extends Component {
 		this.onServicesChange = this.onServicesChange.bind(this)
 		this.parseStreetAddress = this.parseStreetAddress.bind(this)
 		this.onMarkerClick = this.onMarkerClick.bind(this)
+		this.onResItemClick = this.onResItemClick.bind(this)
 	}
 
 	getUserLocation() {
@@ -108,6 +111,10 @@ class MapContainer extends Component {
 		console.log(data)
 	}
 
+	onResItemClick(e) {
+		console.log('dslfjsdlfk')
+	}
+
 	makeSearchRequest(postcode, service) {
 		console.log(service)
 		var baseUrl = 'https://api.serviceseeker.com.au'
@@ -149,6 +156,7 @@ class MapContainer extends Component {
 		var zoomLevel = this.state.zoomLevel
 		var results = this.state.results
 		var services = this.state.services
+		console.log(this.state)
 		return (
 			<div className="sf-map-container">
 				<div className="sf-map-sidebar">
@@ -162,7 +170,9 @@ class MapContainer extends Component {
 					<div className="sf-map-results">
 						{results && results.map(result => {
 							return (
-								<div className="sf-map-result-container">
+								<div
+									className="sf-map-result-container"
+									ref={ref => this.state.resultContainers.push(ref)}>
 									<span className="sf-map-result-title">{result.name}</span>
 									<br/>
 									<span className="sf-map-result-addr">{this.parseStreetAddress(result.location)}</span>
@@ -179,6 +189,9 @@ class MapContainer extends Component {
 				</div>
 				<div className="sf-map-view">
 					<GoogleMapReact
+						bootstrapURLKeys={{
+							key: "AIzaSyCBlA8RrGJKeWPM52vPQFASHZmpVCmuIdo",
+						}}
 						center={coords}
 						zoom={zoomLevel}
 						defaultCenter={this.defaultCenter}
@@ -186,6 +199,7 @@ class MapContainer extends Component {
 						{results && results.map(result => {
 							return (
 								<div
+									ref={ref => this.state.mapMarkers.push(ref)}
 									className={`sf-map-marker ${result['marker_type']}`}
 									onClick={this.onMarkerClick}
 									lat={result.location.point.lat}
