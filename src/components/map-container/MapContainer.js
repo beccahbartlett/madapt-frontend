@@ -61,11 +61,9 @@ class MapContainer extends Component {
 
 	onPostcodeChange(e) {
 		const postcode = e.target.value
-		if (parseInt(postcode)) {
-			this.setState({
-				postcode: postcode
-			})
-		}
+		this.setState({
+			postcode: postcode
+		})
 	}
 
 	onServicesChange(e) {
@@ -168,7 +166,7 @@ class MapContainer extends Component {
 			<div className="sf-map-container">
 				<div className="sf-map-sidebar">
 					<form className="sf-map-filters" onSubmit={this.onSubmit}>
-						<input id="sf-map-input-postcode" type="text" placeholder="Postcode" onChange={this.onPostcodeChange}/>
+						<input id="sf-map-input-postcode" type="text" placeholder="Postcode or Suburb" onChange={this.onPostcodeChange}/>
 						<input id="sf-map-input-submit" type="submit" value="Search"/>
 						<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="gp" checked={services.gp}/>Doctor</label>
 						<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="pharmacy" checked={services.pharmacy}/>Pharmacy</label>
