@@ -131,7 +131,7 @@ class MapContainer extends Component {
 		this.state.resultContainers.forEach(cont => {
 			if (cont && typeof cont.close === 'function') cont.close()
 		})
-		this.state.resultContainers[idx].open()
+		this.state.resultContainers[idx].open(false)
 	}
 
 	makeSearchRequest(postcode, service) {

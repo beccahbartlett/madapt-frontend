@@ -12,13 +12,14 @@ class MapResult extends Component {
 		}
 	}
 
-	open() {
+	open(scroll) {
 		console.log('MapResult.open')
 		this.setState({
 			style: {
 				border: '5px dashed red'
 			}
 		})
+		if (scroll) this.ref.scrollIntoViewIfNeeded()
 	}
 
 	close() {
@@ -28,7 +29,6 @@ class MapResult extends Component {
 				border: 'none'
 			}
 		})
-		this.ref.scrollIntoViewIfNeeded()
 	}
 
 	render() {
