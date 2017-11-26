@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import GoogleMapReact from 'google-map-react';
+import MapResult from './map-result/MapResult'
 import './MapContainer.css'
 
 class MapContainer extends Component {
@@ -106,13 +107,16 @@ class MapContainer extends Component {
 		return addr
 	}
 
-	onMarkerClick(e) {
-		const data = JSON.parse(e.target.dataset.result)
-		console.log(data)
+	onMarkerClick(idx) {
+		// const data = JSON.parse(e.target.dataset.result)
+		// console.log(data)
+		console.log(`onMarkerClick ${idx}`)
 	}
 
-	onResItemClick(e) {
-		console.log('dslfjsdlfk')
+	onResItemClick(idx) {
+		console.log(`onResItemClick ${idx}`)
+		// console.log(this.state.mapMarkers[idx])
+		// this.state.mapMarkers[idx].open()
 	}
 
 	makeSearchRequest(postcode, service) {
@@ -168,21 +172,16 @@ class MapContainer extends Component {
 						<label><input id="sf-map-input-checkbox" type="checkbox" onChange={this.onServicesChange} data-type="hospital" checked={services.hospital}/>Hospital</label>
 					</form>
 					<div className="sf-map-results">
-						{results && results.map(result => {
+						{results && results.map((result, idx) => {
 							return (
-								<div
-									className="sf-map-result-container"
-									ref={ref => this.state.resultContainers.push(ref)}>
-									<span className="sf-map-result-title">{result.name}</span>
-									<br/>
-									<span className="sf-map-result-addr">{this.parseStreetAddress(result.location)}</span>
-									<br/>
-									<span className="sf-map-result-phone">{result.phones[0].number}</span>
-									<br/>
-									<span className="sf-map-result-bulkbill">{'Bulk Billing: ' + (!result['is_bulk_billing'] ? 'No' : 'Yes')}</span>
-									<br/>
-									<a href={result.web} className="sf-map-result-website">{result.web}</a>
-								</div>
+								<MapResult
+									parseStreetAddress={this.parseStreetAddress}
+									onResItemClick={this.onResItemClick}
+									result={result}
+									idx={idx}
+									ref={ref => this.state.resultContainers.push(ref)}
+									onClick={() => { this.onResItemClick(idx) }}
+								/>
 							)
 						})}
 					</div>
@@ -196,12 +195,12 @@ class MapContainer extends Component {
 						zoom={zoomLevel}
 						defaultCenter={this.defaultCenter}
 						defaultZoom={this.defaultZoom}>
-						{results && results.map(result => {
+						{results && results.map((result, idx) => {
 							return (
 								<div
-									ref={ref => this.state.mapMarkers.push(ref)}
+									ref={marker => this.state.mapMarkers.push(marker)}
 									className={`sf-map-marker ${result['marker_type']}`}
-									onClick={this.onMarkerClick}
+									open={() => { console.log('open') }}
 									lat={result.location.point.lat}
 									lng={result.location.point.lon}
 									text={result.name}
