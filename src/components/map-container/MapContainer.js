@@ -114,6 +114,11 @@ class MapContainer extends Component {
 			if (cont && typeof cont.close === 'function') cont.close()
 		})
 		this.state.resultContainers[idx].open()
+
+		this.state.mapMarkers.forEach(marker => {
+			if (marker && typeof marker.close === 'function') marker.close()
+		})
+		this.state.mapMarkers[idx].open()
 	}
 
 	onResItemClick(idx) {
@@ -122,6 +127,11 @@ class MapContainer extends Component {
 			if (marker && typeof marker.close === 'function') marker.close()
 		})
 		this.state.mapMarkers[idx].open()
+
+		this.state.resultContainers.forEach(cont => {
+			if (cont && typeof cont.close === 'function') cont.close()
+		})
+		this.state.resultContainers[idx].open()
 	}
 
 	makeSearchRequest(postcode, service) {
