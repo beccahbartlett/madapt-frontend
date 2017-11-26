@@ -8,6 +8,7 @@ import SexualHealth from '../pages/sexual-health/SexualHealth'
 import Nav from './nav/Nav'
 import NavMenu from './navmenu/NavMenu'
 import Footer from './footer/Footer'
+import MapContainer from './map-container/MapContainer'
 import axios from 'axios'
 import './App.css';
 
@@ -23,16 +24,22 @@ global.logPageView = function(path) {
   ReactGA.pageview(path);
 }
 
-global.getUserLocation = function() {
-	axios.get('http://freegeoip.net/json/')
-	.then(res => {
-		const postcode = res.data["zip_code"]
+global.logUserLocation = function() {
+	global.getUserLocation((data) => {
 		ReactGA.event({
 			category: 'Locations',
 			action: 'Get Postcode',
 			label: 'Postcode',
-			value: parseInt(postcode)
+			value: parseInt(data['zip_code'])
 		});
+	})
+}
+
+global.getUserLocation = function(cb) {
+	axios.get('http://freegeoip.net/json/')
+	.then(res => {
+		console.log(res.data)
+		cb(res.data)
 	})
 }
 
@@ -127,7 +134,7 @@ class App extends Component {
 								theme={5} />} />
 							<Route
                 exact path='/clinics'
-                component={(props) => <div className="wrapper"><h1>قريبا / Coming Soon!</h1></div>} />
+                component={(props) => <MapContainer {...props} />} />
               <Route render={function() {
                 return <p>Not Found</p>
               }} />
