@@ -110,6 +110,10 @@ class MapContainer extends Component {
 		// const data = JSON.parse(e.target.dataset.result)
 		// console.log(data)
 		console.log(`onMarkerClick ${idx}`)
+		this.state.resultContainers.forEach(cont => {
+			if (cont && typeof cont.close === 'function') cont.close()
+		})
+		this.state.resultContainers[idx].open()
 	}
 
 	onResItemClick(idx) {
