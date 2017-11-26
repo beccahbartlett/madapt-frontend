@@ -115,9 +115,7 @@ class MapContainer extends Component {
 	}
 
 	onResItemClick(idx) {
-		console.log('dlfkjdfjkd')
 		console.log(`onResItemClick ${idx}`)
-		// console.log(this.state.mapMarkers[idx])
 		this.state.mapMarkers[idx].open()
 	}
 
@@ -130,7 +128,7 @@ class MapContainer extends Component {
 			url: url,
 			method: 'get',
 			params: {
-				q: service,
+				q: `${service} -type=practitioner`,
 				area: postcode
 			},
 			auth: {
