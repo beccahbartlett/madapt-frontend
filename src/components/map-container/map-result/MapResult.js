@@ -3,10 +3,41 @@ import './MapResult.css'
 
 class MapResult extends Component {
 
+	constructor(props) {
+		super(props)
+		this.state = {
+			style: {
+				border: 'none'
+			}
+		}
+	}
+
+	open(scroll) {
+		console.log('MapResult.open')
+		this.setState({
+			style: {
+				border: '5px dashed red'
+			}
+		})
+		if (scroll) this.ref.scrollIntoViewIfNeeded()
+	}
+
+	close() {
+		console.log('MapResult.close')
+		this.setState({
+			style: {
+				border: 'none'
+			}
+		})
+	}
+
 	render() {
+		const style = this.state.style
 		const result = this.props.result
 		return (
 			<div
+				ref={ref => {this.ref = ref}}
+				style={style}
 				onClick={this.props.onClick}
 				className="sf-map-result-container">
 				<span className="sf-map-result-title">{result.name}</span>
