@@ -116,6 +116,9 @@ class MapContainer extends Component {
 
 	onResItemClick(idx) {
 		console.log(`onResItemClick ${idx}`)
+		this.state.mapMarkers.forEach(marker => {
+			marker.close()
+		})
 		this.state.mapMarkers[idx].open()
 	}
 
@@ -149,7 +152,7 @@ class MapContainer extends Component {
 							lat: res.data.objects[0].location.point.lat,
 							lng: res.data.objects[0].location.point.lon,
 						},
-						zoomLevel: 15
+						zoomLevel: 12
 					}
 				})
 			})

@@ -19,6 +19,15 @@ class MapMarker extends Component {
 		})
 	}
 
+	close() {
+		console.log('MapMarker.close()')
+		this.setState({
+			style: {
+				border: 'none'
+			}
+		})
+	}
+
 	render() {
 		const result = this.props.result
 		const style = this.state.style
