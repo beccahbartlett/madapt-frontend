@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios'
 import GoogleMapReact from 'google-map-react';
 import MapResult from './map-result/MapResult'
+import MapMarker from './map-marker/MapMarker'
 import './MapContainer.css'
 
 class MapContainer extends Component {
@@ -197,13 +198,12 @@ class MapContainer extends Component {
 						defaultZoom={this.defaultZoom}>
 						{results && results.map((result, idx) => {
 							return (
-								<div
-									ref={marker => this.state.mapMarkers.push(marker)}
-									className={`sf-map-marker ${result['marker_type']}`}
-									open={() => { console.log('open') }}
+								<MapMarker
 									lat={result.location.point.lat}
 									lng={result.location.point.lon}
 									text={result.name}
+									result={result}
+									ref={marker => this.state.mapMarkers.push(marker)}
 									data-result={JSON.stringify(result)}
 								/>
 							)

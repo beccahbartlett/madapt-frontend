@@ -3,17 +3,12 @@ import './MapResult.css'
 
 class MapResult extends Component {
 
-	open() {
-		console.log('MapResult.open')
-	}
-
 	render() {
 		const result = this.props.result
 		const idx = this.props.idx
 		return (
 			<div
-				className="sf-map-result-container"
-				onClick={() => { this.props.onResItemClick(idx) }}>
+				className="sf-map-result-container">
 				<span className="sf-map-result-title">{result.name}</span>
 				<br/>
 				<span className="sf-map-result-addr">{this.props.parseStreetAddress(result.location)}</span>
