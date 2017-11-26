@@ -107,8 +107,6 @@ class MapContainer extends Component {
 	}
 
 	onMarkerClick(idx) {
-		// const data = JSON.parse(e.target.dataset.result)
-		// console.log(data)
 		console.log(`onMarkerClick ${idx}`)
 		this.state.resultContainers.forEach(cont => {
 			if (cont && typeof cont.close === 'function') cont.close()
@@ -132,6 +130,15 @@ class MapContainer extends Component {
 			if (cont && typeof cont.close === 'function') cont.close()
 		})
 		this.state.resultContainers[idx].open(false)
+
+		const data = this.state.resultContainers[idx].getData()
+		console.log(data.location.point)
+		this.setState({
+			coords: {
+				lat: data.location.point.lat,
+				lng: data.location.point.lon
+			}
+		})
 	}
 
 	makeSearchRequest(postcode, service) {
