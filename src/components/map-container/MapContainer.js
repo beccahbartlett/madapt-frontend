@@ -115,7 +115,7 @@ class MapContainer extends Component {
 	onResItemClick(idx) {
 		console.log(`onResItemClick ${idx}`)
 		this.state.mapMarkers.forEach(marker => {
-			if (marker.close) marker.close()
+			if (marker && typeof marker.close === 'function') marker.close()
 		})
 		this.state.mapMarkers[idx].open()
 	}
