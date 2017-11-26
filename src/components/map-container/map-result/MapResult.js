@@ -5,9 +5,9 @@ class MapResult extends Component {
 
 	render() {
 		const result = this.props.result
-		const idx = this.props.idx
 		return (
 			<div
+				onClick={this.props.onClick}
 				className="sf-map-result-container">
 				<span className="sf-map-result-title">{result.name}</span>
 				<br/>

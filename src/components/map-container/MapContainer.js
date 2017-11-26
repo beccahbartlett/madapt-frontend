@@ -115,9 +115,10 @@ class MapContainer extends Component {
 	}
 
 	onResItemClick(idx) {
+		console.log('dlfkjdfjkd')
 		console.log(`onResItemClick ${idx}`)
 		// console.log(this.state.mapMarkers[idx])
-		// this.state.mapMarkers[idx].open()
+		this.state.mapMarkers[idx].open()
 	}
 
 	makeSearchRequest(postcode, service) {
@@ -177,9 +178,7 @@ class MapContainer extends Component {
 							return (
 								<MapResult
 									parseStreetAddress={this.parseStreetAddress}
-									onResItemClick={this.onResItemClick}
 									result={result}
-									idx={idx}
 									ref={ref => this.state.resultContainers.push(ref)}
 									onClick={() => { this.onResItemClick(idx) }}
 								/>
@@ -205,6 +204,7 @@ class MapContainer extends Component {
 									result={result}
 									ref={marker => this.state.mapMarkers.push(marker)}
 									data-result={JSON.stringify(result)}
+									onClick={() => { this.onMarkerClick(idx) }}
 								/>
 							)
 						})}

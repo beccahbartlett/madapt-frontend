@@ -10,6 +10,7 @@ class MapMarker extends Component {
 		const result = this.props.result
 		return (
 			<div
+				onClick={this.props.onClick}
 				className={`sf-map-marker ${result['marker_type']}`}
 			/>
 		)
