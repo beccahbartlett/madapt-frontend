@@ -19,7 +19,7 @@ class NavMenu extends Component {
           icon: iconAccess,
           name: {
             en: 'Healthcare in Australia',
-            ar: 'تسجيل الدخول' 
+            ar: 'العنايه الصحيه في أستراليا'
           },
           url: '/healthcare-australia'
         },
