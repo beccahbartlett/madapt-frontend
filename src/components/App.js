@@ -126,7 +126,7 @@ class App extends Component {
                 changeStyle={this.changeStyle}
 								theme={4} />} />
 							<Route
-                exact path='/family-health'
+                exact path='/community-health'
                 component={(props) => <FamilyHealth {...props}
                 lang={this.state.lang}
                 changeStyle={this.changeStyle}

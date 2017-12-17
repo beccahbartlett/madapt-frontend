@@ -203,48 +203,48 @@
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Women's Health",
-		"contentUrl": "/content/family-health/womens-health.json",
-		"displayUrl": "/family-health/womens-health",
+		"contentUrl": "/content/community-health/womens-health.json",
+		"displayUrl": "/community-health/womens-health",
 		"style": 5
 	},
 	{
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Men's Health",
-		"contentUrl": "/content/family-health/mens-health.json",
-		"displayUrl": "/family-health/mens-health",
+		"contentUrl": "/content/community-health/mens-health.json",
+		"displayUrl": "/community-health/mens-health",
 		"style": 5
 	},
 	{
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Teen Health",
-		"contentUrl": "/content/family-health/teen-health.json",
-		"displayUrl": "/family-health/teen-health",
+		"contentUrl": "/content/community-health/teen-health.json",
+		"displayUrl": "/community-health/teen-health",
 		"style": 5
 	},
 	{
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Children's Health",
-		"contentUrl": "/content/family-health/childrens-health.json",
-		"displayUrl": "/family-health/childrens-health",
+		"contentUrl": "/content/community-health/childrens-health.json",
+		"displayUrl": "/community-health/childrens-health",
 		"style": 5
 	},
 	{
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Mental Health",
-		"contentUrl": "/content/family-health/mental-health.json",
-		"displayUrl": "/family-health/mental-health",
+		"contentUrl": "/content/community-health/mental-health.json",
+		"displayUrl": "/community-health/mental-health",
 		"style": 5
 	},
 	{
 		"type": "contentPage",
 		"section": "familyHealth",
 		"name": "Violence",
-		"contentUrl": "/content/family-health/violence.json",
-		"displayUrl": "/family-health/violence",
+		"contentUrl": "/content/community-health/violence.json",
+		"displayUrl": "/community-health/violence",
 		"style": 5
 	}
 ]
