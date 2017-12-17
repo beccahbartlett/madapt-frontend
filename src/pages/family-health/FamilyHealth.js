@@ -19,7 +19,7 @@ class FamilyHealth extends Component {
             'en': 'Women\'s Health',
             'ar': 'صحة المرأة'
           },
-          linkUrl: '/family-health/womens-health'
+          linkUrl: '/community-health/womens-health'
         },
         {
           imgSrc: MensHealthIcon,
@@ -28,7 +28,7 @@ class FamilyHealth extends Component {
             'en': 'Men\'s health',
             'ar': 'صحة الرجل'
           },
-          linkUrl: '/family-health/mens-health'
+          linkUrl: '/community-health/mens-health'
         },
         {
           imgSrc: TeenHealthIcon,
@@ -37,7 +37,7 @@ class FamilyHealth extends Component {
             'en': 'Teen Health',
             'ar': 'صحة الأطفال' 
           },
-          linkUrl: '/family-health/teen-health'
+          linkUrl: '/community-health/teen-health'
         },
         {
           imgSrc: ChildrensHealthIcon,
@@ -46,7 +46,7 @@ class FamilyHealth extends Component {
             'en': 'Children\'s Health',
             'ar': 'صحة المراهقين'
           },
-          linkUrl: '/family-health/childrens-health'
+          linkUrl: '/community-health/childrens-health'
         },
         {
           imgSrc: MentalHealthIcon,
@@ -55,7 +55,7 @@ class FamilyHealth extends Component {
             'en': 'Mental Health',
             'ar': 'الصحة العقلية' 
           },
-          linkUrl: '/family-health/mental-health'
+          linkUrl: '/community-health/mental-health'
         },
         {
           imgSrc: Violence,
@@ -64,7 +64,7 @@ class FamilyHealth extends Component {
             'en': 'Violence',
             'ar': 'العنف' 
           },
-          linkUrl: '/family-health/violence'
+          linkUrl: '/community-health/violence'
         }
       ]
     }

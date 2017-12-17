@@ -50,10 +50,10 @@ class NavMenu extends Component {
         {
           icon: iconFamilyHealth,
           name: {
-            en: 'Family and Social Health',
+            en: 'Community Health',
             ar: 'صحة المجتمع والعائلة'
           },
-          url: '/family-health'
+          url: '/community-health'
         },
         {
           icon: iconClinics,
