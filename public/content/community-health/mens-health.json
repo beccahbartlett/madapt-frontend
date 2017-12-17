@@ -1,74 +1,70 @@
 {
-		"arabicComplete": true,
-		"style": 5,
-    "title": {
-        "en": "Men's Health",
-        "ar": "صحة الرجال"
-    },
-    "summary": {
-        "en": "<p><b>Right to Quality Health Care.</b> All medical staff should communicate with you throughout your visit. If you are unsure of anything that is happening, you have the right to ask them to stop and expliain what is happening. You also have a right to decline care or to ask for more information before consenting to any procedure or intervention.<p>",
-        "ar": "<p>الحق في الرعاية الصحية الجيدة. يجب على جميع الموظفين الطبيين التواصل معك طوال زيارتك. إذا لم تكن متأكدا من أي شيء يحدث، لديك الحق في مطالبتهم بوقف واستكشاف ما يحدث. لديك أيضا الحق في رفض الرعاية أو لطلب المزيد من المعلومات قبل الموافقة على أي إجراء أو التدخل.</p>"
-    },
-    "topLevelVideo": "",
-    "tab": [{
-            "title": {
-                "en": "Erectile Dysfunction (ED)",
-                "ar": "ضعف الانتصاب"
-            },
-            "text": {
-                "en": "<p>Erectile Dysfunction is another term for impotence. Impotence occurs when a man is unable to get or keep an erection that is adequate for sexual intercourse. It is a common problem, and can be caused by both physical and psychological factors.</p>",
-                "ar": "<p>هو مصطلح آخر للعجز الجنسي.</p><p>يحدث العجز الجنسي عندما يكون الرجل غير قادر على الحصول على أو الحفاظ على الانتصاب الذي هو كاف للجماع الجنسي. إنها مشكلة شائعة، ممكن أن تكون ناجمة عن عوامل جسدية ونفسية.</p>"
-            },
-            "image": "",
-            "video": ["https://www.youtube.com/embed/h6xBne6GBd0?rel=0"],
-            "links": [
-            {
-              "title": {
-                "en": "Erectile Dysfunction",
-                "ar": "ضعف الانتصاب"
-              },
-              "url": " https://www.healthdirect.gov.au/erectile-dysfunction"
-            }
-          ]
-        },
-        {
-            "title": {
-                "en": "Male Infertility",
-                "ar": "العقم عند الذكر"
-            },
-            "text": {
-                "en": "<p>Male infertility is the sole cause of infertility in 1 in 5 infertile couples. This occurs when there is a problem with sperm production or transport, and can be diagnosed through medical testing.</p>",
-                "ar": "<p>لعقم عند الذكور هو السبب الوحيد للعقم في 1 من أصل 5 من الأزواج. يحدث هذا عندما يكون هناك مشكلة في إنتاج الحيوانات المنوية أو حركتها، يتم تشخيصه من خلال الاختبارات الطبية.</p>"
-            },
-            "image": "https://www.andrologyaustralia.org/wp-content/uploads/Male-Infertility-Guide-WEB.pdf",
-            "video": ["https://www.youtube.com/embed/4Q5L4ROOD0g?rel=0"],
-            "links": []
-        },
-        {
-            "title": {
-                "en": "Prostate Cancer",
-                "ar": "سرطان البروستات"
-            },
-            "text": {
-                "en": "<p>Prostate cancer is the most common cancer in men. It occurs when the cells of the prostate, the gland between the penis and bladder that helps with sperm production, grow out of control. Some symptoms include blood in the urine, pain with urination, and difficulty urinating. It is important to have routine check-ups with your GP in order to screen for prostate cancer.</p>",
-                "ar": "<p>سرطان البروستات هو السرطان الأكثر شيوعا لدى الرجال.</p><p>يحدث عندما تنمو خلايا البروستات، وهي الغدة المتوضعة بين القضيب والمثانة والتي تساعد في إنتاج الحيوانات المنوية، خارج نطاق السيطرة. وتشمل بعض الأعراض الدم في البول، والألم مع التبول، وصعوبة بالتبول.</p><p>من المهم إجراء فحوصات روتينية مع طبيبك العام من أجل فحص دوري للبروستات.</p>"
-            },
-            "image": "",
-            "video": ["https://www.youtube.com/embed/aDBzMUEnLSg?rel=0"],
-            "links": [
-            {
-              "title": {
-                "en": "Prostate Cancer",
-                "ar": "سرطان البروستات"
-              },
-              "url": "https://www.healthdirect.gov.au/prostate-cancer"
-            }
-          ]
-        
-        }
-    ],
-    "notes": {
-        "en": "",
-        "ar": "<h3>موارد</h3><ul><li><a href=\"http://www.mhcs.health.nsw.gov.au/publicationsandresources/pdf/publication-pdfs/5360/bhc-5360-ara.pdf/at_download/file\">الرجال و الطلاق</a></li></ul>"
-    }
+	"arabicComplete": true,
+	"style": 5,
+	"title": {
+		"en": "Men's Health",
+		"ar": "صحة الرجال"
+	},
+	"summary": {
+		"en": "<p><b>Right to Quality Health Care.</b> All medical staff should communicate with you throughout your visit. If you are unsure of anything that is happening, you have the right to ask them to stop and expliain what is happening. You also have a right to decline care or to ask for more information before consenting to any procedure or intervention.<p>",
+		"ar": "<p>الحق في الرعاية الصحية الجيدة. يجب على جميع الموظفين الطبيين التواصل معك طوال زيارتك. إذا لم تكن متأكدا من أي شيء يحدث، لديك الحق في مطالبتهم بوقف واستكشاف ما يحدث. لديك أيضا الحق في رفض الرعاية أو لطلب المزيد من المعلومات قبل الموافقة على أي إجراء أو التدخل.</p>"
+	},
+	"topLevelVideo": "",
+	"tab": [{
+			"title": {
+				"en": "Erectile Dysfunction (ED)",
+				"ar": "ضعف الانتصاب"
+			},
+			"text": {
+				"en": "<p>Erectile Dysfunction is another term for impotence. Impotence occurs when a man is unable to get or keep an erection that is adequate for sexual intercourse. It is a common problem, and can be caused by both physical and psychological factors.</p>",
+				"ar": "<p>هو مصطلح آخر للعجز الجنسي.</p><p>يحدث العجز الجنسي عندما يكون الرجل غير قادر على الحصول على أو الحفاظ على الانتصاب الذي هو كاف للجماع الجنسي. إنها مشكلة شائعة، ممكن أن تكون ناجمة عن عوامل جسدية ونفسية.</p>"
+			},
+			"image": "",
+			"video": ["https://www.youtube.com/embed/h6xBne6GBd0?rel=0"],
+			"links": [{
+				"title": {
+					"en": "Erectile Dysfunction",
+					"ar": "ضعف الانتصاب"
+				},
+				"url": " https://www.healthdirect.gov.au/erectile-dysfunction"
+			}]
+		},
+		{
+			"title": {
+				"en": "Male Infertility",
+				"ar": "العقم عند الذكر"
+			},
+			"text": {
+				"en": "<p>Male infertility is the sole cause of infertility in 1 in 5 infertile couples. This occurs when there is a problem with sperm production or transport, and can be diagnosed through medical testing.</p>",
+				"ar": "<p>لعقم عند الذكور هو السبب الوحيد للعقم في 1 من أصل 5 من الأزواج. يحدث هذا عندما يكون هناك مشكلة في إنتاج الحيوانات المنوية أو حركتها، يتم تشخيصه من خلال الاختبارات الطبية.</p>"
+			},
+			"image": "https://www.andrologyaustralia.org/wp-content/uploads/Male-Infertility-Guide-WEB.pdf",
+			"video": ["https://www.youtube.com/embed/4Q5L4ROOD0g?rel=0"],
+			"links": []
+		},
+		{
+			"title": {
+				"en": "Prostate Cancer",
+				"ar": "سرطان البروستات"
+			},
+			"text": {
+				"en": "<p>Prostate cancer is the most common cancer in men. It occurs when the cells of the prostate, the gland between the penis and bladder that helps with sperm production, grow out of control. Some symptoms include blood in the urine, pain with urination, and difficulty urinating. It is important to have routine check-ups with your GP in order to screen for prostate cancer.</p>",
+				"ar": "<p>سرطان البروستات هو السرطان الأكثر شيوعا لدى الرجال.</p><p>يحدث عندما تنمو خلايا البروستات، وهي الغدة المتوضعة بين القضيب والمثانة والتي تساعد في إنتاج الحيوانات المنوية، خارج نطاق السيطرة. وتشمل بعض الأعراض الدم في البول، والألم مع التبول، وصعوبة بالتبول.</p><p>من المهم إجراء فحوصات روتينية مع طبيبك العام من أجل فحص دوري للبروستات.</p>"
+			},
+			"image": "",
+			"video": ["https://www.youtube.com/embed/aDBzMUEnLSg?rel=0"],
+			"links": [{
+				"title": {
+					"en": "Prostate Cancer",
+					"ar": "سرطان البروستات"
+				},
+				"url": "https://www.healthdirect.gov.au/prostate-cancer"
+			}]
+
+		}
+	],
+	"notes": {
+		"en": "",
+		"ar": "<h3>موارد</h3><ul><li><a href=\"http://www.mhcs.health.nsw.gov.au/publicationsandresources/pdf/publication-pdfs/5360/bhc-5360-ara.pdf/at_download/file\">الرجال و الطلاق</a></li></ul>"
+	}
 }

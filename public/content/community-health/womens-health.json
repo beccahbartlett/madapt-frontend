@@ -1,116 +1,107 @@
 {
 	"arabicComplete": true,
 	"style": 5,
-    "title": {
-        "en": "Women's Health",
-        "ar": "صحة المرأة"
-    },
-    "summary": {
-        "en": "<p><b>Right to Quality Health Care.</b> All medical staff should communicate with you throughout your visit. If you are unsure of anything that is happening, you have the right to ask them to stop and expliain what is happening. You also have a right to decline care or to ask for more information before consenting to any procedure or intervention. A Well Women'c Check is performed by your GP or OB/GYN, and consists of the following:</p>",
-        "ar": "<p>يجب فحص النساء الأصحاء بشكل جيد حيث يتم إجراء اختبار اللطاخة من قبل طبيبك العام أو طبيب النساء، ويتكون الفحص من مقابلة طبية، مع فحص فيزيائي واختبار اللطاخة، وفحص الثدي.</p><p>اختبار اللطاخة هو فحص لاختبار خلايا عنق الرحم التي من المحتمل أن تؤدي إلى سرطان عنق الرحم.</p><p>عنق الرحم هو ممر ضيق في الجزء السفلي من الرحم.وبالتالي يمكن الوقاية من 90٪ من سرطان عنق الرحم خلال وجود اختبار لطاخة  منتظم. يجب إجراء هذا الاختبار كل عامين ولكن سيتم اعتماده كل خمس سنوات لكل امرأة تبدأ نشاطها الجنسي بعد سنة إلى سنتين من ممارسة الجنس وحتى سن 70 سنة.</p>"
-    },
-    "topLevelVideo": "",
-    "tab": [
-        {
-          "title": {
-              "en": "Well Women’s Check",
-              "ar": "الفحص  الجيد للنساء"
-          },
-          "text": {
-              "en": "<p>A well women’s test is done by your GP or Ob/gyn, and consists of a medical interview, a physical exam, a pap test, and a breast exam.</p>",
-              "ar": "<p>يتم إجراء اختبار النساء جيدا من قبل  طبيبك العام أو الطبيب الأخصائي  ويتكون من مقابلة طبية، والفحص البدني، واختبار الحلمة، واختبار الثدي.</p>"
-          },
-          "image": "",
-          "video": "",
-          "links": []
-        },
-        {
-          "title": {
-              "en": "Cervical Cancer Screen - PAP Test",
-              "ar": "مسح سرطان عنق الرحم  -  اختبارحلمة الثدي"
-          },
-          "text": {
-              "en": "<p>This is a screening to test cervical cells for irregularities that could potentially lead to cervical cancer. The cervix is a narrow passage at the bottom of the uterus. Up to 90% of cervical cancers can be prevented by having a regular pap test. This test is to be done every two years  but will soon be moved to every five years for all women starting one to two years after becoming sexually active for the first time until 70 years of age.</p>",
-              "ar": "<p>هذا هو فحص لاختبار خلايا عنق الرحم عن المخالفات التي من المحتمل أن تؤدي إلى سرطان عنق الرحم. عنق الرحم هو ممر ضيق في الجزء السفلي من الرحم. يمكن منع ما يصل إلى 90٪ من سرطان عنق الرحم عن طريق إجراء اختبار باب منتظم. وينبغي إجراء هذا الاختبار كل سنتين ولكن سينتقل قريبا إلى كل خمس سنوات لجميع النساء اللواتي يبدأن من سنة إلى سنتين بعد أن يصبحن ناشطات جنسيا لأول مرة حتى سن 70 سنة.</p>"
-          },
-          "image": "",
-          "video": ["https://www.youtube.com/embed/1JzV6z6G2Rc"],
-          "links": [
-            {
-              "title": {
-                "en": "Pap tests",
-                "ar": "اختبارات باب"
-              },
-              "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/pap-tests"
-            }
-          ]
-        },
-        {
-          "title": {
-              "en": "Breast Exam",
-              "ar": "فحص الثدي"
-          },
-          "text": {
-              "en": "<p>A breast exam is done by a medical practitioner during a well women’s check by massaging the breast and under the armpits in a number of different ways in order to feel for lumps or changes in the tissue. If something abnormal is felt then you will be referred to have a mammogram (breast x-ray) and possibly to have a biopsy of the tissue in order to make sure the lump is not cancerous. Talk to your GP about the best way to self-check for breast changes in the privacy of your own home.</p>",
-              "ar": "<p>يتم فحص الثدي من قبل طبيب ممارس يجب  فحص الثدي جيدا عن طريق تدليك الثدي وتحت الإبطين في عدد من الطرق المختلفة من أجل الشعور بالكتل أو التغيرات في الأنسجة.</p><p>ذا شعرت بشيء غير طبيعي ثم سيتم إحالتك إلى تصوير الثدي بالأشعة ماموغام، وربما يتم  أخذ خزعة من الأنسجة من أجل التأكد من أن الكتلة ليست سرطانية.</p><p>تحدث مع طبيبك العام عن أفضل طريقة للتحقق من أي تغيير بالثدي في المنزل.</p>"
-          },
-          "image": "http://cdn.shopify.com/s/files/1/0392/9333/files/blog_mammary-exam-card.jpg?3082",
-          "video": "",
-          "links": [
-            {
-              "title": {
-                "en": "The Five Steps of a Breast Self-Exam",
-                "ar": ""
-              },
-              "url": "http://www.breastcancer.org/symptoms/testing/types/self_exam/bse_steps"
-            }
-          ]
-        },
-        {
-          "title": {
-              "en": "Gynecological Conditions",
-              "ar": "أمراض النساء"
-          },
-          "text": {
-              "en": "<ul><li><b>Urinary Tract Infection (UTI)</b> A UTI is any infection to the urethra, bladder, ureters, or kidneys. It can cause symptoms that include: burning with urination, increased urinary frequency, urinating only small amounts, odorous urine, and lower back pain. UTIs are diagnosed with a urine sample and treated with antibiotics.</li>  <li><b>Thrush</b> Vaginal thrush is an infection that most women get at some point in their life. It can feel like an itching and/or burning sensation and can leave your vaginal and vulval area looking red and cause a white discharge. It is mostly harmless and is caused by an overgrowth of Candida albicans yeast. You should visit your chemist for a vaginal cream or tablets (both oral and vaginal are available), but should see your doctor if it occurs more than twice during a single year. Thrush can also occur in other parts of the body, such as the mouth and is often the result of antibiotic use as these alter the balance of good and bad bacteria in the body.</li>  <li><b>Polycystic Ovarian Syndrome (PCOS)</b> PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects./n/n Incontinence- Incontinence is the uncontrolled leakage of urine or feces. Causes for this vary, but one common cause of urinary incontinence can be childbirth.</li></ul>",
-              "ar": "<ul><li><b>التهاب المسالك البولية</b>التهاب المسالك البولية هو أي عدوى في مجرى البول، المثانة، الحالب، أو الكلى. تشمل الأعراض حرقة عند التبول، وزيادة عدد مرات التبول، والتبول كميات صغيرة فقط، وظهور رائحة للبول، وآلام في أسفل الظهر. يتم تشخيص التهاب المجاري البولية بفحص عينة من البول ومعالجتها بالمضادات الحيوية. </li><li><b>القلاع المهبلية</b><p>القلاع هو عدوى تحصل عليها معظم النساء في مرحلة ما من حياتهن.  يمكن أن تشعر بإحساس حكة و / أو حرقان، ويمكن أن تبدو منطقة المهبل والفرج حمراء  مع مفرزات بيضاء. </p><p>غير مؤذية في معظم الحالات، سببها  فرط نمو خميرة مبيضات البيض. يجب عليك زيارة الصيدلي الخاص بك للحصول على كريم مهبلي أو أقراص (عن طريق الفم أوالمهبل)، ولكن يجب مراجعة الطبيب إذا تكرر حدوثها أكثر من مرتين خلال سنة واحدة. يمكن أن تحدث هذه الآفة أيضا في أجزاء أخرى من الجسم، مثل الفم وغالبا ما يكون نتيجة لاستخدام المضادات الحيوية حيث أن استخدامها سيؤدي إلى تغييرات في التوازن بين الجراثيم  النافعة  والضارة في الجسم.</p><p>أثناء الرضاعة الطبيعية من الممكن أن تصاب الحلمات بالتقرح أو التشقق وتنتقل العدوى إلى فم طفلك. وعادة ما يعالج باستعمال قطرات عن طريق الفم أو هلام للطفل، وكريم بالنسبة لك.</p></li><li><p><b>متلازمة المبيض المتعدد الكيسات</b>متلازمة تكيس المبايض هي متلازمة هرمونية مرتبطة بوجود مستويات عالية من هرمونات الاندروجين في الجسم. هذه الهرمونات يمكن أن تؤدي إلى تقلبات في الدورة الشهرية، وزيادة في الوزن، مشاكل بالخصوبة، وتغيرات نفسية.</p></li></ul>"
-          },
-          "image": "http://image2.123tagged.com/images/m/mouth_thrush-21228.jpg",
-          "video": "",
-          "links": [
-            {
-              "title": {
-                "en": "Urinary Tract Infection",
-                "ar": "Urinary Tract Infection"
-              },
-              "url": "http://www.health.vic.gov.au/edfactsheets/downloads/urinary-tract-infections.pdf"
-            }
-          ]
-        },
-        {
-          "title": {
-              "en": "Elderly Issues",
-              "ar": "نقطاع الطمث"
-          },
-          "text": {
-              "en": "<p>Menopause is when a woman stops her menstrual cycle and ovulating (release eggs), and typically occurs around 50 years of age. Menopause is said to have occurred when she has stopped menstruating for more than a year. When this occurs the hormones that control menstruation lower and can cause a multitude of side effects including: hot flashes, vaginal changes, and mood fluctuations. /n/n Polycystic Ovarian Syndrome (PCOS): PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects. /n/n Prolapse- A prolapse can occur when muscles in your pelvic floor are weakened and the muscle and tendons that hold pelvic organs in place stretch or tear causing vaginal (or other pelvic organs) to descend through the vagina.</p>",
-              "ar": "<p> انقطاع الطمث هو عندما تتوقف الدورة الشهرية والإباضة عند المرأة ، وعادة ما يحدث في  حوالي  50 سنة من العمر. ويقال ان انقطاع الطمث يحدث عندما يتوقف الحيض لأكثر من عام. حيث تقل الهرمونات التي تتحكم بالطمث ويمكن أن ترافقه العديد من الآثار الجانبية بما في ذلك: الهبات الساخنة، والتغيرات المهبلية، وتقلبات المزاج.</p>"
-          },
-          "image": "",
-          "video": ["https://www.youtube.com/embed/DJ9V5fg4Ug4?rel=0"],
-          "links": [
-            {
-              "title": {
-                "en": "Continence",
-                "ar": "Continence"
-              },
-              "url": "https://www.continence.org.au/other-languages.php/26/English"
-            }
-          ]
-        }
-    ],
-    "notes": {
-      "en": "",
-      "ar": "<h3>موارد</h3><ul>  <li><a href='http://www.papscreen.org.au/downloads/resources/information_sheets/lote/Arabic_Abnormal_Pap_test_results.pdf'>نتائج غير طبيعية لفحص عنق  لرحم </a></li> <li><a href='http://www.dvrcv.org.au/sites/thelookout.sites.go1.com.au/files/for-women-with-disabilities-Arabic.pdf'>الحصول على الحرية- دليل للنساء اللواتي لديھن إعاقة</a></li> <li><a href='http://www.mhcs.health.nsw.gov.au/publicationsandresources/pdf/publication-pdfs/disabilities/8795/doh-8795-ara.pdf/at_download/file'>كيف تكونني امرأة بصحة جيدة</a></li> <li><a href='https://www.fpnsw.org.au/sites/default/files/assets/menstruation_comarabic.pdf'>الحيض )الدورة الشهرية( وكيف يمكنك التعامل معها</a></li> <li><a href='https://canceraustralia.gov.au/system/tdf/publications/ca_04_15_-_gynae_cancer_factsheet-ara.pdf?file=1&type=node&id=3800'>صفحة وقائع السرطانات النسائیة</a></li>  <li><a href='https://www.fpnsw.org.au/sites/default/files/assets/commonvaginalandvulvalconditions_comarabic_1_0.pdf'>حاالت المهبل والفرج الشائعة</a></li> <li><a href='https://www.bcna.org.au/media/2147/about-breast-cancer-arabic.pdf'>سرطان الثدي</a></li></ul>"
-    }
+	"title": {
+		"en": "Women's Health",
+		"ar": "صحة المرأة"
+	},
+	"summary": {
+		"en": "<p><b>Right to Quality Health Care.</b> All medical staff should communicate with you throughout your visit. If you are unsure of anything that is happening, you have the right to ask them to stop and expliain what is happening. You also have a right to decline care or to ask for more information before consenting to any procedure or intervention. A Well Women'c Check is performed by your GP or OB/GYN, and consists of the following:</p>",
+		"ar": "<p>يجب فحص النساء الأصحاء بشكل جيد حيث يتم إجراء اختبار اللطاخة من قبل طبيبك العام أو طبيب النساء، ويتكون الفحص من مقابلة طبية، مع فحص فيزيائي واختبار اللطاخة، وفحص الثدي.</p><p>اختبار اللطاخة هو فحص لاختبار خلايا عنق الرحم التي من المحتمل أن تؤدي إلى سرطان عنق الرحم.</p><p>عنق الرحم هو ممر ضيق في الجزء السفلي من الرحم.وبالتالي يمكن الوقاية من 90٪ من سرطان عنق الرحم خلال وجود اختبار لطاخة  منتظم. يجب إجراء هذا الاختبار كل عامين ولكن سيتم اعتماده كل خمس سنوات لكل امرأة تبدأ نشاطها الجنسي بعد سنة إلى سنتين من ممارسة الجنس وحتى سن 70 سنة.</p>"
+	},
+	"topLevelVideo": "",
+	"tab": [{
+			"title": {
+				"en": "Well Women’s Check",
+				"ar": "الفحص  الجيد للنساء"
+			},
+			"text": {
+				"en": "<p>A well women’s test is done by your GP or Ob/gyn, and consists of a medical interview, a physical exam, a pap test, and a breast exam.</p>",
+				"ar": "<p>يتم إجراء اختبار النساء جيدا من قبل  طبيبك العام أو الطبيب الأخصائي  ويتكون من مقابلة طبية، والفحص البدني، واختبار الحلمة، واختبار الثدي.</p>"
+			},
+			"image": "",
+			"video": "",
+			"links": []
+		},
+		{
+			"title": {
+				"en": "Cervical Cancer Screen - PAP Test",
+				"ar": "مسح سرطان عنق الرحم  -  اختبارحلمة الثدي"
+			},
+			"text": {
+				"en": "<p>This is a screening to test cervical cells for irregularities that could potentially lead to cervical cancer. The cervix is a narrow passage at the bottom of the uterus. Up to 90% of cervical cancers can be prevented by having a regular pap test. This test is to be done every two years  but will soon be moved to every five years for all women starting one to two years after becoming sexually active for the first time until 70 years of age.</p>",
+				"ar": "<p>هذا هو فحص لاختبار خلايا عنق الرحم عن المخالفات التي من المحتمل أن تؤدي إلى سرطان عنق الرحم. عنق الرحم هو ممر ضيق في الجزء السفلي من الرحم. يمكن منع ما يصل إلى 90٪ من سرطان عنق الرحم عن طريق إجراء اختبار باب منتظم. وينبغي إجراء هذا الاختبار كل سنتين ولكن سينتقل قريبا إلى كل خمس سنوات لجميع النساء اللواتي يبدأن من سنة إلى سنتين بعد أن يصبحن ناشطات جنسيا لأول مرة حتى سن 70 سنة.</p>"
+			},
+			"image": "",
+			"video": ["https://www.youtube.com/embed/1JzV6z6G2Rc"],
+			"links": [{
+				"title": {
+					"en": "Pap tests",
+					"ar": "اختبارات باب"
+				},
+				"url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/pap-tests"
+			}]
+		},
+		{
+			"title": {
+				"en": "Breast Exam",
+				"ar": "فحص الثدي"
+			},
+			"text": {
+				"en": "<p>A breast exam is done by a medical practitioner during a well women’s check by massaging the breast and under the armpits in a number of different ways in order to feel for lumps or changes in the tissue. If something abnormal is felt then you will be referred to have a mammogram (breast x-ray) and possibly to have a biopsy of the tissue in order to make sure the lump is not cancerous. Talk to your GP about the best way to self-check for breast changes in the privacy of your own home.</p>",
+				"ar": "<p>يتم فحص الثدي من قبل طبيب ممارس يجب  فحص الثدي جيدا عن طريق تدليك الثدي وتحت الإبطين في عدد من الطرق المختلفة من أجل الشعور بالكتل أو التغيرات في الأنسجة.</p><p>ذا شعرت بشيء غير طبيعي ثم سيتم إحالتك إلى تصوير الثدي بالأشعة ماموغام، وربما يتم  أخذ خزعة من الأنسجة من أجل التأكد من أن الكتلة ليست سرطانية.</p><p>تحدث مع طبيبك العام عن أفضل طريقة للتحقق من أي تغيير بالثدي في المنزل.</p>"
+			},
+			"image": "http://cdn.shopify.com/s/files/1/0392/9333/files/blog_mammary-exam-card.jpg?3082",
+			"video": "",
+			"links": [{
+				"title": {
+					"en": "The Five Steps of a Breast Self-Exam",
+					"ar": ""
+				},
+				"url": "http://www.breastcancer.org/symptoms/testing/types/self_exam/bse_steps"
+			}]
+		},
+		{
+			"title": {
+				"en": "Gynecological Conditions",
+				"ar": "أمراض النساء"
+			},
+			"text": {
+				"en": "<ul><li><b>Urinary Tract Infection (UTI)</b> A UTI is any infection to the urethra, bladder, ureters, or kidneys. It can cause symptoms that include: burning with urination, increased urinary frequency, urinating only small amounts, odorous urine, and lower back pain. UTIs are diagnosed with a urine sample and treated with antibiotics.</li>  <li><b>Thrush</b> Vaginal thrush is an infection that most women get at some point in their life. It can feel like an itching and/or burning sensation and can leave your vaginal and vulval area looking red and cause a white discharge. It is mostly harmless and is caused by an overgrowth of Candida albicans yeast. You should visit your chemist for a vaginal cream or tablets (both oral and vaginal are available), but should see your doctor if it occurs more than twice during a single year. Thrush can also occur in other parts of the body, such as the mouth and is often the result of antibiotic use as these alter the balance of good and bad bacteria in the body.</li>  <li><b>Polycystic Ovarian Syndrome (PCOS)</b> PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects./n/n Incontinence- Incontinence is the uncontrolled leakage of urine or feces. Causes for this vary, but one common cause of urinary incontinence can be childbirth.</li></ul>",
+				"ar": "<ul><li><b>التهاب المسالك البولية</b>التهاب المسالك البولية هو أي عدوى في مجرى البول، المثانة، الحالب، أو الكلى. تشمل الأعراض حرقة عند التبول، وزيادة عدد مرات التبول، والتبول كميات صغيرة فقط، وظهور رائحة للبول، وآلام في أسفل الظهر. يتم تشخيص التهاب المجاري البولية بفحص عينة من البول ومعالجتها بالمضادات الحيوية. </li><li><b>القلاع المهبلية</b><p>القلاع هو عدوى تحصل عليها معظم النساء في مرحلة ما من حياتهن.  يمكن أن تشعر بإحساس حكة و / أو حرقان، ويمكن أن تبدو منطقة المهبل والفرج حمراء  مع مفرزات بيضاء. </p><p>غير مؤذية في معظم الحالات، سببها  فرط نمو خميرة مبيضات البيض. يجب عليك زيارة الصيدلي الخاص بك للحصول على كريم مهبلي أو أقراص (عن طريق الفم أوالمهبل)، ولكن يجب مراجعة الطبيب إذا تكرر حدوثها أكثر من مرتين خلال سنة واحدة. يمكن أن تحدث هذه الآفة أيضا في أجزاء أخرى من الجسم، مثل الفم وغالبا ما يكون نتيجة لاستخدام المضادات الحيوية حيث أن استخدامها سيؤدي إلى تغييرات في التوازن بين الجراثيم  النافعة  والضارة في الجسم.</p><p>أثناء الرضاعة الطبيعية من الممكن أن تصاب الحلمات بالتقرح أو التشقق وتنتقل العدوى إلى فم طفلك. وعادة ما يعالج باستعمال قطرات عن طريق الفم أو هلام للطفل، وكريم بالنسبة لك.</p></li><li><p><b>متلازمة المبيض المتعدد الكيسات</b>متلازمة تكيس المبايض هي متلازمة هرمونية مرتبطة بوجود مستويات عالية من هرمونات الاندروجين في الجسم. هذه الهرمونات يمكن أن تؤدي إلى تقلبات في الدورة الشهرية، وزيادة في الوزن، مشاكل بالخصوبة، وتغيرات نفسية.</p></li></ul>"
+			},
+			"image": "http://image2.123tagged.com/images/m/mouth_thrush-21228.jpg",
+			"video": "",
+			"links": [{
+				"title": {
+					"en": "Urinary Tract Infection",
+					"ar": "Urinary Tract Infection"
+				},
+				"url": "http://www.health.vic.gov.au/edfactsheets/downloads/urinary-tract-infections.pdf"
+			}]
+		},
+		{
+			"title": {
+				"en": "Elderly Issues",
+				"ar": "نقطاع الطمث"
+			},
+			"text": {
+				"en": "<p>Menopause is when a woman stops her menstrual cycle and ovulating (release eggs), and typically occurs around 50 years of age. Menopause is said to have occurred when she has stopped menstruating for more than a year. When this occurs the hormones that control menstruation lower and can cause a multitude of side effects including: hot flashes, vaginal changes, and mood fluctuations. /n/n Polycystic Ovarian Syndrome (PCOS): PCOS is a hormonal syndrome linked to high levels of androgen hormones in the body. These hormones can lead to fluctuations in the menstrual cycle, weight gain, fertility issues, and psychological effects. /n/n Prolapse- A prolapse can occur when muscles in your pelvic floor are weakened and the muscle and tendons that hold pelvic organs in place stretch or tear causing vaginal (or other pelvic organs) to descend through the vagina.</p>",
+				"ar": "<p> انقطاع الطمث هو عندما تتوقف الدورة الشهرية والإباضة عند المرأة ، وعادة ما يحدث في  حوالي  50 سنة من العمر. ويقال ان انقطاع الطمث يحدث عندما يتوقف الحيض لأكثر من عام. حيث تقل الهرمونات التي تتحكم بالطمث ويمكن أن ترافقه العديد من الآثار الجانبية بما في ذلك: الهبات الساخنة، والتغيرات المهبلية، وتقلبات المزاج.</p>"
+			},
+			"image": "",
+			"video": ["https://www.youtube.com/embed/DJ9V5fg4Ug4?rel=0"],
+			"links": [{
+				"title": {
+					"en": "Continence",
+					"ar": "Continence"
+				},
+				"url": "https://www.continence.org.au/other-languages.php/26/English"
+			}]
+		}
+	],
+	"notes": {
+		"en": "",
+		"ar": "<h3>موارد</h3><ul>  <li><a href='http://www.papscreen.org.au/downloads/resources/information_sheets/lote/Arabic_Abnormal_Pap_test_results.pdf'>نتائج غير طبيعية لفحص عنق  لرحم </a></li> <li><a href='http://www.dvrcv.org.au/sites/thelookout.sites.go1.com.au/files/for-women-with-disabilities-Arabic.pdf'>الحصول على الحرية- دليل للنساء اللواتي لديھن إعاقة</a></li> <li><a href='http://www.mhcs.health.nsw.gov.au/publicationsandresources/pdf/publication-pdfs/disabilities/8795/doh-8795-ara.pdf/at_download/file'>كيف تكونني امرأة بصحة جيدة</a></li> <li><a href='https://www.fpnsw.org.au/sites/default/files/assets/menstruation_comarabic.pdf'>الحيض )الدورة الشهرية( وكيف يمكنك التعامل معها</a></li> <li><a href='https://canceraustralia.gov.au/system/tdf/publications/ca_04_15_-_gynae_cancer_factsheet-ara.pdf?file=1&type=node&id=3800'>صفحة وقائع السرطانات النسائیة</a></li>  <li><a href='https://www.fpnsw.org.au/sites/default/files/assets/commonvaginalandvulvalconditions_comarabic_1_0.pdf'>حاالت المهبل والفرج الشائعة</a></li> <li><a href='https://www.bcna.org.au/media/2147/about-breast-cancer-arabic.pdf'>سرطان الثدي</a></li></ul>"
+	}
 }
