@@ -178,6 +178,19 @@
 				},
 				"url": "http://www.immunise.health.gov.au/internet/immunise/publishing.nsf/Content/national-immunisation-program-schedule"
 			}]
+		},
+		{
+			"title": {
+				"en": "Sudden Infant Death Syndrome",
+				"ar": ""
+			},
+			"text": {
+				"en": "<p>Sudden Infant Death Syndrome occurs when a child less than one years old, dies without suddenly and without any explanation. In 2013, 54 babies died of SIDS in Australia.Information sourced from <a href='https://www.healthdirect.gov.au/sudden-infant-death-syndrome-sids'>https://www.healthdirect.gov.au/sudden-infant-death-syndrome-sids</a></p><p>The cause of SIDS is not known but it is rare and there are many ways to lower the risk. These include:</p><ol><li>Put your baby on their back to sleep from birth</li><li>Do not cover your baby’s face while they are sleeping</li><li>Do not smoke near your baby</li><li>Have a safe cot, mattress, bed and environment for your baby at night and during the day</li></ol>",
+				"ar": ""
+			},
+			"image": "",
+			"video": ["https://www.youtube.com/embed/rZ2NXdZ_sHo"],
+			"links": []
 		}
 	],
 	"notes": {
