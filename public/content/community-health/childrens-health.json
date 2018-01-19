@@ -23,10 +23,29 @@
 			"video": "",
 			"links": [{
 				"title": {
-					"en": "Milestone Source",
-					"ar": "Milestone Source"
+					"en": "Milestones Source",
+					"ar": ""
 				},
-				"url": "http://www.education.vic.gov.au/childhood/parents/health/Pages/toddler.aspx"
+				"url": "https://www.communities.qld.gov.au/resources/childsafety/practice-manual/physical-cognative-milestones.pdf"
+			}]
+		},
+		{
+			"title": {
+				"en": "What to do if my child is sick?",
+				"ar": ""
+			},
+			"text": {
+				"en": "<p><strong>Who do I contact if my child is sick?</strong></p><ul><li>In an emergency, call <a href='tel:000'>000</a> for an ambulance</li><li>Call Healthdirect on [1800 022 222](tel:1800 022 222) to speak to a nurse about health advice</li><li>Call the Poisons Information Centre on [13 11 26](tel:13 11 26) if you think your child may have been poisoned</li><li>If it is not urgent, contact your local doctor or maternal and child health nurse</li></ul><p><strong>When to call for immediate help?</strong></p><ul><li>They are having trouble breathing, breathing very fast or making grunting noises when they breathe</li><li>They have a temperature higher than 38°C</li><li>They have a purple or red rash that doesn’t go away when you press it</li><li>They have pale or blue skin colour</li><li>They are more sleepy than usual or they are floopy</li><li>They are not drinking, passing urine (wee) or have less than half the usual number of wet nappies</li><li>They cannot stop vomiting</li><li>They have a loud, continuous cry</li><li>The soft spot on your baby’s head is swollen or bulging</li><li>They are having a seizure or fit (shaking uncontrollably and not responding)</li><li>They are having an allergic reaction (healthdirect)</li></ul><p><strong>It is important to call for help if your child is experiencing anything mentioned above because they will need to be seen by a doctor and given the right treatment to get better.</strong></p><p>Here is a website that offers free online learning activities on basic life support for emergencies: <a href='http://kidshealth.schn.health.nsw.gov.au/cpr'>http://kidshealth.schn.health.nsw.gov.au/cpr</a></p>",
+				"ar": ""
+			},
+			"image": "",
+			"video": "",
+			"links": [{
+				"title": {
+					"en": "Allergic Reactions",
+					"ar": ""
+				},
+				"url": "https://www.healthline.com/health/allergies/allergic-reaction#overview1"
 			}]
 		}
 	],
