@@ -47,6 +47,25 @@
 				},
 				"url": "https://www.healthline.com/health/allergies/allergic-reaction#overview1"
 			}]
+		},
+		{
+			"title": {
+				"en": "Maternal and Child Health Nurse",
+				"ar": ""
+			},
+			"text": {
+				"en": "<p><strong>Your maternal and child health nurse can provide you with help about:</strong></p><ul><li>Your own health and wellbeing</li><li>Breastfeeding</li><li>Coping with sleeping and crying (for you and your baby)</li><li>Your baby’s growth and development</li><li>Vaccinations</li><li>Playing with your baby or toddler</li></ul><p><strong>When to visit your maternal and child health nurse?</strong>After you have had your baby and are at home, the nurse will visit you. Then, you will visit the nurse at their clinic at these milestones for your child:</p><ul><li>2 weeks</li><li>4 weeks</li><li>8 weeks</li><li>4 months</li><li>8 months</li><li>12 months</li><li>18 months</li><li>2 years</li><li>3.5 years(Victoria State Government)</li></ul>",
+				"ar": ""
+			},
+			"image": "",
+			"video": "",
+			"links": [{
+				"title": {
+					"en": "Home visit",
+					"ar": ""
+				},
+				"url": "http://www.education.vic.gov.au/childhood/parents/mch/Pages/homevisit.aspx"
+			}]
 		}
 	],
 	"notes": {
