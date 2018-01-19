@@ -66,6 +66,25 @@
 				},
 				"url": "http://www.education.vic.gov.au/childhood/parents/mch/Pages/homevisit.aspx"
 			}]
+		},
+		{
+			"title": {
+				"en": "Personal Health Record",
+				"ar": ""
+			},
+			"text": {
+				"en": "<ul><li>A personal health record is a coloured book that will be given to you by a midwife after you have given birth.</li><li>This book contains important information about your child’s health, illnesses, injuries and growth and development. Bring this book with you each time you visit any health service, doctor or hospital with your child.</li><li>After you have your baby, your midwife will give you a Personal Health Record Book before you leave hospital, to help you keep up with your new baby's health.<ul><li>It is important to keep up with this book and have it available for all appointments.</li><li>This book is coloured differently in each state. For example in Victoria, this book is green, in NSW, it is blue and QLD it is red.</li></ul></li></ul><p><img src='/img/pregnancy/personal-health-record.png' alt='Personal Health Record'></p>",
+				"ar": ""
+			},
+			"image": "",
+			"video": "",
+			"links": [{
+				"title": {
+					"en": "Blue book",
+					"ar": ""
+				},
+				"url": "http://www.health.nsw.gov.au/kidsfamilies/MCFhealth/Pages/child-blue-book.aspx"
+			}]
 		}
 	],
 	"notes": {
