@@ -98,6 +98,67 @@
 			"image": "",
 			"video": ["https://www.youtube.com/embed/2iVmu6a-B6g"],
 			"links": []
+		},
+		{
+			"title": {
+				"en": "Feeding your baby",
+				"ar": ""
+			},
+			"text": {
+				"en": "<ul><li><p>Breastfeeding gives your baby all the nutrients he or she needs. It can also help you both to bond (get closer to each other emotionally).</p></li><li><p>The World Health Organization recommends that all women planning to breastfeed do so within the first two hours of birth. Whilst this is not always possible, hospital staff should be encouraged and supported to take time to assist the mother to do so if she needs it.</p></li><li><p>Learning to breastfeed is difficult for many mothers and can be a frustrating and emotional experience at the beginning. This usually gets better after the first few days.</p></li><li><p>Your midwife, maternal child health nurse and lactation consultant (breastfeeding specialist) can help you and your baby get more experience. You should be given information as to how to access these services on the postnatal ward, after you have your baby.</p></li><li><p>Here are some demonstrations on the best positions for initiating breastfeeding.<a href='http://raisingchildren.net.au/articles/breastfeeding_attachment_video.html'>Raising Children Network- How to breastfeed: getting a good attachment</a></p></li><li><p>Breastfeeding is recommended for up to two years and you can start offering solid food slowly, from 6 months.</p></li><li><p>If you are unable to breastfeed or choose not to, formula will give your baby the nutrients he or she needs to grow.</p></li><li><p>Speak with your midwife or maternal child health nurse to choose what formula is best for you and your baby.</p></li><li><p>Water is in both breastmilk and formula so you baby does not need to be offered water (including coconut or sugar cane water) until 6 months of age.</p></li></ul><p><a href='http://raisingchildren.net.au/articles/dads_formula_preparation_video.html/context/1081'>Raising Children Network- Bottle and formula preparation</a><a href='https://www.thewomens.org.au/health-information/breastfeeding/'>Breastfeeding</a><a href='http://raisingchildren.net.au/nutrition/newborns_nutrition.html'>Newborn Nutrition</a><a href='https://thewomens.r.worldssl.net/images/uploads/fact-sheets/Breastfeeding-your-baby1.pdf'>Breastfeeding Your Baby (English)</a></p>",
+				"ar": ""
+			},
+			"image": "",
+			"video": ["https://www.youtube.com/embed/QJ86pzZUkic"],
+			"links": [{
+				"title": {
+					"en": "Toddler not eating? Ideas and tips",
+					"ar": ""
+				},
+				"url": "http://raisingchildren.net.au/articles/toddler_not_eating.html"
+			},
+			{
+				"title": {
+					"en": "Baby food 6 months+",
+					"ar": ""
+				},
+				"url": "https://www.woolworths.com.au/shop/browse/baby/baby-food/baby-food-6-months-"
+			},
+			{
+				"title": {
+					"en": "Homemade baby food: in pictures",
+					"ar": ""
+				},
+				"url": "http://raisingchildren.net.au/articles/pip_homemade_baby_food.html"
+			},
+			{
+				"title": {
+					"en": "Baby’s first foods",
+					"ar": ""
+				},
+				"url": "https://www.childrens.health.qld.gov.au/chq/our-services/community-health-services/centre-childrens-health-wellbeing/babys-first-foods/"
+			},
+			{
+				"title": {
+					"en": "Breastfeeding attachment techniques",
+					"ar": ""
+				},
+				"url": "http://raisingchildren.net.au/articles/breastfeeding_techniques_article.html"
+			},
+			{
+				"title": {
+					"en": "Breast is best: advantages of breastfeeding",
+					"ar": ""
+				},
+				"url": "http://www.australianunity.com.au/health-insurance/existing-members/wellplan-online/childrens-health/advantages-of-breastfeeding"
+			},
+			{
+				"title": {
+					"en": "The healthy school lunchbox",
+					"ar": ""
+				},
+				"url": "http://www.australianunity.com.au/health-insurance/existing-members/wellplan-online/childrens-health/the-healthy-school-lunchbox"
+			}]
 		}
 	],
 	"notes": {
