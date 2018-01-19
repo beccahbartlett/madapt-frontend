@@ -1,23 +1,23 @@
 {
-	"arabicComplete": true,
+	"arabicComplete": false,
 	"style": 5,
 	"title": {
 		"en": "Children's Health",
 		"ar": "صحة الأطفال"
 	},
 	"summary": {
-		"en": "<p>Your baby has made it to their first birthday! Here are learning and developmental milestones to look out for in the next four years.</p>",
-		"ar": "<p>مراحل نمو  طفلك من الولادة إلى عيد ميلاده الأول! وهنا توضيح المعالم التطورية في السنوات الأربع الأولى.</p>"
+		"en": "<ul><li>It is important for you and your child to visit a maternal and child health nurse regularly to monitor their health and development during the early stages of life.</li><li>Visits are free for families with children under 6 years of age.</li><li>A maternal and child health nurse will help keep your child healthy but it is important to visit a doctor if your child is sick or you are worried about them.</li></ul>",
+		"ar": ""
 	},
 	"topLevelVideo": "",
 	"tab": [{
 			"title": {
-				"en": "At 18 months",
-				"ar": " في 18 شهر"
+				"en": "Milestones",
+				"ar": ""
 			},
 			"text": {
-				"en": "<ul><li>Walking</li><li>Managing corners and obstacles, climbing</li>          <li>Able to say 6-12 words</li>          <li>Repeating of the last word in sentences</li>          <li>Increased independence, wanting to do things without help</li>     <li>Exhibiting personality traits</li>          <li>Playing alone</li>          <li>Becomes easily frustrated, throws temper tantrums</li>          <li>Utilizes objects and routine for comfort</li></ul>",
-				"ar": "<ul><li>المشي</li><li>القدرة على  تجاوز الزوايا والعقبات، والتسلق.</li><li>القدرة على لفظ من 6-12 كلمة.</li><li>تكرار الكلمة الأخيرة في الجملة.</li><li>زيادة الاستقلالية، الرغبة في القيام بأشياء دون مساعدة أحد.</li><li>ظهور سمات الشخصية</li><li>ظهور سمات الشخصية</li><li>اللعب لوحده</li><li>يصاب بالإحباط بسهولة، مع نوبات غضب</li><li>يرتاح بوجود روتين وأشياء محددة.</li></ul>"
+				"en": "<table class='table'><thead><tr><th></th><th>18 Months</th><th>2 Years</th><th>3 Years</th><th>3-4 Years</th><th>4-5 Years</th></tr></thead><tbody><tr><td><b>Physical</b></td><td><ul><li>Walking</li><li>Climbing</li><li>Wants to do things without help</li><li>Playing alone</li></ul></td><td><ul><li>Walking up stairs</li><li>Squatting and standing without hands</li><li>Able to kick/throw a ball</li></ul></td><td><ul><li>Identifying pictures with names</li><li>Walking on tiptoes and balancing on one foot</li><li>Wash/Dry hands</li></ul></td><td><ul><li>Shares and plays with other children</li><li>Able to use hands and fingers well</li><li>Able to hold a pencil correctly</li></ul></td><td><ul><li>Improved walking, running and climbing skills</li><li>Rides a bike with training wheels</li><li>Able to write some numbers and letters</li><li>Increased speed in physical skills</li></ul></td></tr><tr><td><b>Verbal</b></td><td><ul><li>Saying 6-12 words</li><li>Repeating the last word in sentences</li></ul></td><td><ul><li>Saying 50 or more words</li><li>Singing nursery rhymes</li></ul></td><td><ul><li>Asks a lot of questions</li><li>Listens to and tells stories</li><li>Listens to and tells stories</li><li>Speaks more clearly</li></ul></td><td><ul><li>Speaks well and can be understood</li></ul></td><td><ul><li>Asks more questions</li><li>Understands numbers</li><li>Able to have a conversation</li></ul></td></tr><tr><td><b>Emotional</b></td><td><ul><li>Showing personality traits</li><li>Plays with objects for comfort purposes</li><li>Becomes easily frustrated and throws temper tantrums</li></ul></td><td><ul><li>Clings tightly to parent if scared, tired or showing affection</li><li>Throws temper tantrums when frustrated</li><li>Developing imagination</li></ul></td><td><ul><li>Throws less temper tantrums</li><li>Developing fears</li></ul></td><td><ul><li>Socialises with more people</li><li>Has a sense of humour</li><li>Shows worry for other people</li></ul></td><td><ul><li>Develops friendships</li><li>Shows frustration when tired, angry or embarrassed</li></ul></td></tr></tbody></table>",
+				"ar": ""
 			},
 			"image": "",
 			"video": "",
@@ -28,119 +28,6 @@
 				},
 				"url": "http://www.education.vic.gov.au/childhood/parents/health/Pages/toddler.aspx"
 			}]
-		},
-		{
-			"title": {
-				"en": "At 2 Years:",
-				"ar": " في 2 سنوات"
-			},
-			"text": {
-				"en": "<ul>          <li>Walking up stairs</li>          <li>Squatting and standing without hands</li>          <li>Able to kick a ball and throw a ball</li>          <li>Able to say 50 or more words</li>          <li>Able to say some nursery rhymes</li>     <li>Increased independence, but still seeks parental attention</li>          <li>Clings tightly if afraid, fatigues, or showing affection</li>          <li>Throws temper tantrums when frustrated</li>          <li>Developing imagination</li>                 </ul>",
-				"ar": "<ul><li>القدرة على صعود الدرج.</li><li>القدرة على  القرفصاء والوقوف دون مساعدة الأيدي.</li><li>القدرة على ركل ورمي الكرة</li><li>القدرة على قول 50 كلمة أو أكثر.</li><li>القدرة على غناء بعض أغاني الأطفال</li><li>زيادة الاستقلالية، ولكن لا يزال يبحث عن اهتمام الوالدين</li><li>يختلط بإحكام إذا خائف، أو متعب، أو يريد إظهار المودة</li><li>يصاب بنوبات الغضب في حال كونه محبط</li><li>تطور الخيال</li></ul>"
-			},
-			"image": "",
-			"video": "",
-			"links": [{
-				"title": {
-					"en": "Milestone Source",
-					"ar": "Milestone Source"
-				},
-				"url": "http://www.education.vic.gov.au/childhood/parents/health/Pages/preschoolers.aspx"
-			}]
-		},
-		{
-			"title": {
-				"en": "At 3 years:",
-				"ar": "في 3 سنوات"
-			},
-			"text": {
-				"en": "<ul>          <li>Identifying pictures with names</li>          <li>Walking on tiptoes, balancing on one foot</li>          <li>Asks questions constantly</li>          <li>Listens to and tells stories</li>          <li>Able to wash and dry hands</li>     <li>Identifies friend by name</li>          <li>Utilizes less ‘baby talk’</li>          <li>Half the time able to speak in understandable ways</li>          <li>Decreases amount of temper tantrums</li>                    <li>Developing fears</li>                 </ul>",
-				"ar": "<ul><li>تمييز أسماء الصور عند رؤيتها</li><li>المشي على رؤوس الأصابع, القدرة على التوازن على قدم واحدة.</li><li>طرح الأسئلة باستمرار.</li><li>يصغي ويحكي القصص.</li><li>القدرة على غسل وتجفيف اليدين.</li><li>يحدد صديق بالاسم</li><li>يستخدم بكلامه بشكل أقل كلمات الطفل</li><li>قادرا على التحدث بطرق مفهومة</li><li>يقلل من نوبات الغضب</li><li>تطوير المخاوف</li></ul>"
-			},
-			"image": "",
-			"video": "",
-			"links": [{
-				"title": {
-					"en": "Milestone Source",
-					"ar": "Milestone Source"
-				},
-				"url": "http://raisingchildren.net.au/development/toddlers_development.html "
-			}]
-
-		},
-		{
-			"title": {
-				"en": "At 3-4 Years:",
-				"ar": "في 3-4 سنوات"
-			},
-			"text": {
-				"en": "<ul>          <li>Able to socialize with a broader range of people</li>          <li>Shares and plays with other children</li>          <li>Development of a sense of humor</li>          <li>Shows concern for others</li>          <li>Able to use hands and fingers with skill</li>          <li>Able to hold a pencil properly</li>          <li>Speaks well</li>                  </ul>",
-				"ar": "<ul><li>القدرة على التواصل مع مجموعة واسعة من الناس.</li><li>اللعب والمشاركة مع الأطفال الآخرين.</li><li>تطور روح الدعابة.</li><li>إظهار التعاطف مع الآخرين.</li><li>القدرة على استخدام اليدين والأصابع بمهارة.</li><li>القدرة على استخدام قلم رصاص بشكل صحيح.</li><li>التحدث بشكل جيد.</li></ul>"
-			},
-			"image": "",
-			"video": "",
-			"links": [{
-				"title": {
-					"en": "Milestone Source",
-					"ar": "Milestone Source"
-				},
-				"url": "https://www.communities.qld.gov.au/resources/childsafety/practice-manual/physical-cognative-milestones.pdf "
-			}]
-
-		},
-		{
-			"title": {
-				"en": "At 4-5 years",
-				"ar": "في 4-5 سنوات"
-			},
-			"text": {
-				"en": "<ul>          <li>Asks complex questions</li>          <li>Improvement of walking, running, and climbing skills</li>          <li>Ride a bike with training wheels</li>          <li>Able to write some numbers and letters</li>          <li>Understands numbers</li>     <li>Develops relationships with friends</li>          <li>Shows increased independence, but may show frustrations when tired, angry, or embarrassed</li>          <li>Holds extended conversations</li>          <li>Increased skill and speed in physical abilities</li>               </ul>",
-				"ar": "<ul><li>يطرح أسئلة معقدة.</li><li>تحسين مهارات المشي والجري والتسلق. </li><li>ركوب الدراجة مع عجلات المساعدة.</li><li>القدرة على كتابة بعض الأرقام والحروف.</li><li>يفهم الأرقام.</li><li>تطوير العلاقات مع الأصدقاء.</li><li>يظهر استقلالية متزايدة، ولكن قد يصاب بالإحباط عندما يكون متعب، غاضب، أو يشعر بالحرج</li><li>القدرة على إجراء محادثات موسعة</li><li>زيادة المهارة والسرعة في القدرات البدنية.</li></ul>"
-			},
-			"image": "",
-			"video": "",
-			"links": []
-
-		},
-		{
-			"title": {
-				"en": "Nutrition",
-				"ar": "تغذية"
-			},
-			"text": {
-				"en": "<p>It is important to teach your kids from an early age the value of nutritious foods in order to prevent long-term poor health outcomes such as obesity, diabetes, and heart disease. Try to engage your children to think about the foods they eat.</p>",
-				"ar": "<p>من المهم تعليم أطفالك من سن مبكرة قيمة الأطعمة المغذية من أجل منع النتائج الصحية السيئة على المدى الطويل مثل السمنة والسكري وأمراض القلب. حاول إشراك أطفالك للتفكير في الأطعمة التي يتناولونها.</p>"
-			},
-			"image": "",
-			"video": ["https://www.youtube.com/embed/hy4wLh72tGQ?rel=0"],
-			"links": [{
-				"title": {
-					"en": "Nutrition",
-					"ar": "Nutrition"
-				},
-				"url": "www.raisingchildren.net.au"
-			}]
-
-		},
-		{
-			"title": {
-				"en": "Immunizations",
-				"ar": "اللقاحات"
-			},
-			"text": {
-				"en": "<p>12 Months:</p><ul>          <li>Hib-MenC- Haemophilius influenza type b and meningococcal C</li>          <li>MMR- Measles, mumps, and rubella</li></ul>          <p>18 Months:</p>   <ul><li>TDPa-Diphtheria, tetanus, acellular pertussis (whooping cough)</li>          <li>MMRV- Measles, mumps, rubella, and varicella (chicken pox)</li></ul>          <p>4 Years:</p><ul><li>DTPa-IPV- Diphtheria, tetanus, acellular pertussis (whooping cough) and inactivated poliomyelitis (polio)</li>              </ul>",
-				"ar": "<p>سيظل طفلك بحاجة إلى الحماية من المرض من خلال اللقاحات طوال مرحلة الطفولة والمراهقة. </p><p>12 شهر:</p><ul><li>التهاب الكبد -MenC- هيموفيليوس نوع الانفلونزا ب والمكورات السحائية C</li><li>MMR الحصبة والنكاف والحصبة الألمانية</li></ul><p>18 شهرا-</p><ul><li>الدفتيريا، الكزاز، السعال الديكي اللاخلوي (السعال الديكي)</li><li>MMR- الحصبة والنكاف والحصبة الألمانية، والحمى (جدري الماء)</li></ul><p>4 سنوات -</p><ul><li>الدفتيريا، الكزاز، السعال الديكي اللاخلوي (السعال الديكي) وشلل الأطفال المعطل (شلل الأطفال)</li></ul>"
-			},
-			"image": "",
-			"video": "",
-			"links": [{
-				"title": {
-					"en": "Immunizations",
-					"ar": "Immunizations"
-				},
-				"url": "http://www.immunise.health.gov.au/internet/immunise/publishing.nsf/Content/national-immunisation-program-schedule "
-			}]
-
 		}
 	],
 	"notes": {
