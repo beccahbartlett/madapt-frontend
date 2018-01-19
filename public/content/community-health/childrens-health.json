@@ -85,6 +85,19 @@
 				},
 				"url": "http://www.health.nsw.gov.au/kidsfamilies/MCFhealth/Pages/child-blue-book.aspx"
 			}]
+		},
+		{
+			"title": {
+				"en": "Sleeping",
+				"ar": ""
+			},
+			"text": {
+				"en": "<p><strong>In the first 6 months, it is normal for your baby to wake regularly at night. They will need you to feed them or help them settle. Your child might have a problem with sleep if they are older than 6 months and:</strong></p><ul><li>Consistently wake up more than 3 times a night</li><li>Consistently take more than 30 minutes to settle</li><li>Have difficulties with sleeping and settling that cause you a lot of distress</li></ul><p><strong>If you are unsure about your baby’s sleeping habits, talk to your maternal and child health nurse.</strong></p>",
+				"ar": ""
+			},
+			"image": "",
+			"video": ["https://www.youtube.com/embed/2iVmu6a-B6g"],
+			"links": []
 		}
 	],
 	"notes": {
