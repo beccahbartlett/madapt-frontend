@@ -1,23 +1,23 @@
 {
-	"arabicComplete": true,
+	"arabicComplete": false,
 	"style": 5,
 	"title": {
 		"en": "Violence",
 		"ar": "العنف"
 	},
 	"summary": {
-		"en": "<h3>Right to Healthy & Respectful Relationships</h3><p>You have the right to be treated with respect in your relationship with your partner. Healthy relationships are based on kindness and caring for one another.</p> <p>Healthy relationships never involve physical, sexual, or emotional abuse. Having a partner that is coercive, manipulative, or controlling is also a form of abuse.</p> <p>Everyone, regardless of their religion, culture, age, ability, sexual orientation, ethnicity, has the right to live free from abuse and has the right to legal protection. If you are in immediate danger please call 000.</p> <p>Abuse is any time one person takes advantage or tries to control another person. There are many ways in which this happens, below are some subcategories and how to deal with them.</p>",
-		"ar": "<p>لديك الحق الكامل في العلاقات الصحية والاحترام ولديك الحق في أن تعامل باحترام في علاقتك مع شريك حياتك. وتستند العلاقات الصحية على العطف والرعاية لبعضكما البعض. لا تشمل العلاقات الصحية أبدا الاعتداء الجسدي أو الجنسي أو العاطفي. كما أن وجود شريك قسري أو متلاعب أو مسيطر هو أيضا شكل من أشكال الإساءة والعنف. </p><p>ولكل شخص، بغض النظر عن دينه وثقافته وعمره وقدرته وميله الجنسي وعرقه، الحق في العيش في مأمن من الإساءة وله الحق في الحماية القانونية. إذا كنت في خطر فوري يرجى الاتصال 000.</p>"
+		"en": "<p><strong>Right to Healthy and Respectful Relationships</strong></p><ul><li>You have the right to be treated with respect in your relationship with your partner and all family and friends in your life</li><li>Healthy relationships are based on kindness and caring for one another, sharing decision making and responsibilities.</li><li>Healthy relationships never involve physical, sexual, or emotional abuse or violence. Having a partner that is controlling and coercive is also abuse / violence.</li></ul><p><strong>Family/domestic violence</strong></p><ul><li>Domestic violence can be committed by someone in your family or close to you such as your:</li></ul><p>o Husband/wife or domestic partner</p><p>o Adult children&nbsp;</p><p>o Parents or in-laws</p><p>o Other senior people in your community</p><p><strong>Family/domestic violence in Australia is a crime and you can go to jail if you commit it.</strong></p>",
+		"ar": ""
 	},
-	"topLevelVideo": ["https://www.youtube.com/embed/J7T33JZSrSU?rel=0"],
+	"topLevelVideo": [],
 	"tab": [{
 			"title": {
-				"en": "Types of Abuse",
-				"ar": "أنواع إساءة الاستخدام"
+				"en": "Types of Violence",
+				"ar": ""
 			},
 			"text": {
-				"en": "<ul>   <li>Physical- Physical abuse includes hitting, punching, slapping, pushing or other physical acts of aggression including yelling and screaming.</li> <li>Sexual- Sexual abuse includes rape, forced intercourse, forcing you to do sexual acts against your will, unwanted sexual comments or touching. Husbands can perpetrate sexual violence against their wives. </li>   <li>Emotional or psychological- Emotional abuse can include put downs, making you feel stupid or inferior, telling other people that you are stupid, making comments on your physical appearance, swearing and name calling.</li>   <li>Financial or economic- Financial abuse includes keeping money or financial assets from you, or not allowing you to have your money. </li>   <li>Controlling- Controlling occurs when one prevents you from seeing your family or friends, keeping you from participating in community events, threatening you with taking your children or deportation. Another form of controlling behavior is seen through coercion and manipulation. This occurs when someone uses their position of power over you to make you do things that you do not want to do.</li>  </ul>",
-				"ar": "<p>أنواع العنف والإساءة  هي أي وقت يستفيد فيه شخص ما أو يحاول السيطرة على شخص آخر. هناك العديد من الطرق التي يحدث هذا، وفيما يلي بعض الفئات الفرعية</p><ul><li>الاعتداء البدني الجسدي يشمل الضرب أو اللكم أو الصفع أو الدفع أو غيرها من أعمال العدوان الجسدي بما في ذلك الصراخ والشتم. </li><li>الاعتداء الجنسي يشمل الاغتصاب، الجماع القسري، إرغامك على القيام بأعمال جنسية ضد إرادتك، تعليقات جنسية غير مرغوب فيها أو لمس للأعضاء التناسلية. ويمكن للأزواج أن يرتكبوا العنف الجنسي ضد زوجاتهم.  </li><li>الإساءة العاطفية أو النفسية تشمل الدونية والتحقير، مما يجعلك تشعر بالغباء أو الدونية، وتقول لأشخاص آخرين أنك غبي، يكون هناك تعليقات سيئة على مظهرك الجسدي، والشتيمة باسمك أو استخدام العبارات السيئة. </li><li>سوء المعاملة المالية أو الاقتصادية: تشمل حفظ المال عنك، أو عدم السماح لك الحصول على أموالك.</li><li>السيطرة : يعرف التحكم أو السيطرة بأنها عندما يمنعك أحد ما من رؤية عائلتك أو أصدقائك، ويبعدك عن المشاركة في المناسبات المجتمعية، ويهددك بأخذ أطفالك أو ترحيلك. وهناك شكل آخر من أشكال السيطرة على السلوك من خلال الإكراه والتلاعب. يحدث هذا عندما يستخدم شخص ما السلطة عليك لجعلك تفعل أشياء كنت لا تريد أن تفعلها. </li></ul>"
+				"en": "<ul><li>People can be violent towards others in many different ways<ul><li>There are different types of violence discussed below but this list may not include all types.</li><li>You can seek help for any fear or violence you may feel.</li><li>You have a right to feel safe and protected and free from violence or manipulation</li></ul></li></ul><table width='452'><tbody><tr><td width='131'><p><strong>Physical violence</strong></p></td><td width='95'><p><strong> Sexual violence</strong></p></td><td width='83'><p><strong>Psychological violence</strong></p></td><td width='144'><p><strong>Emotional violence</strong></p></td></tr><tr><td width='131'><p>When someone uses a part of his or her body or with an object to control another person&rsquo;s actions.</p><p>For example:</p><p>o Using physical force, which results in pain, injury or discomfort.</p><p>o Hitting, pushing, punching, burning, kicking and biting.</p><p>o Assault or threat with weapon or other object.</p></td><td width='95'><p>When a person is forced to take part in sexual activities, against their will. Sexual violence includes:</p><p>o Sexual touching without consent, for example kissing or grabbing</p><p>o Forced sex (this is known as rape)</p><p>o Forcing a person to perform sexual acts of any kind.</p><p>o A person who is making inappropriate jokes or unwelcome sexual comments.</p><p>o Forced sex work</p><p>o Discrimination because of sexuality</p><p>o Denial of a person&rsquo;s sexuality or privacy.</p><p>o Exposing a person to HIV-AIDS or any other sexually transmitted infection on purpose.</p></td><td width='83'><p>When someone use threats or cause fear to a person to have control over them. Physical violence examples:</p><p>o Threatening to hurt your family</p><p>o Threats of being left alone</p><p>o Verbal aggression, saying mean things like bullying.</p><p>o Not allowing access to phone or to make decisions.</p><p>o Stalking or criminal harassment.</p><p>o Pressuring person to things they do not want to do, such as:</p><p>&sect; Sign legal documents</p><p>&sect; Move out of home or country.</p><p>&sect; Make or change health decisions.</p></td><td width='144'><p>When someone says or does something that makes a person feel worthless or stupid. Examples of emotional violence:</p><p>o Name calling</p><p>o Not allowing the person to contact their family or friends</p><p>o Making fun of the person, jokes on their behalf.</p><p>o Intimidating the person, causing fear.</p><p>o Threatening to leave the</p><p>person</p><p>o Threatening to have the person deported.</p></td></tr><tr><td width='131'><p><strong>Verbal Abuse</strong></p></td><td width='95'><p><strong>Financial abuse</strong></p></td><td width='83'><p><strong>Spiritual and religious violence</strong></p></td><td width='144'><p><strong>Neglect</strong></p></td></tr><tr><td width='131'><p>When a person use language to harm another person, such as:</p><p>o Yelling, lying, insulting, swearing or name-calling.</p><p>o Threatening violence against the person or the person&rsquo;s family.</p><p>o Withholding important information.</p><p>o Telling a person that he or she is worthless, stupid or anything else that upsets the person.</p><p>o Using social media to do any of the above</p></td><td width='95'><p>When someone is taking control over a person&rsquo;s financial resource without the person&rsquo;s consent. This occurs when:</p><p>o Not allowing a person to have an education, not attend school.</p><p>o Controlling a person&rsquo;s choice of work.</p><p>o Illegally using a person&rsquo;s money or property in any way.</p><p>o Forging, copying, signature.</p><p>o Opening mail without permission.</p><p>o Destroying personal property.</p><p>o Not allowing the person access to bank accounts, savings or other income or money.</p><p>o Forcing a person to buy something or give their money away.</p></td><td width='83'><p>When someone use a person's spiritual or religious beliefs to control or manipulate the person. This includes:</p><p>o Not allowing the person to follow his or hers preferred spiritual or religious tradition.</p><p>o Forcing a path or practice on another person.</p><p>o Making fun of someone&rsquo;s traditions, beliefs or practices.</p></td><td width='144'><p>When someone has the responsibility to provide care or assistance for a person but does not do it. This includes the following:</p><p>o Failing to meet the needs of a person.</p><p>o Not staying with a person who needs help.</p><p>Physical neglect is about failing to provide supplies for daily living such as:</p><p>&middot; Food and drink</p><p>&middot; Shelter</p><p>&middot; Clean clothes and linens</p><p>&middot; Social relations</p><p>Medical neglect includes</p><p>&middot; Ignoring special food requirements.</p><p>&middot; Not providing needed medications.</p><p>&middot; Not being aware of the possible negative effects of medications.</p></td></tr></tbody></table><ul><li>&nbsp;If you or someone you know is in danger call the police on 000.<ul><li>Police in Australia are safe and can be trusted.</li><li>If you are experiencing violence by your visa sponsor or you are on a visa it is safe to call the police.</li><li>For free, confidential counselling and information call 1800 RESPECT on 1800 737 732.</li><li>If you need a free interpreter call 131 450.</li></ul></li></ul><p><strong>Everyone has the right to be safe and has the same legal protections, no matter what your religion, culture, age, ability, sexual orientation and ethnicity.</strong></p>",
+				"ar": ""
 			},
 			"image": "",
 			"video": "",
@@ -25,47 +25,15 @@
 		},
 		{
 			"title": {
-				"en": "Rights",
-				"ar": "الحقوق"
+				"en": "Support and Counselling",
+				"ar": ""
 			},
 			"text": {
-				"en": "<p>Everyone, regardless of their religion, culture, age, ability, sexual orientation, ethnicity, has the right to live free from abuse and has the right to legal protection. If you are in immediate danger please call 000.</p> <p><ul>           <h4>The Family Violence Protection Act of 2008 & Amendment of 2014</h4> <li>Protection and safety for those who have experienced family violence</li>    <li>Accountability of perpetrators of family violence</li>   <li>Police can issue Family Violence Safety Notices that take effect immediately and are active until a family violence intervention order goes before the court.</li>   <li>Violation of a safety notice or intervention order can lead to 2 years punishment</li>      </ul></p>",
-				"ar": "<p>ولكل شخص، بغض النظر عن دينه وثقافته وعمره وقدرته وميله الجنسي وعرقه ، الحق في العيش في مأمن من الإساءة وله الحق في الحماية القانونية. إذا كنت في خطر فوري يرجى الاتصال 000.</p><p>قانون حماية العنف الأسري لعام 2008 وتعديل عام 2014</p><ul><li>حماية وسلامة أولئك الذين تعرضوا للعنف العائلي.</li><li>مساءلة مرتكبي العنف الأسري.</li><li>مکن للشرطة أن تصدر إشعارات سلامة العنف العائلي سارية المفعول علی الفور حتی ینتقل أمر العنف العائلي إلی المحکمة.</li><li>قد یؤدي انتھاك إشعار السلامة أو أمر التدخل إلی عقوبة لمدة سنتین</li></ul>"
+				"en": "<p>There are many organisations that can provide help:</p><ul><li>Counsellors - to talk about your problems</li><li>Case workers - to help you make decisions about what you want and how to be safe</li><li>Lawyers - if you need help to go to police, court or with your visa</li><li>Shelter and housing - if you want to leave your home.</li></ul><p>Services will listen to you and talk about different choices &ndash; you can make choices that are right for you and will be supported no matter what decision you make.</p><p>In Touch provide free confidential advice and help in your own language. They have helped many women in your situation. They will make sure that you and your children are safe.</p><p>For a free and confidential service, you can contact us:</p><p>Phone: 03 9413 6500</p><p>Toll free: 1800 755 988</p><p>http://www.intouch.org.au/get-help/</p><p>Relationships Australia (<a href='http://www.relationships.org.au/'>http://www.relationships.org.au/</a>)</p><p>1800 RESPECT (<a href='http://www.1800respect.org.au/'>www.1800respect.org.au</a>)</p><p>QLife (<a href='https://qlife.org.au/'>https://qlife.org.au/</a>)</p>",
+				"ar": ""
 			},
 			"image": "",
-			"video": "",
-			"links": []
-		},
-		{
-			"title": {
-				"en": "Intervention Order",
-				"ar": "أمر التدخل"
-			},
-			"text": {
-				"en": "<p>An intervention order is a legal order intended to prevent future violence. This can include preventing the perpetrator from coming near you at home or work or preventing them from coming near a child’s school. Here are some facts about intervention orders:</p> <p><ul>           <li>You can apply for an intervention order if you are concerned that violence will happen to you again at your local Magistrate’s Court.</li>    <li>You can also apply online at the link below</li>   <li>A Police Officer can also apply for an intervention order on your behalf</li>         </ul></p>",
-				"ar": "<p>أمر التدخل - أمر التدخل هو نظام قانوني يهدف إلى منع العنف في المستقبل. ويمكن أن يشمل ذلك منع الجاني منالاقتراب منك في المنزل أو العمل أو منعهم من الاقتراب من مدرسة الطفل. وفيما يلي بعض الحقائق حول أوامر التدخل: </p><ul><li>یمکنك التقدم بطلب للتدخل إذا کنت قلقا من أن العنف سیحدث لك مرة أخرى في محکمة الصلح المحلیة.</li><li>يمكنك أيضا تطبيق عبر الإنترنت على الرابط أدناه</li><li>یمکن لضباط الشرطة أیضا التقدم بطلب للحصول علی أمر تدخل نيابة عنك</li></ul>"
-			},
-			"image": "",
-			"video": ["https://www.youtube.com/embed/DbnqqBRXwpM?rel=0"],
-			"links": [{
-				"title": {
-					"en": "Family Violence Online Form",
-					"ar": "Family Violence Online Form"
-				},
-				"url": "https://familyviolence.courts.vic.gov.au/online-form "
-			}]
-		},
-		{
-			"title": {
-				"en": "Safety Resources",
-				"ar": "السلامة"
-			},
-			"text": {
-				"en": "<p>If you are affected by family violence know that there is help out there. If you are planning to leave your current situation or interested in knowing what options you have there are organizations that offer shelter and other resources. </p>",
-				"ar": "<p>إذا كنت متأثرا بالعنف العائلي، عليك أن تعلم أن هناك مساعدة. إذا كنت تخطط لترك الوضع الحالي الخاص بك أو معرفة ما هي الخيارات المتوفرة ولديك منظمات توفر المأوى وكل ما يلزمك.</p>"
-			},
-			"image": "",
-			"video": ["https://www.youtube.com/embed/o9tdxEr1nww?rel=0"],
+			"video": ["https://www.youtube.com/embed/UL4fPxW-nBQ", "https://www.youtube.com/embed/fLUVWZvVZXw", "https://www.youtube.com/embed/J7T33JZSrSU"],
 			"links": []
 		}
 	],
